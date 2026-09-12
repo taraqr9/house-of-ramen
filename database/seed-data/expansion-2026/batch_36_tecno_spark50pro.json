@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "description": "Tecno Spark 50 Pro gap-fill, discovered and verified via GSMArena site-search before writing."
+  },
+  "phones": [
+    {
+      "external_ref": "tecno-spark-50-pro",
+      "brand": "Tecno",
+      "model": "Tecno Spark 50 Pro",
+      "model_number": null,
+      "announced_date": "2026-06-01",
+      "release_date": "2026-06-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G100 Ultimate",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.78",
+        "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, Sony LYTIA 600, f/1.8",
+        "front_camera": "8 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "6000 mAh",
+        "charging_speed": "60W",
+        "network_5g": false,
+        "ip_rating": "IP68/IP69",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 16, HiOS",
+        "current_os": "Android 16, HiOS"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    }
+  ]
+}

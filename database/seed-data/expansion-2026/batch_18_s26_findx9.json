@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "description": "Samsung Galaxy S26 series (newest flagship generation) and Oppo Find X9 series, discovered and verified via GSMArena site-search before writing."
+  },
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-s26",
+      "brand": "Samsung",
+      "model": "Galaxy S26",
+      "model_number": null,
+      "announced_date": "2026-02-25",
+      "release_date": "2026-03-11",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "Samsung Exynos 2600",
+        "chipset_manufacturer": "Samsung",
+        "display_size": "6.3",
+        "display_resolution": "1080p+",
+        "display_panel_type": "LTPO OLED",
+        "display_refresh_rate": "120 Hz",
+        "battery_capacity": "4300 mAh",
+        "network_5g": true,
+        "weight": "167 g",
+        "build_materials": "Aluminum frame",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16, One UI 8.5",
+        "current_os": "Android 16, One UI 8.5",
+        "os_update_years": 7,
+        "security_update_years": 7
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "samsung-galaxy-s26-plus",
+      "brand": "Samsung",
+      "model": "Galaxy S26+",
+      "model_number": null,
+      "announced_date": "2026-02-25",
+      "release_date": "2026-03-11",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "Samsung Exynos 2600",
+        "chipset_manufacturer": "Samsung",
+        "display_size": "6.70",
+        "display_resolution": "1440 x 3120",
+        "display_panel_type": "Dynamic LTPO AMOLED 2X",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "2600",
+        "battery_capacity": "4900 mAh",
+        "network_5g": true,
+        "weight": "190 g",
+        "build_materials": "Gorilla Glass Victus 2 front and back",
+        "ip_rating": "IP68",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16, One UI 8.5",
+        "current_os": "Android 16, One UI 8.5",
+        "os_update_years": 7,
+        "security_update_years": 7
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "samsung-galaxy-s26-ultra",
+      "brand": "Samsung",
+      "model": "Galaxy S26 Ultra",
+      "model_number": null,
+      "announced_date": "2026-02-25",
+      "release_date": "2026-03-11",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Elite Gen 5",
+        "chipset_manufacturer": "Qualcomm",
+        "display_size": "6.9",
+        "display_resolution": "1440 x 3120",
+        "display_panel_type": "Dynamic AMOLED 2X",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "200 MP, f/1.4",
+        "ultrawide_camera": "50 MP",
+        "telephoto_camera": "50 MP, 5x optical",
+        "front_camera": "12 MP",
+        "camera_has_ois": true,
+        "battery_capacity": "5000 mAh",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16, One UI 8.5",
+        "current_os": "Android 16, One UI 8.5",
+        "os_update_years": 7,
+        "security_update_years": 7
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true,
+          "price": {
+            "official_bd": "199,999"
+          },
+          "availability": "in_stock",
+          "store": "Samsung Bangladesh"
+        },
+        {
+          "ram": "16 GB",
+          "storage": "1024 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "oppo-find-x9",
+      "brand": "Oppo",
+      "model": "Oppo Find X9",
+      "model_number": null,
+      "announced_date": "2025-10-01",
+      "release_date": "2025-10-01",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 9500",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.59",
+        "display_resolution": "1.5K",
+        "display_panel_type": "LTPO OLED",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, OIS, Sony LYT-808",
+        "ultrawide_camera": "50 MP, Samsung ISOCELL JN5",
+        "telephoto_camera": "50 MP, 3x optical, OIS, Samsung ISOCELL JN9",
+        "battery_capacity": "7025 mAh",
+        "network_5g": true,
+        "weight": "203 g",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 16, ColorOS 16",
+        "current_os": "Android 16, ColorOS 16"
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "oppo-find-x9-pro",
+      "brand": "Oppo",
+      "model": "Oppo Find X9 Pro",
+      "model_number": null,
+      "announced_date": "2025-10-01",
+      "release_date": "2025-10-01",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "display_size": "6.78",
+        "display_panel_type": "LTPO AMOLED",
+        "telephoto_camera": "200 MP",
+        "battery_capacity": "7500 mAh",
+        "charging_speed": "80W",
+        "network_5g": true,
+        "weight": "224 g",
+        "build_materials": "Gorilla Glass front and back, aluminum frame",
+        "ip_rating": "IP68/IP69",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 16, ColorOS 16",
+        "current_os": "Android 16, ColorOS 16"
+      },
+      "variants": [
+        {
+          "ram": "16 GB",
+          "storage": "512 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    }
+  ]
+}

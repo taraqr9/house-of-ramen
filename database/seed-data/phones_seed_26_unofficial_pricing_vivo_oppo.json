@@ -1,0 +1,19 @@
+{
+  "meta": {"description": "Adds unofficial Bangladesh market price observations to Vivo V50 and Oppo Reno14. Vivo V40's only found unofficial figure was for a 12/256 configuration while the catalogue's existing variant is 8/256 - excluded rather than force a variant mismatch. Oppo Reno13 excluded - no unofficial listing found."},
+  "phones": [
+    {
+      "external_ref": "vivo-v50-unofficial-price",
+      "brand": "Vivo", "model": "Vivo V50", "model_number": null,
+      "announced_date": "2025-03-09", "release_date": "2025-03-09", "status": "available", "category": "upper_midrange",
+      "specs": {},
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"unofficial_bd": "50,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "oppo-reno14-unofficial-price",
+      "brand": "Oppo", "model": "Oppo Reno14", "model_number": null,
+      "announced_date": "2025-07-28", "release_date": "2025-07-28", "status": "available", "category": "upper_midrange",
+      "specs": {},
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"unofficial_bd": "52,500"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

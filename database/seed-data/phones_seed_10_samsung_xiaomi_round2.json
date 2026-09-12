@@ -1,0 +1,89 @@
+{
+  "meta": {"description": "Round 2 - additional Samsung/Xiaomi/Redmi/POCO models to fill 10-15k and 20-25k price bands."},
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-m05",
+      "brand": "Samsung", "model": "Galaxy M05", "model_number": "SM-M055F",
+      "announced_date": "2024-06-18", "release_date": "2024-06-25", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz + 6x1.8 GHz)", "gpu": "Mali-G52 MC2",
+        "display_size": "6.7", "display_resolution": "720 x 1600", "display_panel_type": "PLS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "25W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "195g",
+        "build_materials": "Plastic frame and back", "os": "Android 14, One UI Core 6", "os_update_years": "2", "security_update_years": "4"
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Mint Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "10,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-a04e",
+      "brand": "Samsung", "model": "Galaxy A04e", "model_number": "SM-A042F",
+      "announced_date": "2022-11-08", "release_date": "2022-11-15", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio P35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.3 GHz + 4x1.8 GHz)", "gpu": "PowerVR GE8320",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "PLS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "13 MP, f/1.8", "front_camera": "5 MP, f/2.2", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "15W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Plastic frame and back", "os": "Android 12, One UI Core 4.1", "os_update_years": "1", "security_update_years": "3"
+      },
+      "variants": [{"ram": "3 GB", "storage": "32 GB", "color": "Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "10,499"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-f15-5g",
+      "brand": "Samsung", "model": "Galaxy F15 5G", "model_number": "SM-E156B",
+      "announced_date": "2024-02-08", "release_date": "2024-02-14", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 6100+", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.5", "display_resolution": "1080 x 2340", "display_panel_type": "Super AMOLED", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "ultrawide_camera": "5 MP, f/2.2", "macro_camera": "2 MP, f/2.4", "front_camera": "13 MP, f/3.0", "camera_has_ois": true,
+        "battery_capacity": "6000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "213g",
+        "build_materials": "Plastic frame and back", "os": "Android 14, One UI 6.0", "os_update_years": "2", "security_update_years": "4"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Ocean Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "17,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-a2-plus",
+      "brand": "Redmi", "model": "Redmi A2+", "model_number": "22120RN86Y",
+      "announced_date": "2023-07-18", "release_date": "2023-07-25", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G36", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.2 GHz + 4x1.8 GHz)", "gpu": "PowerVR GE8320",
+        "display_size": "6.52", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "8 MP, f/2.0", "front_camera": "5 MP, f/2.2", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Plastic frame and back", "os": "Android 13 (Go edition), MIUI 14", "os_update_years": "0", "security_update_years": "1"
+      },
+      "variants": [{"ram": "3 GB", "storage": "64 GB", "color": "Aqua Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "8,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "poco-c75",
+      "brand": "POCO", "model": "POCO C75", "model_number": "24095RA29Y",
+      "announced_date": "2024-09-30", "release_date": "2024-10-05", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G81 Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G52 MC2",
+        "display_size": "6.88", "display_resolution": "720 x 1640", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP, f/1.8", "macro_camera": "2 MP", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "5160 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Plastic frame and back", "os": "Android 14, HyperOS", "os_update_years": "2", "security_update_years": "3"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Yellow", "region": "Global", "is_official_bd": true, "price": {"official_bd": "12,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "poco-x7",
+      "brand": "POCO", "model": "POCO X7", "model_number": "24122PC50G",
+      "announced_date": "2024-12-25", "release_date": "2025-01-02", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300-Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G615 MC2",
+        "display_size": "6.67", "display_resolution": "1220 x 2712", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.5, OIS", "ultrawide_camera": "8 MP, f/2.2", "macro_camera": "2 MP", "front_camera": "20 MP, f/2.2", "camera_has_ois": true,
+        "battery_capacity": "5110 mAh", "charging_speed": "45W", "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "195g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP66", "os": "Android 14, HyperOS 2", "os_update_years": "3", "security_update_years": "4"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Iceberg Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "31,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    }
+  ]
+}

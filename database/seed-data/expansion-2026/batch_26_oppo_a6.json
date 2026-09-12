@@ -1,0 +1,32 @@
+{
+  "meta": {"description": "Oppo A6/A6x budget gap-fill, discovered and verified via GSMArena site-search before writing."},
+  "phones": [
+    {
+      "external_ref": "oppo-a6-5g",
+      "brand": "Oppo", "model": "Oppo A6", "model_number": null,
+      "announced_date": "2026-01-01", "release_date": "2026-01-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 6300", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.75", "network_5g": true,
+        "battery_capacity": "7000 mAh",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, ColorOS 15", "current_os": "Android 15, ColorOS 15"
+      },
+      "variants": [{"ram": "12 GB", "storage": "512 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "oppo-a6x",
+      "brand": "Oppo", "model": "Oppo A6x", "model_number": null,
+      "announced_date": "2025-09-01", "release_date": "2025-09-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 6300", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.75", "display_resolution": "720 x 1570", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz", "display_brightness_nits": "1125",
+        "main_camera": "50 MP", "camera_has_ois": false,
+        "battery_capacity": "6500 mAh", "network_5g": true, "weight": "212 g", "ip_rating": "IP64",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, ColorOS 15", "current_os": "Android 15, ColorOS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    }
+  ]
+}

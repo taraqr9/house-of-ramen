@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "description": "POCO M7 (base) and Oppo Reno13 F / K13 gap-fill, discovered and verified via GSMArena site-search before writing."
+  },
+  "phones": [
+    {
+      "external_ref": "poco-m7-4g",
+      "brand": "POCO",
+      "model": "POCO M7",
+      "model_number": null,
+      "announced_date": "2025-07-01",
+      "release_date": "2025-07-01",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 4 Gen 2",
+        "chipset_manufacturer": "Qualcomm",
+        "display_size": "6.88",
+        "display_resolution": "720 x 1640",
+        "display_panel_type": "LCD",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP",
+        "front_camera": "8 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "5160 mAh",
+        "charging_speed": "18W",
+        "network_5g": true,
+        "weight": "205.4 g",
+        "build_materials": "Glass front and back, plastic frame",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 14, HyperOS",
+        "current_os": "Android 14, HyperOS"
+      },
+      "variants": [
+        {
+          "ram": "6 GB",
+          "storage": "128 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        },
+        {
+          "ram": "8 GB",
+          "storage": "128 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "oppo-reno13-f",
+      "brand": "Oppo",
+      "model": "Oppo Reno13 F",
+      "model_number": null,
+      "announced_date": "2025-01-04",
+      "release_date": "2025-01-11",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 1",
+        "chipset_manufacturer": "Qualcomm",
+        "cpu": "Octa-core (4x2.2 GHz Cortex-A78 + 4x1.8 GHz Cortex-A55)",
+        "gpu": "Adreno 710",
+        "display_size": "6.67",
+        "display_resolution": "1080 x 2400",
+        "display_panel_type": "AMOLED",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "2100",
+        "main_camera": "50 MP",
+        "ultrawide_camera": "8 MP",
+        "macro_camera": "2 MP",
+        "front_camera": "32 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "5800 mAh",
+        "charging_speed": "45W",
+        "network_5g": true,
+        "weight": "192 g",
+        "ip_rating": "IP68/IP69",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15, ColorOS 15",
+        "current_os": "Android 15, ColorOS 15"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "oppo-k13-5g",
+      "brand": "Oppo",
+      "model": "Oppo K13",
+      "model_number": null,
+      "announced_date": "2025-04-01",
+      "release_date": "2025-04-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 4",
+        "chipset_manufacturer": "Qualcomm",
+        "gpu": "Adreno 810",
+        "display_size": "6.67",
+        "display_resolution": "1080 x 2400",
+        "display_panel_type": "AMOLED",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "1200",
+        "main_camera": "50 MP",
+        "macro_camera": "2 MP",
+        "front_camera": "16 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "7000 mAh",
+        "charging_speed": "80W",
+        "network_5g": true,
+        "weight": "208 g",
+        "ip_rating": "IP65",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15, ColorOS 15",
+        "current_os": "Android 15, ColorOS 15"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "128 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "description": "Upper-midrange/flagship batch (Oppo Reno14 series, OnePlus 15 series, Moto G86, Nothing Phone 3a Lite), discovered and verified via GSMArena before writing."
+  },
+  "phones": [
+    {
+      "external_ref": "oppo-reno14-pro",
+      "brand": "Oppo",
+      "model": "Oppo Reno14 Pro",
+      "model_number": null,
+      "announced_date": "2025-05-01",
+      "release_date": "2025-08-01",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 8450",
+        "chipset_manufacturer": "MediaTek",
+        "display_panel_type": "AMOLED",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS",
+        "ultrawide_camera": "50 MP, 116\u00b0",
+        "telephoto_camera": "50 MP, 85mm, 3.5x optical, OIS",
+        "front_camera": "50 MP, f/2.0",
+        "camera_has_ois": true,
+        "battery_capacity": "6200 mAh",
+        "charging_speed": "80W",
+        "wireless_charging": "50W",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15, ColorOS 15",
+        "current_os": "Android 15, ColorOS 15"
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "512 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "oneplus-15",
+      "brand": "OnePlus",
+      "model": "OnePlus 15",
+      "model_number": null,
+      "announced_date": "2025-10-28",
+      "release_date": "2025-10-28",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Elite Gen 5",
+        "chipset_manufacturer": "Qualcomm",
+        "cpu": "Octa-core (2x4.6 GHz + 6x3.62 GHz)",
+        "display_size": "6.8",
+        "display_resolution": "2772 x 1272",
+        "display_panel_type": "AMOLED",
+        "display_refresh_rate": "165 Hz",
+        "display_brightness_nits": "1800",
+        "battery_capacity": "7300 mAh",
+        "charging_speed": "80W",
+        "wireless_charging": "50W",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM (nano + eSIM)",
+        "weight": "211 g",
+        "os": "Android 16, OxygenOS 16",
+        "current_os": "Android 16, OxygenOS 16"
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": false
+        }
+      ]
+    },
+    {
+      "external_ref": "oneplus-15r",
+      "brand": "OnePlus",
+      "model": "OnePlus 15R",
+      "model_number": null,
+      "announced_date": "2025-12-01",
+      "release_date": "2025-12-01",
+      "status": "available",
+      "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Gen 5",
+        "chipset_manufacturer": "Qualcomm",
+        "display_size": "6.83",
+        "display_protection": "Gorilla Glass 7i",
+        "battery_capacity": "7400 mAh",
+        "charging_speed": "80W",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16, OxygenOS 16",
+        "current_os": "Android 16, OxygenOS 16"
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": false
+        }
+      ]
+    },
+    {
+      "external_ref": "motorola-moto-g86-5g",
+      "brand": "Motorola",
+      "model": "Moto G86 5G",
+      "model_number": null,
+      "announced_date": "2025-06-01",
+      "release_date": "2025-06-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.67",
+        "display_panel_type": "OLED",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "4500",
+        "display_protection": "Gorilla Glass 7i",
+        "main_camera": "50 MP, LYT-600",
+        "ultrawide_camera": "8 MP",
+        "front_camera": "32 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "5200 mAh",
+        "charging_speed": "30W",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "weight": "185 g",
+        "build_materials": "MIL-STD-810H compliant",
+        "ip_rating": "IP68/IP69",
+        "os": "Android 15",
+        "current_os": "Android 15"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "nothing-phone-3a-lite",
+      "brand": "Nothing",
+      "model": "Nothing Phone (3a) Lite",
+      "model_number": null,
+      "announced_date": "2025-10-01",
+      "release_date": "2025-10-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300 Pro",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.77",
+        "battery_capacity": "5000 mAh",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15, Nothing OS 3.5",
+        "current_os": "Android 15, Nothing OS 3.5"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {"description": "Fills the thin ৳75k-100k and ৳100k+ brackets and adds Google Pixel (previously entirely absent, growing unofficial-import segment in Bangladesh) plus other recent 2024-2025 flagships. Specs and BD pricing individually verified per model via Bangladesh retailer listings, not assumed from brand patterns."},
+  "phones": [
+    {
+      "external_ref": "google-pixel-9",
+      "brand": "Google", "model": "Pixel 9", "model_number": null,
+      "announced_date": "2024-08-13", "release_date": "2024-08-22", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Google Tensor G4", "chipset_manufacturer": "Google", "cpu": "Octa-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520)", "gpu": "Mali-G715 MC7",
+        "display_size": "6.3", "display_resolution": "1080 x 2424", "display_panel_type": "OLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.7, OIS", "ultrawide_camera": "48 MP, f/1.7", "front_camera": "10.5 MP, f/2.2", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "4700 mAh", "charging_speed": "27W", "wireless_charging": "15W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 3.2", "sim_config": "Dual SIM (nano + eSIM)", "weight": "198g",
+        "build_materials": "Gorilla Glass front and back, aluminum frame", "ip_rating": "IP68", "os": "Android 14", "os_update_years": "7", "security_update_years": "7"
+      },
+      "variants": [{"ram": "12 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "69,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "google-pixel-9-pro",
+      "brand": "Google", "model": "Pixel 9 Pro", "model_number": null,
+      "announced_date": "2024-08-13", "release_date": "2024-09-09", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Google Tensor G4", "chipset_manufacturer": "Google", "cpu": "Octa-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520)",
+        "display_size": "6.3", "display_resolution": "1280 x 2856", "display_panel_type": "LTPO OLED", "display_refresh_rate": "120 Hz", "display_protection": "Gorilla Glass Victus 2",
+        "main_camera": "50 MP, f/1.7, OIS", "ultrawide_camera": "48 MP, f/1.7, OIS", "telephoto_camera": "48 MP, f/2.8, 5x optical zoom", "front_camera": "42 MP, f/2.2", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "4700 mAh", "charging_speed": "27W", "wireless_charging": "21W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 3.2", "sim_config": "Dual SIM (nano + eSIM)", "weight": "199g",
+        "build_materials": "Gorilla Glass Victus 2 front and back, aluminum frame", "ip_rating": "IP68", "os": "Android 14", "os_update_years": "7", "security_update_years": "7"
+      },
+      "variants": [{"ram": "16 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "74,500"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "apple-iphone-16-plus",
+      "brand": "Apple", "model": "iPhone 16 Plus", "model_number": null,
+      "announced_date": "2024-09-09", "release_date": "2024-09-20", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Apple A18", "chipset_manufacturer": "Apple", "cpu": "Hexa-core (2x4.04 GHz + 4x2.20 GHz)",
+        "display_size": "6.7", "display_resolution": "1290 x 2796", "display_panel_type": "Super Retina XDR OLED", "display_refresh_rate": "60 Hz", "display_protection": "Ceramic Shield",
+        "main_camera": "48 MP, f/1.6, OIS", "ultrawide_camera": "12 MP, f/2.2", "front_camera": "12 MP, f/1.9", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "4383 mAh", "charging_speed": "20W", "wireless_charging": "25W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM (nano + eSIM)", "weight": "199g",
+        "build_materials": "Ceramic Shield front, aluminum frame", "ip_rating": "IP68", "os": "iOS 18", "os_update_years": "6", "security_update_years": "6"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "135,999"}, "availability": "in_stock", "store": "iStock BD"}]
+    },
+    {
+      "external_ref": "apple-iphone-16-pro",
+      "brand": "Apple", "model": "iPhone 16 Pro", "model_number": null,
+      "announced_date": "2024-09-09", "release_date": "2024-09-20", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Apple A18 Pro", "chipset_manufacturer": "Apple", "cpu": "Hexa-core (3.78 GHz dual-core + 2.11 GHz quad-core)",
+        "display_size": "6.3", "display_resolution": "1206 x 2622", "display_panel_type": "LTPO Super Retina XDR OLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "2000", "display_protection": "Ceramic Shield",
+        "main_camera": "48 MP, f/1.8, OIS", "ultrawide_camera": "48 MP, f/2.2", "telephoto_camera": "12 MP, f/2.8, 5x periscope zoom, OIS", "front_camera": "12 MP, f/1.9", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "3582 mAh", "charging_speed": "20W", "wireless_charging": "25W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 3.0", "sim_config": "Dual SIM (nano + eSIM)", "weight": "199g",
+        "build_materials": "Titanium frame, Ceramic Shield front", "ip_rating": "IP68", "os": "iOS 18", "os_update_years": "6", "security_update_years": "6"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "209,999"}, "availability": "in_stock", "store": "iStock BD"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-s25-plus",
+      "brand": "Samsung", "model": "Galaxy S25+", "model_number": "SM-S936B",
+      "announced_date": "2025-01-22", "release_date": "2025-02-03", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Elite", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (2x4.47 GHz + 6x3.53 GHz)", "gpu": "Adreno 830",
+        "display_size": "6.7", "display_resolution": "1440 x 3120", "display_panel_type": "Dynamic LTPO AMOLED 2X", "display_refresh_rate": "120 Hz", "display_brightness_nits": "2600",
+        "main_camera": "50 MP, f/1.8, OIS", "ultrawide_camera": "12 MP, f/2.2", "telephoto_camera": "10 MP, f/2.4, 3x optical zoom", "front_camera": "12 MP, f/2.2", "camera_has_ois": true, "video_recording": "8K@30fps",
+        "battery_capacity": "4900 mAh", "charging_speed": "45W", "wireless_charging": "15W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C 3.2", "sim_config": "Dual SIM (nano + eSIM)", "weight": "190g",
+        "build_materials": "Gorilla Glass Victus 2 front and back, aluminum frame", "ip_rating": "IP68", "os": "Android 15, One UI 7", "os_update_years": "7", "security_update_years": "7"
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "181,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "xiaomi-15-ultra",
+      "brand": "Xiaomi", "model": "Xiaomi 15 Ultra", "model_number": null,
+      "announced_date": "2025-02-27", "release_date": "2025-02-27", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Elite", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (2x4.32 GHz + 6x3.53 GHz)", "gpu": "Adreno 830",
+        "display_size": "6.73", "display_resolution": "1440 x 3200", "display_panel_type": "LTPO AMOLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "3200",
+        "main_camera": "50 MP, f/1.6, OIS", "ultrawide_camera": "50 MP, f/1.8", "telephoto_camera": "50 MP, f/2.6, periscope, 200 MP secondary telephoto", "front_camera": "32 MP, f/2.0", "camera_has_ois": true, "video_recording": "8K@30fps",
+        "battery_capacity": "5410 mAh", "charging_speed": "90W", "wireless_charging": "80W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C 3.2", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "ip_rating": "IP68", "os": "Android 15, HyperOS 2", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "16 GB", "storage": "512 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "160,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "oneplus-13r",
+      "brand": "OnePlus", "model": "OnePlus 13R", "model_number": null,
+      "announced_date": "2025-01-07", "release_date": "2025-01-14", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Gen 3", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (1x3.3 GHz + 3x3.2 GHz + 2x3.0 GHz + 2x2.3 GHz)", "gpu": "Adreno 750",
+        "display_size": "6.78", "display_resolution": "1264 x 2780", "display_panel_type": "LTPO AMOLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "4500", "display_protection": "Gorilla Glass",
+        "main_camera": "50 MP, f/1.8, OIS", "ultrawide_camera": "8 MP, f/2.2", "telephoto_camera": "50 MP, f/2.0, 2x optical zoom, OIS", "front_camera": "16 MP, f/2.4", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "6000 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, OxygenOS 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "54,000"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

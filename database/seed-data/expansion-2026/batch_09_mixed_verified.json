@@ -1,0 +1,86 @@
+{
+  "meta": {"description": "Mixed budget-to-upper-midrange batch discovered via GSMArena site-search and individually verified before writing (Honor X70i, Redmi Note 15 Pro 4G/5G, POCO C71, Realme Note 60, Vivo Y400 Pro)."},
+  "phones": [
+    {
+      "external_ref": "honor-x70i",
+      "brand": "Honor", "model": "Honor X70i", "model_number": null,
+      "announced_date": "2025-09-01", "release_date": "2025-09-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7025 Ultra", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.7", "display_resolution": "1080 x 2412", "display_panel_type": "OLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "3500",
+        "battery_capacity": "6000 mAh", "charging_speed": "35W", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM", "ip_rating": "IP65",
+        "os": "Android 15, MagicOS 9.0", "current_os": "Android 15, MagicOS 9.0"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "xiaomi-redmi-note-15-pro-4g",
+      "brand": "Redmi", "model": "Redmi Note 15 Pro", "model_number": null,
+      "announced_date": "2025-12-01", "release_date": "2025-12-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G200 Ultra", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.77", "display_protection": "Gorilla Glass Victus 2",
+        "battery_capacity": "6500 mAh", "charging_speed": "45W", "network_5g": false,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, HyperOS 2", "current_os": "Android 15, HyperOS 2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "xiaomi-redmi-note-15-pro-5g",
+      "brand": "Redmi", "model": "Redmi Note 15 Pro 5G", "model_number": null,
+      "announced_date": "2025-12-01", "release_date": "2025-12-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7400 Ultra", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.83",
+        "battery_capacity": "6580 mAh", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, HyperOS 2", "current_os": "Android 15, HyperOS 2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "xiaomi-poco-c71",
+      "brand": "POCO", "model": "POCO C71", "model_number": null,
+      "announced_date": "2025-04-01", "release_date": "2025-04-08", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "UNISOC T7250 Max", "chipset_manufacturer": "UNISOC",
+        "display_size": "6.88", "display_resolution": "HD+", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz", "display_brightness_nits": "600",
+        "main_camera": "32 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5200 mAh", "charging_speed": "15W", "network_5g": false,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM", "ip_rating": "IP52",
+        "os": "Android 15, HyperOS", "current_os": "Android 15, HyperOS", "os_update_years": 2, "security_update_years": 4
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Desert Gold", "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "realme-note-60",
+      "brand": "Realme", "model": "Realme Note 60", "model_number": null,
+      "announced_date": "2024-08-30", "release_date": "2024-08-30", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "UNISOC Tiger T612", "chipset_manufacturer": "UNISOC", "cpu": "Octa-core (2x1.8 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)", "gpu": "Mali-G57",
+        "display_size": "6.74", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz", "display_brightness_nits": "560",
+        "main_camera": "32 MP, f/1.8", "front_camera": "5 MP", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false,
+        "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "ip_rating": "IP64",
+        "os": "Android 14, Realme UI", "current_os": "Android 14, Realme UI"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "vivo-y400-pro",
+      "brand": "Vivo", "model": "Vivo Y400 Pro", "model_number": null,
+      "announced_date": "2025-05-01", "release_date": "2025-05-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300", "chipset_manufacturer": "MediaTek", "gpu": "Mali-G615 MC2",
+        "display_size": "6.77", "display_panel_type": "AMOLED (curved)", "display_refresh_rate": "120 Hz", "display_brightness_nits": "4500",
+        "main_camera": "50 MP, f/1.9, OIS", "front_camera": "32 MP", "camera_has_ois": true, "video_recording": "4K@30fps",
+        "battery_capacity": "5500 mAh", "charging_speed": "90W", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, Funtouch OS 15", "current_os": "Android 15, Funtouch OS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    }
+  ]
+}

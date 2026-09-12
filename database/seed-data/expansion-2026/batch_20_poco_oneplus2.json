@@ -1,0 +1,43 @@
+{
+  "meta": {"description": "POCO X8/M8-series and OnePlus Nord CE5, discovered and verified via GSMArena site-search before writing."},
+  "phones": [
+    {
+      "external_ref": "xiaomi-poco-x8-pro-max",
+      "brand": "POCO", "model": "POCO X8 Pro Max", "model_number": null,
+      "announced_date": "2025-11-01", "release_date": "2025-11-01", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 9500s", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.83", "display_resolution": "1280 x 2772", "display_panel_type": "OLED", "display_refresh_rate": "120 Hz",
+        "battery_capacity": "8500 mAh", "charging_speed": "100W", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 16, HyperOS 3", "current_os": "Android 16, HyperOS 3"
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "xiaomi-poco-m8",
+      "brand": "POCO", "model": "POCO M8", "model_number": null,
+      "announced_date": "2026-01-01", "release_date": "2026-01-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 3", "chipset_manufacturer": "Qualcomm",
+        "display_size": "6.77", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "battery_capacity": "5520 mAh", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 16, HyperOS 3", "current_os": "Android 16, HyperOS 3"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "oneplus-nord-ce5",
+      "brand": "OnePlus", "model": "OnePlus Nord CE5", "model_number": null,
+      "announced_date": "2025-07-08", "release_date": "2025-07-08", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 8350 Apex", "chipset_manufacturer": "MediaTek",
+        "battery_capacity": "7100 mAh", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, OxygenOS 15", "current_os": "Android 15, OxygenOS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    }
+  ]
+}

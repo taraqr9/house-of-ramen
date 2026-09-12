@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "description": "2026-08-29 catalogue-wide review verification pass - group 1 (Apple/Samsung/Symphony). Only entries for phones whose existing seed_dataset record needed real GSMArena/manufacturer corroboration to clear the low_confidence review queue. Specs confirmed against GSMArena and (for Symphony, a Bangladesh-domestic brand) Bangladesh retailer listings.",
+    "created_at": "2026-08-29"
+  },
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-f14",
+      "brand": "Samsung",
+      "model": "Galaxy F14",
+      "announced_date": "2023-04-01",
+      "release_date": "2023-04-01",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Exynos 1330",
+        "cpu": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+        "display_size": "6.6",
+        "display_resolution": "1080 x 2408",
+        "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8, PDAF",
+        "front_camera": "13 MP, f/2.0",
+        "battery_capacity": "6000 mAh",
+        "charging_speed": "25W",
+        "network_5g": true,
+        "usb_type": "USB Type-C 2.0",
+        "os": "Android 13, One UI Core 5.1"
+      },
+      "variants": [
+        { "ram": "4 GB", "storage": "64 GB", "region": "Global", "is_official_bd": true },
+        { "ram": "6 GB", "storage": "128 GB", "region": "Global", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "samsung-galaxy-f14-4g",
+      "brand": "Samsung",
+      "model": "Galaxy F14 4G",
+      "model_number": "SM-E145F",
+      "announced_date": "2023-04-01",
+      "release_date": "2023-04-01",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680 4G",
+        "cpu": "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+        "gpu": "Adreno 610",
+        "display_size": "6.7",
+        "display_resolution": "1080 x 2400",
+        "display_panel_type": "PLS LCD",
+        "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8, PDAF",
+        "front_camera": "13 MP, f/2.0",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "25W",
+        "network_5g": false,
+        "usb_type": "USB Type-C 2.0",
+        "weight": "194 g",
+        "os": "Android 14, One UI 6.1"
+      },
+      "variants": [
+        { "ram": "4 GB", "storage": "64 GB", "region": "Global", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-innova-40",
+      "brand": "Symphony",
+      "model": "Innova 40",
+      "announced_date": "2025-08-10",
+      "release_date": "2025-08-10",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Unisoc T615",
+        "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+        "gpu": "Mali-G57",
+        "display_size": "6.75",
+        "display_resolution": "720 x 1600",
+        "display_panel_type": "IPS LCD",
+        "main_camera": "50 MP, f/1.8",
+        "front_camera": "8 MP, f/2.0",
+        "battery_capacity": "6000 mAh",
+        "charging_speed": "18W",
+        "network_5g": false,
+        "usb_type": "USB Type-C 2.0",
+        "weight": "210 g",
+        "os": "Android 15"
+      },
+      "variants": [
+        { "ram": "8 GB", "storage": "128 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-innova-30",
+      "brand": "Symphony",
+      "model": "Innova 30",
+      "announced_date": "2024-03-18",
+      "release_date": "2024-03-18",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Unisoc T616",
+        "display_size": "6.56",
+        "display_resolution": "720 x 1612",
+        "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "90 Hz",
+        "main_camera": "108 MP, f/2.0",
+        "front_camera": "8 MP, f/2.0",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "18W",
+        "network_5g": false,
+        "os": "Android 13"
+      },
+      "variants": [
+        { "ram": "8 GB", "storage": "128 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-helio-80",
+      "brand": "Symphony",
+      "model": "Helio 80",
+      "announced_date": "2023-09-21",
+      "release_date": "2023-09-21",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G99",
+        "display_size": "6.7",
+        "display_panel_type": "AMOLED",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP",
+        "front_camera": "16 MP",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "18W",
+        "network_5g": false,
+        "weight": "196 g",
+        "os": "Android 13"
+      },
+      "variants": [
+        { "ram": "6 GB", "storage": "128 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-z55",
+      "brand": "Symphony",
+      "model": "Z55",
+      "announced_date": "2022-06-15",
+      "release_date": "2022-06-15",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "display_size": "6.52",
+        "display_resolution": "720 x 1600",
+        "display_panel_type": "IPS LCD",
+        "main_camera": "52 MP",
+        "front_camera": "8 MP",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "10W",
+        "network_5g": false,
+        "os": "Android 12"
+      },
+      "variants": [
+        { "ram": "4 GB", "storage": "64 GB", "region": "Bangladesh", "is_official_bd": true },
+        { "ram": "4 GB", "storage": "128 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-z60-plus",
+      "brand": "Symphony",
+      "model": "Z60 Plus",
+      "announced_date": "2023-06-20",
+      "release_date": "2023-06-20",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Unisoc Tiger T616",
+        "display_size": "6.6",
+        "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP",
+        "front_camera": "8 MP",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "18W",
+        "network_5g": false,
+        "os": "Android 12"
+      },
+      "variants": [
+        { "ram": "6 GB", "storage": "128 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-z45",
+      "brand": "Symphony",
+      "model": "Z45",
+      "announced_date": "2023-06-01",
+      "release_date": "2023-06-10",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Unisoc T610",
+        "cpu": "Octa-core 1.8 GHz",
+        "display_size": "6.52",
+        "display_resolution": "720 x 1600",
+        "display_panel_type": "IPS LCD",
+        "main_camera": "13 MP + 2 MP",
+        "front_camera": "8 MP",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "15W",
+        "network_5g": false,
+        "usb_type": "USB Type-C 3.2",
+        "bluetooth_version": "5.2",
+        "os": "Android 11"
+      },
+      "variants": [
+        { "ram": "4 GB", "storage": "64 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "samsung-galaxy-m36",
+      "brand": "Samsung",
+      "model": "Galaxy M36",
+      "announced_date": "2025-06-28",
+      "release_date": "2025-07-12",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "Exynos 1380",
+        "display_size": "6.7",
+        "display_resolution": "1080 x 2340",
+        "display_refresh_rate": "120 Hz",
+        "display_protection": "Gorilla Glass Victus+",
+        "main_camera": "50 MP, f/1.8 + 12 MP ultrawide + 5 MP macro",
+        "front_camera": "13 MP",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "25W",
+        "network_5g": true,
+        "os": "Android 15, One UI 7",
+        "os_update_years": 6,
+        "security_update_years": 6
+      },
+      "variants": [
+        { "ram": "6 GB", "storage": "128 GB", "region": "Global", "is_official_bd": true }
+      ]
+    },
+    {
+      "external_ref": "symphony-z70",
+      "brand": "Symphony",
+      "model": "Z70",
+      "announced_date": "2024-03-01",
+      "release_date": "2024-03-10",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Unisoc T606",
+        "display_size": "6.56",
+        "display_resolution": "720 x 1612",
+        "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP",
+        "front_camera": "8 MP",
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "10W",
+        "network_5g": false,
+        "os": "Android 13"
+      },
+      "variants": [
+        { "ram": "6 GB", "storage": "128 GB", "region": "Bangladesh", "is_official_bd": true }
+      ]
+    }
+  ]
+}

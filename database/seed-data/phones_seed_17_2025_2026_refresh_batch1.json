@@ -1,0 +1,89 @@
+{
+  "meta": {"description": "First batch of 2025-2026 model-year refreshes for brands already in the catalogue (Redmi, POCO, Realme, Infinix, Tecno) - the next generation of phones already-catalogued siblings, individually verified via Bangladesh retailer listings to avoid duplicating an existing model under a new name."},
+  "phones": [
+    {
+      "external_ref": "xiaomi-redmi-note-15-5g",
+      "brand": "Redmi", "model": "Redmi Note 15 5G", "model_number": null,
+      "announced_date": "2026-01-15", "release_date": "2026-01-15", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 3", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.4 GHz Cortex-A78 + 4x1.8 GHz Cortex-A55)", "gpu": "Adreno 710",
+        "display_size": "6.77", "display_resolution": "1080 x 2392", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "3200",
+        "main_camera": "108 MP, f/1.7, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "20 MP, f/2.2", "camera_has_ois": true, "video_recording": "1080p@30fps",
+        "battery_capacity": "5520 mAh", "charging_speed": "45W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, HyperOS 2", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "36,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "xiaomi-poco-x7-pro",
+      "brand": "POCO", "model": "POCO X7 Pro", "model_number": null,
+      "announced_date": "2025-01-09", "release_date": "2025-01-09", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 8300 Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, up to 3.35 GHz", "display_brightness_nits": null,
+        "display_size": "6.67", "display_resolution": "1220 x 2712", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "display_protection": "Gorilla Glass 7i",
+        "main_camera": "50 MP, f/1.5, OIS", "ultrawide_camera": "8 MP", "front_camera": "20 MP, f/2.2", "camera_has_ois": true, "video_recording": "1080p@30fps",
+        "battery_capacity": "6000 mAh", "charging_speed": "90W", "network_5g": true, "wifi": "Wi-Fi 6E", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "ip_rating": "IP68", "os": "Android 15, HyperOS 2", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "35,500"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "realme-14",
+      "brand": "Realme", "model": "Realme 14", "model_number": null,
+      "announced_date": "2025-05-12", "release_date": "2025-05-12", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 4", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (1x2.3 GHz + 3x2.2 GHz + 4x1.8 GHz)", "gpu": "Adreno 810",
+        "display_size": "6.67", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "2000", "display_protection": "Gorilla Glass",
+        "main_camera": "50 MP, f/1.8, OIS", "front_camera": "16 MP, f/2.4", "camera_has_ois": true, "video_recording": "1080p@30fps",
+        "battery_capacity": "6000 mAh", "charging_speed": "45W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, Realme UI 6.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "41,999"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "realme-15",
+      "brand": "Realme", "model": "Realme 15", "model_number": null,
+      "announced_date": "2025-10-12", "release_date": "2025-10-12", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300+", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.6 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+        "display_size": "6.77", "display_resolution": "1280 x 2392", "display_panel_type": "AMOLED", "display_refresh_rate": "144 Hz", "display_brightness_nits": "4500",
+        "main_camera": "50 MP, f/1.8, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "50 MP, f/2.4", "camera_has_ois": true, "video_recording": "4K@30fps",
+        "battery_capacity": "7000 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.4",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "ip_rating": "IP68/IP69", "os": "Android 15, Realme UI 6.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "44,999"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "infinix-note-50-pro",
+      "brand": "Infinix", "model": "Infinix Note 50 Pro", "model_number": null,
+      "announced_date": "2025-04-10", "release_date": "2025-04-10", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G100 Ultimate", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.2 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2436", "display_panel_type": "AMOLED", "display_refresh_rate": "144 Hz", "display_brightness_nits": "1300", "display_protection": "Gorilla Glass",
+        "main_camera": "50 MP, f/1.9, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "32 MP, f/2.2", "camera_has_ois": true, "video_recording": "1440p@30fps",
+        "battery_capacity": "5200 mAh", "charging_speed": "90W", "wireless_charging": "30W", "reverse_charging": true, "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, XOS 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "29,999"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-camon-40",
+      "brand": "Tecno", "model": "Tecno Camon 40", "model_number": null,
+      "announced_date": "2025-04-10", "release_date": "2025-04-10", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G100 Ultimate", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.2 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2436", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "display_protection": "Gorilla Glass",
+        "main_camera": "50 MP, f/1.9, OIS", "ultrawide_camera": "8 MP", "front_camera": "32 MP", "camera_has_ois": true, "video_recording": "1080p@30fps",
+        "battery_capacity": "5200 mAh", "charging_speed": "45W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, HiOS 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "22,499"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    }
+  ]
+}

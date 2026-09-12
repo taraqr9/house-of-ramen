@@ -1,0 +1,1603 @@
+{
+    "brand_slug": "google",
+    "phones": [
+        {
+            "slug": "google-pixel-10",
+            "name": "Pixel 10",
+            "model_number": null,
+            "announced_date": "2025-08-20",
+            "release_date": "2025-08-28",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 76,
+            "software_confidence": 83,
+            "overall_confidence": 80,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G5",
+                "chipset_manufacturer": "Google",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": "1080 x 2424",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "48 MP",
+                "ultrawide_camera": "13 MP",
+                "telephoto_camera": "10.8 MP",
+                "macro_camera": null,
+                "front_camera": "10.5 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4970,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 204,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 16",
+                "current_os": "Android 16",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-10-12-128-global",
+                    "ram_gb": 12,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "67999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "73999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "84990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "104999.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "104999.00",
+                            "price_min": "104999.00",
+                            "price_max": "104999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "73999.00",
+                            "price_min": "67999.00",
+                            "price_max": "84990.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:30+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "in_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-10/0-52.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 753,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Arri%C3%A8re_(sous_emballage)_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Fabe56, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "google-pixel-10/0-53.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/google-pixel-10/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 80) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:54:14+06:00",
+                    "created_at": "2026-08-28T13:50:11+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:21:35+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-10-pro",
+            "name": "Pixel 10 Pro",
+            "model_number": null,
+            "announced_date": "2025-08-20",
+            "release_date": "2025-08-28",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 68,
+            "software_confidence": 83,
+            "overall_confidence": 76,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G5",
+                "chipset_manufacturer": "Google",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": null,
+                "display_panel_type": "LTPO OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 3300,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 4870,
+                "charging_speed_w": null,
+                "wireless_charging_w": 2,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 207,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 16",
+                "current_os": "Android 16",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-10-pro-16-256-global",
+                    "ram_gb": 16,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-10-pro/0-54.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 753,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Arri%C3%A8re_(sous_emballage)_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Fabe56, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 10 Pro, Tensor G5, Aug 2025) - present in current Google catalogue listing.",
+                    "reviewed_at": "2026-08-29T09:43:19+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-10-pro-xl",
+            "name": "Pixel 10 Pro XL",
+            "model_number": null,
+            "announced_date": "2025-08-20",
+            "release_date": "2025-08-28",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 66,
+            "software_confidence": 83,
+            "overall_confidence": 75,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G5",
+                "chipset_manufacturer": "Google",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": null,
+                "display_panel_type": "LTPO OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5200,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 16",
+                "current_os": "Android 16",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-10-pro-xl-16-256-global",
+                    "ram_gb": 16,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-10-pro-xl/0-55.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 753,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Arri%C3%A8re_(sous_emballage)_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Fabe56, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "google-pixel-10-pro-xl/0-56.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/google-pixel-10-pro-xl/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 10 Pro XL, Tensor G5, Aug 2025) - present in current Google catalogue listing.",
+                    "reviewed_at": "2026-08-29T09:43:19+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "depicts the \"Pixel 10 Pro\" (256GB, in packaging) - Pro sibling, not the catalogued Pixel 10 Pro XL.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:47:12+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 44,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:21:37+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-10a",
+            "name": "Pixel 10a",
+            "model_number": null,
+            "announced_date": "2026-02-01",
+            "release_date": "2026-02-01",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 63,
+            "software_confidence": 83,
+            "overall_confidence": 74,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G4",
+                "chipset_manufacturer": "Google",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": null,
+                "display_panel_type": null,
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5100,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 183,
+                "build_materials": "Gorilla Glass 7i",
+                "ip_rating": null,
+                "os": "Android 16",
+                "current_os": "Android 16",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-10a-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-10a/0-57.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Torrione_dei_Passeggeri_-_Sinistra.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "OpenStreetMap user GabriCosta00, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "google-pixel-10a/0-58.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/google-pixel-10a/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 10a, Tensor G4, Feb 2026) - full GSMArena spec page found, matches announced_date exactly.",
+                    "reviewed_at": "2026-08-29T09:43:26+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Torrione dei Passeggeri - Sinistra\" bears no genuine relation to the catalogued Google Pixel 10a (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:47:24+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:21:42+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-7a",
+            "name": "Pixel 7a",
+            "model_number": null,
+            "announced_date": "2023-05-10",
+            "release_date": "2023-05-11",
+            "status": "discontinued",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G2",
+                "chipset_manufacturer": "Google",
+                "cpu": "Octa-core, 5nm",
+                "gpu": null,
+                "display_size": "6.1",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "64 MP, f/1.89, OIS",
+                "ultrawide_camera": "13 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "13 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4385,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac/6e",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 194,
+                "build_materials": "Gorilla Glass 3, IP67",
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-7a-8-128-charcoal-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Charcoal",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "36500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "36500.00",
+                            "price_min": "36500.00",
+                            "price_max": "36500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-7a/0-59.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 751,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_7a_front_middle_frame.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Eavesdropper6735, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 7a, Tensor G2, May 2023).",
+                    "reviewed_at": "2026-08-29T09:43:18+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-8",
+            "name": "Pixel 8",
+            "model_number": null,
+            "announced_date": "2023-10-04",
+            "release_date": "2023-10-12",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 73,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G3",
+                "chipset_manufacturer": "Google",
+                "cpu": "Nine-core (1x3.0 GHz Cortex-X3 + 4x2.45 GHz Cortex-A715 + 4x2.15 GHz Cortex-A510)",
+                "gpu": null,
+                "display_size": "6.2",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.68, OIS",
+                "ultrawide_camera": "12 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "10.5 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4575,
+                "charging_speed_w": 27,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac/6e",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 187,
+                "build_materials": "Gorilla Glass Victus, aluminum frame, IP68",
+                "ip_rating": null,
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-8-8-128-obsidian-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Obsidian",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "74990.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "74990.00",
+                            "price_min": "74990.00",
+                            "price_max": "74990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-8/0-60.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 667,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_Rose_front.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "IXTA9839, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 8, Tensor G3, Oct 2023).",
+                    "reviewed_at": "2026-08-29T09:43:18+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-8a",
+            "name": "Pixel 8a",
+            "model_number": null,
+            "announced_date": "2024-05-14",
+            "release_date": "2024-05-14",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 51,
+            "software_confidence": 73,
+            "overall_confidence": 63,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G3",
+                "chipset_manufacturer": "Google",
+                "cpu": null,
+                "gpu": null,
+                "display_size": null,
+                "display_resolution": null,
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": null,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": "IP67",
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-8a-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "43500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "43500.00",
+                            "price_min": "43500.00",
+                            "price_max": "43500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:47+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-8a/0-61.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 563,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Google_pixel_8a.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Mai fotography, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 8a, Tensor G3, May 2024).",
+                    "reviewed_at": "2026-08-29T09:43:00+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-9",
+            "name": "Pixel 9",
+            "model_number": null,
+            "announced_date": "2024-08-13",
+            "release_date": "2024-08-22",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G4",
+                "chipset_manufacturer": "Google",
+                "cpu": "Octa-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520)",
+                "gpu": "Mali-G715 MC7",
+                "display_size": "6.3",
+                "display_resolution": "1080 x 2424",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.7, OIS",
+                "ultrawide_camera": "48 MP, f/1.7",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "10.5 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 4700,
+                "charging_speed_w": 27,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 198,
+                "build_materials": "Gorilla Glass front and back, aluminum frame",
+                "ip_rating": "IP68",
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-9-12-128-global",
+                    "ram_gb": 12,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "69000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "69000.00",
+                            "price_min": "69000.00",
+                            "price_max": "69000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-9/0-62.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Camera_of_Google_Pixel_9_-_4.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Kyu3a, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 9, Tensor G4, Aug 2024) - present in GSMArena's current Google catalogue listing.",
+                    "reviewed_at": "2026-08-29T09:42:47+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-9-pro",
+            "name": "Pixel 9 Pro",
+            "model_number": null,
+            "announced_date": "2024-08-13",
+            "release_date": "2024-09-09",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 73,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G4",
+                "chipset_manufacturer": "Google",
+                "cpu": "Octa-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520)",
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": "1280 x 2856",
+                "display_panel_type": "LTPO OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass Victus 2",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.7, OIS",
+                "ultrawide_camera": "48 MP, f/1.7, OIS",
+                "telephoto_camera": "48 MP, f/2.8, 5x optical zoom",
+                "macro_camera": null,
+                "front_camera": "42 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 4700,
+                "charging_speed_w": 27,
+                "wireless_charging_w": 21,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 199,
+                "build_materials": "Gorilla Glass Victus 2 front and back, aluminum frame",
+                "ip_rating": "IP68",
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-9-pro-16-128-global",
+                    "ram_gb": 16,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "74500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "74500.00",
+                            "price_min": "74500.00",
+                            "price_max": "74500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-9-pro/0-63.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_9_%26_Pixel_9_Pro_Hands-On_Impressions_(ShoAndTech)_(2160p_24fps_VP9_LQ-160kbit_Opus)-00.00.04.400.png",
+                    "license": "CC BY 3.0",
+                    "attribution": "ShoAndTech, CC BY 3.0, via Wikimedia Commons",
+                    "match_confidence": 85,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "google-pixel-9-pro/0-64.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/google-pixel-9-pro/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (Google Pixel 9 Pro, Tensor G4, Aug 2024) - present in GSMArena's current Google catalogue listing.",
+                    "reviewed_at": "2026-08-29T09:42:47+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-9-pro-xl",
+            "name": "Pixel 9 Pro XL",
+            "model_number": null,
+            "announced_date": "2024-08-13",
+            "release_date": "2024-09-04",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G4",
+                "chipset_manufacturer": "Google",
+                "cpu": "Octa-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520)",
+                "gpu": "Mali-G715 MC7",
+                "display_size": "6.8",
+                "display_resolution": "1344 x 2992",
+                "display_panel_type": "LTPO OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass Victus 2",
+                "display_brightness_nits": 3000,
+                "main_camera": "50 MP, f/1.68, OIS",
+                "ultrawide_camera": "48 MP, f/1.7",
+                "telephoto_camera": "48 MP, f/2.8, 5x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "42 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 5060,
+                "charging_speed_w": 37,
+                "wireless_charging_w": 23,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 221,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus 2",
+                "ip_rating": "IP68",
+                "os": "Android 14",
+                "current_os": "Android 16",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-9-pro-xl-16-256-obsidian-global",
+                    "ram_gb": 16,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Obsidian",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "79999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "official_bd",
+                            "amount": "107999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "81499.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "81990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "115000.00",
+                            "currency": "BDT",
+                            "confidence": 72
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "114999.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "111499.00",
+                            "price_min": "107999.00",
+                            "price_max": "114999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "81499.00",
+                            "price_min": "79999.00",
+                            "price_max": "81990.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 1
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:30+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "ai_research_2026",
+                            "confidence": 72,
+                            "collected_at": "2026-08-29T09:42:21+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "out_of_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-9-pro-xl/0-65.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 662,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_9_Pro_XL_(front).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "D.328, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "google-pixel-9a",
+            "name": "Pixel 9a",
+            "model_number": null,
+            "announced_date": "2025-03-19",
+            "release_date": "2025-03-26",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Google Tensor G4",
+                "chipset_manufacturer": "Google",
+                "cpu": "Octa-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520)",
+                "gpu": "Mali-G715 MC7",
+                "display_size": "6.3",
+                "display_resolution": "1080 x 2424",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 3",
+                "display_brightness_nits": 2700,
+                "main_camera": "48 MP, f/1.7, OIS",
+                "ultrawide_camera": "13 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "13 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5100,
+                "charging_speed_w": 23,
+                "wireless_charging_w": 8,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 186,
+                "build_materials": "Aluminum frame, Gorilla Glass 3",
+                "ip_rating": "IP68",
+                "os": "Android 15",
+                "current_os": "Android 16",
+                "os_update_years": 7,
+                "security_update_years": 7,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "google-pixel-9a-8-128-iris-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Iris",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "official_bd",
+                            "amount": "65999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "69990.00",
+                            "currency": "BDT",
+                            "confidence": 72
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "52990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "66550.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "66274.50",
+                            "price_min": "65999.00",
+                            "price_max": "66550.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "61490.00",
+                            "price_min": "52990.00",
+                            "price_max": "69990.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "ai_research_2026",
+                            "confidence": 72,
+                            "collected_at": "2026-08-29T09:42:21+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "in_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "google-pixel-9a/0-66.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 563,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_9a_back.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Maksdroider, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 85,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                }
+            ]
+        }
+    ]
+}

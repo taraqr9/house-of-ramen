@@ -1,0 +1,3814 @@
+{
+    "brand_slug": "motorola",
+    "phones": [
+        {
+            "slug": "motorola-edge-40-neo",
+            "name": "Edge 40 Neo",
+            "model_number": null,
+            "announced_date": "2023-09-19",
+            "release_date": "2023-09-19",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7030",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 6nm",
+                "gpu": null,
+                "display_size": "6.6",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 144,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.9, OIS",
+                "ultrawide_camera": "13 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 68,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 171,
+                "build_materials": "IP68",
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-edge-40-neo-8-128-soothing-sea-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Soothing Sea",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "29990.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "motorola-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "33490.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "33490.00",
+                            "price_min": "33490.00",
+                            "price_max": "33490.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "29990.00",
+                            "price_min": "29990.00",
+                            "price_max": "29990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "motorola-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-edge-40-neo/0-203.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_edge_40_neo.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Kyu3a, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Motorola Edge 40 Neo, Dimensity 7030, matches exactly.",
+                    "reviewed_at": "2026-08-29T09:43:46+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-edge-60",
+            "name": "Motorola Edge 60",
+            "model_number": null,
+            "announced_date": "2025-04-25",
+            "release_date": "2025-04-25",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 78,
+            "software_confidence": 57,
+            "overall_confidence": 76,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7300",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1220p",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, OIS",
+                "ultrawide_camera": "50 MP",
+                "telephoto_camera": "10 MP, OIS, 3x optical",
+                "macro_camera": null,
+                "front_camera": "50 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5200,
+                "charging_speed_w": 68,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 179,
+                "build_materials": "MIL-STD-810H compliant",
+                "ip_rating": "IP68/IP69",
+                "os": "Android 15, Hello UI",
+                "current_os": "Android 15, Hello UI",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-edge-60-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "36999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "30490.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "33744.50",
+                            "price_min": "30490.00",
+                            "price_max": "36999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:42:31+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-edge-60/0-204.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Edge_60_Pro.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Meniirtjakarintan, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-edge-60/0-205.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 700,
+                    "height": 700,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-edge-60/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=78, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (76) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:47+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 76) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:27+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:54:14+06:00",
+                    "created_at": "2026-08-28T13:52:01+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:22:56+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-edge-60-neo",
+            "name": "Motorola Edge 60 Neo",
+            "model_number": null,
+            "announced_date": "2025-07-01",
+            "release_date": "2025-07-01",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 78,
+            "software_confidence": 57,
+            "overall_confidence": 76,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7400",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.4",
+                "display_resolution": "1080p+",
+                "display_panel_type": "LTPO OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass 7i",
+                "display_brightness_nits": 3000,
+                "main_camera": "50 MP, Sony Lytia 700C, OIS",
+                "ultrawide_camera": "13 MP, 120-degree",
+                "telephoto_camera": "10 MP, OIS, 3x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 68,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 175,
+                "build_materials": "MIL-STD-810H",
+                "ip_rating": "IP68/IP69",
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-edge-60-neo-12-512-global",
+                    "ram_gb": 12,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "63990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "63990.00",
+                            "price_min": "63990.00",
+                            "price_max": "63990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:43:27+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-edge-60-neo/0-206.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Van_Gogh_Museum_60.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Gargarapalvin, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 8,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-edge-60-neo/0-207.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-edge-60-neo/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=78, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (76) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:47+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 76) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:27+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 8,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:54:14+06:00",
+                    "created_at": "2026-08-28T13:53:03+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 8,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:23:21+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-edge-60-pro",
+            "name": "Motorola Edge 60 Pro",
+            "model_number": null,
+            "announced_date": "2025-04-01",
+            "release_date": "2025-04-01",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 76,
+            "software_confidence": 57,
+            "overall_confidence": 75,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8350 Extreme",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1220p",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 4500,
+                "main_camera": "50 MP, OIS",
+                "ultrawide_camera": "50 MP, autofocus",
+                "telephoto_camera": "10 MP, OIS, 3x optical",
+                "macro_camera": null,
+                "front_camera": "50 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": 90,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": "Corning Gorilla Glass 7i, MIL-STD-810H",
+                "ip_rating": null,
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-edge-60-pro-16-512-global",
+                    "ram_gb": 16,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "40999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "38990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "39994.50",
+                            "price_min": "38990.00",
+                            "price_max": "40999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:43:27+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-edge-60-pro/0-208.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Edge_60_Pro.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Meniirtjakarintan, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=76, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (75) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:47+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 75) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:27+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-edge-70",
+            "name": "Motorola Edge 70",
+            "model_number": null,
+            "announced_date": "2025-10-01",
+            "release_date": "2025-10-01",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 78,
+            "software_confidence": 57,
+            "overall_confidence": 76,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7 Gen 4",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1220p",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, OIS, 2x zoom",
+                "ultrawide_camera": "50 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "50 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4800,
+                "charging_speed_w": 68,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 159,
+                "build_materials": "MIL-STD-810H compliant",
+                "ip_rating": "IP68/IP69",
+                "os": "Android 16, Hello UI",
+                "current_os": "Android 16, Hello UI",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-edge-70-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "38999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "38999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "38790.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "38999.00",
+                            "price_min": "38790.00",
+                            "price_max": "38999.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:43:54+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:42:31+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-edge-70/0-209.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Edge_70_back.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Maksdroider, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=78, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (76) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:46+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 76) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:26+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-e13",
+            "name": "Moto E13",
+            "model_number": null,
+            "announced_date": "2023-05-04",
+            "release_date": "2023-05-04",
+            "status": "available",
+            "category": "entry",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T606",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core (2x1.6 GHz Cortex-A75 + 6x1.6 GHz Cortex-A55)",
+                "gpu": null,
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "13 MP, f/2.2",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "5 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 10,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 190,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13 (Go edition)",
+                "current_os": "Android 13 (Go edition)",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-e13-2-64-cosmic-black-global",
+                    "ram_gb": 2,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Cosmic Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "13499.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "13499.00",
+                            "price_min": "13499.00",
+                            "price_max": "13499.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-e13/0-210.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_smartphones_in_Zabrze,_Silesian_Voivodeship,_Poland,_March_2024.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "MichalPL, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 85,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "motorola-moto-e13/0-211.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 711,
+                    "height": 711,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-e13/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto E13, Unisoc T606, matches.",
+                    "reviewed_at": "2026-08-29T09:43:45+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-edge-40",
+            "name": "Moto Edge 40",
+            "model_number": "XT2309",
+            "announced_date": "2023-04-24",
+            "release_date": "2023-05-04",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8020",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G77 MC9",
+                "display_size": "6.6",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 144,
+                "display_protection": "Corning Gorilla Glass 5",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.4, OIS",
+                "ultrawide_camera": "13 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 4400,
+                "charging_speed_w": 68,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.2",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "158.40",
+                "width_mm": "71.90",
+                "thickness_mm": "7.60",
+                "weight_g": 167,
+                "build_materials": "Aluminum frame, vegan leather/glass back",
+                "ip_rating": "IP68",
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": 2,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-edge-40-8-256-eclipse-black-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Eclipse Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "36999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "36999.00",
+                            "price_min": "36999.00",
+                            "price_max": "36999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:40+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-edge-40/0-212.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Farmwell_Station_Middle_School_in_June_2019.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Vahurzpu, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-edge-40/0-213.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 731,
+                    "height": 731,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-edge-40/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto Edge 40, Dimensity chipset family confirmed, no duplicate.",
+                    "reviewed_at": "2026-08-29T09:43:39+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Farmwell Station Middle School in June 2019\" bears no genuine relation to the catalogued Motorola Moto Edge 40 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:03:54+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:06:10+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-edge-50-fusion",
+            "name": "Moto Edge 50 Fusion",
+            "model_number": "XT2437",
+            "announced_date": "2024-06-06",
+            "release_date": "2024-06-13",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7s Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 710",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 144,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "13 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 68,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 172,
+                "build_materials": "Aluminum frame, vegan leather/glass back",
+                "ip_rating": "IP68",
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-edge-50-fusion-12-256-hot-pink-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Hot Pink",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "34999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "34999.00",
+                            "price_min": "34999.00",
+                            "price_max": "34999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-edge-50-fusion/0-214.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-edge-50-fusion/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto Edge 50 Fusion (GSMArena idPhone 12871), exists, distinct model.",
+                    "reviewed_at": "2026-08-29T09:43:40+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-edge-50-pro",
+            "name": "Moto Edge 50 Pro",
+            "model_number": null,
+            "announced_date": "2024-04-03",
+            "release_date": "2024-04-08",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7 Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x2.63 GHz Cortex-A715 + 3x2.4 GHz Cortex-A710 + 4x1.8 GHz Cortex-A510)",
+                "gpu": "Adreno 720",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "P-OLED (LTPO)",
+                "display_refresh_rate": 144,
+                "display_protection": "Gorilla Glass 7",
+                "display_brightness_nits": 2000,
+                "main_camera": "50 MP, f/1.4, OIS",
+                "ultrawide_camera": "13 MP, f/2.2",
+                "telephoto_camera": "10 MP, f/2.0, 3x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "50 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 4500,
+                "charging_speed_w": 125,
+                "wireless_charging_w": 50,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 186,
+                "build_materials": "Aluminum frame, vegan leather/glass back",
+                "ip_rating": "IP68",
+                "os": "Android 14",
+                "current_os": "Android 15",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-edge-50-pro-12-512-black-beauty-global",
+                    "ram_gb": 12,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black Beauty",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-edge-50-pro/0-215.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Por_do_Sol_-_Santu%C3%A1rio_de_Deus_Pai_Todo_Poderoso_-_Condado-PB-PB-BR_(2).jpg",
+                    "license": "CC0",
+                    "attribution": "Marcelo ANLucena, CC0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-edge-50-pro/0-216.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-edge-50-pro/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:48:25+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:20:12+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-edge-60-fusion",
+            "name": "Moto Edge 60 Fusion",
+            "model_number": null,
+            "announced_date": "2025-04-09",
+            "release_date": "2025-04-09",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7300",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (4x2.5 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+                "gpu": "Mali-G615 MC2",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "LTPO P-OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": 4500,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "13 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 5200,
+                "charging_speed_w": 68,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-edge-60-fusion-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "34500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "34500.00",
+                            "price_min": "34500.00",
+                            "price_max": "34500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-edge-60-fusion/0-217.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-edge-60-fusion/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via search (GSMchoice/Cashify comparison pages exist): Moto Edge 60 Fusion, Dimensity 7300 family.",
+                    "reviewed_at": "2026-08-29T09:43:42+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g04",
+            "name": "Moto G04",
+            "model_number": null,
+            "announced_date": "2024-03-01",
+            "release_date": "2024-03-01",
+            "status": "available",
+            "category": "entry",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 63,
+            "software_confidence": 46,
+            "overall_confidence": 63,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T606",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core, 12nm",
+                "gpu": null,
+                "display_size": "6.6",
+                "display_resolution": "720 x 1612",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "16 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "5 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 15,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": null,
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g04-4-64-global",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "official_bd",
+                            "amount": "13000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "13000.00",
+                            "price_min": "13000.00",
+                            "price_max": "13000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:46+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g04/0-218.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Autopista_Las_Am%C3%A9ricas_at_kilometer_12,_near_Avenida_Hip%C3%B3dromo.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Markocortesa2, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g04/0-219.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g04/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G04, Unisoc T606, matches exactly (distinct from Moto G04s sibling).",
+                    "reviewed_at": "2026-08-29T09:43:43+06:00",
+                    "created_at": "2026-08-28T13:09:40+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Autopista Las Américas at kilometer 12, near Avenida Hipódromo\" bears no genuine relation to the catalogued Motorola Moto G04 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:34:26+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:13:51+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g13",
+            "name": "Moto G13",
+            "model_number": null,
+            "announced_date": "2023-01-24",
+            "release_date": "2023-01-24",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Helio G85",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (2x2.0 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)",
+                "gpu": null,
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "8 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 20,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 184,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g13-4-128-matte-charcoal-global",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Matte Charcoal",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "18500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "18500.00",
+                            "price_min": "18500.00",
+                            "price_max": "18500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g13/0-220.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 563,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Newspapers_about_the_death_of_Pope_Francis_in_Sicily,_22th_of_April_2025.jpg",
+                    "license": "CC0",
+                    "attribution": "LANCIAY 1, CC0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g13/0-221.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 623,
+                    "height": 623,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g13/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G13, Helio G85, matches.",
+                    "reviewed_at": "2026-08-29T09:43:45+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Newspapers about the death of Pope Francis in Sicily, 22th of April 2025\" bears no genuine relation to the catalogued Motorola Moto G13 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:42:46+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:15+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g14",
+            "name": "Moto G14",
+            "model_number": "XT2341",
+            "announced_date": "2023-09-26",
+            "release_date": "2023-10-03",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T616",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core (2x2.0 GHz + 6x1.8 GHz)",
+                "gpu": "Mali-G57",
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP, f/2.4",
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.1",
+                "nfc": false,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 179,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP52",
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": 1,
+                "security_update_years": 2,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g14-4-128-sky-blue-global",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Sky Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "13999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "13999.00",
+                            "price_min": "13999.00",
+                            "price_max": "13999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:43+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g14/0-222.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 563,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:HeiligenkreuzDreifaltigkeit.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Plodan, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g14/0-223.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g14/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G14, Unisoc T616 family, exists.",
+                    "reviewed_at": "2026-08-29T09:43:42+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"HeiligenkreuzDreifaltigkeit\" bears no genuine relation to the catalogued Motorola Moto G14 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:25:00+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:11:25+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g17",
+            "name": "Moto G17",
+            "model_number": null,
+            "announced_date": "2026-01-01",
+            "release_date": "2026-01-01",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 61,
+            "software_confidence": 57,
+            "overall_confidence": 68,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Helio G81 Extreme",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": null,
+                "display_panel_type": null,
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5200,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": "Gorilla Glass 3",
+                "ip_rating": null,
+                "os": "Android 16",
+                "current_os": "Android 16",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g17-4-128-global",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g17/0-224.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g17/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G17, Helio G81 Extreme, matches exactly (announced Jan 2026).",
+                    "reviewed_at": "2026-08-29T09:43:47+06:00",
+                    "created_at": "2026-08-28T13:09:46+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g24",
+            "name": "Moto G24",
+            "model_number": "XT2423",
+            "announced_date": "2024-03-05",
+            "release_date": "2024-03-12",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T7250",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core (2x1.8 GHz + 6x1.6 GHz)",
+                "gpu": "IMG GE8320",
+                "display_size": "6.6",
+                "display_resolution": "720 x 1612",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP, f/2.4",
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.1",
+                "nfc": false,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 179,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP52",
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 1,
+                "security_update_years": 2,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g24-4-128-matte-charcoal-global",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Matte Charcoal",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "14999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "14999.00",
+                            "price_min": "14999.00",
+                            "price_max": "14999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:43+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g24/0-225.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_G24_8_gb_128_gb_in_Zabrze,_Silesian_Voivodeship,_Poland,_March_2024.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "MichalPL, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G24, exists.",
+                    "reviewed_at": "2026-08-29T09:43:41+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g34-5g",
+            "name": "Moto G34 5G",
+            "model_number": "XT2417",
+            "announced_date": "2023-12-06",
+            "release_date": "2023-12-13",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 4 Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 613",
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP, f/2.4",
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.3",
+                "nfc": false,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 179,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP52",
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": 1,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g34-5g-8-128-ice-blue-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Ice Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "18999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "18999.00",
+                            "price_min": "18999.00",
+                            "price_max": "18999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g34-5g/0-226.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 753,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Ba%C3%B1os_Morales_termas.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Pcartes, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g34-5g/0-227.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 900,
+                    "height": 900,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g34/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G34 5G, Snapdragon 4 Gen 2 family, exists.",
+                    "reviewed_at": "2026-08-29T09:43:40+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Baños Morales termas\" bears no genuine relation to the catalogued Motorola Moto G34 5G (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:18:32+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:09:09+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g53",
+            "name": "Moto G53",
+            "model_number": null,
+            "announced_date": "2022-12-08",
+            "release_date": "2022-12-08",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 480+ 5G",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core, 8nm",
+                "gpu": null,
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "8 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 183,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g53-4-64-ink-blue-global",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Ink Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "16500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "16500.00",
+                            "price_min": "16500.00",
+                            "price_max": "16500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g53/0-228.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 753,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Burton-on-Trent_CC_Ground.jpg",
+                    "license": "CC0",
+                    "attribution": "25mdvr, CC0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G53, Snapdragon 480+, matches exactly.",
+                    "reviewed_at": "2026-08-29T09:43:45+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Burton-on-Trent CC Ground\" bears no genuine relation to the catalogued Motorola Moto G53 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:42:51+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:18+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g54",
+            "name": "Moto G54",
+            "model_number": "XT2343",
+            "announced_date": "2023-08-08",
+            "release_date": "2023-08-18",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7020",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G57 MC2",
+                "display_size": "6.5",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.89, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 33,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.1",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 196,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP52",
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": 1,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g54-8-256-mint-green-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Mint Green",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "22999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "22999.00",
+                            "price_min": "22999.00",
+                            "price_max": "22999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g54/0-229.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_g84_5g_and_Motorola_Moto_g54_Power_Edition_smartphones_in_Gliwice,_Silesian_Voivodeship,_Poland,_May_2024.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "MichalPL, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "motorola-moto-g54/0-230.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Moto_G54_5G.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Vitorperrut555, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G54, Dimensity 7020, matches.",
+                    "reviewed_at": "2026-08-29T09:43:40+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g54-power",
+            "name": "Moto G54 Power",
+            "model_number": "XT2343-2",
+            "announced_date": "2023-10-05",
+            "release_date": "2023-10-12",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7020",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G57 MC2",
+                "display_size": "6.5",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.89, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": 33,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.1",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 202,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP52",
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": 1,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g54-power-12-256-purple-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Purple",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "26999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "26999.00",
+                            "price_min": "26999.00",
+                            "price_max": "26999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g54-power/0-231.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_g84_5g_and_Motorola_Moto_g54_Power_Edition_smartphones_in_Gliwice,_Silesian_Voivodeship,_Poland,_May_2024.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "MichalPL, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena/manufacturer: Moto G54 Power variant, Dimensity 7020 family, distinct model_number from base G54.",
+                    "reviewed_at": "2026-08-29T09:43:42+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g64",
+            "name": "Moto G64",
+            "model_number": null,
+            "announced_date": "2024-05-01",
+            "release_date": "2024-05-01",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 63,
+            "software_confidence": 46,
+            "overall_confidence": 63,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7025",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 6nm",
+                "gpu": null,
+                "display_size": "6.5",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": 30,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": null,
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g64-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "18490.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "official_bd",
+                            "amount": "22000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "22000.00",
+                            "price_min": "22000.00",
+                            "price_max": "22000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "18490.00",
+                            "price_min": "18490.00",
+                            "price_max": "18490.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:46+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g64/0-232.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Prayagraj_in_kumbh_42.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Shivanjali Ojha, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g64/0-233.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g64/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G64, Dimensity 7025, matches exactly.",
+                    "reviewed_at": "2026-08-29T09:43:43+06:00",
+                    "created_at": "2026-08-28T13:09:40+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Prayagraj in kumbh 42\" bears no genuine relation to the catalogued Motorola Moto G64 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:34:31+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:13:53+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g73",
+            "name": "Moto G73",
+            "model_number": null,
+            "announced_date": "2023-02-06",
+            "release_date": "2023-02-15",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 68,
+            "software_confidence": 46,
+            "overall_confidence": 65,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 930",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (2x2.2 GHz Cortex-A78 + 6x2.0 GHz Cortex-A55)",
+                "gpu": null,
+                "display_size": "6.5",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 30,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g73-8-128-midnight-blue-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Midnight Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "32000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "32000.00",
+                            "price_min": "32000.00",
+                            "price_max": "32000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g73/0-234.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Mapillary_(thetornado76)_2024-08-11_16H24M58S145_(2202562023470446_at_eXsVUqYCi10Z9QnHlJjAow_with_motorola_moto_g73_5G).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "thetornado76 , CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 33,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g73/0-235.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 705,
+                    "height": 705,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g73/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G73, Dimensity 930, matches exactly.",
+                    "reviewed_at": "2026-08-29T09:43:45+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 33,
+                    "resolution_note": "a Mapillary street-view photo that only mentions the phone model in its capture metadata (the camera used), not a product photo of the Moto G73 itself.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:42:55+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 33,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:20+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g84",
+            "name": "Moto G84",
+            "model_number": "XT2347",
+            "announced_date": "2023-08-09",
+            "release_date": "2023-08-16",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 695",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (2x2.2 GHz + 6x1.7 GHz)",
+                "gpu": "Adreno 619",
+                "display_size": "6.5",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass 5",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": "1080p@60fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 33,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.1",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "160.20",
+                "width_mm": "73.90",
+                "thickness_mm": "7.60",
+                "weight_g": 168,
+                "build_materials": "Plastic frame, glass back",
+                "ip_rating": "IP54",
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": 1,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g84-8-256-marshmallow-blue-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Marshmallow Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "26999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "26999.00",
+                            "price_min": "26999.00",
+                            "price_max": "26999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g84/0-236.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_g84_5g_and_Motorola_Moto_g54_Power_Edition_smartphones_in_Gliwice,_Silesian_Voivodeship,_Poland,_May_2024.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "MichalPL, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g84/0-237.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g84/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G84, Snapdragon 695, matches existing specs exactly.",
+                    "reviewed_at": "2026-08-29T09:43:39+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 55,
+                    "resolution_note": "group/comparison photo showing \"Motorola Moto g84 5g and Motorola Moto g54 Power Edition\" together - not a dedicated single-model shot of the Moto G84.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:03:50+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:06:07+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g85",
+            "name": "Moto G85",
+            "model_number": "XT2419",
+            "announced_date": "2024-07-08",
+            "release_date": "2024-07-17",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 6s Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 710",
+                "display_size": "6.7",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 33,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 182,
+                "build_materials": "Aluminum frame, vegan leather/glass back",
+                "ip_rating": "IP68",
+                "os": "Android 14",
+                "current_os": "Android 14",
+                "os_update_years": 2,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g85-8-256-olive-green-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Olive Green",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "28999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "28999.00",
+                            "price_min": "28999.00",
+                            "price_max": "28999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g85/0-238.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Anthappante_Chinthakal.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Jpcomes26, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g85/0-239.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g85/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Moto G85, Snapdragon 6s Gen 3, matches.",
+                    "reviewed_at": "2026-08-29T09:43:40+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Anthappante Chinthakal\" bears no genuine relation to the catalogued Motorola Moto G85 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:18:24+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:09:04+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g86-5g",
+            "name": "Moto G86 5G",
+            "model_number": null,
+            "announced_date": "2025-06-01",
+            "release_date": "2025-06-01",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 76,
+            "software_confidence": 57,
+            "overall_confidence": 75,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7300",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": null,
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": 4500,
+                "main_camera": "50 MP, LYT-600",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5200,
+                "charging_speed_w": 30,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 185,
+                "build_materials": "MIL-STD-810H compliant",
+                "ip_rating": "IP68/IP69",
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g86-5g-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g86-5g/0-240.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Simson_Prototypen_S_52-1_und_S_55.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "BobMaliMD, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g86-5g/0-241.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g86/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=76, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (75) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 75) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:26+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:54:14+06:00",
+                    "created_at": "2026-08-28T13:49:58+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:21:27+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-moto-g96-5g",
+            "name": "Moto G96 5G",
+            "model_number": null,
+            "announced_date": "2025-07-09",
+            "release_date": "2025-07-09",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7s Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (4x2.3 GHz Kryo + 4x1.8 GHz Kryo)",
+                "gpu": "Adreno 619",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "P-OLED",
+                "display_refresh_rate": 144,
+                "display_protection": null,
+                "display_brightness_nits": 1600,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 33,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 175,
+                "build_materials": null,
+                "ip_rating": "IP68/IP69",
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": 2,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-moto-g96-5g-8-256-pantone-slate-green-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Pantone Slate Green",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-moto-g96-5g/0-242.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:32040_CMS_HS_Nedumgadappally.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Manumpillai12, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-moto-g96-5g/0-243.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 900,
+                    "height": 900,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-moto-g96/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:48:28+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:20:17+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "motorola-razr-60",
+            "name": "Motorola Razr 60",
+            "model_number": null,
+            "announced_date": "2025-04-24",
+            "release_date": "2025-04-24",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 63,
+            "software_confidence": 57,
+            "overall_confidence": 69,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7400X",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.9",
+                "display_resolution": null,
+                "display_panel_type": "AMOLED (foldable)",
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 4500,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, Hello UI",
+                "current_os": "Android 15, Hello UI",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "motorola-razr-60-12-512-global",
+                    "ram_gb": 12,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "motorola-razr-60/0-244.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Av._Cupules_con_60_-_panoramio.jpg",
+                    "license": "CC BY-SA 3.0",
+                    "attribution": "Ricardo Pool, CC BY-SA 3.0, via Wikimedia Commons",
+                    "match_confidence": 18,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "motorola-razr-60/0-245.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/motorola-razr-60/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Motorola Razr 60 (2025) - international name for the 'Razr 2025' sold in North America. Confirmed distinct real foldable.",
+                    "reviewed_at": "2026-08-29T09:43:47+06:00",
+                    "created_at": "2026-08-28T13:09:47+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 18,
+                    "resolution_note": "Image manually rejected via phone edit screen.",
+                    "reviewed_at": "2026-08-29T15:49:26+06:00",
+                    "created_at": "2026-08-29T15:49:11+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 18,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:22:50+06:00"
+                }
+            ]
+        }
+    ]
+}

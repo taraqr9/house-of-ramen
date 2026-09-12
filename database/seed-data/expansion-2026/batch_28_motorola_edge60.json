@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "description": "Motorola Edge 60 series gap-fill (Pro, Neo), discovered and verified via GSMArena site-search before writing."
+  },
+  "phones": [
+    {
+      "external_ref": "motorola-edge-60-pro",
+      "brand": "Motorola",
+      "model": "Motorola Edge 60 Pro",
+      "model_number": null,
+      "announced_date": "2025-04-01",
+      "release_date": "2025-04-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 8350 Extreme",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.7",
+        "display_resolution": "1220p",
+        "display_panel_type": "P-OLED",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "4500",
+        "main_camera": "50 MP, OIS",
+        "telephoto_camera": "10 MP, OIS, 3x optical",
+        "ultrawide_camera": "50 MP, autofocus",
+        "front_camera": "50 MP",
+        "camera_has_ois": true,
+        "battery_capacity": "6000 mAh",
+        "charging_speed": "90W",
+        "wireless_charging": "15W",
+        "network_5g": true,
+        "build_materials": "Corning Gorilla Glass 7i, MIL-STD-810H",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15",
+        "current_os": "Android 15"
+      },
+      "variants": [
+        {
+          "ram": "16 GB",
+          "storage": "512 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": false
+        }
+      ]
+    },
+    {
+      "external_ref": "motorola-edge-60-neo",
+      "brand": "Motorola",
+      "model": "Motorola Edge 60 Neo",
+      "model_number": null,
+      "announced_date": "2025-07-01",
+      "release_date": "2025-07-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7400",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.36",
+        "display_resolution": "1080p+",
+        "display_panel_type": "LTPO OLED",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "3000",
+        "display_protection": "Corning Gorilla Glass 7i",
+        "main_camera": "50 MP, Sony Lytia 700C, OIS",
+        "telephoto_camera": "10 MP, OIS, 3x optical",
+        "ultrawide_camera": "13 MP, 120-degree",
+        "front_camera": "32 MP",
+        "camera_has_ois": true,
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "68W",
+        "wireless_charging": "15W",
+        "network_5g": true,
+        "weight": "174.5 g",
+        "ip_rating": "IP68/IP69",
+        "build_materials": "MIL-STD-810H",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15",
+        "current_os": "Android 15"
+      },
+      "variants": [
+        {
+          "ram": "12 GB",
+          "storage": "512 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": false
+        }
+      ]
+    }
+  ]
+}

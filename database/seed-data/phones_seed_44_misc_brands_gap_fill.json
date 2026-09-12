@@ -1,0 +1,117 @@
+{
+  "meta": {"description": "Catalogue expansion round 17 (toward ~400): gap fill across Xiaomi numbered series, Apple, OnePlus, Google, and Huawei - models not yet in catalogue. Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "xiaomi-11t",
+      "brand": "Xiaomi", "model": "Xiaomi 11T", "model_number": null,
+      "announced_date": "2021-09-15", "release_date": "2021-09-24", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 1200-Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (1x3.0 GHz Cortex-A78 + 3x2.6 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+        "display_size": "6.67", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "108 MP, f/1.75", "ultrawide_camera": "8 MP", "macro_camera": "5 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "203g",
+        "build_materials": "Gorilla Glass Victus", "os": "Android 11, MIUI 12.5", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Meteorite Gray", "region": "Global", "is_official_bd": true, "price": {"official_bd": "48,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "xiaomi-12t",
+      "brand": "Xiaomi", "model": "Xiaomi 12T", "model_number": null,
+      "announced_date": "2022-09-29", "release_date": "2022-10-04", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 8100 Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 5nm",
+        "display_size": "6.67", "display_resolution": "1220 x 2712", "display_panel_type": "OLED", "display_refresh_rate": "120Hz",
+        "main_camera": "108 MP, f/1.7", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "20 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "120W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "202g",
+        "build_materials": "Gorilla Glass 5", "os": "Android 12, MIUI 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Blue", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "59,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "apple-iphone-13-mini",
+      "brand": "Apple", "model": "iPhone 13 mini", "model_number": null,
+      "announced_date": "2021-09-14", "release_date": "2021-09-24", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "Apple A15 Bionic", "chipset_manufacturer": "Apple", "cpu": "Hexa-core", "gpu": "Apple GPU (4-core)",
+        "display_size": "5.4", "display_resolution": "1080 x 2340", "display_panel_type": "Super Retina XDR OLED", "display_refresh_rate": "60Hz",
+        "main_camera": "12 MP, f/1.6, OIS", "ultrawide_camera": "12 MP", "front_camera": "12 MP", "camera_has_ois": true,
+        "battery_capacity": "2438 mAh", "charging_speed": "20W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6", "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "Lightning", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "141g",
+        "build_materials": "Glass front/back, aluminum frame, IP68", "os": "iOS 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Midnight", "region": "Global", "is_official_bd": true, "price": {"official_bd": "89,900"}, "availability": "in_stock", "store": "Apple Bangladesh Reseller"}]
+    },
+    {
+      "external_ref": "apple-iphone-14-pro",
+      "brand": "Apple", "model": "iPhone 14 Pro", "model_number": null,
+      "announced_date": "2022-09-07", "release_date": "2022-09-16", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Apple A16 Bionic", "chipset_manufacturer": "Apple", "cpu": "Hexa-core", "gpu": "Apple GPU (5-core)",
+        "display_size": "6.1", "display_resolution": "1179 x 2556", "display_panel_type": "LTPO Super Retina XDR OLED", "display_refresh_rate": "120Hz",
+        "main_camera": "48 MP, f/1.78, OIS", "ultrawide_camera": "12 MP", "telephoto_camera": "12 MP, 3x zoom", "front_camera": "12 MP", "camera_has_ois": true,
+        "battery_capacity": "3200 mAh", "charging_speed": "27W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "Lightning", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "206g",
+        "build_materials": "Glass front/back, stainless steel frame, IP68", "os": "iOS 16", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Space Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "159,900"}, "availability": "in_stock", "store": "Apple Bangladesh Reseller"}]
+    },
+    {
+      "external_ref": "oneplus-nord-2t",
+      "brand": "OnePlus", "model": "OnePlus Nord 2T", "model_number": null,
+      "announced_date": "2022-05-04", "release_date": "2022-05-12", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 1300", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 6nm", "gpu": "Mali-G77 MC9",
+        "display_size": "6.43", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "90Hz",
+        "main_camera": "50 MP, f/1.88, OIS", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "32 MP", "camera_has_ois": true,
+        "battery_capacity": "4500 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12, OxygenOS 12.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Gray Shadow", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "49,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "google-pixel-8",
+      "brand": "Google", "model": "Pixel 8", "model_number": null,
+      "announced_date": "2023-10-04", "release_date": "2023-10-12", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Google Tensor G3", "chipset_manufacturer": "Google", "cpu": "Nine-core (1x3.0 GHz Cortex-X3 + 4x2.45 GHz Cortex-A715 + 4x2.15 GHz Cortex-A510)",
+        "display_size": "6.2", "display_resolution": "1080 x 2400", "display_panel_type": "OLED", "display_refresh_rate": "120Hz",
+        "main_camera": "50 MP, f/1.68, OIS", "ultrawide_camera": "12 MP", "front_camera": "10.5 MP", "camera_has_ois": true,
+        "battery_capacity": "4575 mAh", "charging_speed": "27W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "187g",
+        "build_materials": "Gorilla Glass Victus, aluminum frame, IP68", "os": "Android 14", "os_update_years": "7", "security_update_years": "7"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Obsidian", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "74,990"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "google-pixel-7a",
+      "brand": "Google", "model": "Pixel 7a", "model_number": null,
+      "announced_date": "2023-05-10", "release_date": "2023-05-11", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "Google Tensor G2", "chipset_manufacturer": "Google", "cpu": "Octa-core, 5nm",
+        "display_size": "6.1", "display_resolution": "1080 x 2400", "display_panel_type": "OLED", "display_refresh_rate": "90Hz",
+        "main_camera": "64 MP, f/1.89, OIS", "ultrawide_camera": "13 MP", "front_camera": "13 MP", "camera_has_ois": true,
+        "battery_capacity": "4385 mAh", "charging_speed": "18W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "193.5g",
+        "build_materials": "Gorilla Glass 3, IP67", "os": "Android 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Charcoal", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "36,500"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "huawei-nova-11i",
+      "brand": "Huawei", "model": "Nova 11i", "model_number": null,
+      "announced_date": "2023-05-15", "release_date": "2023-05-15", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.4 GHz Cortex-A73 + 4x1.9 GHz Cortex-A53)",
+        "display_size": "6.8", "display_resolution": "1080 x 2388", "display_panel_type": "IPS LCD", "display_refresh_rate": "90Hz",
+        "main_camera": "48 MP, f/1.8", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "40W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "193g",
+        "build_materials": null, "os": "EMUI 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Starry Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "36,000"}, "availability": "in_stock", "store": "Huawei Bangladesh"}]
+    }
+  ]
+}

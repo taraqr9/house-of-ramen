@@ -1,0 +1,131 @@
+    {
+  "meta": {"description": "Bangladesh domestic brands (Walton, Symphony) - previously entirely absent from the catalogue despite significant local market share. Only models clearing the ~10k BDT floor are included; specs sourced from Bangladesh retailer/spec-aggregator listings (MobileDokan), verified per-model rather than assumed from brand patterns."},
+  "phones": [
+    {
+      "external_ref": "walton-xanon-x50",
+      "brand": "Walton", "model": "XANON X50", "model_number": null,
+      "announced_date": "2026-02-09", "release_date": "2026-02-09", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G100", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.2 GHz Cortex-A78 + 6x2.0 GHz Cortex-A55)", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2400", "display_panel_type": "LTPS AMOLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "1000",
+        "main_camera": "64 MP, f/1.8, Sony IMX782", "ultrawide_camera": "8 MP", "front_camera": "32 MP, f/2.2", "camera_has_ois": false, "video_recording": "1440p@30fps",
+        "battery_capacity": "6300 mAh", "charging_speed": "33W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.2",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "ip_rating": "IP68", "os": "Android 16", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "16 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "30,999"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    },
+    {
+      "external_ref": "walton-primo-s8",
+      "brand": "Walton", "model": "Primo S8", "model_number": null,
+      "announced_date": "2021-12-19", "release_date": "2021-12-19", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G88", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)", "gpu": "Mali-G52 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2400", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "48 MP, f/1.7", "ultrawide_camera": "5 MP", "macro_camera": "2 MP", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "4.2",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "20,990"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    },
+    {
+      "external_ref": "walton-nexg-n10-ultra",
+      "brand": "Walton", "model": "NEXG N10 Ultra", "model_number": null,
+      "announced_date": "2024-12-27", "release_date": "2024-12-27", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 2.0 GHz", "gpu": "Mali-G52 MC2",
+        "display_size": "6.7", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz", "display_brightness_nits": "700",
+        "main_camera": "50 MP, f/1.8", "front_camera": "50 MP, f/2.5", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 14", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "17,208"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    },
+    {
+      "external_ref": "walton-primo-h10",
+      "brand": "Walton", "model": "Primo H10", "model_number": null,
+      "announced_date": "2022-02-01", "release_date": "2022-02-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.3 GHz + 4x1.8 GHz Cortex-A53)", "gpu": "PowerVR GE8320",
+        "display_size": "6.52", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "13 MP, f/1.8", "macro_camera": "2 MP", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "4.2",
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "64 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "15,599"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    },
+    {
+      "external_ref": "symphony-innova-40",
+      "brand": "Symphony", "model": "Innova 40", "model_number": null,
+      "announced_date": "2025-08-10", "release_date": "2025-08-10", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc T615", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (2x1.8 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)",
+        "display_size": "6.75", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "6000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "ip_rating": "IP52", "os": "Android 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "14,999"}, "availability": "in_stock", "store": "Symphony Store"}]
+    },
+    {
+      "external_ref": "symphony-innova-30",
+      "brand": "Symphony", "model": "Innova 30", "model_number": null,
+      "announced_date": "2024-03-18", "release_date": "2024-03-18", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc T616", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core, 2.0 GHz",
+        "display_size": "6.56", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "108 MP, f/2.0", "macro_camera": "2 MP", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "12,699"}, "availability": "in_stock", "store": "Symphony Store"}]
+    },
+    {
+      "external_ref": "symphony-helio-80",
+      "brand": "Symphony", "model": "Helio 80", "model_number": null,
+      "announced_date": "2023-09-21", "release_date": "2023-09-21", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G99", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 2.2 GHz", "gpu": "Mali-G57 MC2",
+        "display_size": "6.7", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP, f/1.8", "macro_camera": "2 MP", "front_camera": "16 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "16,999"}, "availability": "in_stock", "store": "Symphony Store"}]
+    },
+    {
+      "external_ref": "symphony-z55",
+      "brand": "Symphony", "model": "Z55", "model_number": null,
+      "announced_date": "2022-06-15", "release_date": "2022-06-15", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G25", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 2.0 GHz", "gpu": "PowerVR GE8320",
+        "display_size": "6.52", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "13 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "12,599"}, "availability": "in_stock", "store": "Symphony Store"}]
+    },
+    {
+      "external_ref": "symphony-z60-plus",
+      "brand": "Symphony", "model": "Z60 Plus", "model_number": null,
+      "announced_date": "2023-06-20", "release_date": "2023-06-20", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc T616", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core, 1.6 GHz",
+        "display_size": "6.6", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/2.2", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "11,299"}, "availability": "in_stock", "store": "Symphony Store"}]
+    }
+  ]
+}

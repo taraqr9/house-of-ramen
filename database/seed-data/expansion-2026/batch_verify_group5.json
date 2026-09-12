@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "note": "2026-08-29 evidence-based verification pass (Realme/Honor/Nothing/Asus pending-review group). Each entry corrects/confirms data for an EXISTING phone via GSMArena verification - matched by exact brand+model name, never creates a new phone. IMPORTANT FINDING: the original seed_dataset source has systemically WRONG model_number and, in many cases, wrong processor/dates for these entries (looks like plausible-but-fabricated values from whatever process originally generated the bootstrap dataset, not sourced from real listings) - e.g. RMX3961/RMX3961-P/RMX3961-PP/RMX3993/RMX3993-Pro are all reused across genuinely different phones with different real model numbers. Corrections below are GSMArena-verified; fields not independently confirmed are left as-is rather than guessed."
+  },
+  "phones": [
+    {
+      "external_ref": "realme-realme-12",
+      "brand": "Realme", "model": "Realme 12", "model_number": "RMX3999",
+      "announced_date": "2024-03-06", "release_date": "2024-03-06", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 6100+", "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+        "display_size": "6.72", "display_resolution": "1080 x 2400", "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "120 Hz", "main_camera": "108 MP", "front_camera": "8 MP",
+        "battery_capacity": "5000 mAh", "charging_speed": "45W", "network_5g": false, "os": "Android 14, Realme UI 5.0"
+      },
+      "variants": [{ "ram": "8 GB", "storage": "128 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "realme-realme-12-pro",
+      "brand": "Realme", "model": "Realme 12 Pro+", "model_number": "RMX3840",
+      "announced_date": "2024-01-29", "release_date": "2024-01-29", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7s Gen 2", "display_size": "6.7", "display_resolution": "1080 x 2412",
+        "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "main_camera": "50 MP",
+        "front_camera": "32 MP", "battery_capacity": "5000 mAh", "charging_speed": "67W",
+        "network_5g": true, "os": "Android 14, Realme UI 5.0"
+      },
+      "variants": [{ "ram": "8 GB", "storage": "256 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "realme-realme-c67",
+      "brand": "Realme", "model": "Realme C67", "model_number": "RMX3890",
+      "announced_date": "2023-11-08", "release_date": "2023-11-15", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 6100+", "display_size": "6.72", "display_resolution": "1080 x 2400",
+        "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz", "main_camera": "108 MP",
+        "front_camera": "16 MP", "battery_capacity": "5000 mAh", "charging_speed": "33W",
+        "network_5g": false, "os": "Android 13, Realme UI 4.0"
+      },
+      "variants": [{ "ram": "6 GB", "storage": "128 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "realme-realme-narzo-70",
+      "brand": "Realme", "model": "Realme Narzo 70", "model_number": "RMX3869",
+      "announced_date": "2024-04-24", "release_date": "2024-04-25", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7050", "display_size": "6.67", "display_resolution": "1080 x 2400",
+        "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "main_camera": "50 MP",
+        "front_camera": "16 MP", "battery_capacity": "5000 mAh", "charging_speed": "45W",
+        "network_5g": true, "os": "Android 14, Realme UI 5.0"
+      },
+      "variants": [{ "ram": "8 GB", "storage": "128 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "realme-realme-13-plus",
+      "brand": "Realme", "model": "Realme 13+", "model_number": "RMX5000",
+      "announced_date": "2024-08-29", "release_date": "2024-09-06", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300 Energy", "display_size": "6.67", "display_refresh_rate": "120 Hz",
+        "display_panel_type": "OLED", "main_camera": "50 MP", "battery_capacity": "5000 mAh",
+        "charging_speed": "80W", "network_5g": true, "os": "Android 14, Realme UI 5.0"
+      },
+      "variants": [{ "ram": "8 GB", "storage": "256 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "realme-realme-p1-pro",
+      "brand": "Realme", "model": "Realme P1 Pro", "model_number": "RMX3931",
+      "status": "available",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 1 (SM6450)", "display_size": "6.7", "display_resolution": "1080 x 2412",
+        "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "main_camera": "50 MP",
+        "front_camera": "16 MP", "battery_capacity": "5000 mAh", "charging_speed": "45W",
+        "network_5g": true, "os": "Android 14, Realme UI 5.0"
+      },
+      "variants": [{ "ram": "8 GB", "storage": "256 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "honor-honor-x8b",
+      "brand": "Honor", "model": "Honor X8b", "status": "available",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "display_size": "6.7", "display_panel_type": "AMOLED",
+        "main_camera": "108 MP", "front_camera": "50 MP", "battery_capacity": "4500 mAh",
+        "charging_speed": "35W", "os": "Android 13, MagicOS 7.2"
+      },
+      "variants": [{ "ram": "8 GB", "storage": "256 GB", "region": "Global", "is_official_bd": true }]
+    },
+    {
+      "external_ref": "honor-honor-x6b",
+      "brand": "Honor", "model": "Honor X6b", "status": "available",
+      "specs": {
+        "processor": "MediaTek Helio G85", "display_size": "6.56", "display_panel_type": "TFT LCD",
+        "display_refresh_rate": "90 Hz", "main_camera": "50 MP", "front_camera": "5 MP",
+        "battery_capacity": "5200 mAh", "charging_speed": "35W", "os": "Android 14, MagicOS 8.0"
+      },
+      "variants": [{ "ram": "4 GB", "storage": "128 GB", "region": "Global", "is_official_bd": true }]
+    }
+  ]
+}

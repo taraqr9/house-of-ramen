@@ -1,0 +1,22 @@
+.goal-item-row .goal-item-header {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.rich-text-editor .ql-editor,
+.rich-text-match-height {
+    min-height: 118px;
+}
+
+.rich-text-match-height {
+    resize: vertical;
+}
+
+.pme-signoff-block {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.pme-signoff-block + .pme-signoff-block {
+    margin-top: 1rem;
+}

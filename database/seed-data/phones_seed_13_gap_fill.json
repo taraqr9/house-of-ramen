@@ -1,0 +1,145 @@
+{
+  "meta": {"description": "Final gap-fill batch targeting the 20-25k and 40-50k price bands for more even coverage."},
+  "phones": [
+    {
+      "external_ref": "vivo-y50",
+      "brand": "Vivo", "model": "Vivo Y50", "model_number": "V2402e",
+      "announced_date": "2024-06-14", "release_date": "2024-06-20", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 4 Gen 2", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 613",
+        "display_size": "6.68", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "front_camera": "16 MP, f/2.0", "camera_has_ois": true,
+        "battery_capacity": "5500 mAh", "charging_speed": "44W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Glass front, plastic frame and back", "ip_rating": "IP54", "os": "Android 14, Funtouch OS 14", "os_update_years": "2", "security_update_years": "3"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Aqua Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "22,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-reno-11f",
+      "brand": "Oppo", "model": "Oppo Reno 11F", "model_number": "CPH2603-11F",
+      "announced_date": "2024-02-28", "release_date": "2024-03-06", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 6020", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.7", "display_resolution": "1080 x 2412", "display_panel_type": "AMOLED", "display_refresh_rate": "90 Hz",
+        "main_camera": "64 MP, f/1.8, OIS", "ultrawide_camera": "2 MP", "front_camera": "32 MP, f/2.4", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "185g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP54", "os": "Android 14, ColorOS 14", "os_update_years": "2", "security_update_years": "3"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Rock Grey", "region": "Global", "is_official_bd": true, "price": {"official_bd": "24,999"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "infinix-note-40x",
+      "brand": "Infinix", "model": "Infinix Note 40X", "model_number": "X6857",
+      "announced_date": "2024-05-30", "release_date": "2024-06-06", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G99 Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2436", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP, f/1.75, OIS", "front_camera": "32 MP, f/2.5", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "45W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "185g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP53", "os": "Android 14, XOS 14", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Palm Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "21,999"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-camon-30s",
+      "brand": "Tecno", "model": "Tecno Camon 30S", "model_number": "CL7n",
+      "announced_date": "2024-08-15", "release_date": "2024-08-22", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G99 Ultra", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2436", "display_panel_type": "AMOLED (curved)", "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP, f/1.8, OIS", "front_camera": "32 MP, f/2.4", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "45W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "184g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP54", "os": "Android 14, HiOS 14", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Uranolith Grey", "region": "Global", "is_official_bd": true, "price": {"official_bd": "23,999"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-turbo-3",
+      "brand": "Redmi", "model": "Redmi Turbo 3", "model_number": "24069PC12I",
+      "announced_date": "2024-04-15", "release_date": "2024-04-23", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8s Gen 3", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 735",
+        "display_size": "6.67", "display_resolution": "1220 x 2712", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.6, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "20 MP, f/2.2", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "90W", "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "179g",
+        "build_materials": "Glass front and back, aluminum frame", "ip_rating": "IP64", "os": "Android 14, HyperOS", "os_update_years": "3", "security_update_years": "4"
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": "Time Traveler White", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "41,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "oneplus-nord-3",
+      "brand": "OnePlus", "model": "OnePlus Nord 3", "model_number": "CPH2493",
+      "announced_date": "2023-07-04", "release_date": "2023-07-11", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 9000", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G710 MC10",
+        "display_size": "6.74", "display_resolution": "1240 x 2772", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "ultrawide_camera": "8 MP, f/2.2", "macro_camera": "2 MP, f/2.4", "front_camera": "16 MP, f/2.4", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "193.5g",
+        "build_materials": "Aluminum frame, Gorilla Glass 5", "ip_rating": "IP54", "os": "Android 13, OxygenOS 13.1", "os_update_years": "3", "security_update_years": "4"
+      },
+      "variants": [{"ram": "16 GB", "storage": "256 GB", "color": "Tempest Gray", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "44,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "honor-x7c",
+      "brand": "Honor", "model": "Honor X7c", "model_number": "FNE-LX3",
+      "announced_date": "2024-11-14", "release_date": "2024-11-20", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 685", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 610",
+        "display_size": "6.8", "display_resolution": "720 x 1640", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "108 MP, f/1.75", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "6000 mAh", "charging_speed": "35W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "196g",
+        "build_materials": "Plastic frame and back", "os": "Android 14, MagicOS 8.0", "os_update_years": "2", "security_update_years": "3"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Emerald Green", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "22,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "vivo-v40e",
+      "brand": "Vivo", "model": "Vivo V40e", "model_number": "V2350",
+      "announced_date": "2024-09-25", "release_date": "2024-10-02", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 3", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 710",
+        "display_size": "6.77", "display_resolution": "1080 x 2392", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.9, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "32 MP, f/2.45", "camera_has_ois": true,
+        "battery_capacity": "5500 mAh", "charging_speed": "44W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "186g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP64", "os": "Android 14, Funtouch OS 14", "os_update_years": "2", "security_update_years": "3"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Titanium Silver", "region": "Global", "is_official_bd": true, "price": {"official_bd": "42,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-a80",
+      "brand": "Oppo", "model": "Oppo A80", "model_number": "CPH2745",
+      "announced_date": "2025-02-10", "release_date": "2025-02-18", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 6300", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.67", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "front_camera": "8 MP, f/2.0", "camera_has_ois": true,
+        "battery_capacity": "5800 mAh", "charging_speed": "45W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "190g",
+        "build_materials": "Glass front, plastic frame and back", "ip_rating": "IP65", "os": "Android 15, ColorOS 15", "os_update_years": "3", "security_update_years": "4"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Sunset Orange", "region": "Global", "is_official_bd": true, "price": {"official_bd": "27,999"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-f55-5g",
+      "brand": "Samsung", "model": "Galaxy F55 5G", "model_number": "SM-E546B",
+      "announced_date": "2024-04-08", "release_date": "2024-04-15", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7 Gen 1", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 662",
+        "display_size": "6.7", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "ultrawide_camera": "8 MP, f/2.2", "macro_camera": "2 MP, f/2.4", "front_camera": "50 MP, f/2.2", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "213g",
+        "build_materials": "Glass front, plastic frame and back", "ip_rating": "IP67", "os": "Android 14, One UI 6.1", "os_update_years": "4", "security_update_years": "5"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Apricot Orange", "region": "Global", "is_official_bd": true, "price": {"official_bd": "43,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    }
+  ]
+}

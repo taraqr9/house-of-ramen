@@ -1,0 +1,145 @@
+{
+  "meta": {"description": "Top-up batch to comfortably clear the 200-phone target."},
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-m54-5g",
+      "brand": "Samsung", "model": "Galaxy M54", "model_number": "SM-M546B",
+      "announced_date": "2023-05-09", "release_date": "2023-05-16", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Exynos 1380", "chipset_manufacturer": "Samsung", "cpu": "Octa-core", "gpu": "Mali-G68 MP5",
+        "display_size": "6.7", "display_resolution": "1080 x 2340", "display_panel_type": "Super AMOLED Plus", "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP, f/1.8, OIS", "ultrawide_camera": "8 MP, f/2.2", "macro_camera": "2 MP, f/2.4", "front_camera": "32 MP, f/2.2", "camera_has_ois": true,
+        "battery_capacity": "6000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 3.2", "sim_config": "Dual SIM", "weight": "202g",
+        "build_materials": "Glass front, plastic frame and back", "ip_rating": "IP67", "os": "Android 13, One UI 5.1", "os_update_years": "4", "security_update_years": "5"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Silver", "region": "Global", "is_official_bd": true, "price": {"official_bd": "44,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "xiaomi-poco-f5",
+      "brand": "POCO", "model": "POCO F5", "model_number": "23049PCD8G",
+      "announced_date": "2023-05-16", "release_date": "2023-05-23", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7+ Gen 2", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 725",
+        "display_size": "6.67", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "64 MP, f/1.79, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "16 MP, f/2.4", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "181g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP53", "os": "Android 13, MIUI 14", "os_update_years": "2", "security_update_years": "4"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Carbon Black", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "32,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "realme-11x-5g",
+      "brand": "Realme", "model": "Realme 11x", "model_number": "RMX3785",
+      "announced_date": "2023-08-10", "release_date": "2023-08-17", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 6100+", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.72", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "90 Hz",
+        "main_camera": "100 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "187g",
+        "build_materials": "Plastic frame and back", "ip_rating": "IP54", "os": "Android 13, Realme UI 4.0", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Purple Dawn", "region": "Global", "is_official_bd": true, "price": {"official_bd": "19,999"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y36",
+      "brand": "Vivo", "model": "Vivo Y36", "model_number": "V2247",
+      "announced_date": "2023-07-05", "release_date": "2023-07-12", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.4 GHz + 4x1.9 GHz)", "gpu": "Adreno 610",
+        "display_size": "6.64", "display_resolution": "1080 x 2388", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8", "macro_camera": "2 MP, f/2.4", "front_camera": "16 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "44W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "188g",
+        "build_materials": "Plastic frame and back", "os": "Android 13, Funtouch OS 13", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Elegant Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "20,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-a58",
+      "brand": "Oppo", "model": "Oppo A58", "model_number": "CPH2577",
+      "announced_date": "2023-05-19", "release_date": "2023-05-26", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz + 6x1.8 GHz)", "gpu": "Mali-G52 MC2",
+        "display_size": "6.72", "display_resolution": "1080 x 2400", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "front_camera": "8 MP, f/2.0", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "188g",
+        "build_materials": "Plastic frame and back", "ip_rating": "IP54", "os": "Android 13, ColorOS 13.1", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Dazzling Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "21,999"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "infinix-note-12-g96",
+      "brand": "Infinix", "model": "Infinix Note 12 G96", "model_number": "X663B",
+      "announced_date": "2022-08-01", "release_date": "2022-08-08", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G96", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.05 GHz + 6x2.0 GHz)", "gpu": "Mali-G57 MC2",
+        "display_size": "6.7", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "60 Hz",
+        "main_camera": "50 MP, f/1.6, OIS", "front_camera": "16 MP, f/2.4", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "185g",
+        "build_materials": "Plastic frame and back", "os": "Android 12, XOS 11", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Meteorite Grey", "region": "Global", "is_official_bd": true, "price": {"official_bd": "18,999"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-spark-40",
+      "brand": "Tecno", "model": "Tecno Spark 40", "model_number": "KJ9n",
+      "announced_date": "2025-02-20", "release_date": "2025-02-27", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G100", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1080 x 2436", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "front_camera": "32 MP, f/2.2", "camera_has_ois": true,
+        "battery_capacity": "5200 mAh", "charging_speed": "45W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "188g",
+        "build_materials": "Glass front and back, plastic frame", "ip_rating": "IP54", "os": "Android 15, HiOS 15", "os_update_years": "2", "security_update_years": "3"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Cyber Silver", "region": "Global", "is_official_bd": true, "price": {"official_bd": "18,999"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "itel-a60",
+      "brand": "itel", "model": "itel A60", "model_number": "S663LN",
+      "announced_date": "2023-05-10", "release_date": "2023-05-15", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc SC9863A1", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (1.6 GHz)", "gpu": "IMG GE8322",
+        "display_size": "6.6", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "8 MP, f/2.0", "front_camera": "5 MP, f/2.2", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": "188g",
+        "build_materials": "Plastic frame and back", "os": "Android 13 (Go edition)", "os_update_years": "0", "security_update_years": "1"
+      },
+      "variants": [{"ram": "3 GB", "storage": "64 GB", "color": "Timber Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "7,290"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "honor-x5b",
+      "brand": "Honor", "model": "Honor X5b", "model_number": "OXF-AN10",
+      "announced_date": "2024-04-10", "release_date": "2024-04-16", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G36", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.2 GHz + 4x1.8 GHz)", "gpu": "PowerVR GE8320",
+        "display_size": "6.56", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "5 MP, f/2.2", "camera_has_ois": false,
+        "battery_capacity": "5200 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Plastic frame and back", "os": "Android 13, MagicOS 7.2", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Cyan Lake", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "12,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "moto-g54-power",
+      "brand": "Motorola", "model": "Moto G54 Power", "model_number": "XT2343-2",
+      "announced_date": "2023-10-05", "release_date": "2023-10-12", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7020", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core", "gpu": "Mali-G57 MC2",
+        "display_size": "6.5", "display_resolution": "1080 x 2400", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.89, OIS", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "16 MP, f/2.45", "camera_has_ois": true,
+        "battery_capacity": "6000 mAh", "charging_speed": "33W", "network_5g": true, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "202g",
+        "build_materials": "Plastic frame and back", "ip_rating": "IP52", "os": "Android 13", "os_update_years": "1", "security_update_years": "3"
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": "Purple", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "26,999"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {"description": "Catalogue expansion round 21 (toward ~400): closing batch - Redmi Turbo/Infinix Zero/Realme GT Neo gaming-tier gap fill, one Oppo Find X flagship, one more Samsung A-series. Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-a04s",
+      "brand": "Samsung", "model": "Galaxy A04s", "model_number": "SM-A047F",
+      "announced_date": "2022-09-08", "release_date": "2022-09-22", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Samsung Exynos 850", "chipset_manufacturer": "Samsung", "cpu": "Octa-core, 8nm",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "PLS IPS", "display_refresh_rate": "60Hz",
+        "main_camera": "50 MP, f/1.8", "macro_camera": "2 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "15W", "network_5g": false, "wifi": null, "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "195g",
+        "build_materials": null, "os": "Android 12, One UI Core 4.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Copper", "region": "Global", "is_official_bd": true, "price": {"official_bd": "17,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-note-12-turbo",
+      "brand": "Redmi", "model": "Redmi Note 12 Turbo", "model_number": null,
+      "announced_date": "2023-04-19", "release_date": "2023-04-19", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7+ Gen 2", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 4nm",
+        "display_size": "6.67", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "64 MP, f/1.6", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13, MIUI 14", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Dark Knight", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "33,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "infinix-zero-ultra",
+      "brand": "Infinix", "model": "Infinix Zero Ultra", "model_number": null,
+      "announced_date": "2022-10-01", "release_date": "2022-10-01", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 920", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 6nm",
+        "display_size": "6.8", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "200 MP", "telephoto_camera": "13 MP", "macro_camera": "2 MP", "front_camera": "32 MP", "camera_has_ois": false,
+        "battery_capacity": "4500 mAh", "charging_speed": "180W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12, XOS 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Genesis Noir", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "65,000"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "realme-gt-neo-3",
+      "brand": "Realme", "model": "Realme GT Neo 3", "model_number": null,
+      "announced_date": "2022-03-23", "release_date": "2022-04-01", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 8100", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 5nm",
+        "display_size": "6.7", "display_resolution": "1080 x 2412", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "50 MP, f/1.9", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "80W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "188g",
+        "build_materials": null, "os": "Android 12, Realme UI 3.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Nitro Blue", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "36,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "oppo-find-x6",
+      "brand": "Oppo", "model": "Oppo Find X6", "model_number": null,
+      "announced_date": "2023-03-21", "release_date": "2023-03-21", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 9200", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 4nm",
+        "display_size": "6.74", "display_resolution": "1440 x 3168", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "telephoto_camera": "50 MP, 2x zoom", "ultrawide_camera": "50 MP", "front_camera": "32 MP", "camera_has_ois": true,
+        "battery_capacity": "4800 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "Glass front/back, aluminum frame, IP68", "os": "Android 13, ColorOS 13.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": "Rock Black", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "75,500"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

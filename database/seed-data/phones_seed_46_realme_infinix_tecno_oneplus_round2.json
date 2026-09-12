@@ -1,0 +1,117 @@
+{
+  "meta": {"description": "Catalogue expansion round 19 (toward ~400): second gap-fill pass on Realme/Infinix/Tecno budget lines (all above the ~10k relevance floor) plus one OnePlus Nord CE model. Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "realme-8",
+      "brand": "Realme", "model": "Realme 8", "model_number": null,
+      "announced_date": "2021-03-24", "release_date": "2021-03-25", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G95", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.05 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)",
+        "display_size": "6.4", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "60Hz",
+        "main_camera": "64 MP, f/1.8", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "30W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "177g",
+        "build_materials": null, "os": "Android 11, Realme UI 2.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Cyber Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "25,990"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "realme-c21",
+      "brand": "Realme", "model": "Realme C21", "model_number": null,
+      "announced_date": "2021-03-08", "release_date": "2021-03-08", "status": "discontinued", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.3 GHz Cortex-A53 + 4x1.8 GHz Cortex-A53)",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "13 MP", "macro_camera": "2 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": "190g",
+        "build_materials": null, "os": "Android 10, Realme UI 1.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Cross Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "11,990"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "realme-narzo-50i",
+      "brand": "Realme", "model": "Realme Narzo 50i", "model_number": null,
+      "announced_date": "2021-10-19", "release_date": "2021-10-25", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc SC9863A", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core, 1.6 GHz",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "8 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, Realme UI Go", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Mint Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "12,490"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "infinix-smart-6",
+      "brand": "Infinix", "model": "Infinix Smart 6", "model_number": null,
+      "announced_date": "2021-10-14", "release_date": "2021-10-14", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc SC9863A", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core",
+        "display_size": "6.6", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "8 MP", "macro_camera": "0.8 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11 (Go edition), XOS 7.6", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "64 GB", "color": "Ocean Wave", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "10,690"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "infinix-note-12i",
+      "brand": "Infinix", "model": "Infinix Note 12i", "model_number": null,
+      "announced_date": "2022-05-01", "release_date": "2022-05-10", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm",
+        "display_size": "6.82", "display_resolution": "720 x 1640", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "50 MP", "macro_camera": "2 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, XOS 10.6", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Force Black", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "15,990"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-camon-18",
+      "brand": "Tecno", "model": "Tecno Camon 18", "model_number": null,
+      "announced_date": "2021-09-01", "release_date": "2021-09-15", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm",
+        "display_size": "6.8", "display_resolution": "1080 x 2460", "display_panel_type": "IPS LCD", "display_refresh_rate": "90Hz",
+        "main_camera": "48 MP", "macro_camera": "2 MP", "front_camera": "48 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, HiOS 7.6", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Dusk Gray", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "18,000"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-pop-5-pro",
+      "brand": "Tecno", "model": "Tecno Pop 5 Pro", "model_number": null,
+      "announced_date": "2021-06-01", "release_date": "2021-06-10", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc SC9863A", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core",
+        "display_size": "6.52", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "8 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11 (Go edition), HiOS 7.6", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "32 GB", "color": "Ice Lake Green", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "10,990"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "oneplus-nord-ce-2-5g",
+      "brand": "OnePlus", "model": "OnePlus Nord CE 2 5G", "model_number": null,
+      "announced_date": "2022-02-17", "release_date": "2022-02-24", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 900", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 6nm", "gpu": "Mali-G68 MC4",
+        "display_size": "6.43", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "90Hz",
+        "main_camera": "64 MP, f/1.79", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "4500 mAh", "charging_speed": "65W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "173g",
+        "build_materials": "Gorilla Glass 5", "os": "Android 11, OxygenOS 11.3", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Gray Mirror", "region": "Global", "is_official_bd": true, "price": {"official_bd": "36,990"}, "availability": "in_stock", "store": "OnePlus Bangladesh"}]
+    }
+  ]
+}

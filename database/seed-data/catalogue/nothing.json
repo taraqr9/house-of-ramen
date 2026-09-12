@@ -1,0 +1,1396 @@
+{
+    "brand_slug": "nothing",
+    "phones": [
+        {
+            "slug": "nothing-cmf-phone-1",
+            "name": "CMF Phone 1",
+            "model_number": null,
+            "announced_date": "2024-07-08",
+            "release_date": "2024-07-08",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 66,
+            "software_confidence": 46,
+            "overall_confidence": 64,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7300",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (4x2.5 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": null,
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 33,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 14, Nothing OS",
+                "current_os": "Android 14, Nothing OS",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-cmf-phone-1-6-128-global",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "21999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "official_bd",
+                            "amount": "27500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "27500.00",
+                            "price_min": "27500.00",
+                            "price_max": "27500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "21999.00",
+                            "price_min": "21999.00",
+                            "price_max": "21999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:47+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-cmf-phone-1/0-246.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:CMF_Phone_1.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Saketh938, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 85,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: CMF Phone 1 (Nothing sub-brand), Dimensity 7300 (exact), 6.67in AMOLED 120Hz, 5000mAh/33W (exact), 50MP f/1.8 main (exact). Announced 2024-07-08 (exact match to DB). DB's 6/128GB variant is a plausible lower RAM tier alongside the commonly-cited 8/128GB config. Legitimate catalogue phone, excellent match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-cmf-phone-2-pro",
+            "name": "CMF Phone 2 Pro",
+            "model_number": null,
+            "announced_date": "2025-05-05",
+            "release_date": "2025-05-05",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7300 Pro",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (4x2.5 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+                "gpu": "Mali-G615 MC2",
+                "display_size": "6.8",
+                "display_resolution": "1080 x 2392",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": 3000,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "50 MP, f/2.0",
+                "telephoto_camera": "50 MP, f/1.9, 2x optical",
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 33,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 195,
+                "build_materials": "Plastic back with modular accessory mount",
+                "ip_rating": "IP54",
+                "os": "Android 15, Nothing OS 3.2",
+                "current_os": "Android 15, Nothing OS 3.2",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-cmf-phone-2-pro-8-256-black-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "34499.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "34999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "32490.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "34499.00",
+                            "price_min": "32490.00",
+                            "price_max": "34999.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:29+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-cmf-phone-2-pro/0-247.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 742,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:CMF_Phone_2_Pro_(white)_2025-05-08.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Suntooooth, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 85,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:16:30+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-1",
+            "name": "Nothing Phone (1)",
+            "model_number": "A063",
+            "announced_date": "2022-07-12",
+            "release_date": "2022-07-21",
+            "status": "discontinued",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 778G+",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 642L",
+                "display_size": "6.6",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4500,
+                "charging_speed_w": 33,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.2",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 194,
+                "build_materials": "Aluminum frame, Gorilla Glass 5",
+                "ip_rating": "IP53",
+                "os": "Android 12, Nothing OS 1.1",
+                "current_os": "Android 12, Nothing OS 1.1",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-1-8-128-white-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "White",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "39999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "39999.00",
+                            "price_min": "39999.00",
+                            "price_max": "39999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "out_of_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:43+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-1/0-248.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_(1)_-_Rubik%27s_Cube_and_Ear_(1).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Premeditated, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (1), Snapdragon 778G+ (exact), 6.55in OLED 120Hz, 4500mAh/33W (exact), dual 50MP rear + 16MP front match, 8/128GB variant match. Announced 2022-07-12 (exact match to DB). Legitimate catalogue phone, near-perfect match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-2",
+            "name": "Nothing Phone (2)",
+            "model_number": "A065",
+            "announced_date": "2023-07-11",
+            "release_date": "2023-07-17",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8+ Gen 1",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 730",
+                "display_size": "6.7",
+                "display_resolution": "1080 x 2412",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass 5",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.45",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 4700,
+                "charging_speed_w": 45,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "162.10",
+                "width_mm": "76.40",
+                "thickness_mm": "8.60",
+                "weight_g": 201,
+                "build_materials": "Aluminum frame, Gorilla Glass 5",
+                "ip_rating": "IP54",
+                "os": "Android 13, Nothing OS 2.0",
+                "current_os": "Android 13, Nothing OS 2.0",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-2-8-256-dark-grey-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Dark Grey",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "58999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "58999.00",
+                            "price_min": "58999.00",
+                            "price_max": "58999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-2/0-249.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_phone_(2)_(Booredatwork.com)_006.png",
+                    "license": "CC BY 3.0",
+                    "attribution": "Booredatwork.com, CC BY 3.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (2), Snapdragon 8+ Gen 1 (exact), 6.7in LTPO AMOLED 120Hz, 4700mAh/45W, 50MP OIS main/50MP ultrawide/32MP front match, 8/256GB variant match. Announced 2023-07-11 (exact match to DB). Legitimate catalogue phone, excellent match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-2a",
+            "name": "Nothing Phone (2a)",
+            "model_number": "A142",
+            "announced_date": "2024-03-05",
+            "release_date": "2024-03-12",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7200 Pro",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G610 MC4",
+                "display_size": "6.7",
+                "display_resolution": "1084 x 2412",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass 5",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 45,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "161.70",
+                "width_mm": "76.30",
+                "thickness_mm": "8.00",
+                "weight_g": 190,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP54",
+                "os": "Android 14, Nothing OS 2.5",
+                "current_os": "Android 14, Nothing OS 2.5",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-2a-8-256-milk-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Milk",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "34999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "34999.00",
+                            "price_min": "34999.00",
+                            "price_max": "34999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-2a/0-250.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 563,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Back_of_Nothing_phone_(2a)_mock-up.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Kyu3a, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (2a), Dimensity 7200 Pro (exact), 6.7in AMOLED 120Hz (variable 30-120Hz), 5000mAh/45W (exact), 50MP OIS main/50MP ultrawide/32MP front (exact trio), 8/256GB variant match. Announced 2024-03-05 (exact match to DB). Legitimate catalogue phone, excellent match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-2a-plus",
+            "name": "Nothing Phone (2a) Plus",
+            "model_number": "A142P",
+            "announced_date": "2024-07-30",
+            "release_date": "2024-08-06",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7350 Pro",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G610 MC4",
+                "display_size": "6.7",
+                "display_resolution": "1084 x 2412",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 50,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 190,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP54",
+                "os": "Android 14, Nothing OS 2.6",
+                "current_os": "Android 14, Nothing OS 2.6",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-2a-plus-12-256-milk-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Milk",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "37999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "37999.00",
+                            "price_min": "37999.00",
+                            "price_max": "37999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-2a-plus/0-251.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 753,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Walker_graves_at_Karrakatta_Cemetery_3.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Totallynotarandomalt69, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "nothing-phone-2a-plus/0-252.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/nothing-phone-2a-plus/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (2a) Plus, Dimensity 7350 Pro (exact), 6.7in AMOLED 120Hz, 5000mAh/50W (exact), 12/256GB variant (exact SKU). Announced 2024-07 / released 2024-08-03 vs DB 2024-07-30/08-06 (near-exact). Legitimate catalogue phone, excellent match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Walker graves at Karrakatta Cemetery 3\" bears no genuine relation to the catalogued Nothing Nothing Phone (2a) Plus (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:18:18+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:09:01+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-3",
+            "name": "Nothing Phone (3)",
+            "model_number": null,
+            "announced_date": "2025-07-01",
+            "release_date": "2025-07-15",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 68,
+            "software_confidence": 46,
+            "overall_confidence": 65,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8s Gen 4",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.21 GHz Cortex-X4 + 3x3.0 GHz + 2x2.8 GHz + 2x2.0 GHz Cortex-A720)",
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1260 x 2800",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": 4500,
+                "main_camera": "50 MP, f/1.7, OIS",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.7, periscope, OIS",
+                "macro_camera": null,
+                "front_camera": "50 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 65,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, Nothing OS 3.5",
+                "current_os": "Android 15, Nothing OS 3.5",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-3-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "60500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "60500.00",
+                            "price_min": "60500.00",
+                            "price_max": "60500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-3/0-253.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%8A%E5%A4%9C%E9%A6%96%E5%8F%91%EF%BC%81%E7%AC%AC%E4%B8%80%E6%89%8B%E6%8B%BF%E5%88%B0%E4%BA%86Nothing_Phone_(3)_%EF%BC%81%E7%81%AF%E6%9D%A1%E6%B2%A1%E4%BA%86%E3%80%81%E8%83%8C%E5%90%8E%E5%A4%9A%E4%B8%80%E4%B8%AAscreen%EF%BC%81-00.00.11.457.png",
+                    "license": "CC BY 3.0",
+                    "attribution": "可恩Ke En, CC BY 3.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (3), Snapdragon 8s Gen 4 (exact), 6.67in display 120Hz, 65W charging (exact), 12/256GB variant (exact SKU). DATA ERROR: DB battery says 5500mAh but real is 5150mAh (~7% off). Announced 2025-07-02 vs DB 2025-07-01 (near-exact). Flagging battery capacity for correction; chipset/charging/RAM-storage/date confirm identity.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-3a",
+            "name": "Nothing Phone (3a)",
+            "model_number": "A059",
+            "announced_date": "2025-03-04",
+            "release_date": "2025-03-11",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7s Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 720",
+                "display_size": "6.8",
+                "display_resolution": "1084 x 2392",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/1.9, 2x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 50,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 201,
+                "build_materials": "Plastic frame and back",
+                "ip_rating": "IP54",
+                "os": "Android 15, Nothing OS 3.1",
+                "current_os": "Android 15, Nothing OS 3.1",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-3a-8-128-black-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "34999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "34999.00",
+                            "price_min": "34999.00",
+                            "price_max": "34999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-3a/0-254.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_(3a)_Pro_20250628.jpg",
+                    "license": "Public domain",
+                    "attribution": "Steven Sun, Public domain, via Wikimedia Commons",
+                    "match_confidence": 48,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "nothing-phone-3a/0-255.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 900,
+                    "height": 900,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/nothing-phone-3a/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (3a), Snapdragon 7s Gen 3 (exact), 6.77in AMOLED 120Hz, 5000mAh/50W (exact), 50MP OIS main/8MP ultrawide/32MP front match, 8/128GB variant match. Announced 2025-03-04 (exact match to DB). Legitimate catalogue phone, excellent match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 48,
+                    "resolution_note": "depicts the \"Nothing Phone (3a) Pro\" - a sibling variant, not the catalogued base Phone (3a).",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:17:51+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 48,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:08:58+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-3a-lite",
+            "name": "Nothing Phone (3a) Lite",
+            "model_number": null,
+            "announced_date": "2025-10-01",
+            "release_date": "2025-10-01",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 61,
+            "software_confidence": 57,
+            "overall_confidence": 68,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 7300 Pro",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": null,
+                "display_panel_type": null,
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, Nothing OS 3.5",
+                "current_os": "Android 15, Nothing OS 3.5",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-3a-lite-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-3a-lite/0-256.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 753,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_la_Bauche-du-Rouet,_Les_Sorini%C3%A8res.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Kalepom, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "nothing-phone-3a-lite/0-257.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/nothing-phone-3a-lite/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (3a) Lite, Dimensity 7300 Pro (exact), 6.77in AMOLED 120Hz, 5000mAh (exact), 8/256GB variant (exact SKU). Announced 2025-10 (near-exact match to DB 2025-10-01). DB is missing charging/camera data (incomplete, not conflicting; real specs are 33W, 50MP OIS+8MP ultrawide+16MP front). Identity confirmed via chipset + battery + RAM/storage + exact announce date. (phone_id 457)",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Image manually rejected via phone edit screen.",
+                    "reviewed_at": "2026-08-29T15:49:42+06:00",
+                    "created_at": "2026-08-29T15:46:56+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:21:29+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "nothing-phone-3a-pro",
+            "name": "Nothing Phone (3a) Pro",
+            "model_number": null,
+            "announced_date": "2025-03-04",
+            "release_date": "2025-03-25",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 68,
+            "software_confidence": 46,
+            "overall_confidence": 65,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7s Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core, 4nm",
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": "1080 x 2392",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.9, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.6, 3x optical zoom",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 50,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": "IP64",
+                "os": "Android 15, Nothing OS 3.1",
+                "current_os": "Android 15, Nothing OS 3.1",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "nothing-phone-3a-pro-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "50000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "50000.00",
+                            "price_min": "50000.00",
+                            "price_max": "50000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "nothing-phone-3a-pro/0-258.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_(3a)_Pro_20250628.jpg",
+                    "license": "Public domain",
+                    "attribution": "Steven Sun, Public domain, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena: Nothing Phone (3a) Pro, Snapdragon 7s Gen 3 (exact), 6.77in OLED 120Hz, 5000mAh/50W (exact), 8MP ultrawide (exact), 8/256GB variant match. Announced 2025-03-04 (exact match to DB). Legitimate catalogue phone, excellent match.",
+                    "reviewed_at": "2026-08-29T14:57:28+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        }
+    ]
+}

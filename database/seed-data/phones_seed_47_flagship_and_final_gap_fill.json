@@ -1,0 +1,117 @@
+{
+  "meta": {"description": "Catalogue expansion round 20 (toward ~400): final gap-fill pass - older Samsung S/Z flagships not yet in catalogue, plus one each from POCO, Vivo, Asus, Honor, and Tecno to round out brand coverage. Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-s21-5g",
+      "brand": "Samsung", "model": "Galaxy S21 5G", "model_number": "SM-G991B",
+      "announced_date": "2021-01-14", "release_date": "2021-01-29", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "Exynos 2100", "chipset_manufacturer": "Samsung", "cpu": "Octa-core, 5nm", "gpu": "Mali-G78 MP14",
+        "display_size": "6.2", "display_resolution": "1080 x 2400", "display_panel_type": "Dynamic AMOLED 2X", "display_refresh_rate": "120Hz",
+        "main_camera": "12 MP, f/1.8, OIS", "ultrawide_camera": "12 MP", "telephoto_camera": "64 MP, 3x hybrid zoom", "front_camera": "10 MP", "camera_has_ois": true,
+        "battery_capacity": "4000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6", "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "169g",
+        "build_materials": "Gorilla Glass Victus, aluminum frame, IP68", "os": "Android 11, One UI 3.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Phantom Gray", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "63,500"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-s22-ultra-5g",
+      "brand": "Samsung", "model": "Galaxy S22 Ultra", "model_number": "SM-S908B",
+      "announced_date": "2022-02-09", "release_date": "2022-02-25", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Gen 1", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 4nm", "gpu": "Adreno 730",
+        "display_size": "6.8", "display_resolution": "1440 x 3088", "display_panel_type": "Dynamic AMOLED 2X", "display_refresh_rate": "120Hz",
+        "main_camera": "108 MP, f/1.8, OIS", "ultrawide_camera": "12 MP", "telephoto_camera": "10 MP + 10 MP periscope", "front_camera": "40 MP", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "45W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "229g",
+        "build_materials": "Gorilla Glass Victus+, aluminum frame, IP68", "os": "Android 12, One UI 4.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": "Burgundy", "region": "Global", "is_official_bd": true, "price": {"official_bd": "129,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-z-flip5",
+      "brand": "Samsung", "model": "Galaxy Z Flip5", "model_number": "SM-F731B",
+      "announced_date": "2023-07-26", "release_date": "2023-08-11", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Gen 2", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 4nm", "gpu": "Adreno 740",
+        "display_size": "6.7", "display_resolution": "1080 x 2640", "display_panel_type": "Foldable Dynamic AMOLED 2X", "display_refresh_rate": "120Hz",
+        "main_camera": "12 MP, f/1.8, OIS", "ultrawide_camera": "12 MP", "front_camera": "10 MP", "camera_has_ois": true,
+        "battery_capacity": "3700 mAh", "charging_speed": "25W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "187g",
+        "build_materials": "Gorilla Glass Victus 2, aluminum frame, IPX8", "os": "Android 13, One UI 5.1.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Mint", "region": "Global", "is_official_bd": true, "price": {"official_bd": "183,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "poco-x5-5g",
+      "brand": "POCO", "model": "POCO X5 5G", "model_number": null,
+      "announced_date": "2023-02-06", "release_date": "2023-02-11", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 695 5G", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 6nm", "gpu": "Adreno 619",
+        "display_size": "6.67", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "48 MP, f/1.8", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "13 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.1",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "IP53", "os": "Android 12, MIUI 14 for POCO", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Jaguar Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "21,000"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y02a",
+      "brand": "Vivo", "model": "Vivo Y02A", "model_number": null,
+      "announced_date": "2022-11-10", "release_date": "2022-11-10", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio P35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.35 GHz Cortex-A53 + 4x1.8 GHz Cortex-A53)",
+        "display_size": "6.51", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "8 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "186g",
+        "build_materials": null, "os": "Android 12, Funtouch 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "32 GB", "color": "Marine Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "11,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "asus-zenfone-10",
+      "brand": "Asus", "model": "Zenfone 10", "model_number": null,
+      "announced_date": "2023-06-29", "release_date": "2023-07-06", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8 Gen 2", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 4nm", "gpu": "Adreno 740",
+        "display_size": "5.92", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "144Hz",
+        "main_camera": "50 MP, f/1.9, OIS", "ultrawide_camera": "13 MP", "front_camera": "32 MP", "camera_has_ois": true,
+        "battery_capacity": "4300 mAh", "charging_speed": "30W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano-SIM + eSIM)", "weight": "172g",
+        "build_materials": "Gorilla Glass Victus 2, aluminum frame, IP68", "os": "Android 13, ZenUI", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Midnight Black", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "84,490"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "honor-200-pro",
+      "brand": "Honor", "model": "Honor 200 Pro", "model_number": null,
+      "announced_date": "2024-06-12", "release_date": "2024-06-27", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8s Gen 3", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 735",
+        "display_size": "6.78", "display_resolution": "1224 x 2700", "display_panel_type": "OLED", "display_refresh_rate": "120Hz",
+        "main_camera": "50 MP, f/1.4, OIS", "telephoto_camera": "50 MP, 2.5x zoom", "ultrawide_camera": "12 MP", "front_camera": "50 MP", "camera_has_ois": true,
+        "battery_capacity": "5200 mAh", "charging_speed": "100W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6e", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "Glass front/back, aluminum frame, IP65", "os": "Android 14, MagicOS 8", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "512 GB", "color": "Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "76,999"}, "availability": "in_stock", "store": "Honor Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-phantom-x",
+      "brand": "Tecno", "model": "Tecno Phantom X", "model_number": null,
+      "announced_date": "2021-07-06", "release_date": "2021-07-06", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Helio G95", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm", "gpu": "Mali-G76 MC4",
+        "display_size": "6.7", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "90Hz",
+        "main_camera": "50 MP, f/1.8", "telephoto_camera": "13 MP, 2x zoom", "ultrawide_camera": "8 MP", "front_camera": "48 MP", "camera_has_ois": false,
+        "battery_capacity": "4700 mAh", "charging_speed": "33W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, HiOS 7.6", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Starry Night Blue", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "37,000"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

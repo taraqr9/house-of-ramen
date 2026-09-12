@@ -1,0 +1,117 @@
+{
+  "meta": {"description": "Catalogue expansion round 18 (toward ~400): second gap-fill pass on Samsung A/M-series and Vivo/Oppo entry-mid lines. Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-a22",
+      "brand": "Samsung", "model": "Galaxy A22", "model_number": "SM-A225F",
+      "announced_date": "2021-06-16", "release_date": "2021-06-25", "status": "discontinued", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G80", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm",
+        "display_size": "6.4", "display_resolution": "720 x 1600", "display_panel_type": "Super AMOLED", "display_refresh_rate": "90Hz",
+        "main_camera": "48 MP, f/1.8", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "13 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "15W", "network_5g": false, "wifi": null, "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "186g",
+        "build_materials": null, "os": "Android 11, One UI 3.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "22,499"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-m12",
+      "brand": "Samsung", "model": "Galaxy M12", "model_number": "SM-M127F",
+      "announced_date": "2021-03-16", "release_date": "2021-03-25", "status": "discontinued", "category": "budget",
+      "specs": {
+        "processor": "Samsung Exynos 850", "chipset_manufacturer": "Samsung", "cpu": "Octa-core, 8nm",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "PLS IPS", "display_refresh_rate": "60Hz",
+        "main_camera": "48 MP, f/2.0", "ultrawide_camera": "5 MP", "macro_camera": "2 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "15W", "network_5g": false, "wifi": null, "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "212g",
+        "build_materials": null, "os": "Android 11, One UI 3.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "23,499"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y20",
+      "brand": "Vivo", "model": "Vivo Y20", "model_number": null,
+      "announced_date": "2020-08-19", "release_date": "2020-08-25", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 460", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x1.8 GHz Kryo 240 + 4x1.6 GHz Kryo 240)", "gpu": "Adreno 610",
+        "display_size": "6.51", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "13 MP, f/2.2", "macro_camera": "2 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 10, Funtouch 10.5", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Obsidian Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "14,990"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y72-5g",
+      "brand": "Vivo", "model": "Vivo Y72 5G", "model_number": null,
+      "announced_date": "2021-04-15", "release_date": "2021-04-20", "status": "discontinued", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 700", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 7nm", "gpu": "Mali-G57 MC2",
+        "display_size": "6.58", "display_resolution": "1080 x 2408", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "64 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, Funtouch 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Graphite Black", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "25,990"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "vivo-t1-44w",
+      "brand": "Vivo", "model": "Vivo T1 44W", "model_number": null,
+      "announced_date": "2022-02-08", "release_date": "2022-02-08", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.4 GHz Kryo 265 Gold + 4x1.9 GHz Kryo 265 Silver)", "gpu": "Adreno 610",
+        "display_size": "6.44", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "60Hz",
+        "main_camera": "50 MP", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "44W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "182g",
+        "build_materials": null, "os": "Android 12, Funtouch 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Midnight Galaxy", "region": "Global", "is_official_bd": true, "price": {"official_bd": "21,118"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-a5s",
+      "brand": "Oppo", "model": "Oppo A5s", "model_number": null,
+      "announced_date": "2019-04-01", "release_date": "2019-04-15", "status": "discontinued", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio P35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm", "gpu": "PowerVR GE8320",
+        "display_size": "6.2", "display_resolution": "720 x 1520", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "13 MP", "macro_camera": "2 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "4230 mAh", "charging_speed": null, "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "Gorilla Glass 3", "os": "Android 8.1, ColorOS 5.2", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "2 GB", "storage": "32 GB", "color": "Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "11,990"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-a9-2020",
+      "brand": "Oppo", "model": "Oppo A9 (2020)", "model_number": null,
+      "announced_date": "2019-09-19", "release_date": "2019-09-19", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 665", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.0 GHz Kryo 260 Gold + 4x1.8 GHz Kryo 260 Silver)", "gpu": "Adreno 610",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "48 MP, f/1.8", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": "195g",
+        "build_materials": null, "os": "Android 9, ColorOS 6.0.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Marine Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "19,990"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-reno5-4g",
+      "brand": "Oppo", "model": "Oppo Reno5 4G", "model_number": null,
+      "announced_date": "2020-12-10", "release_date": "2020-12-19", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 720G", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 8nm", "gpu": "Adreno 618",
+        "display_size": "6.43", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "60Hz",
+        "main_camera": "64 MP, f/1.7", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "44 MP", "camera_has_ois": false,
+        "battery_capacity": "4310 mAh", "charging_speed": "50W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, ColorOS 11.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Astral Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "35,990"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    }
+  ]
+}

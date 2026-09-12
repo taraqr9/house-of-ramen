@@ -1,0 +1,48 @@
+{
+  "meta": {"description": "Xiaomi 14T (base) and Vivo V60e/V60 Lite 4G, discovered and verified via GSMArena site-search before writing."},
+  "phones": [
+    {
+      "external_ref": "xiaomi-14t",
+      "brand": "Xiaomi", "model": "Xiaomi 14T", "model_number": null,
+      "announced_date": "2024-09-26", "release_date": "2024-09-26", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 8300 Ultra", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.67", "display_resolution": "1220p", "display_panel_type": "CrystalRes OLED", "display_refresh_rate": "144 Hz", "display_brightness_nits": "4000",
+        "main_camera": "50 MP, Sony IMX906, f/1.7", "telephoto_camera": "50 MP, f/2.0", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": true, "weight": "195 g",
+        "build_materials": "Plastic frame, Gorilla Glass 5 front, Glass Panda-X back", "ip_rating": "IP68",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 14, HyperOS", "current_os": "Android 15, HyperOS 2"
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "vivo-v60e",
+      "brand": "Vivo", "model": "Vivo V60e", "model_number": null,
+      "announced_date": "2025-09-01", "release_date": "2025-09-01", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300", "chipset_manufacturer": "MediaTek",
+        "display_panel_type": "OLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "200 MP", "ultrawide_camera": "8 MP", "front_camera": "50 MP", "camera_has_ois": false,
+        "battery_capacity": "6500 mAh", "charging_speed": "90W", "network_5g": true, "ip_rating": "IP68/IP69",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, Funtouch OS 15", "current_os": "Android 15, Funtouch OS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "vivo-v60-lite-4g",
+      "brand": "Vivo", "model": "Vivo V60 Lite 4G", "model_number": null,
+      "announced_date": "2025-08-01", "release_date": "2025-08-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 685", "chipset_manufacturer": "Qualcomm",
+        "display_size": "6.77", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, Sony IMX882", "ultrawide_camera": "8 MP", "front_camera": "32 MP", "camera_has_ois": false,
+        "battery_capacity": "6500 mAh", "charging_speed": "90W", "network_5g": false,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, Funtouch OS 15", "current_os": "Android 15, Funtouch OS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    }
+  ]
+}

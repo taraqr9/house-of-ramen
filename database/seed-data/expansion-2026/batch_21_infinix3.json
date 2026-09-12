@@ -1,0 +1,31 @@
+{
+  "meta": {"description": "Infinix Smart 10 and Hot 60 5G, discovered and verified via GSMArena site-search before writing."},
+  "phones": [
+    {
+      "external_ref": "infinix-smart-10",
+      "brand": "Infinix", "model": "Infinix Smart 10", "model_number": null,
+      "announced_date": "2025-06-01", "release_date": "2025-06-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "UNISOC T7250", "chipset_manufacturer": "UNISOC",
+        "display_size": "6.67", "network_5g": false,
+        "battery_capacity": "5000 mAh",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, XOS 15", "current_os": "Android 15, XOS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "infinix-hot-60-5g",
+      "brand": "Infinix", "model": "Infinix Hot 60 5G", "model_number": null,
+      "announced_date": "2025-07-01", "release_date": "2025-07-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 7020", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.7", "network_5g": true,
+        "battery_capacity": "5200 mAh",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, XOS 15", "current_os": "Android 15, XOS 15"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true}]
+    }
+  ]
+}

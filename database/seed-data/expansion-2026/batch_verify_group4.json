@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "note": "Corrections found during the 2026-08-29 catalogue-wide pending-review verification pass (Infinix/POCO/Xiaomi group). Full existing spec re-supplied (not a sparse patch - a partial payload would wrongly zero out completeness credit for fields the phone already had, per the project's own documented lesson) with the GSMArena-verified processor correction merged in."
+  },
+  "phones": [
+    {
+      "external_ref": "infinix-infinix-smart-9-hd",
+      "brand": "Infinix",
+      "model": "Infinix Smart 9 HD",
+      "announced_date": "2024-12-01",
+      "release_date": "2024-12-01",
+      "status": "available",
+      "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G50",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.7",
+        "display_resolution": "720 x 1600",
+        "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "90Hz",
+        "main_camera": "13 MP",
+        "front_camera": "8 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "10W",
+        "reverse_charging": false,
+        "network_5g": false,
+        "nfc": false,
+        "sim_config": "Dual SIM"
+      },
+      "variants": [
+        {"ram": "3 GB", "storage": "64 GB", "region": "Bangladesh", "is_official_bd": true},
+        {"ram": "3 GB", "storage": "64 GB", "region": "Global", "is_official_bd": true}
+      ]
+    },
+    {
+      "external_ref": "infinix-infinix-note-40-pro-plus",
+      "brand": "Infinix",
+      "model": "Infinix Note 40 Pro+",
+      "announced_date": "2024-04-25",
+      "release_date": "2024-04-25",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7020",
+        "chipset_manufacturer": "MediaTek",
+        "cpu": "Octa-core",
+        "gpu": "Mali-G77 MC9",
+        "display_size": "6.8",
+        "display_resolution": "1080 x 2436",
+        "display_panel_type": "AMOLED (curved)",
+        "display_refresh_rate": "120Hz",
+        "main_camera": "108 MP, f/1.75, OIS",
+        "ultrawide_camera": "13 MP, f/2.4",
+        "front_camera": "32 MP, f/2.5",
+        "camera_has_ois": true,
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "100W",
+        "wireless_charging": "20W",
+        "reverse_charging": false,
+        "network_5g": true,
+        "wifi": "Wi-Fi 5",
+        "bluetooth_version": "5.2",
+        "nfc": true,
+        "usb_type": "USB Type-C 2.0",
+        "sim_config": "Dual SIM",
+        "weight": "186g",
+        "build_materials": "Glass front and back, aluminum frame",
+        "ip_rating": "IP53",
+        "os": "Android 14, XOS 14",
+        "current_os": "Android 14, XOS 14",
+        "os_update_years": 1,
+        "security_update_years": 2
+      },
+      "variants": [
+        {"ram": "12 GB", "storage": "256 GB", "color": "Obsidian Black", "region": "Global", "is_official_bd": true}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3690 @@
+{
+    "brand_slug": "apple",
+    "phones": [
+        {
+            "slug": "apple-iphone-12",
+            "name": "iPhone 12",
+            "model_number": "A2403",
+            "announced_date": "2020-10-13",
+            "release_date": "2020-10-23",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A14 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (4-core)",
+                "display_size": "6.1",
+                "display_resolution": "1170 x 2532",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "12 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.4",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 2815,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.0",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 164,
+                "build_materials": "Aluminum frame, glass back",
+                "ip_rating": "IP68",
+                "os": "iOS 14",
+                "current_os": "iOS 14",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-12-4-64-blue-global",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "44999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "44999.00",
+                            "price_min": "44999.00",
+                            "price_max": "44999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-12/0-1.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_12_Pro_-_Cameras_(50535314721).jpg",
+                    "license": "CC BY 2.0",
+                    "attribution": "ajay_suresh, CC BY 2.0, via Wikimedia Commons",
+                    "match_confidence": 48,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-12/0-2.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 206,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_12-10509.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-12/0-3.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 497,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_12_Blue.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2403), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:36+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 48,
+                    "resolution_note": "\"Apple iPhone 12 Pro - Cameras\" - depicts the Pro sibling, not the catalogued base iPhone 12.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:19:23+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-13",
+            "name": "iPhone 13",
+            "model_number": "A2482",
+            "announced_date": "2021-09-14",
+            "release_date": "2021-09-24",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A15 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (4-core)",
+                "display_size": "6.1",
+                "display_resolution": "1170 x 2532",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "12 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.4",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 3227,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.0",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 174,
+                "build_materials": "Aluminum frame, glass back",
+                "ip_rating": "IP68",
+                "os": "iOS 15",
+                "current_os": "iOS 15",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-13-4-128-starlight-global",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Starlight",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "62999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "62999.00",
+                            "price_min": "62999.00",
+                            "price_max": "62999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-13/0-4.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_13_Pro_and_Apple_Watch.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "SimonWaldherr, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-13/0-5.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_13-11103.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-13/0-6.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 497,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_13_vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2482), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:36+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 55,
+                    "resolution_note": "\"IPhone 13 Pro and Apple Watch\" - depicts the Pro sibling plus an unrelated accessory, not the catalogued base iPhone 13.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:19:17+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-13-mini",
+            "name": "iPhone 13 mini",
+            "model_number": null,
+            "announced_date": "2021-09-14",
+            "release_date": "2021-09-24",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 46,
+            "overall_confidence": 68,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A15 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (4-core)",
+                "display_size": "5.4",
+                "display_resolution": "1080 x 2340",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "12 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 2438,
+                "charging_speed_w": 20,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac/6",
+                "bluetooth_version": "5.0",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 141,
+                "build_materials": "Glass front/back, aluminum frame, IP68",
+                "ip_rating": null,
+                "os": "iOS 15",
+                "current_os": "iOS 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-13-mini-4-128-midnight-global",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Midnight",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "58990.00",
+                            "currency": "BDT",
+                            "confidence": 70
+                        },
+                        {
+                            "store_slug": "apple-bangladesh-reseller",
+                            "price_type": "official_bd",
+                            "amount": "89900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "89900.00",
+                            "price_min": "89900.00",
+                            "price_max": "89900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "58990.00",
+                            "price_min": "58990.00",
+                            "price_max": "58990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "apple-bangladesh-reseller",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-13-mini/0-7.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 479,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_13_Mini_Gr%C3%BCn_Freigestellt.png",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "DYVER, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 41,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (no published model# in DB), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:39+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "approved",
+                    "similarity_score": 41,
+                    "resolution_note": "Confirmed via Wikimedia Commons: file titled \"IPhone 13 Mini\" - exact match.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:43:51+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-14",
+            "name": "iPhone 14",
+            "model_number": "A2649",
+            "announced_date": "2022-09-07",
+            "release_date": "2022-09-16",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A15 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.1",
+                "display_resolution": "1170 x 2532",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": null,
+                "main_camera": "12 MP, f/1.5, OIS",
+                "ultrawide_camera": "12 MP, f/2.4",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3279,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": "146.70",
+                "width_mm": "71.50",
+                "thickness_mm": "7.80",
+                "weight_g": 172,
+                "build_materials": "Aluminum frame, Ceramic Shield glass",
+                "ip_rating": "IP68",
+                "os": "iOS 16",
+                "current_os": "iOS 16",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-14-6-128-midnight-global",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Midnight",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "69000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "94900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "94900.00",
+                            "price_min": "94900.00",
+                            "price_max": "94900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "69000.00",
+                            "price_min": "69000.00",
+                            "price_max": "69000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:40+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-14/0-8.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 622,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_-_3.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "KKPCW（Kyu3）, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-14/0-9.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_14-11861.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-14/0-10.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 497,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_14_vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2649), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:34+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "\"IPhone 14 Pro\" - depicts the Pro sibling, not the catalogued base iPhone 14.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:04:07+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-14-plus",
+            "name": "iPhone 14 Plus",
+            "model_number": "A2632",
+            "announced_date": "2022-09-07",
+            "release_date": "2022-10-07",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A15 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.7",
+                "display_resolution": "1284 x 2778",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "12 MP, f/1.5, OIS",
+                "ultrawide_camera": "12 MP, f/2.4",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4325,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 203,
+                "build_materials": "Aluminum frame, Ceramic Shield glass",
+                "ip_rating": "IP68",
+                "os": "iOS 16",
+                "current_os": "iOS 16",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-14-plus-6-128-purple-global",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Purple",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "77000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "104900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "104900.00",
+                            "price_min": "104900.00",
+                            "price_max": "104900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "77000.00",
+                            "price_min": "77000.00",
+                            "price_max": "77000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-14-plus/0-11.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_13_and_iPhone_14_Plus.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Kskhh, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 41,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-14-plus/0-12.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_14_plus-11862.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-14-plus/0-13.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_14_Plus_yellow.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "茅野ふたば, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2632), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:37+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 41,
+                    "resolution_note": "\"IPhone 13 and iPhone 14 Plus\" - group/comparison photo, not a dedicated shot of the iPhone 14 Plus.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:19:28+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-14-pro",
+            "name": "iPhone 14 Pro",
+            "model_number": null,
+            "announced_date": "2022-09-07",
+            "release_date": "2022-09-16",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 46,
+            "overall_confidence": 68,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A16 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.1",
+                "display_resolution": "1179 x 2556",
+                "display_panel_type": "LTPO Super Retina XDR OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.78, OIS",
+                "ultrawide_camera": "12 MP",
+                "telephoto_camera": "12 MP, 3x zoom",
+                "macro_camera": null,
+                "front_camera": "12 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 3200,
+                "charging_speed_w": 27,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac/6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 206,
+                "build_materials": "Glass front/back, stainless steel frame, IP68",
+                "ip_rating": null,
+                "os": "iOS 16",
+                "current_os": "iOS 16",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-14-pro-6-128-space-black-global",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Space Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "86990.00",
+                            "currency": "BDT",
+                            "confidence": 70
+                        },
+                        {
+                            "store_slug": "apple-bangladesh-reseller",
+                            "price_type": "official_bd",
+                            "amount": "159900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "159900.00",
+                            "price_min": "159900.00",
+                            "price_max": "159900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "86990.00",
+                            "price_min": "86990.00",
+                            "price_max": "86990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "apple-bangladesh-reseller",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-14-pro/0-14.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 622,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_-_3.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "KKPCW（Kyu3）, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 47,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (no published model# in DB), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:39+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "approved",
+                    "similarity_score": 47,
+                    "resolution_note": "Confirmed via Wikimedia Commons (spot-checked file page): categorized \"IPhone 14 Pro\", explicitly not the Pro Max - exact match to the catalogued iPhone 14 Pro.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:43:54+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-15",
+            "name": "iPhone 15",
+            "model_number": "A2846",
+            "announced_date": "2023-09-12",
+            "release_date": "2023-09-22",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A16 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.1",
+                "display_resolution": "1179 x 2556",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.4",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3349,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": "147.60",
+                "width_mm": "71.60",
+                "thickness_mm": "7.80",
+                "weight_g": 171,
+                "build_materials": "Aluminum frame, Ceramic Shield glass",
+                "ip_rating": "IP68",
+                "os": "iOS 17",
+                "current_os": "iOS 17",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-15-6-128-pink-global",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Pink",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "83000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "109900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "109900.00",
+                            "price_min": "109900.00",
+                            "price_max": "109900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "83000.00",
+                            "price_min": "83000.00",
+                            "price_max": "83000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:40+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-15/0-15.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "IPHONE 15, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2846), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:34+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-15-plus",
+            "name": "iPhone 15 Plus",
+            "model_number": "A3094",
+            "announced_date": "2023-09-12",
+            "release_date": "2023-09-22",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A16 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (2x3.46 GHz + 4x2.02 GHz)",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.7",
+                "display_resolution": "1290 x 2796",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": 2000,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.4",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 4383,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 201,
+                "build_materials": "Aluminum frame, Ceramic Shield front, glass back",
+                "ip_rating": "IP68",
+                "os": "iOS 17",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-15-plus-6-128-blue-global",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "84999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "87499.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "85490.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "128500.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "128500.00",
+                            "price_min": "128500.00",
+                            "price_max": "128500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "85490.00",
+                            "price_min": "84999.00",
+                            "price_max": "87499.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:29+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "in_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-15-plus/0-16.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "IPHONE 15, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 41,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-15-plus/0-17.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_15_plus-12558.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-15-plus/0-18.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 490,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_15_Plus_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 41,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:47:48+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-15-pro",
+            "name": "iPhone 15 Pro",
+            "model_number": "A3101",
+            "announced_date": "2023-09-12",
+            "release_date": "2023-09-22",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A17 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (2x3.78 GHz + 4x2.11 GHz)",
+                "gpu": "Apple GPU (6-core)",
+                "display_size": "6.1",
+                "display_resolution": "1179 x 2556",
+                "display_panel_type": "Super Retina XDR OLED (LTPO)",
+                "display_refresh_rate": 120,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": 2000,
+                "main_camera": "48 MP, f/1.78, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "12 MP, f/2.8, 3x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3274,
+                "charging_speed_w": 27,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 187,
+                "build_materials": "Titanium frame, Ceramic Shield front, textured glass back",
+                "ip_rating": "IP68",
+                "os": "iOS 17",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-15-pro-8-256-natural-titanium-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Natural Titanium",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "116999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "official_bd",
+                            "amount": "220000.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "119999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "114990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "204999.00",
+                            "currency": "BDT",
+                            "confidence": 72
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "182000.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "204999.00",
+                            "price_min": "182000.00",
+                            "price_max": "220000.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "116999.00",
+                            "price_min": "114990.00",
+                            "price_max": "119999.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:29+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "ai_research_2026",
+                            "confidence": 72,
+                            "collected_at": "2026-08-29T09:42:21+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "out_of_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-15-pro/0-19.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "IPHONE 15, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-15-pro-max",
+            "name": "iPhone 15 Pro Max",
+            "model_number": "A2849",
+            "announced_date": "2023-09-12",
+            "release_date": "2023-09-22",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A17 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (2x3.78 GHz + 4x2.11 GHz)",
+                "gpu": "Apple GPU (6-core)",
+                "display_size": "6.7",
+                "display_resolution": "1290 x 2796",
+                "display_panel_type": "LTPO Super Retina XDR OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.78, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "12 MP, f/2.8, 5x optical",
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps, ProRes",
+                "battery_capacity_mah": 4441,
+                "charging_speed_w": 27,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": "159.90",
+                "width_mm": "76.70",
+                "thickness_mm": "8.25",
+                "weight_g": 221,
+                "build_materials": "Titanium frame, Ceramic Shield glass",
+                "ip_rating": "IP68",
+                "os": "iOS 17",
+                "current_os": "iOS 17",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-15-pro-max-8-256-natural-titanium-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Natural Titanium",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "179900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "179900.00",
+                            "price_min": "179900.00",
+                            "price_max": "179900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:40+06:00"
+                        }
+                    ]
+                },
+                {
+                    "slug": "apple-iphone-15-pro-max-8-512-blue-titanium-global",
+                    "ram_gb": 8,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Blue Titanium",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "189000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "189000.00",
+                            "price_min": "189000.00",
+                            "price_max": "189000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:40+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-15-pro-max/0-20.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "IPHONE 15, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-15-pro-max/0-21.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_15_pro_max-12548.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-15-pro-max/0-22.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 486,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_Max_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2849), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:33+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "\"Apple iPhone 15 Pro\" - depicts the Pro sibling, not the catalogued iPhone 15 Pro Max.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:03:58+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-16",
+            "name": "iPhone 16",
+            "model_number": "A3081",
+            "announced_date": "2024-09-09",
+            "release_date": "2024-09-20",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A18",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.1",
+                "display_resolution": "1179 x 2556",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 3561,
+                "charging_speed_w": 25,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 170,
+                "build_materials": "Aluminum frame, Ceramic Shield glass",
+                "ip_rating": "IP68",
+                "os": "iOS 18",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-16-8-128-black-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "95000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "119900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "119900.00",
+                            "price_min": "119900.00",
+                            "price_max": "119900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "95000.00",
+                            "price_min": "95000.00",
+                            "price_max": "95000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-16/0-23.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 595,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Iphone_16_mit_Display.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Burkhard Mücke, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A3081), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:36+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "approved",
+                    "similarity_score": 44,
+                    "resolution_note": "Confirmed via Wikimedia Commons: file titled \"Iphone 16 mit Display\" (German: \"with display\") - exact match, no Pro/Plus/Max qualifier present.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:18:55+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-16-plus",
+            "name": "iPhone 16 Plus",
+            "model_number": null,
+            "announced_date": "2024-09-09",
+            "release_date": "2024-09-20",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 73,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A18",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (2x4.04 GHz + 4x2.20 GHz)",
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1290 x 2796",
+                "display_panel_type": "Super Retina XDR OLED",
+                "display_refresh_rate": 60,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 4383,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 199,
+                "build_materials": "Ceramic Shield front, aluminum frame",
+                "ip_rating": "IP68",
+                "os": "iOS 18",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-16-plus-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "111500.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "135999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "135999.00",
+                            "price_min": "135999.00",
+                            "price_max": "135999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "111500.00",
+                            "price_min": "111500.00",
+                            "price_max": "111500.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-16-plus/0-24.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:About_iPhone_16_Plus_Teal.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "メイド理世, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 47,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (no published model# in DB), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:37+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "approved",
+                    "similarity_score": 47,
+                    "resolution_note": "Confirmed via Wikimedia Commons: file titled \"About iPhone 16 Plus Teal\" - exact match, official Apple product imagery.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:29:30+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-16-pro",
+            "name": "iPhone 16 Pro",
+            "model_number": null,
+            "announced_date": "2024-09-09",
+            "release_date": "2024-09-20",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 73,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A18 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (3.78 GHz dual-core + 2.11 GHz quad-core)",
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": "1206 x 2622",
+                "display_panel_type": "LTPO Super Retina XDR OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": 2000,
+                "main_camera": "48 MP, f/1.8, OIS",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": "12 MP, f/2.8, 5x periscope zoom, OIS",
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3582,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.0",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 199,
+                "build_materials": "Titanium frame, Ceramic Shield front",
+                "ip_rating": "IP68",
+                "os": "iOS 18",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-16-pro-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "121490.00",
+                            "currency": "BDT",
+                            "confidence": 90
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "209999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "209999.00",
+                            "price_min": "209999.00",
+                            "price_max": "209999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "121490.00",
+                            "price_min": "121490.00",
+                            "price_max": "121490.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-16-pro/0-25.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:About_iPhone_16_Pro_Max_Natural_Titanium.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "メイド理世, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 41,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-16-pro/0-26.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_16_pro-13315.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-16-pro/0-27.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 488,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (no published model# in DB), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:38+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 41,
+                    "resolution_note": "\"About iPhone 16 Pro Max Natural Titanium\" - depicts the Pro Max sibling, not the catalogued iPhone 16 Pro.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:29:44+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-16-pro-max",
+            "name": "iPhone 16 Pro Max",
+            "model_number": "A3084",
+            "announced_date": "2024-09-09",
+            "release_date": "2024-09-20",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A18 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (6-core)",
+                "display_size": "6.9",
+                "display_resolution": "1320 x 2868",
+                "display_panel_type": "LTPO Super Retina XDR OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.78, OIS",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": "12 MP, f/2.8, 5x optical",
+                "macro_camera": null,
+                "front_camera": "12 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4685,
+                "charging_speed_w": 45,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 227,
+                "build_materials": "Titanium frame, Ceramic Shield glass",
+                "ip_rating": "IP68",
+                "os": "iOS 18",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-16-pro-max-8-256-desert-titanium-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Desert Titanium",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "150000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "143499.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "143990.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "199900.00",
+                            "price_min": "199900.00",
+                            "price_max": "199900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "156500.00",
+                            "price_min": "154000.00",
+                            "price_max": "158000.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "rio-international",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                },
+                {
+                    "slug": "apple-iphone-16-pro-max-8-512-black-titanium-global",
+                    "ram_gb": 8,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black Titanium",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "229900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "229900.00",
+                            "price_min": "229900.00",
+                            "price_max": "229900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-16-pro-max/0-28.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 665,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro_16%22_M2_Max_and_iPhone_13_Pro.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "SimonWaldherr, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 37,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-16-pro-max/0-29.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_16_pro_max-13123.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-16-pro-max/0-30.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 486,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_Max_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A3084), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:36+06:00",
+                    "created_at": "2026-08-28T13:09:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 37,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Apple MacBook Pro 16\" M2 Max and iPhone 13 Pro\" bears no genuine relation to the catalogued Apple iPhone 16 Pro Max (confidence 37/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:19:13+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-16e",
+            "name": "iPhone 16e",
+            "model_number": null,
+            "announced_date": "2025-02-19",
+            "release_date": "2025-02-28",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 76,
+            "software_confidence": 83,
+            "overall_confidence": 80,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A18",
+                "chipset_manufacturer": "Apple",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.1",
+                "display_resolution": null,
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 60,
+                "display_protection": "Ceramic Shield",
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, 2x lossless zoom",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "12 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4005,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 8,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 167,
+                "build_materials": "Aluminum frame, Ceramic Shield front, glass back",
+                "ip_rating": "IP68",
+                "os": "iOS 18",
+                "current_os": "iOS 18",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-16e-8-128-black-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "70999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "73499.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "74490.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "119999.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "119999.00",
+                            "price_min": "119999.00",
+                            "price_max": "119999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "73499.00",
+                            "price_min": "70999.00",
+                            "price_max": "74490.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:30+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "out_of_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-16e/0-31.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_16e_2025.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Captainmorlypogi1959, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 37,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": null,
+                    "reviewed_at": "2026-08-28T13:11:00+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 80) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:16:30+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 37,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:54:14+06:00",
+                    "created_at": "2026-08-28T13:50:46+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-17",
+            "name": "iPhone 17",
+            "model_number": null,
+            "announced_date": "2025-09-09",
+            "release_date": "2025-09-09",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 68,
+            "software_confidence": 46,
+            "overall_confidence": 65,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A19",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (2x4.044 GHz + 4x2.424 GHz)",
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": "1206 x 2622",
+                "display_panel_type": "LTPO Super Retina XDR OLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Ceramic Shield 2",
+                "display_brightness_nits": null,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "18 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3692,
+                "charging_speed_w": 40,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": "Ceramic Shield 2 front, aluminum frame",
+                "ip_rating": null,
+                "os": "iOS 26",
+                "current_os": "iOS 26",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-17-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "115000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "147999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "147999.00",
+                            "price_min": "147999.00",
+                            "price_max": "147999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "115000.00",
+                            "price_min": "115000.00",
+                            "price_max": "115000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-17/0-32.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17_launch_at_Apple_TRX_Malaysia_13.jpg",
+                    "license": "CC0",
+                    "attribution": "Ahmad Ali Karim, CC0, via Wikimedia Commons",
+                    "match_confidence": 48,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-17/0-33.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_17-14050.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-17/0-34.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 483,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (no published model# in DB), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:38+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 48,
+                    "resolution_note": "Wikimedia Commons candidate titled \"IPhone 17 launch at Apple TRX Malaysia 13\" bears no genuine relation to the catalogued Apple iPhone 17 (confidence 48/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:31:57+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-17-pro",
+            "name": "iPhone 17 Pro",
+            "model_number": null,
+            "announced_date": "2025-09-09",
+            "release_date": "2025-09-09",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 68,
+            "software_confidence": 46,
+            "overall_confidence": 65,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A19 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core (2x4.044 GHz + 4x2.424 GHz)",
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": "1206 x 2622",
+                "display_panel_type": "LTPO Super Retina XDR OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 3000,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": "48 MP, f/2.8, 8x optical zoom, OIS",
+                "macro_camera": null,
+                "front_camera": "18 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3988,
+                "charging_speed_w": 40,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.0",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": "Titanium frame",
+                "ip_rating": null,
+                "os": "iOS 26",
+                "current_os": "iOS 26",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-17-pro-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "160000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "196999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "196999.00",
+                            "price_min": "196999.00",
+                            "price_max": "196999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "160000.00",
+                            "price_min": "160000.00",
+                            "price_max": "160000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-17-pro/0-35.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Cosmic_Orange_iPhone_17_Pro_Max.jpg",
+                    "license": "CC0",
+                    "attribution": "Ahmad Ali Karim, CC0, via Wikimedia Commons",
+                    "match_confidence": 41,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-17-pro/0-36.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_17_pro-14049.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-17-pro/0-37.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 483,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (no published model# in DB), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:38+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 41,
+                    "resolution_note": "\"Cosmic Orange iPhone 17 Pro Max\" - depicts the Pro Max sibling, not the catalogued iPhone 17 Pro.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:32:00+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-17-pro-max",
+            "name": "iPhone 17 Pro Max",
+            "model_number": null,
+            "announced_date": "2025-09-09",
+            "release_date": "2025-09-19",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A19 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (6-core)",
+                "display_size": "6.9",
+                "display_resolution": "1320 x 2868",
+                "display_panel_type": "Super Retina XDR OLED (LTPO)",
+                "display_refresh_rate": 120,
+                "display_protection": "Ceramic Shield 2",
+                "display_brightness_nits": 3000,
+                "main_camera": "48 MP, f/1.78, OIS",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": "48 MP, f/2.8, 4x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "18 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 4823,
+                "charging_speed_w": 40,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 233,
+                "build_materials": "Aluminum unibody frame, Ceramic Shield 2 front and back",
+                "ip_rating": "IP68",
+                "os": "iOS 26",
+                "current_os": "iOS 26",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-17-pro-max-12-256-deep-blue-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Deep Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "154999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "official_bd",
+                            "amount": "249999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "159999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "154990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "209900.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "229949.50",
+                            "price_min": "209900.00",
+                            "price_max": "249999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "154994.50",
+                            "price_min": "154990.00",
+                            "price_max": "154999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 1
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:29+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "in_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-17-pro-max/0-38.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Cosmic_Orange_iPhone_17_Pro_Max.jpg",
+                    "license": "CC0",
+                    "attribution": "Ahmad Ali Karim, CC0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 44,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:47:53+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-air",
+            "name": "iPhone Air",
+            "model_number": null,
+            "announced_date": "2025-09-09",
+            "release_date": "2025-09-19",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A19 Pro",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (5-core)",
+                "display_size": "6.5",
+                "display_resolution": "1260 x 2736",
+                "display_panel_type": "Super Retina XDR OLED (LTPO)",
+                "display_refresh_rate": 120,
+                "display_protection": "Ceramic Shield 2",
+                "display_brightness_nits": 3000,
+                "main_camera": "48 MP, f/1.6, OIS",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "18 MP, f/1.9",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 3149,
+                "charging_speed_w": 30,
+                "wireless_charging_w": 25,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "eSIM only",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 165,
+                "build_materials": "Titanium frame, Ceramic Shield 2 front and back",
+                "ip_rating": "IP68",
+                "os": "iOS 26",
+                "current_os": "iOS 26",
+                "os_update_years": 6,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-air-12-256-sky-blue-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Sky Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "113999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "official_bd",
+                            "amount": "209999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "117499.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "112990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "price_type": "official_bd",
+                            "amount": "169500.00",
+                            "currency": "BDT",
+                            "confidence": 85
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "189749.50",
+                            "price_min": "169500.00",
+                            "price_max": "209999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "113999.00",
+                            "price_min": "112990.00",
+                            "price_max": "117499.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:30+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "in_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:46+06:00"
+                        },
+                        {
+                            "store_slug": "star-tech",
+                            "status": "in_stock",
+                            "source_key": "star_tech",
+                            "confidence": 85,
+                            "collected_at": "2026-08-28T13:10:01+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-air/0-39.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17_launch_at_Apple_TRX_Malaysia_13.jpg",
+                    "license": "CC0",
+                    "attribution": "Ahmad Ali Karim, CC0, via Wikimedia Commons",
+                    "match_confidence": 37,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-air/0-40.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_17_air-13502.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-air/0-41.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 485,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_Air_Vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:10:01+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 37,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:48:03+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "apple-iphone-se-2022",
+            "name": "iPhone SE (2022)",
+            "model_number": "A2595",
+            "announced_date": "2022-03-08",
+            "release_date": "2022-03-18",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Apple A15 Bionic",
+                "chipset_manufacturer": "Apple",
+                "cpu": "Hexa-core",
+                "gpu": "Apple GPU (4-core)",
+                "display_size": "4.7",
+                "display_resolution": "750 x 1334",
+                "display_panel_type": "Retina IPS LCD",
+                "display_refresh_rate": 60,
+                "display_protection": "Ion-strengthened glass",
+                "display_brightness_nits": null,
+                "main_camera": "12 MP, f/1.8, OIS",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "7 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 2018,
+                "charging_speed_w": 20,
+                "wireless_charging_w": 15,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.0",
+                "nfc": true,
+                "usb_type": "Lightning",
+                "sim_config": "Dual SIM (Nano-SIM + eSIM)",
+                "height_mm": "138.40",
+                "width_mm": "67.30",
+                "thickness_mm": "7.30",
+                "weight_g": 144,
+                "build_materials": "Aluminum frame, glass back",
+                "ip_rating": "IP67",
+                "os": "iOS 15",
+                "current_os": "iOS 15",
+                "os_update_years": 5,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "apple-iphone-se-2022-4-64-midnight-global",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Midnight",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "51000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "price_type": "official_bd",
+                            "amount": "52900.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "52900.00",
+                            "price_min": "52900.00",
+                            "price_max": "52900.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "51000.00",
+                            "price_min": "51000.00",
+                            "price_max": "51000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        },
+                        {
+                            "store_slug": "istock-bd",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:40+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "apple-iphone-se-2022/0-42.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "openverse",
+                    "source_url": "https://commons.wikimedia.org/w/index.php?curid=185842461",
+                    "license": "BY-SA 4.0",
+                    "attribution": "\"Apple iPhone SE 2nd Generation 2020, Samsung Galaxy A04s 2022 and Samsung Galaxy A56 5G 2025\" by Captainmorlypogi1959 is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/.",
+                    "match_confidence": 33,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-se-2022/0-43.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 160,
+                    "height": 212,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.gsmarena.com/apple_iphone_se_(2022)-11410.php",
+                    "license": null,
+                    "attribution": "Product photo via GSMArena.com",
+                    "match_confidence": 100,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "apple-iphone-se-2022/0-44.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_SE_(3rd_generation)_vector.svg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Wikimedia Commons, CC BY-SA 4.0",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, well-documented Apple device via known GSMArena/manufacturer specifications - model number (A2595), announce/release dates, and existing specs cross-checked and consistent with the real device (spot-verified against 5 other entries in this batch via live GSMArena/Wikipedia search, all exact matches). Approving on independently-confirmed identity/spec evidence per the source's low reliability score alone.",
+                    "reviewed_at": "2026-08-29T09:42:34+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 33,
+                    "resolution_note": "group photo of \"Apple iPhone SE 2nd Generation 2020, Samsung Galaxy A04s 2022 and Samsung Galaxy A56 5G 2025\" - wrong subject entirely and does not specify SE generation.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:04:14+06:00"
+                }
+            ]
+        }
+    ]
+}

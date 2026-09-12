@@ -1,0 +1,2113 @@
+{
+    "brand_slug": "xiaomi",
+    "phones": [
+        {
+            "slug": "xiaomi-11t",
+            "name": "Xiaomi 11T",
+            "model_number": null,
+            "announced_date": "2021-09-15",
+            "release_date": "2021-09-24",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 1200-Ultra",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (1x3.0 GHz Cortex-A78 + 3x2.6 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "108 MP, f/1.75",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": "5 MP",
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 67,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac/6",
+                "bluetooth_version": "5.2",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 203,
+                "build_materials": "Gorilla Glass Victus",
+                "ip_rating": null,
+                "os": "Android 11, MIUI 12.5",
+                "current_os": "Android 11, MIUI 12.5",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-11t-8-128-meteorite-gray-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Meteorite Gray",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "xiaomi-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "48999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "48999.00",
+                            "price_min": "48999.00",
+                            "price_max": "48999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "xiaomi-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-11t/0-814.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "openverse",
+                    "source_url": "https://commons.wikimedia.org/w/index.php?curid=112324400",
+                    "license": "BY-SA 4.0",
+                    "attribution": "\"HK MK 旺角 Mongkok 彌敦道 Nathan Road outside ads movie 梅艷芳 Anita Mui November 2021 SS2 01\" by Monk Msingowu 202LU is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/.",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "xiaomi-11t/0-815.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/xiaomi-11t/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:58+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"HK MK 旺角 Mongkok 彌敦道 Nathan Road outside ads movie 梅艷芳 Anita Mui November 2021 SS2 01\" bears no genuine relation to the catalogued Xiaomi Xiaomi 11T (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:43:25+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:32+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-12",
+            "name": "Xiaomi 12",
+            "model_number": null,
+            "announced_date": "2021-12-28",
+            "release_date": "2021-12-28",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 61,
+            "software_confidence": 46,
+            "overall_confidence": 62,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 1",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.3",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP",
+                "ultrawide_camera": "13 MP",
+                "telephoto_camera": "5 MP, macro",
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 4500,
+                "charging_speed_w": 67,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 12, MIUI 13",
+                "current_os": "Android 12, MIUI 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-12-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "70000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "70000.00",
+                            "price_min": "70000.00",
+                            "price_max": "70000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:46+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-12/0-816.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 748,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:The_back_of_Xiaomi_12S.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "洛微, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "rejected"
+                },
+                {
+                    "seed_file": "xiaomi-12/0-817.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:The_back_of_Xiaomi_12.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "洛微, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:57+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-12t",
+            "name": "Xiaomi 12T",
+            "model_number": null,
+            "announced_date": "2022-09-29",
+            "release_date": "2022-10-04",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8100 Ultra",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 5nm",
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "OLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "108 MP, f/1.7",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "20 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 120,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac/6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 202,
+                "build_materials": "Gorilla Glass 5",
+                "ip_rating": null,
+                "os": "Android 12, MIUI 13",
+                "current_os": "Android 12, MIUI 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-12t-8-256-blue-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Blue",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "59000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "59000.00",
+                            "price_min": "59000.00",
+                            "price_max": "59000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-12t/0-818.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 753,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Martin_Navr%C3%A1til.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Martin Navrátil, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "xiaomi-12t/0-819.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 500,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/xiaomi-12t/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:58+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Martin Navrátil\" bears no genuine relation to the catalogued Xiaomi Xiaomi 12T (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:43:32+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:35+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-13",
+            "name": "Xiaomi 13",
+            "model_number": null,
+            "announced_date": "2022-12-11",
+            "release_date": "2022-12-11",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 58,
+            "software_confidence": 46,
+            "overall_confidence": 61,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.4",
+                "display_resolution": null,
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "12 MP",
+                "telephoto_camera": "10 MP, 3.2x optical zoom",
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": null,
+                "charging_speed_w": 67,
+                "wireless_charging_w": 50,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": "IP68",
+                "os": "Android 13, MIUI 14",
+                "current_os": "Android 13, MIUI 14",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-13-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "89000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "89000.00",
+                            "price_min": "89000.00",
+                            "price_max": "89000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:46+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-13/0-820.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 562,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_13_20240220.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "メイド理世, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:57+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-13-pro",
+            "name": "Xiaomi 13 Pro",
+            "model_number": "2210132C",
+            "announced_date": "2022-12-11",
+            "release_date": "2023-02-26",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.2 GHz Cortex-X3 + 2x2.8 GHz Cortex-A715 + 2x2.8 GHz Cortex-A710 + 3x2.0 GHz Cortex-A510)",
+                "gpu": "Adreno 740",
+                "display_size": "6.7",
+                "display_resolution": "1440 x 3200",
+                "display_panel_type": "AMOLED (LTPO)",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass Victus",
+                "display_brightness_nits": 1900,
+                "main_camera": "50 MP, f/1.9, OIS",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.0, 3.2x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": "8K@24fps",
+                "battery_capacity_mah": 4820,
+                "charging_speed_w": 120,
+                "wireless_charging_w": 50,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 229,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus front and back",
+                "ip_rating": "IP68",
+                "os": "Android 13, MIUI 14",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-13-pro-12-256-ceramic-black-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Ceramic Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-13-pro/0-821.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Pro_(1).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "茅野ふたば, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 37,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "xiaomi-13-pro/0-822.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/xiaomi-13-pro/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 37,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:45:53+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 37,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:18:43+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-13t",
+            "name": "Xiaomi 13T",
+            "model_number": "23078PND5G",
+            "announced_date": "2023-09-26",
+            "release_date": "2023-10-05",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8200-Ultra",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G610 MC6",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 144,
+                "display_protection": "Corning Gorilla Glass 5",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.9, OIS (Leica)",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/1.9, 2x optical",
+                "macro_camera": null,
+                "front_camera": "20 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 67,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "162.20",
+                "width_mm": "75.70",
+                "thickness_mm": "8.00",
+                "weight_g": 201,
+                "build_materials": "Aluminum frame, Gorilla Glass 5",
+                "ip_rating": "IP68",
+                "os": "Android 13, MIUI 14",
+                "current_os": "Android 13, MIUI 14",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-13t-8-256-meadow-green-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Meadow Green",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "62999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "62999.00",
+                            "price_min": "62999.00",
+                            "price_max": "62999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-13t/0-823.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_13T_XIG04(%E3%82%A2%E3%83%AB%E3%83%91%E3%82%A4%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "けいあ, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real (Xiaomi 13T, Dimensity 8200-Ultra chipset and Sep 26 2023 release date both match GSMArena exactly). Model number 23078PND5G in our DB could not be independently confirmed as the plain 13T's code (search results kept surfacing the 13T Pro's code instead) - flagging as unverified rather than asserting it's correct, but this does not block approval since the core identity/specs are solid.",
+                    "reviewed_at": "2026-08-29T09:42:51+06:00",
+                    "created_at": "2026-08-28T13:09:34+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-13t-pro",
+            "name": "Xiaomi 13T Pro",
+            "model_number": "23078PND5G",
+            "announced_date": "2023-09-26",
+            "release_date": "2023-09-26",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 9200+",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (1x3.35 GHz Cortex-X3 + 3x3.2 GHz Cortex-A715 + 4x1.8 GHz Cortex-A510)",
+                "gpu": "Mali-G715 MC11",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 144,
+                "display_protection": "Gorilla Glass Victus",
+                "display_brightness_nits": 2600,
+                "main_camera": "50 MP, f/1.9, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/1.9, 2x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "20 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "8K@24fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 120,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 206,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus",
+                "ip_rating": "IP68",
+                "os": "Android 13, MIUI 14",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": 3,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-13t-pro-12-512-meadow-green-global",
+                    "ram_gb": 12,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Meadow Green",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "70000.00",
+                            "currency": "BDT",
+                            "confidence": 72
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "70000.00",
+                            "price_min": "70000.00",
+                            "price_max": "70000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "ai_research_2026",
+                            "confidence": 72,
+                            "collected_at": "2026-08-29T09:42:21+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-13t-pro/0-824.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Shibuya-Tokyo---2024-08-28_064.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 85,
+                    "status": "verified"
+                }
+            ],
+            "reviews": []
+        },
+        {
+            "slug": "xiaomi-14",
+            "name": "Xiaomi 14",
+            "model_number": "2311DRK48G",
+            "announced_date": "2023-10-26",
+            "release_date": "2024-02-25",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.3 GHz + 5x3.2 GHz + 2x2.3 GHz)",
+                "gpu": "Adreno 750",
+                "display_size": "6.4",
+                "display_resolution": "1200 x 2670",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass Victus",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.6, OIS (Leica)",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.0, 3.2x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": "8K@24fps, 4K@60fps",
+                "battery_capacity_mah": 4610,
+                "charging_speed_w": 90,
+                "wireless_charging_w": 50,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "152.80",
+                "width_mm": "71.50",
+                "thickness_mm": "8.20",
+                "weight_g": 188,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus",
+                "ip_rating": "IP68",
+                "os": "Android 14, HyperOS",
+                "current_os": "Android 14, HyperOS",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-14-12-256-black-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "109999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "109999.00",
+                            "price_min": "109999.00",
+                            "price_max": "109999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-14/0-825.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_14_(July_10,_2026).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "茅野ふたば, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:51+06:00",
+                    "created_at": "2026-08-28T13:09:34+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-14-ultra",
+            "name": "Xiaomi 14 Ultra",
+            "model_number": "2405CPX3DG",
+            "announced_date": "2024-02-22",
+            "release_date": "2024-03-01",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 750",
+                "display_size": "6.7",
+                "display_resolution": "1440 x 3200",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.63, OIS (Leica)",
+                "ultrawide_camera": "50 MP, f/1.8",
+                "telephoto_camera": "50 MP, f/3.0, 5x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5300,
+                "charging_speed_w": 90,
+                "wireless_charging_w": 80,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 224,
+                "build_materials": "Titanium frame, ceramic back",
+                "ip_rating": "IP68",
+                "os": "Android 14, HyperOS",
+                "current_os": "Android 14, HyperOS",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-14-ultra-16-512-black-global",
+                    "ram_gb": 16,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "139999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "139999.00",
+                            "price_min": "139999.00",
+                            "price_max": "139999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:41+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-14-ultra/0-826.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_SU7_Ultra_front_view_(April_7,_2025).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "茅野ふたば, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "xiaomi-14-ultra/0-827.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/xiaomi-14-ultra/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:52+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "depicts the \"Xiaomi SU7 Ultra\" - an electric car, not the catalogued Xiaomi 14 Ultra phone - text-match false positive.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:11:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 44,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:07:33+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-14t",
+            "name": "Xiaomi 14T",
+            "model_number": null,
+            "announced_date": "2024-09-26",
+            "release_date": "2024-09-26",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 76,
+            "software_confidence": 57,
+            "overall_confidence": 75,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8300 Ultra",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": "1220p",
+                "display_panel_type": "CrystalRes OLED",
+                "display_refresh_rate": 144,
+                "display_protection": null,
+                "display_brightness_nits": 4000,
+                "main_camera": "50 MP, Sony IMX906, f/1.7",
+                "ultrawide_camera": null,
+                "telephoto_camera": "50 MP, f/2.0",
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 67,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 195,
+                "build_materials": "Plastic frame, Gorilla Glass 5 front, Glass Panda-X back",
+                "ip_rating": "IP68",
+                "os": "Android 14, HyperOS",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-14t-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "53999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "59990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "56994.50",
+                            "price_min": "53999.00",
+                            "price_max": "59990.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:44:14+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:43:27+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-14t/0-828.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 762,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_14T_Pro_and_Xiaomi_14T_at_the_Ayala_Malls_Central_Bloc_(2025-01-09).jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Wide Awake!, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "xiaomi-14t/0-829.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 500,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/xiaomi-14t/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=76, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (75) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:47+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 75) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:27+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:54:14+06:00",
+                    "created_at": "2026-08-28T13:52:14+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:23:04+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-14t-pro",
+            "name": "Xiaomi 14T Pro",
+            "model_number": "24122RA97G",
+            "announced_date": "2024-09-26",
+            "release_date": "2024-10-04",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 9300+",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G720 MC12",
+                "display_size": "6.7",
+                "display_resolution": "1220 x 2712",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 144,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.6, OIS (Leica)",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.0, 2x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 120,
+                "wireless_charging_w": 50,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 209,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus 2",
+                "ip_rating": "IP68",
+                "os": "Android 14, HyperOS",
+                "current_os": "Android 14, HyperOS",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-14t-pro-12-256-titan-gray-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Titan Gray",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "84999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "84999.00",
+                            "price_min": "84999.00",
+                            "price_max": "84999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:41+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-14t-pro/0-830.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 762,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_14T_Pro_and_Xiaomi_14T_at_the_Ayala_Malls_Central_Bloc_(2025-01-09).jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "Wide Awake!, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:52+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-15",
+            "name": "Xiaomi 15",
+            "model_number": "2501DPD2G",
+            "announced_date": "2024-10-29",
+            "release_date": "2024-10-31",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Elite",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 830",
+                "display_size": "6.4",
+                "display_resolution": "1200 x 2670",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.6, OIS (Leica)",
+                "ultrawide_camera": "50 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.0, 3.2x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5400,
+                "charging_speed_w": 90,
+                "wireless_charging_w": 50,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 191,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus 2",
+                "ip_rating": "IP68",
+                "os": "Android 15, HyperOS 2",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-15-12-256-black-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "109999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "109999.00",
+                            "price_min": "109999.00",
+                            "price_max": "109999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:41+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-15/0-831.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(1).jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "茅野ふたば, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:53+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-15-ultra",
+            "name": "Xiaomi 15 Ultra",
+            "model_number": null,
+            "announced_date": "2025-02-27",
+            "release_date": "2025-02-27",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Elite",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (2x4.32 GHz + 6x3.53 GHz)",
+                "gpu": "Adreno 830",
+                "display_size": "6.7",
+                "display_resolution": "1440 x 3200",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 3200,
+                "main_camera": "50 MP, f/1.6, OIS",
+                "ultrawide_camera": "50 MP, f/1.8",
+                "telephoto_camera": "50 MP, f/2.6, periscope, 200 MP secondary telephoto",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": "8K@30fps",
+                "battery_capacity_mah": 5410,
+                "charging_speed_w": 90,
+                "wireless_charging_w": 80,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": "IP68",
+                "os": "Android 15, HyperOS 2",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-15-ultra-16-512-global",
+                    "ram_gb": 16,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "160000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "160000.00",
+                            "price_min": "160000.00",
+                            "price_max": "160000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-15-ultra/0-832.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 563,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Ultra.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Andreas Fuchs/Weber Shandwick, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:55+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-15t",
+            "name": "Xiaomi 15T",
+            "model_number": null,
+            "announced_date": "2025-09-24",
+            "release_date": "2025-09-24",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 68,
+            "software_confidence": 46,
+            "overall_confidence": 65,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8400 Ultra",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 4nm",
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": "1280 x 2772",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.7, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/1.9",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 67,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": "IP68",
+                "os": "Android 15, HyperOS 2",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-15t-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "62000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "62000.00",
+                            "price_min": "62000.00",
+                            "price_max": "62000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-15t/0-833.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15T_Pro_camera_island_2.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Maksdroider, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "xiaomi-15t/0-834.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/xiaomi-15t/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:56+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 55,
+                    "resolution_note": "\"Xiaomi 15T Pro camera island\" - depicts the Pro sibling, not the catalogued base Xiaomi 15T.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:31:38+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:12:57+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "xiaomi-15t-pro",
+            "name": "Xiaomi 15T Pro",
+            "model_number": null,
+            "announced_date": "2025-09-24",
+            "release_date": "2025-09-24",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 9400+",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core (1x3.63 GHz Cortex-X925 + 3x3.3 GHz Cortex-X4 + 4x2.4 GHz Cortex-A720)",
+                "gpu": "Immortalis-G925",
+                "display_size": "6.8",
+                "display_resolution": "1280 x 2772",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 144,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": 3200,
+                "main_camera": "50 MP, f/1.6, OIS",
+                "ultrawide_camera": "12 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/3.0, 100x digital zoom",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.2",
+                "camera_has_ois": true,
+                "video_recording": "8K@30fps",
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 90,
+                "wireless_charging_w": 50,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "6.0",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": "IP68",
+                "os": "Android 15, HyperOS 2",
+                "current_os": "Android 15, HyperOS 2",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "xiaomi-15t-pro-12-512-global",
+                    "ram_gb": 12,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "78000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "78000.00",
+                            "price_min": "78000.00",
+                            "price_max": "78000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:45+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "xiaomi-15t-pro/0-835.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15T_Pro_camera_island_2.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Maksdroider, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed as a real, GSMArena-verified device with matching chipset/RAM-storage/announce-release timing (Xiaomi/POCO/Infinix are established BD-market brands, no BD-relevance concern); no duplicate found against the active catalogue. Approving on independent identity+spec confirmation despite seed_dataset's low reliability score (55) and/or undocumented software-update policy, which is common for this market tier - this is the human/agent corroboration the confidence formula alone cannot supply.",
+                    "reviewed_at": "2026-08-29T09:42:56+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {"description": "itel models - a high-volume entry/budget smartphone brand with substantial presence in the Bangladesh market, added for market-relevance coverage."},
+  "phones": [
+    {
+      "external_ref": "itel-a70",
+      "brand": "itel", "model": "itel A70", "model_number": "S665LN",
+      "announced_date": "2024-06-10", "release_date": "2024-06-15", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc SC9863A1", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (1.6 GHz)", "gpu": "IMG GE8322",
+        "display_size": "6.6", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "13 MP, f/2.2", "front_camera": "5 MP, f/2.2", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": "189g",
+        "build_materials": "Plastic frame and back", "os": "Android 13 (Go edition)", "os_update_years": "0", "security_update_years": "1"
+      },
+      "variants": [{"ram": "3 GB", "storage": "64 GB", "color": "Ocean Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "7,990"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "itel-s24",
+      "brand": "itel", "model": "itel S24", "model_number": "S672LN",
+      "announced_date": "2024-03-12", "release_date": "2024-03-18", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc T606", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (2x1.6 GHz + 6x1.6 GHz)", "gpu": "IMG GE8320",
+        "display_size": "6.6", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "190g",
+        "build_materials": "Plastic frame and back", "os": "Android 13", "os_update_years": "1", "security_update_years": "1"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Racing Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "10,990"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "itel-p55",
+      "brand": "itel", "model": "itel P55", "model_number": "S667LP",
+      "announced_date": "2023-11-20", "release_date": "2023-11-25", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc T612", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (2x1.8 GHz + 6x1.8 GHz)", "gpu": "Mali-G57",
+        "display_size": "6.6", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "90 Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "6000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "196g",
+        "build_materials": "Plastic frame and back", "os": "Android 13", "os_update_years": "1", "security_update_years": "1"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Aurora Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "12,490"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "itel-p55-plus",
+      "brand": "itel", "model": "itel P55+", "model_number": "S668LP",
+      "announced_date": "2024-05-14", "release_date": "2024-05-20", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc T612", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (2x1.8 GHz + 6x1.8 GHz)", "gpu": "Mali-G57",
+        "display_size": "6.6", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false,
+        "battery_capacity": "6000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "196g",
+        "build_materials": "Plastic frame and back", "os": "Android 14", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Twilight Purple", "region": "Global", "is_official_bd": true, "price": {"official_bd": "13,990"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "itel-a05s",
+      "brand": "itel", "model": "itel A05s", "model_number": "S661LN",
+      "announced_date": "2023-08-15", "release_date": "2023-08-20", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc SC9863A1", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (1.6 GHz)", "gpu": "IMG GE8322",
+        "display_size": "6.6", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD", "display_refresh_rate": "60 Hz",
+        "main_camera": "8 MP, f/2.0", "front_camera": "5 MP, f/2.2", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": "185g",
+        "build_materials": "Plastic frame and back", "os": "Android 13 (Go edition)", "os_update_years": "0", "security_update_years": "1"
+      },
+      "variants": [{"ram": "2 GB", "storage": "32 GB", "color": "Cosmic Green", "region": "Global", "is_official_bd": true, "price": {"official_bd": "6,490"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "itel-rs4",
+      "brand": "itel", "model": "itel RS4", "model_number": "S680LN",
+      "announced_date": "2024-08-20", "release_date": "2024-08-26", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G88", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz + 6x1.8 GHz)", "gpu": "Mali-G52 MC2",
+        "display_size": "6.6", "display_resolution": "1080 x 2408", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.8, OIS", "front_camera": "8 MP, f/2.0", "camera_has_ois": true,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.1",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM", "weight": "190g",
+        "build_materials": "Plastic frame and back", "os": "Android 14", "os_update_years": "1", "security_update_years": "2"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": "Starlit Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "15,990"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

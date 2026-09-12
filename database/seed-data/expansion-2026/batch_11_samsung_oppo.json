@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "description": "Samsung A/M-series and Oppo A-series gap-fill, discovered and verified via GSMArena site-search before writing."
+  },
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-a57",
+      "brand": "Samsung",
+      "model": "Galaxy A57",
+      "model_number": null,
+      "announced_date": "2026-03-01",
+      "release_date": "2026-04-01",
+      "status": "available",
+      "category": "midrange",
+      "specs": {
+        "processor": "Samsung Exynos 1680",
+        "chipset_manufacturer": "Samsung",
+        "cpu": "Octa-core (1x2.9 GHz Cortex-720 + 4x2.6 GHz Cortex-720 + 3x1.95 GHz Cortex-520)",
+        "gpu": "Xclipse 550",
+        "display_size": "6.7",
+        "display_resolution": "1080 x 2340",
+        "display_panel_type": "Super AMOLED+",
+        "display_refresh_rate": "120 Hz",
+        "display_brightness_nits": "1900",
+        "main_camera": "50 MP",
+        "ultrawide_camera": "12 MP",
+        "macro_camera": "5 MP",
+        "front_camera": "12 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "45W",
+        "network_5g": true,
+        "wifi": "Wi-Fi 6E",
+        "bluetooth_version": "6.0",
+        "nfc": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM (nano + eSIM)",
+        "weight": "179 g",
+        "build_materials": "Gorilla Glass Victus+ front and back, aluminum frame",
+        "ip_rating": "IP68",
+        "os": "Android 16, One UI 8.5",
+        "current_os": "Android 16, One UI 8.5"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true,
+          "price": {
+            "official_bd": "69,999"
+          },
+          "availability": "in_stock",
+          "store": "Samsung Bangladesh"
+        },
+        {
+          "ram": "12 GB",
+          "storage": "256 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true,
+          "price": {
+            "official_bd": "86,599"
+          },
+          "availability": "in_stock",
+          "store": "Samsung Bangladesh"
+        }
+      ]
+    },
+    {
+      "external_ref": "samsung-galaxy-m17",
+      "brand": "Samsung",
+      "model": "Galaxy M17",
+      "model_number": null,
+      "announced_date": "2025-10-01",
+      "release_date": "2025-10-01",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "Samsung Exynos 1330",
+        "chipset_manufacturer": "Samsung",
+        "display_size": "6.7",
+        "display_resolution": "1080 x 2340",
+        "main_camera": "50 MP",
+        "network_5g": true,
+        "battery_capacity": "5000 mAh",
+        "charging_speed": "25W",
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "weight": "192 g",
+        "os": "Android 15, One UI 7",
+        "current_os": "Android 15, One UI 7"
+      },
+      "variants": [
+        {
+          "ram": "6 GB",
+          "storage": "128 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "samsung-galaxy-m17e",
+      "brand": "Samsung",
+      "model": "Galaxy M17e",
+      "model_number": null,
+      "announced_date": "2026-03-17",
+      "release_date": "2026-03-17",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 6300",
+        "chipset_manufacturer": "MediaTek",
+        "cpu": "Octa-core (2x2.4 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)",
+        "gpu": "Mali-G57 MC2",
+        "display_size": "6.7",
+        "display_resolution": "HD+",
+        "display_panel_type": "IPS LCD",
+        "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP",
+        "front_camera": "8 MP",
+        "camera_has_ois": false,
+        "battery_capacity": "6000 mAh",
+        "charging_speed": "25W",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "ip_rating": "IP54",
+        "os": "Android 16, One UI 8",
+        "current_os": "Android 16, One UI 8"
+      },
+      "variants": [
+        {
+          "ram": "6 GB",
+          "storage": "128 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    },
+    {
+      "external_ref": "oppo-a6-pro-india",
+      "brand": "Oppo",
+      "model": "Oppo A6 Pro",
+      "model_number": null,
+      "announced_date": "2026-01-05",
+      "release_date": "2026-01-05",
+      "status": "available",
+      "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 6300",
+        "chipset_manufacturer": "MediaTek",
+        "display_size": "6.75",
+        "display_resolution": "720 x 1570",
+        "display_panel_type": "IPS LCD",
+        "battery_capacity": "7000 mAh",
+        "charging_speed": "80W",
+        "network_5g": true,
+        "usb_type": "USB Type-C",
+        "sim_config": "Dual SIM",
+        "os": "Android 15, ColorOS 15",
+        "current_os": "Android 15, ColorOS 15"
+      },
+      "variants": [
+        {
+          "ram": "8 GB",
+          "storage": "128 GB",
+          "color": null,
+          "region": "Global",
+          "is_official_bd": true
+        }
+      ]
+    }
+  ]
+}

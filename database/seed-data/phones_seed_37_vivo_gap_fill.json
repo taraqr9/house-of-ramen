@@ -1,0 +1,89 @@
+{
+  "meta": {"description": "Catalogue expansion round 10 (toward ~400): Vivo entry/budget/mid-range gap fill (Y-series and V-series lines not yet in catalogue) plus one older X-series flagship. Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "vivo-y02s",
+      "brand": "Vivo", "model": "Vivo Y02s", "model_number": null,
+      "announced_date": "2022-08-01", "release_date": "2022-08-08", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio P35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm", "gpu": "PowerVR GE8320",
+        "display_size": "6.51", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "8 MP, f/1.8", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "802.11 b/g/n", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Glass front, plastic back, plastic frame", "os": "Android 12, Funtouch 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "32 GB", "color": "Vibrant Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "12,599"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y16",
+      "brand": "Vivo", "model": "Vivo Y16", "model_number": null,
+      "announced_date": "2022-08-25", "release_date": "2022-09-01", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio P35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm", "gpu": "PowerVR GE8320",
+        "display_size": "6.51", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "13 MP, f/2.2", "macro_camera": "2 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "184g",
+        "build_materials": "Glass front, plastic back, plastic frame", "os": "Android 12, Funtouch 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Drizzling Gold", "region": "Global", "is_official_bd": true, "price": {"official_bd": "13,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y21e",
+      "brand": "Vivo", "model": "Vivo Y21e", "model_number": null,
+      "announced_date": "2022-01-14", "release_date": "2022-01-20", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.4 GHz Kryo 265 Gold + 4x1.9 GHz Kryo 265 Silver)", "gpu": "Adreno 610",
+        "display_size": "6.51", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "13 MP, f/2.2", "macro_camera": "2 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": "Glass front, plastic back, plastic frame", "os": "Android 11, Funtouch 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "64 GB", "color": "Diamond Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "15,000"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-v27e",
+      "brand": "Vivo", "model": "Vivo V27e", "model_number": null,
+      "announced_date": "2023-03-01", "release_date": "2023-03-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G99", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 6nm", "gpu": "Mali-G57 MC2",
+        "display_size": "6.62", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "64 MP, f/1.8, OIS", "macro_camera": "2 MP", "front_camera": "32 MP", "camera_has_ois": true,
+        "battery_capacity": "4600 mAh", "charging_speed": "66W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "185g",
+        "build_materials": "Glass front, plastic back, plastic frame, IP54", "os": "Android 13, Funtouch 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Magic Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "34,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-v29",
+      "brand": "Vivo", "model": "Vivo V29", "model_number": null,
+      "announced_date": "2023-08-11", "release_date": "2023-08-11", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 778G", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core", "gpu": "Adreno 642L",
+        "display_size": "6.78", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "50 MP, f/1.9, OIS", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "50 MP", "camera_has_ois": true,
+        "battery_capacity": "4600 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.3",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "186g",
+        "build_materials": "Glass front, glass back, plastic frame, IP68", "os": "Android 13, Funtouch 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": "Majestic Red", "region": "Global", "is_official_bd": true, "price": {"official_bd": "56,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-x80",
+      "brand": "Vivo", "model": "Vivo X80", "model_number": null,
+      "announced_date": "2022-04-25", "release_date": "2022-05-06", "status": "discontinued", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 9000", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (1x3.05 GHz Cortex-X2 + 3x2.85 GHz Cortex-A710 + 4x1.8 GHz Cortex-A510)", "gpu": "Mali-G710 MC10",
+        "display_size": "6.78", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120Hz",
+        "main_camera": "50 MP, f/1.75, OIS", "ultrawide_camera": "12 MP", "telephoto_camera": "12 MP, 2x zoom", "front_camera": "32 MP", "camera_has_ois": true,
+        "battery_capacity": "4500 mAh", "charging_speed": "80W", "network_5g": true, "wifi": "802.11 a/b/g/n/ac/6", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "205g",
+        "build_materials": "Glass front, glass back, aluminum frame, IP68", "os": "Android 12, OriginOS Ocean", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": "Cosmic Black", "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "79,999"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

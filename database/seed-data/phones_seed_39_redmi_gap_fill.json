@@ -1,0 +1,89 @@
+{
+  "meta": {"description": "Catalogue expansion round 12 (toward ~400): Redmi entry/budget gap fill (older Note-series and numbered-series phones still commonly seen in the BD market, not yet in catalogue). Specs verified against GSMArena, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "redmi-9a",
+      "brand": "Redmi", "model": "Redmi 9A", "model_number": null,
+      "announced_date": "2020-05-12", "release_date": "2020-05-25", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G25", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x1.95 GHz Cortex-A53 + 4x1.45 GHz Cortex-A53)",
+        "display_size": "6.53", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "13 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 10, MIUI 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "2 GB", "storage": "32 GB", "color": "Granite Gray", "region": "Global", "is_official_bd": true, "price": {"official_bd": "10,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-10c",
+      "brand": "Redmi", "model": "Redmi 10C", "model_number": null,
+      "announced_date": "2022-03-22", "release_date": "2022-03-30", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 6nm",
+        "display_size": "6.71", "display_resolution": "720 x 1650", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "50 MP, f/1.8", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "190g",
+        "build_materials": null, "os": "Android 11, MIUI 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Graphite Gray", "region": "Global", "is_official_bd": true, "price": {"official_bd": "14,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-12c",
+      "brand": "Redmi", "model": "Redmi 12C", "model_number": null,
+      "announced_date": "2023-01-11", "release_date": "2023-01-18", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)",
+        "display_size": "6.71", "display_resolution": "720 x 1650", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "50 MP, f/1.8", "macro_camera": "0.08 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": "192g",
+        "build_materials": null, "os": "Android 12, MIUI 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Ocean Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "11,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-a1-plus",
+      "brand": "Redmi", "model": "Redmi A1+", "model_number": null,
+      "announced_date": "2022-12-08", "release_date": "2022-12-08", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio A22", "chipset_manufacturer": "MediaTek", "cpu": "Quad-core, 12nm",
+        "display_size": "6.52", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "8 MP", "macro_camera": "0.8 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro-USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12 (Go edition)", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "2 GB", "storage": "32 GB", "color": "Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "10,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-note-10",
+      "brand": "Redmi", "model": "Redmi Note 10", "model_number": null,
+      "announced_date": "2021-03-04", "release_date": "2021-03-06", "status": "discontinued", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 678", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 11nm",
+        "display_size": "6.43", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "60Hz",
+        "main_camera": "48 MP, f/1.8", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "13 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "Gorilla Glass 3", "os": "Android 11, MIUI 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Shadow Black", "region": "Global", "is_official_bd": true, "price": {"official_bd": "19,999"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    },
+    {
+      "external_ref": "redmi-note-11-4g",
+      "brand": "Redmi", "model": "Redmi Note 11", "model_number": null,
+      "announced_date": "2022-01-27", "release_date": "2022-02-09", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 680", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 6nm",
+        "display_size": "6.43", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "90Hz",
+        "main_camera": "50 MP, f/1.8", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "13 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "Gorilla Glass 3", "os": "Android 11, MIUI 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Star Blue", "region": "Global", "is_official_bd": true, "price": {"official_bd": "19,499"}, "availability": "in_stock", "store": "Xiaomi Bangladesh"}]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "meta": {"description": "Catalogue expansion round 8: Vivo/Oppo/Infinix/Tecno/Realme budget-tier gap fill. Infinix Hot 10 Play excluded - falls below the ~10k relevance floor."},
+  "phones": [
+    {
+      "external_ref": "vivo-y33s",
+      "brand": "Vivo", "model": "Vivo Y33s", "model_number": null,
+      "announced_date": "2021-07-14", "release_date": "2021-07-14", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G80", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)", "gpu": "Mali-G52 MC2",
+        "display_size": "6.58", "display_resolution": "1080 x 2408", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "50 MP, f/1.8", "macro_camera": "2 MP", "front_camera": "16 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": "182g",
+        "build_materials": null, "os": "Android 11, Funtouch 11.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "23,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-a16",
+      "brand": "Oppo", "model": "Oppo A16", "model_number": null,
+      "announced_date": "2021-09-14", "release_date": "2021-09-14", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio G35", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.52", "display_resolution": null, "display_panel_type": null, "display_refresh_rate": null,
+        "main_camera": "13 MP", "front_camera": null, "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": null, "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, ColorOS 11.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "32 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "13,490"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "oppo-a55",
+      "brand": "Oppo", "model": "Oppo A55", "model_number": null,
+      "announced_date": "2021-09-01", "release_date": "2021-09-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G35", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.51", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "50 MP", "telephoto_camera": "2 MP, periscope", "ultrawide_camera": "2 MP", "front_camera": null, "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "24,000"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "infinix-hot-11s",
+      "brand": "Infinix", "model": "Infinix Hot 11S", "model_number": null,
+      "announced_date": "2021-11-01", "release_date": "2021-11-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G88", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.78", "display_resolution": "1080 x 2480", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "50 MP", "macro_camera": null, "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": null, "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "14,990"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-spark-9",
+      "brand": "Tecno", "model": "Tecno Spark 9", "model_number": null,
+      "announced_date": "2022-09-01", "release_date": "2022-09-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G37", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm",
+        "display_size": "6.6", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "13 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": null, "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "12,000"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-spark-7",
+      "brand": "Tecno", "model": "Tecno Spark 7", "model_number": null,
+      "announced_date": "2021-04-01", "release_date": "2021-04-01", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio A25", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "16 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "6000 mAh", "charging_speed": null, "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "3 GB", "storage": "64 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "11,499"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "realme-c35",
+      "brand": "Realme", "model": "Realme C35", "model_number": null,
+      "announced_date": "2022-03-03", "release_date": "2022-03-03", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc Tiger T616", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core, 2.0 GHz", "gpu": "Mali-G57",
+        "display_size": "6.6", "display_resolution": null, "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "50 MP", "macro_camera": "0.3 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, Realme UI 2.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "16,990"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    },
+    {
+      "external_ref": "realme-c31",
+      "brand": "Realme", "model": "Realme C31", "model_number": null,
+      "announced_date": "2022-05-24", "release_date": "2022-05-24", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "Unisoc Tiger T612", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core (2x1.8 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)", "gpu": "Mali-G57",
+        "display_size": "6.5", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "13 MP", "macro_camera": "2 MP", "front_camera": "5 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": null, "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11, Realme UI 2.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "14,990"}, "availability": "in_stock", "store": "Realme Bangladesh"}]
+    }
+  ]
+}

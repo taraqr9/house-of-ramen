@@ -1,0 +1,75 @@
+{
+  "meta": {"description": "Sixth batch of 2025-2026 refreshes: Infinix, Tecno, Honor. Individually verified via Bangladesh retailer listings against the existing catalogue."},
+  "phones": [
+    {
+      "external_ref": "infinix-hot-60i",
+      "brand": "Infinix", "model": "Infinix Hot 60i", "model_number": null,
+      "announced_date": "2025-06-25", "release_date": "2025-06-25", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G81 Ultimate", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.0 GHz Cortex-A75 + 6x1.8 GHz Cortex-A55)", "gpu": "Mali-G52 MC2",
+        "display_size": "6.7", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz", "display_protection": "Gorilla Glass",
+        "main_camera": "50 MP, f/1.8", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1440p@30fps",
+        "battery_capacity": "5160 mAh", "charging_speed": "45W", "reverse_charging": true, "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, XOS 15.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "16,999"}, "availability": "in_stock", "store": "Infinix Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-pova-7-pro",
+      "brand": "Tecno", "model": "Tecno Pova 7 Pro", "model_number": null,
+      "announced_date": "2025-09-30", "release_date": "2025-09-30", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300 Ultimate", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (4x2.5 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)", "gpu": "Mali-G615 MC2",
+        "display_size": "6.78", "display_resolution": "1224 x 2720", "display_panel_type": "AMOLED", "display_refresh_rate": "144 Hz", "display_brightness_nits": "4500", "display_protection": "Gorilla Glass 7i",
+        "main_camera": "64 MP, f/1.7", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "13 MP, f/2.2", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "6000 mAh", "charging_speed": "45W", "wireless_charging": "30W", "reverse_charging": true, "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, HiOS 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "34,999"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "tecno-spark-40-pro",
+      "brand": "Tecno", "model": "Tecno Spark 40 Pro", "model_number": null,
+      "announced_date": "2025-08-01", "release_date": "2025-08-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G100 Ultimate", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.2 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)", "gpu": "Mali-G57 MC2",
+        "display_size": "6.78", "display_resolution": "1224 x 2720", "display_panel_type": "AMOLED", "display_refresh_rate": "144 Hz",
+        "main_camera": "50 MP, f/1.6", "front_camera": "13 MP, f/2.2", "camera_has_ois": false, "video_recording": "1440p@30fps",
+        "battery_capacity": "5200 mAh", "charging_speed": "45W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, HiOS 15.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "18,990"}, "availability": "in_stock", "store": "Tecno Bangladesh"}]
+    },
+    {
+      "external_ref": "honor-x7d",
+      "brand": "Honor", "model": "Honor X7d", "model_number": null,
+      "announced_date": "2025-10-04", "release_date": "2025-10-04", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 685", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (4x2.8 GHz Cortex-A73 + 4x1.9 GHz Cortex-A53)",
+        "display_size": "6.77", "display_resolution": "720 x 1610", "display_panel_type": "TFT LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "108 MP, f/1.75", "front_camera": "8 MP, f/2.0", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "6500 mAh", "charging_speed": "35W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, MagicOS 9.0", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "23,999"}, "availability": "in_stock", "store": "Honor Bangladesh"}]
+    },
+    {
+      "external_ref": "honor-x9d",
+      "brand": "Honor", "model": "Honor X9d", "model_number": null,
+      "announced_date": "2026-01-04", "release_date": "2026-01-04", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 4", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (1x2.3 GHz + 3x2.2 GHz + 4x1.8 GHz)", "gpu": "Adreno 810",
+        "display_size": "6.79", "display_resolution": "1200 x 2640", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "6000",
+        "main_camera": "108 MP, f/1.8, OIS", "ultrawide_camera": "5 MP, f/2.2", "front_camera": "16 MP, f/2.5", "camera_has_ois": true, "video_recording": "4K@30fps",
+        "battery_capacity": "8300 mAh", "charging_speed": "66W", "reverse_charging": true, "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.2",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, MagicOS 9", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "44,999"}, "availability": "in_stock", "store": "Honor Bangladesh"}]
+    }
+  ]
+}

@@ -1,0 +1,2998 @@
+{
+    "brand_slug": "oneplus",
+    "phones": [
+        {
+            "slug": "oneplus-10-pro",
+            "name": "OnePlus 10 Pro",
+            "model_number": null,
+            "announced_date": "2022-01-11",
+            "release_date": "2022-01-11",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 56,
+            "software_confidence": 46,
+            "overall_confidence": 60,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 1",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": null,
+                "display_resolution": null,
+                "display_panel_type": "LTPO Fluid AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "48 MP",
+                "ultrawide_camera": "50 MP",
+                "telephoto_camera": "8 MP, 3.3x optical zoom",
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 12, OxygenOS 12.1",
+                "current_os": "Android 12, OxygenOS 12.1",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-10-pro-8-256-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "84000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "84000.00",
+                            "price_min": "84000.00",
+                            "price_max": "84000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:47+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-10-pro/0-259.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_7_Pro.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Dsr07, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-10-pro/0-260.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-10-pro-5g/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena/Wikipedia (OnePlus 10 Pro, predecessor to OnePlus 11, real flagship).",
+                    "reviewed_at": "2026-08-29T09:43:00+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "\"OnePlus 7 Pro\" - wrong generation entirely, not the catalogued OnePlus 10 Pro.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:37:59+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 44,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:15:07+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-11",
+            "name": "OnePlus 11",
+            "model_number": null,
+            "announced_date": "2023-01-04",
+            "release_date": "2023-01-04",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 61,
+            "software_confidence": 46,
+            "overall_confidence": 62,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.6",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "LTPO2 Fluid AMOLED",
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP",
+                "ultrawide_camera": "48 MP",
+                "telephoto_camera": "32 MP",
+                "macro_camera": null,
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13, OxygenOS 13",
+                "current_os": "Android 13, OxygenOS 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-11-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "70000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "70000.00",
+                            "price_min": "70000.00",
+                            "price_max": "70000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:47+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-11/0-261.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_AC2003_with_a_broken_screen,_11.jpg",
+                    "license": "CC BY-SA 2.0",
+                    "attribution": "Kent Madsen , CC BY-SA 2.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-11/0-262.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-11-5g/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus 11, Snapdragon 8 Gen 2, Jan 2023).",
+                    "reviewed_at": "2026-08-29T09:43:00+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "depicts a damaged/broken-screen phone (also a mismatched model number, AC2003) - unsuitable as a product photo and not confirmed as the catalogued OnePlus 11.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:38:08+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 44,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:15:14+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-11r",
+            "name": "OnePlus 11R",
+            "model_number": null,
+            "announced_date": "2023-02-07",
+            "release_date": "2023-02-21",
+            "status": "discontinued",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8+ Gen 1",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.2 GHz Cortex-X2 + 3x2.75 GHz Cortex-A710 + 4x2.0 GHz Cortex-A510)",
+                "gpu": "Adreno 730",
+                "display_size": "6.7",
+                "display_resolution": "1240 x 2772",
+                "display_panel_type": "AMOLED (LTPO)",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 1450,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 100,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 205,
+                "build_materials": "Aluminum frame, Gorilla Glass 5",
+                "ip_rating": "IP64",
+                "os": "Android 13, OxygenOS 13.1",
+                "current_os": "Android 14, OxygenOS 14",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-11r-8-128-sonic-black-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Sonic Black",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "49990.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "49990.00",
+                            "price_min": "49990.00",
+                            "price_max": "49990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:26:23+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-11r/0-263.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Ambervalleyobservatorydome.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Sathisharyabhata, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-11r/0-264.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-11r/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:11:37+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:47:08+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:20:06+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-12",
+            "name": "OnePlus 12",
+            "model_number": "CPH2583",
+            "announced_date": "2024-01-23",
+            "release_date": "2024-01-30",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 750",
+                "display_size": "6.8",
+                "display_resolution": "1440 x 3168",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass Victus 2",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.6, OIS (Hasselblad)",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": "64 MP, f/2.6, 3x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "8K@24fps, 4K@60fps",
+                "battery_capacity_mah": 5400,
+                "charging_speed_w": 100,
+                "wireless_charging_w": 50,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "164.30",
+                "width_mm": "75.80",
+                "thickness_mm": "9.15",
+                "weight_g": 220,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus 2",
+                "ip_rating": "IP65",
+                "os": "Android 14, OxygenOS 14",
+                "current_os": "Android 14, OxygenOS 14",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-12-12-256-flowy-emerald-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Flowy Emerald",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "94999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "94999.00",
+                            "price_min": "94999.00",
+                            "price_max": "94999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-12/0-265.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_AC2003_with_a_broken_screen,_12.jpg",
+                    "license": "CC BY-SA 2.0",
+                    "attribution": "Kent Madsen , CC BY-SA 2.0, via Wikimedia Commons",
+                    "match_confidence": 44,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-12/0-266.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 900,
+                    "height": 900,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-12/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus 12, Snapdragon 8 Gen 3, announced Jan 2024). No active-catalogue duplicate found. Approved on independent confirmation.",
+                    "reviewed_at": "2026-08-29T09:42:18+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 44,
+                    "resolution_note": "depicts a damaged/broken-screen phone (also a mismatched model number, AC2003) - unsuitable as a product photo and not confirmed as the catalogued OnePlus 12.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:03:10+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 44,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:06:03+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-12r",
+            "name": "OnePlus 12R",
+            "model_number": "CPH2609",
+            "announced_date": "2024-01-23",
+            "release_date": "2024-01-30",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 740",
+                "display_size": "6.8",
+                "display_resolution": "1264 x 2780",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 100,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 207,
+                "build_materials": "Aluminum frame, Gorilla Glass 5",
+                "ip_rating": "IP65",
+                "os": "Android 14, OxygenOS 14",
+                "current_os": "Android 14, OxygenOS 14",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-12r-16-256-iron-gray-global",
+                    "ram_gb": 16,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Iron Gray",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "58999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "58999.00",
+                            "price_min": "58999.00",
+                            "price_max": "58999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-12r/0-267.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 570,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_Ace_3_Black.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "X-SHLIED, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 28,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-12r/0-268.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-12r/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus 12R, Snapdragon 8 Gen 2, Jan 2024).",
+                    "reviewed_at": "2026-08-29T09:42:37+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 28,
+                    "resolution_note": "\"OnePlus Ace 3 Black\" - a different model name/branding, not the catalogued OnePlus 12R.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:16:48+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 28,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:08:50+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-13",
+            "name": "OnePlus 13",
+            "model_number": "PJD110",
+            "announced_date": "2024-10-31",
+            "release_date": "2025-01-07",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Elite",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 830",
+                "display_size": "6.8",
+                "display_resolution": "1440 x 3168",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.6, OIS (Hasselblad)",
+                "ultrawide_camera": "50 MP, f/2.0",
+                "telephoto_camera": "50 MP, f/2.6, 3x optical",
+                "macro_camera": null,
+                "front_camera": "32 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": 100,
+                "wireless_charging_w": 50,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 210,
+                "build_materials": "Aluminum frame, Gorilla Glass Victus 2",
+                "ip_rating": "IP68",
+                "os": "Android 15, OxygenOS 15",
+                "current_os": "Android 15, OxygenOS 15",
+                "os_update_years": 4,
+                "security_update_years": 6,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-13-16-512-midnight-ocean-global",
+                    "ram_gb": 16,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Midnight Ocean",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "109999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "109999.00",
+                            "price_min": "109999.00",
+                            "price_max": "109999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-13/0-269.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_13_back.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Maksdroider, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus 13, Snapdragon 8 Elite, Oct 2024/Jan 2025).",
+                    "reviewed_at": "2026-08-29T09:42:37+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-13r",
+            "name": "OnePlus 13R",
+            "model_number": null,
+            "announced_date": "2025-01-07",
+            "release_date": "2025-01-14",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.3 GHz + 3x3.2 GHz + 2x3.0 GHz + 2x2.3 GHz)",
+                "gpu": "Adreno 750",
+                "display_size": "6.8",
+                "display_resolution": "1264 x 2780",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Gorilla Glass",
+                "display_brightness_nits": 4500,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": "50 MP, f/2.0, 2x optical zoom, OIS",
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, OxygenOS 15",
+                "current_os": "Android 15, OxygenOS 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-13r-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "54000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "54000.00",
+                            "price_min": "54000.00",
+                            "price_max": "54000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-13r/0-270.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_13R_front.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Maksdroider, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus 13R, Snapdragon 8 Gen 3, Jan 2025).",
+                    "reviewed_at": "2026-08-29T09:42:47+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-13t",
+            "name": "OnePlus 13T",
+            "model_number": null,
+            "announced_date": "2025-04-30",
+            "release_date": "2025-04-30",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Elite",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (2x4.32 GHz + 6x3.53 GHz)",
+                "gpu": "Adreno 830",
+                "display_size": "6.3",
+                "display_resolution": "1216 x 2640",
+                "display_panel_type": "LTPO AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 1600,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": null,
+                "telephoto_camera": "50 MP, f/2.0, OIS",
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@60fps",
+                "battery_capacity_mah": 6260,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 7",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, ColorOS 15",
+                "current_os": "Android 15, ColorOS 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-13t-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "64000.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "64000.00",
+                            "price_min": "64000.00",
+                            "price_max": "64000.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-13t/0-271.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 726,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_13T_Front.png",
+                    "license": "CC BY 4.0",
+                    "attribution": "X-SHLIED, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus 13T, Snapdragon 8 Elite).",
+                    "reviewed_at": "2026-08-29T09:42:47+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-15",
+            "name": "OnePlus 15",
+            "model_number": null,
+            "announced_date": "2025-10-28",
+            "release_date": "2025-10-28",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 76,
+            "software_confidence": 57,
+            "overall_confidence": 75,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Elite Gen 5",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (2x4.6 GHz + 6x3.62 GHz)",
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": "2772 x 1272",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 165,
+                "display_protection": null,
+                "display_brightness_nits": 1800,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 7300,
+                "charging_speed_w": 80,
+                "wireless_charging_w": 50,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 211,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 16, OxygenOS 16",
+                "current_os": "Android 16, OxygenOS 16",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-15-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "rio-international",
+                            "price_type": "unofficial_bd",
+                            "amount": "85999.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "official_bd",
+                            "amount": "97999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "79999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "75490.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "97999.00",
+                            "price_min": "97999.00",
+                            "price_max": "97999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "79999.00",
+                            "price_min": "75490.00",
+                            "price_max": "85999.00",
+                            "observation_count": 3,
+                            "retailer_count": 3,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:43:54+06:00"
+                        },
+                        {
+                            "store_slug": "dazzle",
+                            "status": "out_of_stock",
+                            "source_key": "dazzle",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:42:31+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-15/0-272.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 562,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_15_back.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Maksdroider, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=76, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (75) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 75) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:26+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-15r",
+            "name": "OnePlus 15R",
+            "model_number": null,
+            "announced_date": "2025-12-01",
+            "release_date": "2025-12-01",
+            "status": "available",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 63,
+            "software_confidence": 57,
+            "overall_confidence": 69,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 5",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": null,
+                "display_panel_type": null,
+                "display_refresh_rate": null,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 7400,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM (nano + eSIM)",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 16, OxygenOS 16",
+                "current_os": "Android 16, OxygenOS 16",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-15r-12-256-global",
+                    "ram_gb": 12,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-15r/0-273.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 692,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Bulle,_Mus%C3%A9e_gru%C3%A9rien,_382,_f._15r_%E2%80%93_Collectarium_cartusianum.JPG",
+                    "license": "Public domain",
+                    "attribution": "Unknown authorUnknown author, Public domain, via Wikimedia Commons",
+                    "match_confidence": 17,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-15r/0-274.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 700,
+                    "height": 700,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-15r/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena listing (OnePlus 15R, Snapdragon 8 Gen 5, Dec 2025) - present in current OnePlus catalogue page.",
+                    "reviewed_at": "2026-08-29T09:43:19+06:00",
+                    "created_at": "2026-08-28T13:09:45+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 17,
+                    "resolution_note": "Image manually rejected via phone edit screen.",
+                    "reviewed_at": "2026-08-29T15:49:30+06:00",
+                    "created_at": "2026-08-29T15:46:51+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 17,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:21:23+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-2t",
+            "name": "OnePlus Nord 2T",
+            "model_number": null,
+            "announced_date": "2022-05-04",
+            "release_date": "2022-05-12",
+            "status": "discontinued",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 1300",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 6nm",
+                "gpu": "Mali-G77 MC9",
+                "display_size": "6.4",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "32 MP",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 4500,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac",
+                "bluetooth_version": "5.2",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 12, OxygenOS 12.1",
+                "current_os": "Android 12, OxygenOS 12.1",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-2t-8-128-gray-shadow-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Gray Shadow",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "49999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "49999.00",
+                            "price_min": "49999.00",
+                            "price_max": "49999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-2t/0-275.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_Nord_2T.png",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Rupturestriker, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord 2T, Dimensity 1300, May 2022).",
+                    "reviewed_at": "2026-08-29T09:43:09+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-3",
+            "name": "OnePlus Nord 3",
+            "model_number": "CPH2493",
+            "announced_date": "2023-07-04",
+            "release_date": "2023-07-11",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 9000",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core",
+                "gpu": "Mali-G710 MC10",
+                "display_size": "6.7",
+                "display_resolution": "1240 x 2772",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": "2 MP, f/2.4",
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 194,
+                "build_materials": "Aluminum frame, Gorilla Glass 5",
+                "ip_rating": "IP54",
+                "os": "Android 13, OxygenOS 13.1",
+                "current_os": "Android 13, OxygenOS 13.1",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-3-16-256-tempest-gray-global",
+                    "ram_gb": 16,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Tempest Gray",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "44999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "44999.00",
+                            "price_min": "44999.00",
+                            "price_max": "44999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:43+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-3/0-276.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 667,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_AC2003_with_a_broken_screen,_3.jpg",
+                    "license": "CC BY-SA 2.0",
+                    "attribution": "Kent Madsen , CC BY-SA 2.0, via Wikimedia Commons",
+                    "match_confidence": 39,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-3/0-277.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-3-5g/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord 3, Dimensity 9000, Jul 2023).",
+                    "reviewed_at": "2026-08-29T09:42:38+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 39,
+                    "resolution_note": "depicts a damaged/broken-screen phone (also a mismatched model number, AC2003) - unsuitable as a product photo and not confirmed as the catalogued OnePlus Nord 3.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:26:24+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 39,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:11:47+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-4",
+            "name": "OnePlus Nord 4",
+            "model_number": "CPH2663",
+            "announced_date": "2024-07-16",
+            "release_date": "2024-07-23",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7+ Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 720",
+                "display_size": "6.7",
+                "display_resolution": "1240 x 2772",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 100,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 199,
+                "build_materials": "Aluminum unibody frame and back",
+                "ip_rating": "IP65",
+                "os": "Android 14, OxygenOS 14.1",
+                "current_os": "Android 14, OxygenOS 14.1",
+                "os_update_years": 3,
+                "security_update_years": 4,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-4-8-256-obsidian-midnight-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Obsidian Midnight",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "48999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "48999.00",
+                            "price_min": "48999.00",
+                            "price_max": "48999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-4/0-278.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Gannu03, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 55,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-4/0-279.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-4/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord 4, Snapdragon 7+ Gen 3, Jul 2024).",
+                    "reviewed_at": "2026-08-29T09:42:29+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 55,
+                    "resolution_note": "Wikimedia Commons candidate titled \"OnePlus Nord smartphone displaying Android home screen\" bears no genuine relation to the catalogued OnePlus OnePlus Nord 4 (confidence 55/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:14+06:00",
+                    "created_at": "2026-08-29T15:16:36+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 55,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:08:44+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-5",
+            "name": "OnePlus Nord 5",
+            "model_number": null,
+            "announced_date": "2025-07-09",
+            "release_date": "2025-07-09",
+            "status": "available",
+            "category": "upper_midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 71,
+            "software_confidence": 46,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8s Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.0 GHz + 4x2.8 GHz + 3x2.0 GHz)",
+                "gpu": "Adreno 735",
+                "display_size": "6.8",
+                "display_resolution": "1272 x 2800",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 144,
+                "display_protection": "Gorilla Glass 7i",
+                "display_brightness_nits": 1800,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "50 MP, f/2.0",
+                "camera_has_ois": true,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 6800,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": true,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6",
+                "bluetooth_version": "5.4",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, OxygenOS 15",
+                "current_os": "Android 15, OxygenOS 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-5-12-512-global",
+                    "ram_gb": 12,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "53999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "53999.00",
+                            "price_min": "53999.00",
+                            "price_max": "53999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-5/0-280.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_Nord_5_front.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Maksdroider, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord 5, Snapdragon 8s Gen 3, Jul 2025).",
+                    "reviewed_at": "2026-08-29T09:42:48+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-ce-2-5g",
+            "name": "OnePlus Nord CE 2 5G",
+            "model_number": null,
+            "announced_date": "2022-02-17",
+            "release_date": "2022-02-24",
+            "status": "discontinued",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 46,
+            "overall_confidence": 68,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 900",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 6nm",
+                "gpu": "Mali-G68 MC4",
+                "display_size": "6.4",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "64 MP, f/1.79",
+                "ultrawide_camera": "8 MP",
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 4500,
+                "charging_speed_w": 65,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "802.11 a/b/g/n/ac",
+                "bluetooth_version": "5.1",
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 173,
+                "build_materials": "Gorilla Glass 5",
+                "ip_rating": null,
+                "os": "Android 11, OxygenOS 11.3",
+                "current_os": "Android 11, OxygenOS 11.3",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-ce-2-5g-8-128-gray-mirror-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Gray Mirror",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "36990.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "36990.00",
+                            "price_min": "36990.00",
+                            "price_max": "36990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:49+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-ce-2-5g/0-281.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Garuda_Processional_Image_-_Sri_Appan_Venkatachalapati_Temple,_Cheranmahadevi.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Chronikhiles, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-ce-2-5g/0-282.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 500,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-ce-2-5g/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord CE 2 5G, real BBK/Oppo-related mid-ranger).",
+                    "reviewed_at": "2026-08-29T09:43:18+06:00",
+                    "created_at": "2026-08-28T13:09:43+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Garuda Processional Image - Sri Appan Venkatachalapati Temple, Cheranmahadevi\" bears no genuine relation to the catalogued OnePlus OnePlus Nord CE 2 5G (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:45:27+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:18:07+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-ce3",
+            "name": "OnePlus Nord CE3",
+            "model_number": null,
+            "announced_date": "2023-04-19",
+            "release_date": "2023-04-19",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 58,
+            "software_confidence": 46,
+            "overall_confidence": 61,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 782G",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.7",
+                "display_resolution": null,
+                "display_panel_type": "Fluid AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 80,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": true,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13, OxygenOS 13.1",
+                "current_os": "Android 13, OxygenOS 13.1",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-ce3-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "dazzle",
+                            "price_type": "unofficial_bd",
+                            "amount": "27990.00",
+                            "currency": "BDT",
+                            "confidence": 75
+                        },
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "30999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "30999.00",
+                            "price_min": "30999.00",
+                            "price_max": "30999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        },
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "27990.00",
+                            "price_min": "27990.00",
+                            "price_max": "27990.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "oneplus-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:46+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-ce3/0-283.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Busy_Commercial_Street_of_karaikudi_during_Diwali.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Kkdi63, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-ce3/0-284.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 517,
+                    "height": 517,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-ce-3/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord CE3, Snapdragon 782G, Jul 2023).",
+                    "reviewed_at": "2026-08-29T09:42:59+06:00",
+                    "created_at": "2026-08-28T13:09:41+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Busy Commercial Street of karaikudi during Diwali\" bears no genuine relation to the catalogued OnePlus OnePlus Nord CE3 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:34:58+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:14:04+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-ce4",
+            "name": "OnePlus Nord CE4",
+            "model_number": "CPH2591",
+            "announced_date": "2024-04-01",
+            "release_date": "2024-04-15",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 7 Gen 3",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 720",
+                "display_size": "6.7",
+                "display_resolution": "1080 x 2412",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": "Corning Gorilla Glass 5",
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.88, OIS",
+                "ultrawide_camera": "8 MP, f/2.2",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "16 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 5500,
+                "charging_speed_w": 100,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM (Nano-SIM, dual stand-by)",
+                "height_mm": "161.20",
+                "width_mm": "74.50",
+                "thickness_mm": "7.90",
+                "weight_g": 186,
+                "build_materials": "Glass front, plastic frame and back",
+                "ip_rating": "IP54",
+                "os": "Android 14, OxygenOS 14",
+                "current_os": "Android 14, OxygenOS 14",
+                "os_update_years": 2,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-ce4-8-256-dark-chrome-global",
+                    "ram_gb": 8,
+                    "storage_gb": 256,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Dark Chrome",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "38999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "38999.00",
+                            "price_min": "38999.00",
+                            "price_max": "38999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:39+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-ce4/0-285.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:At_temple_at_my_locality.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "GymPediaWarrior, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-ce4/0-286.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 560,
+                    "height": 560,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-ce4/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord CE4, Snapdragon 7 Gen 3, announced Apr 2024). No active-catalogue duplicate found. Approved on independent confirmation.",
+                    "reviewed_at": "2026-08-29T09:42:18+06:00",
+                    "created_at": "2026-08-28T13:09:35+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"At temple at my locality\" bears no genuine relation to the catalogued OnePlus OnePlus Nord CE4 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:03:29+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:06:05+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-ce4-lite",
+            "name": "OnePlus Nord CE4 Lite",
+            "model_number": "CPH2643",
+            "announced_date": "2024-04-25",
+            "release_date": "2024-05-06",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 73,
+            "spec_confidence": 73,
+            "software_confidence": 73,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 6 Gen 1",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core",
+                "gpu": "Adreno 710",
+                "display_size": "6.7",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8, OIS",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "8 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": null,
+                "battery_capacity_mah": 5110,
+                "charging_speed_w": 67,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 190,
+                "build_materials": "Glass front, plastic frame and back",
+                "ip_rating": "IP54",
+                "os": "Android 14, OxygenOS 14",
+                "current_os": "Android 14, OxygenOS 14",
+                "os_update_years": 2,
+                "security_update_years": 3,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-ce4-lite-8-128-super-silver-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Super Silver",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "27999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "27999.00",
+                            "price_min": "27999.00",
+                            "price_max": "27999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:42+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-ce4-lite/0-287.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Achill_Island_labyrinth_and_waterfall.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Barrowbob, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-ce4-lite/0-288.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-ce4-lite/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena (OnePlus Nord CE4 Lite, Snapdragon 6 Gen 1, Apr 2024).",
+                    "reviewed_at": "2026-08-29T09:42:37+06:00",
+                    "created_at": "2026-08-28T13:09:36+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Achill Island labyrinth and waterfall\" bears no genuine relation to the catalogued OnePlus OnePlus Nord CE4 Lite (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:16:43+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:08:47+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-nord-ce5",
+            "name": "OnePlus Nord CE5",
+            "model_number": null,
+            "announced_date": "2025-07-08",
+            "release_date": "2025-07-08",
+            "status": "available",
+            "category": "midrange",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 58,
+            "software_confidence": 57,
+            "overall_confidence": 67,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Dimensity 8350 Apex",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": null,
+                "gpu": null,
+                "display_size": null,
+                "display_resolution": null,
+                "display_panel_type": null,
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": null,
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": null,
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 7100,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15, OxygenOS 15",
+                "current_os": "Android 15, OxygenOS 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-nord-ce5-8-128-global",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-nord-ce5/0-289.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:2026-02-Halle-(Saale)-Moritzburg-von-der-Burgbruecke-betrachtet.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Oliver Kloss, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "oneplus-nord-ce5/0-290.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/oneplus-nord-ce5/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real via GSMArena listing (OnePlus Nord CE5, present in current catalogue page).",
+                    "reviewed_at": "2026-08-29T09:43:27+06:00",
+                    "created_at": "2026-08-28T13:09:46+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Image manually rejected via phone edit screen.",
+                    "reviewed_at": "2026-08-29T15:49:07+06:00",
+                    "created_at": "2026-08-29T15:48:56+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:22:43+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "oneplus-open",
+            "name": "OnePlus Open",
+            "model_number": null,
+            "announced_date": "2023-10-19",
+            "release_date": "2023-10-26",
+            "status": "discontinued",
+            "category": "flagship",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 83,
+            "software_confidence": 83,
+            "overall_confidence": 83,
+            "is_active": true,
+            "spec": {
+                "processor": "Qualcomm Snapdragon 8 Gen 2",
+                "chipset_manufacturer": "Qualcomm",
+                "cpu": "Octa-core (1x3.2 GHz Cortex-X3 + 2x2.8 GHz Cortex-A715 + 2x2.8 GHz Cortex-A710 + 3x2.0 GHz Cortex-A510)",
+                "gpu": "Adreno 740",
+                "display_size": "7.8",
+                "display_resolution": "2268 x 2440",
+                "display_panel_type": "AMOLED (foldable, LTPO)",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": 2800,
+                "main_camera": "48 MP, f/1.8, OIS",
+                "ultrawide_camera": "48 MP, f/2.2",
+                "telephoto_camera": "64 MP, f/2.6, 3x optical, OIS",
+                "macro_camera": null,
+                "front_camera": "20 MP, f/2.4",
+                "camera_has_ois": true,
+                "video_recording": "4K@30fps",
+                "battery_capacity_mah": 4805,
+                "charging_speed_w": 67,
+                "wireless_charging_w": 0,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": true,
+                "wifi": "Wi-Fi 6E",
+                "bluetooth_version": "5.3",
+                "nfc": true,
+                "usb_type": "USB Type-C 3.1",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 245,
+                "build_materials": "Aluminum frame, glass/vegan leather back",
+                "ip_rating": "IPX4",
+                "os": "Android 13, OxygenOS 13.2",
+                "current_os": "Android 15, OxygenOS 15",
+                "os_update_years": 4,
+                "security_update_years": 5,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "oneplus-open-16-512-emerald-dusk-global",
+                    "ram_gb": 16,
+                    "storage_gb": 512,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Emerald Dusk",
+                    "region": "Global",
+                    "sku": null,
+                    "is_official_bd": false,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "price_type": "unofficial_bd",
+                            "amount": "159999.00",
+                            "currency": "BDT",
+                            "confidence": 80
+                        },
+                        {
+                            "store_slug": "local-market",
+                            "price_type": "unofficial_bd",
+                            "amount": "159999.00",
+                            "currency": "BDT",
+                            "confidence": 72
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "unofficial_bd",
+                            "price": "159999.00",
+                            "price_min": "159999.00",
+                            "price_max": "159999.00",
+                            "observation_count": 2,
+                            "retailer_count": 2,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "sumash-tech",
+                            "status": "in_stock",
+                            "source_key": "sumash_tech",
+                            "confidence": 80,
+                            "collected_at": "2026-08-28T13:20:09+06:00"
+                        },
+                        {
+                            "store_slug": "local-market",
+                            "status": "in_stock",
+                            "source_key": "ai_research_2026",
+                            "confidence": 72,
+                            "collected_at": "2026-08-29T09:42:21+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "oneplus-open/0-291.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_Open.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Miyako Fujimiya, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 95,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 83) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:20:09+06:00"
+                }
+            ]
+        }
+    ]
+}

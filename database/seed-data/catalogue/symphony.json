@@ -1,0 +1,1197 @@
+{
+    "brand_slug": "symphony",
+    "phones": [
+        {
+            "slug": "symphony-helio-80",
+            "name": "Helio 80",
+            "model_number": null,
+            "announced_date": "2023-09-21",
+            "release_date": "2023-09-21",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 71,
+            "software_confidence": 57,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Helio G99",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 2.2 GHz",
+                "gpu": "Mali-G57 MC2",
+                "display_size": "6.7",
+                "display_resolution": "1080 x 2400",
+                "display_panel_type": "AMOLED",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "108 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "16 MP",
+                "camera_has_ois": false,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.0",
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 196,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-helio-80-6-128-bangladesh",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-store",
+                            "price_type": "official_bd",
+                            "amount": "16999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "16999.00",
+                            "price_min": "16999.00",
+                            "price_max": "16999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-store",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-helio-80/0-634.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 500,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-helio-80/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, sold in BD (GSMArenaBD, AmarPhone): Helio G99, 120Hz AMOLED, 108MP camera, 5000mAh. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:17+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-innova-30",
+            "name": "Innova 30",
+            "model_number": null,
+            "announced_date": "2024-03-18",
+            "release_date": "2024-03-18",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 71,
+            "software_confidence": 57,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T616",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core, 2.0 GHz",
+                "gpu": null,
+                "display_size": "6.6",
+                "display_resolution": "720 x 1612",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "108 MP, f/2.0",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "8 MP, f/2.0",
+                "camera_has_ois": false,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.0",
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-innova-30-8-128-bangladesh",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-store",
+                            "price_type": "official_bd",
+                            "amount": "12699.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "12699.00",
+                            "price_min": "12699.00",
+                            "price_max": "12699.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-store",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-innova-30/0-635.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:A_small_part_of_a_person%27s_life_IMG_20240927_124526_AI.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Littleeditor12123434, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "symphony-innova-30/0-636.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 500,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-innova-30/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, Symphony domestic brand, sold in BD (Pickaboo, MobileDokan): Unisoc T616, 90Hz, 108MP camera, 5000mAh/18W. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:17+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"A small part of a person's life IMG 20240927 124526 AI\" bears no genuine relation to the catalogued Symphony Innova 30 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:28:47+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:12:26+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-innova-40",
+            "name": "Innova 40",
+            "model_number": null,
+            "announced_date": "2025-08-10",
+            "release_date": "2025-08-10",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 78,
+            "software_confidence": 57,
+            "overall_confidence": 76,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T615",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+                "gpu": "Mali-G57",
+                "display_size": "6.8",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 120,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP, f/1.8",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "8 MP, f/2.0",
+                "camera_has_ois": false,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.0",
+                "nfc": false,
+                "usb_type": "USB Type-C 2.0",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": 210,
+                "build_materials": null,
+                "ip_rating": "IP52",
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-innova-40-8-128-bangladesh",
+                    "ram_gb": 8,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-store",
+                            "price_type": "official_bd",
+                            "amount": "14999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "14999.00",
+                            "price_min": "14999.00",
+                            "price_max": "14999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-store",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-innova-40/0-637.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:%E0%A6%95%E0%A6%BF_%E0%A6%B8%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "[[User:Mohammad Ibn Musa, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "symphony-innova-40/0-638.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 800,
+                    "height": 800,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-innova-40/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real and sold in Bangladesh (Star Tech, MobileDokan): Unisoc T615, 6000mAh/18W, 50MP camera, Android 15. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:17+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"কি সুস্বাদু\" bears no genuine relation to the catalogued Symphony Innova 40 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:28:41+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:12:24+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-max-60-4g",
+            "name": "Symphony Max 60 4G",
+            "model_number": null,
+            "announced_date": "2025-09-29",
+            "release_date": "2025-09-29",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 71,
+            "software_confidence": 57,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "UNISOC SC9863A",
+                "chipset_manufacturer": "UNISOC",
+                "cpu": null,
+                "gpu": null,
+                "display_size": "6.8",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": null,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "13 MP",
+                "ultrawide_camera": "2 MP",
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "5 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 6000,
+                "charging_speed_w": null,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": null,
+                "bluetooth_version": null,
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 15",
+                "current_os": "Android 15",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-max-60-4g-4-64-bangladesh",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-mobile",
+                            "price_type": "official_bd",
+                            "amount": "10999.00",
+                            "currency": "BDT",
+                            "confidence": 72
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "10999.00",
+                            "price_min": "10999.00",
+                            "price_max": "10999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-mobile",
+                            "status": "in_stock",
+                            "source_key": "ai_research_2026",
+                            "confidence": 72,
+                            "collected_at": "2026-08-29T09:42:20+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-approved: identity_confidence=83, spec_confidence=71, has a real RAM/storage variant - core identity and specs are well-evidenced even though overall_confidence (72) didn't clear the auto-approve threshold (usually due to unpublished multi-year software-update commitments, which many budget phones never state).",
+                    "reviewed_at": "2026-08-28T13:35:22+06:00",
+                    "created_at": "2026-08-28T13:09:44+06:00"
+                },
+                {
+                    "reason": "low_confidence",
+                    "status": "resolved",
+                    "similarity_score": null,
+                    "resolution_note": "Auto-resolved: phone is already active (confidence 72) - this flag predates a later update that cleared the bar.",
+                    "reviewed_at": "2026-08-28T13:48:59+06:00",
+                    "created_at": "2026-08-28T13:41:26+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-z45",
+            "name": "Z45",
+            "model_number": null,
+            "announced_date": "2023-06-01",
+            "release_date": "2023-06-10",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 73,
+            "software_confidence": 57,
+            "overall_confidence": 73,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T610",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core 1.8 GHz",
+                "gpu": null,
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "13 MP + 2 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": "2 MP",
+                "front_camera": "8 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 15,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "802.11 a/b/g/n/ac",
+                "bluetooth_version": "5.2",
+                "nfc": false,
+                "usb_type": "USB Type-C 3.2",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 11",
+                "current_os": "Android 11",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-z45-4-64-bangladesh",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Black",
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "11490.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "11490.00",
+                            "price_min": "11490.00",
+                            "price_max": "11490.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-z45/0-639.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 750,
+                    "height": 1000,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:The_Life_of_A_Bullock_Cart_Driver.jpg",
+                    "license": "CC BY-SA 4.0",
+                    "attribution": "Alfarhanhamim, CC BY-SA 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "symphony-z45/0-640.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-z45/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, sold in BD (Kholapata/GSMArenaBD): Unisoc T610, 5000mAh/15W, Android 11, no 5G. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:18+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"The Life of A Bullock Cart Driver\" bears no genuine relation to the catalogued Symphony Z45 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:43:12+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:26+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-z55",
+            "name": "Z55",
+            "model_number": null,
+            "announced_date": "2022-06-15",
+            "release_date": "2022-06-15",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 66,
+            "software_confidence": 57,
+            "overall_confidence": 70,
+            "is_active": true,
+            "spec": {
+                "processor": "MediaTek Helio G25",
+                "chipset_manufacturer": "MediaTek",
+                "cpu": "Octa-core, 2.0 GHz",
+                "gpu": "PowerVR GE8320",
+                "display_size": "6.5",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 60,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "52 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "8 MP",
+                "camera_has_ois": false,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 10,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.0",
+                "nfc": false,
+                "usb_type": "Micro USB",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 12",
+                "current_os": "Android 12",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-z55-4-64-bangladesh",
+                    "ram_gb": 4,
+                    "storage_gb": 64,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [],
+                    "market_prices": [],
+                    "availabilities": []
+                },
+                {
+                    "slug": "symphony-z55-4-128-bangladesh",
+                    "ram_gb": 4,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-store",
+                            "price_type": "official_bd",
+                            "amount": "12599.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "12599.00",
+                            "price_min": "12599.00",
+                            "price_max": "12599.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-store",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-z55/0-641.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 500,
+                    "height": 500,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-z55/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, sold in BD (MobileDokan/MobileMaya), released June 2022: 52MP camera, 5000mAh/10W, no 5G. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:18+06:00",
+                    "created_at": "2026-08-28T13:09:38+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-z60-plus",
+            "name": "Z60 Plus",
+            "model_number": null,
+            "announced_date": "2023-06-20",
+            "release_date": "2023-06-20",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 68,
+            "software_confidence": 57,
+            "overall_confidence": 71,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc Tiger T616",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core, 1.6 GHz",
+                "gpu": null,
+                "display_size": "6.6",
+                "display_resolution": "720 x 1600",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "8 MP",
+                "camera_has_ois": false,
+                "video_recording": "1080p@30fps",
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 18,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "Wi-Fi 5",
+                "bluetooth_version": "5.0",
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 12",
+                "current_os": "Android 12",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-z60-plus-6-128-bangladesh",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": null,
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-store",
+                            "price_type": "official_bd",
+                            "amount": "11299.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "11299.00",
+                            "price_min": "11299.00",
+                            "price_max": "11299.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-store",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:44+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-z60-plus/0-642.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 762,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Nalitabari.jpg",
+                    "license": "CC0",
+                    "attribution": "Atcmahmudul, CC0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "symphony-z60-plus/0-643.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-z60-plus/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, sold in BD (MobileDokan/ajkershop): Unisoc T616, 90Hz, 50MP camera, 5000mAh/18W. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:18+06:00",
+                    "created_at": "2026-08-28T13:09:39+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Nalitabari\" bears no genuine relation to the catalogued Symphony Z60 Plus (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:29:10+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:12:31+06:00"
+                }
+            ]
+        },
+        {
+            "slug": "symphony-z70",
+            "name": "Z70",
+            "model_number": null,
+            "announced_date": "2024-03-01",
+            "release_date": "2024-03-10",
+            "status": "available",
+            "category": "budget",
+            "summary": null,
+            "is_ai_generated_summary": false,
+            "identity_confidence": 83,
+            "spec_confidence": 71,
+            "software_confidence": 57,
+            "overall_confidence": 72,
+            "is_active": true,
+            "spec": {
+                "processor": "Unisoc T606",
+                "chipset_manufacturer": "Unisoc",
+                "cpu": "Octa-core",
+                "gpu": null,
+                "display_size": "6.6",
+                "display_resolution": "720 x 1612",
+                "display_panel_type": "IPS LCD",
+                "display_refresh_rate": 90,
+                "display_protection": null,
+                "display_brightness_nits": null,
+                "main_camera": "50 MP",
+                "ultrawide_camera": null,
+                "telephoto_camera": null,
+                "macro_camera": null,
+                "front_camera": "8 MP",
+                "camera_has_ois": false,
+                "video_recording": null,
+                "battery_capacity_mah": 5000,
+                "charging_speed_w": 10,
+                "wireless_charging_w": null,
+                "reverse_charging": false,
+                "network_4g": true,
+                "network_5g": false,
+                "wifi": "802.11 a/b/g/n/ac",
+                "bluetooth_version": "5.0",
+                "nfc": false,
+                "usb_type": "USB Type-C",
+                "sim_config": "Dual SIM",
+                "height_mm": null,
+                "width_mm": null,
+                "thickness_mm": null,
+                "weight_g": null,
+                "build_materials": null,
+                "ip_rating": null,
+                "os": "Android 13",
+                "current_os": "Android 13",
+                "os_update_years": null,
+                "security_update_years": null,
+                "estimated_eol_date": null
+            },
+            "network_bands": [],
+            "variants": [
+                {
+                    "slug": "symphony-z70-6-128-bangladesh",
+                    "ram_gb": 6,
+                    "storage_gb": 128,
+                    "storage_type": null,
+                    "expandable_storage": false,
+                    "expandable_storage_max_gb": null,
+                    "color": "Titan Grey",
+                    "region": "Bangladesh",
+                    "sku": null,
+                    "is_official_bd": true,
+                    "status": "available",
+                    "is_active": true,
+                    "prices": [
+                        {
+                            "store_slug": "symphony-bangladesh",
+                            "price_type": "official_bd",
+                            "amount": "12999.00",
+                            "currency": "BDT",
+                            "confidence": 55
+                        }
+                    ],
+                    "market_prices": [
+                        {
+                            "price_type": "official_bd",
+                            "price": "12999.00",
+                            "price_min": "12999.00",
+                            "price_max": "12999.00",
+                            "observation_count": 1,
+                            "retailer_count": 1,
+                            "outlier_count": 0
+                        }
+                    ],
+                    "availabilities": [
+                        {
+                            "store_slug": "symphony-bangladesh",
+                            "status": "in_stock",
+                            "source_key": "seed_dataset",
+                            "confidence": 55,
+                            "collected_at": "2026-08-28T13:48:48+06:00"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "seed_file": "symphony-z70/0-644.webp",
+                    "is_primary": false,
+                    "sort_order": 0,
+                    "width": 1000,
+                    "height": 750,
+                    "mime_type": "image/webp",
+                    "source_key": "wikimedia_commons",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Hakimpur_Union.jpg",
+                    "license": "CC BY 4.0",
+                    "attribution": "This work was made by Tushar Hossain and released under the license(s) stated below. Please feel free to use it for any purpose as long as you credit Tushar Hossain as author and follow the terms of the chosen license. If you use this work outside of the Wikimedia projects, I would very much like to get a note from you. Thanks!, CC BY 4.0, via Wikimedia Commons",
+                    "match_confidence": 0,
+                    "status": "needs_review"
+                },
+                {
+                    "seed_file": "symphony-z70/0-645.webp",
+                    "is_primary": true,
+                    "sort_order": 0,
+                    "width": 600,
+                    "height": 600,
+                    "mime_type": "image/webp",
+                    "source_key": "manual_research",
+                    "source_url": "https://www.mobiledokan.com/mobile/symphony-z70/gallery",
+                    "license": "product-photo",
+                    "attribution": "MobileDokan",
+                    "match_confidence": 100,
+                    "status": "verified"
+                }
+            ],
+            "reviews": [
+                {
+                    "reason": "low_confidence",
+                    "status": "approved",
+                    "similarity_score": null,
+                    "resolution_note": "Confirmed real, sold in BD (Pickaboo/BDStall): Unisoc T606, 90Hz, 5000mAh/10W, Android 13. Specs added via ai_research_2026 reimport.",
+                    "reviewed_at": "2026-08-29T09:41:18+06:00",
+                    "created_at": "2026-08-28T13:09:42+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "rejected",
+                    "similarity_score": 0,
+                    "resolution_note": "Wikimedia Commons candidate titled \"Hakimpur Union\" bears no genuine relation to the catalogued Symphony Z70 (confidence 0/100, below the 65 auto-publish threshold) - coincidental text/digit overlap only, not a photo of this phone.",
+                    "reviewed_at": "2026-08-29T15:53:15+06:00",
+                    "created_at": "2026-08-29T15:43:15+06:00"
+                },
+                {
+                    "reason": "image_needs_review",
+                    "status": "resolved",
+                    "similarity_score": 0,
+                    "resolution_note": "Auto-resolved: the public site no longer requires a verified image to show a phone (falls back to a placeholder), so an unconfident image candidate is not a blocking issue. The image itself remains in needs_review status and may still be improved by a future collection run.",
+                    "reviewed_at": "2026-09-04T09:14:30+06:00",
+                    "created_at": "2026-08-30T07:17:29+06:00"
+                }
+            ]
+        }
+    ]
+}

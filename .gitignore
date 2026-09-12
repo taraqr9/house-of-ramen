@@ -1,0 +1,88 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/bootstrap/ssr
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Laravel runtime/cache/storage
+/bootstrap/cache/*
+
+# ...except the .gitignore placeholder itself (Laravel's own convention
+# for keeping an otherwise-empty required directory present after a
+# fresh clone, without tracking the generated cache files inside it).
+!/bootstrap/cache/.gitignore
+
+/storage/*
+
+# ...except the actual catalogue product images (real content, not
+# runtime/cache output) - without this exception, every new phone image
+# collected is silently untracked by a plain `git add`, since it falls
+# under the blanket /storage/* rule above.
+!/storage/app/
+/storage/app/*
+!/storage/app/public/
+/storage/app/public/*
+!/storage/app/public/phones/
+!/storage/app/public/phones/**
+
+# ...and except Laravel's own empty-runtime-directory placeholders
+# (each is just a committed `.gitignore` containing `*` + `!.gitignore`,
+# the framework's standard convention for keeping a required-but-empty
+# directory present after a fresh clone without tracking its actual
+# runtime output). A previous, broken attempt at this exact exception
+# (a bare, non-negated list of these same paths above the blanket rule)
+# did nothing - a pattern with no `!` prefix is just another ignore
+# rule, not an un-ignore - so these directories were never actually
+# tracked, which is exactly what left a fresh checkout with no
+# storage/framework/{views,sessions,cache/data} or storage/logs and
+# broke every Blade/Inertia response ("Please provide a valid cache
+# path") until each was manually created.
+!/storage/app/private/
+/storage/app/private/*
+!/storage/app/private/.gitignore
+!/storage/debugbar/
+/storage/debugbar/*
+!/storage/debugbar/.gitignore
+!/storage/framework/
+/storage/framework/*
+!/storage/framework/cache/
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/cache/data/
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+!/storage/framework/sessions/
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+!/storage/framework/testing/
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+!/storage/framework/views/
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+!/storage/logs/
+/storage/logs/*
+!/storage/logs/.gitignore

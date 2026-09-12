@@ -1,0 +1,84 @@
+{
+  "meta": {"description": "Google Pixel 10 series and itel budget gap-fill, discovered and verified via GSMArena site-search before writing."},
+  "phones": [
+    {
+      "external_ref": "google-pixel-10",
+      "brand": "Google", "model": "Pixel 10", "model_number": null,
+      "announced_date": "2025-08-20", "release_date": "2025-08-28", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Google Tensor G5", "chipset_manufacturer": "Google",
+        "display_size": "6.3", "display_resolution": "1080 x 2424", "display_panel_type": "OLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "48 MP", "ultrawide_camera": "13 MP", "telephoto_camera": "10.8 MP", "front_camera": "10.5 MP", "camera_has_ois": true,
+        "battery_capacity": "4970 mAh", "network_5g": true, "weight": "204 g",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16", "current_os": "Android 16", "os_update_years": 7, "security_update_years": 7
+      },
+      "variants": [{"ram": "12 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "google-pixel-10-pro",
+      "brand": "Google", "model": "Pixel 10 Pro", "model_number": null,
+      "announced_date": "2025-08-20", "release_date": "2025-08-28", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Google Tensor G5", "chipset_manufacturer": "Google",
+        "display_size": "6.3", "display_panel_type": "LTPO OLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "3300",
+        "battery_capacity": "4870 mAh", "wireless_charging": "Qi2", "network_5g": true, "weight": "207 g",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16", "current_os": "Android 16", "os_update_years": 7, "security_update_years": 7
+      },
+      "variants": [{"ram": "16 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "google-pixel-10-pro-xl",
+      "brand": "Google", "model": "Pixel 10 Pro XL", "model_number": null,
+      "announced_date": "2025-08-20", "release_date": "2025-08-28", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Google Tensor G5", "chipset_manufacturer": "Google",
+        "display_size": "6.8", "display_panel_type": "LTPO OLED", "display_refresh_rate": "120 Hz",
+        "battery_capacity": "5200 mAh", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16", "current_os": "Android 16", "os_update_years": 7, "security_update_years": 7
+      },
+      "variants": [{"ram": "16 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "google-pixel-10a",
+      "brand": "Google", "model": "Pixel 10a", "model_number": null,
+      "announced_date": "2026-02-01", "release_date": "2026-02-01", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "Google Tensor G4", "chipset_manufacturer": "Google",
+        "display_size": "6.3", "build_materials": "Gorilla Glass 7i",
+        "battery_capacity": "5100 mAh", "network_5g": true, "weight": "183 g",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM (nano + eSIM)",
+        "os": "Android 16", "current_os": "Android 16", "os_update_years": 7, "security_update_years": 7
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "itel-power-70",
+      "brand": "itel", "model": "itel Power 70", "model_number": null,
+      "announced_date": "2025-03-01", "release_date": "2025-03-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G50 Ultimate", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.67", "network_5g": false,
+        "battery_capacity": "6000 mAh",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 14", "current_os": "Android 14"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "itel-a80",
+      "brand": "itel", "model": "itel A80", "model_number": null,
+      "announced_date": "2024-09-01", "release_date": "2024-09-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "UNISOC T603", "chipset_manufacturer": "UNISOC",
+        "display_size": "6.7", "network_5g": false,
+        "battery_capacity": "5000 mAh",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 14", "current_os": "Android 14"
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": null, "region": "Bangladesh", "is_official_bd": true}]
+    }
+  ]
+}

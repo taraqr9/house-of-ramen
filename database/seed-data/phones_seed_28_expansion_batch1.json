@@ -1,0 +1,117 @@
+{
+  "meta": {"description": "Catalogue expansion round 1 (256->400 target): fills gaps in existing brand lines (Samsung A-series, Vivo Y/T-series, Oppo F-series, Redmi Note 13 Pro base). Individually researched via Bangladesh retailer listings; fields left null where the source did not state them rather than guessed."},
+  "phones": [
+    {
+      "external_ref": "samsung-galaxy-a34-5g",
+      "brand": "Samsung", "model": "Galaxy A34 5G", "model_number": "SM-A346B",
+      "announced_date": "2023-03-17", "release_date": "2023-03-24", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 1080", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core",
+        "display_size": "6.6", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "48 MP, f/1.8, OIS", "ultrawide_camera": "8 MP", "macro_camera": "5 MP", "front_camera": "13 MP", "camera_has_ois": true, "video_recording": "4K@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13, One UI 5.1", "os_update_years": "4", "security_update_years": "5"
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "29,990"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-a53-5g",
+      "brand": "Samsung", "model": "Galaxy A53 5G", "model_number": "SM-A536B",
+      "announced_date": "2022-03-17", "release_date": "2022-03-17", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Exynos 1280", "chipset_manufacturer": "Samsung", "cpu": "Octa-core",
+        "display_size": "6.5", "display_resolution": "1080 x 2400", "display_panel_type": "Super AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "64 MP, f/1.8, OIS", "ultrawide_camera": "12 MP", "macro_camera": "5 MP", "front_camera": "32 MP", "camera_has_ois": true, "video_recording": "4K@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 12, One UI 4.1", "os_update_years": "4", "security_update_years": "5"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "59,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "samsung-galaxy-a26-5g",
+      "brand": "Samsung", "model": "Galaxy A26 5G", "model_number": null,
+      "announced_date": "2025-03-01", "release_date": "2025-03-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": null, "chipset_manufacturer": null,
+        "display_size": null, "display_resolution": null, "display_panel_type": "Super AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": null, "front_camera": null, "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "25W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, One UI 7", "os_update_years": "6", "security_update_years": "6"
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "34,999"}, "availability": "in_stock", "store": "Samsung Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y17",
+      "brand": "Vivo", "model": "Vivo Y17", "model_number": null,
+      "announced_date": "2024-11-01", "release_date": "2024-11-01", "status": "available", "category": "entry",
+      "specs": {
+        "processor": "MediaTek Helio P35", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core",
+        "display_size": "6.35", "display_resolution": "720 x 1544", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "13 MP", "ultrawide_camera": "8 MP", "macro_camera": null, "front_camera": "20 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "Micro USB", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": null, "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "20,990"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-y27",
+      "brand": "Vivo", "model": "Vivo Y27", "model_number": null,
+      "announced_date": "2023-08-01", "release_date": "2023-08-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio G85", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 12nm",
+        "display_size": "6.64", "display_resolution": "1080 x 2388", "display_panel_type": "IPS LCD", "display_refresh_rate": null,
+        "main_camera": "50 MP", "macro_camera": null, "front_camera": null, "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "44W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": null, "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "20,999"}, "availability": "in_stock", "store": "Vivo Bangladesh"}]
+    },
+    {
+      "external_ref": "vivo-t3x",
+      "brand": "Vivo", "model": "Vivo T3x", "model_number": null,
+      "announced_date": "2024-05-06", "release_date": "2024-05-06", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 6 Gen 1", "chipset_manufacturer": "Qualcomm",
+        "display_size": "6.72", "display_resolution": null, "display_panel_type": "IPS LCD", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP", "macro_camera": null, "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "6000 mAh", "charging_speed": "44W", "network_5g": true, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": null, "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "23,999"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "oppo-f25-pro",
+      "brand": "Oppo", "model": "Oppo F25 Pro", "model_number": null,
+      "announced_date": "2024-03-04", "release_date": "2024-03-04", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7050", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 6nm",
+        "display_size": "6.7", "display_resolution": "1080 x 2412", "display_panel_type": "AMOLED", "display_refresh_rate": null,
+        "main_camera": "64 MP", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "32 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 14", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "128 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "29,698"}, "availability": "in_stock", "store": "Oppo Bangladesh"}]
+    },
+    {
+      "external_ref": "xiaomi-redmi-note-13-pro-4g",
+      "brand": "Redmi", "model": "Redmi Note 13 Pro", "model_number": null,
+      "announced_date": "2024-01-08", "release_date": "2024-01-08", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 1080", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.67", "display_resolution": null, "display_panel_type": "AMOLED", "display_refresh_rate": null,
+        "main_camera": "200 MP", "front_camera": null, "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "67W", "network_5g": false, "wifi": null, "bluetooth_version": null,
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13, MIUI 14", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "26,500"}, "availability": "in_stock", "store": "Local Market"}]
+    }
+  ]
+}

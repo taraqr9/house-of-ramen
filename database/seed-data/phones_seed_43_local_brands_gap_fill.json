@@ -1,0 +1,75 @@
+{
+  "meta": {"description": "Catalogue expansion round 16 (toward ~400): Walton/Symphony/itel gap fill, all above the ~10k relevance floor (per round-8 exclusion rule). Specs verified against GSMArena/MobileDokan, prices verified against current Bangladesh retail listings."},
+  "phones": [
+    {
+      "external_ref": "walton-primo-rx8",
+      "brand": "Walton", "model": "Primo RX8", "model_number": null,
+      "announced_date": "2019-11-01", "release_date": "2019-11-15", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Helio P22", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core, 2.0 GHz",
+        "display_size": "6.55", "display_resolution": "1080 x 2340", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "13 MP", "ultrawide_camera": "8 MP", "macro_camera": "2 MP", "front_camera": "32 MP", "camera_has_ois": false,
+        "battery_capacity": "4000 mAh", "charging_speed": null, "network_5g": false, "wifi": "802.11 b/g/n", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 10", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Blue", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "15,599"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    },
+    {
+      "external_ref": "walton-nexg-n8",
+      "brand": "Walton", "model": "NEXG N8", "model_number": null,
+      "announced_date": "2023-11-01", "release_date": "2023-11-10", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc Tiger T616", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core, 2.0 GHz Cortex-A75",
+        "display_size": "6.8", "display_resolution": "1080 x 2460", "display_panel_type": "IPS LCD", "display_refresh_rate": "90Hz",
+        "main_camera": "50 MP", "front_camera": "13 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "128 GB", "color": "Bluish Green", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "15,499"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    },
+    {
+      "external_ref": "symphony-z45",
+      "brand": "Symphony", "model": "Z45", "model_number": null,
+      "announced_date": "2023-06-01", "release_date": "2023-06-10", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc T610", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core, 1.8 GHz",
+        "display_size": "6.52", "display_resolution": "720 x 1600", "display_panel_type": "IPS LCD", "display_refresh_rate": "60Hz",
+        "main_camera": "13 MP", "macro_camera": "2 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "15W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.2",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 11", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "4 GB", "storage": "64 GB", "color": "Black", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "11,490"}, "availability": "in_stock", "store": "Symphony Bangladesh"}]
+    },
+    {
+      "external_ref": "symphony-z70",
+      "brand": "Symphony", "model": "Z70", "model_number": null,
+      "announced_date": "2024-03-01", "release_date": "2024-03-10", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "Unisoc T606", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core",
+        "display_size": "6.56", "display_resolution": "720 x 1612", "display_panel_type": "IPS LCD (Incell)", "display_refresh_rate": "60Hz",
+        "main_camera": "52 MP", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "10W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "6 GB", "storage": "128 GB", "color": "Titan Grey", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "12,999"}, "availability": "in_stock", "store": "Symphony Bangladesh"}]
+    },
+    {
+      "external_ref": "itel-s23-plus",
+      "brand": "itel", "model": "itel S23+", "model_number": null,
+      "announced_date": "2023-09-19", "release_date": "2023-09-19", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Unisoc T616", "chipset_manufacturer": "Unisoc", "cpu": "Octa-core",
+        "display_size": "6.78", "display_resolution": "1080 x 2436", "display_panel_type": "AMOLED", "display_refresh_rate": "60Hz",
+        "main_camera": "50 MP, f/1.8", "macro_camera": "0.08 MP", "front_camera": "32 MP", "camera_has_ois": false,
+        "battery_capacity": "5000 mAh", "charging_speed": "18W", "network_5g": false, "wifi": "802.11 a/b/g/n/ac", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": "Gorilla Glass 5", "os": "Android 13", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": "Cosmic Black", "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "19,990"}, "availability": "in_stock", "store": "itel Bangladesh"}]
+    }
+  ]
+}

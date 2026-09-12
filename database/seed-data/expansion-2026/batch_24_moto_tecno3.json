@@ -1,0 +1,62 @@
+{
+  "meta": {"description": "Motorola Razr 60/Edge 60 and Tecno Spark 50/Camon Slim, discovered and verified via GSMArena site-search before writing."},
+  "phones": [
+    {
+      "external_ref": "motorola-razr-60",
+      "brand": "Motorola", "model": "Motorola Razr 60", "model_number": null,
+      "announced_date": "2025-04-24", "release_date": "2025-04-24", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "MediaTek Dimensity 7400X", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.9", "display_panel_type": "AMOLED (foldable)", "network_5g": true,
+        "battery_capacity": "4500 mAh",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, Hello UI", "current_os": "Android 15, Hello UI"
+      },
+      "variants": [{"ram": "12 GB", "storage": "512 GB", "color": null, "region": "Global", "is_official_bd": false}]
+    },
+    {
+      "external_ref": "motorola-edge-60",
+      "brand": "Motorola", "model": "Motorola Edge 60", "model_number": null,
+      "announced_date": "2025-04-25", "release_date": "2025-04-25", "status": "available", "category": "upper_midrange",
+      "specs": {
+        "processor": "MediaTek Dimensity 7300", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.67", "display_resolution": "1220p", "display_panel_type": "P-OLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, OIS", "ultrawide_camera": "50 MP", "telephoto_camera": "10 MP, OIS, 3x optical", "front_camera": "50 MP", "camera_has_ois": true,
+        "battery_capacity": "5200 mAh", "charging_speed": "68W", "network_5g": true, "weight": "179 g",
+        "build_materials": "MIL-STD-810H compliant", "ip_rating": "IP68/IP69",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 15, Hello UI", "current_os": "Android 15, Hello UI"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "tecno-spark-50",
+      "brand": "Tecno", "model": "Tecno Spark 50", "model_number": null,
+      "announced_date": "2026-03-01", "release_date": "2026-03-01", "status": "available", "category": "budget",
+      "specs": {
+        "processor": "MediaTek Dimensity 6400", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.78", "display_resolution": "HD+", "display_panel_type": "LCD", "display_refresh_rate": "120 Hz", "display_brightness_nits": "560",
+        "main_camera": "50 MP, f/1.85", "front_camera": "8 MP", "camera_has_ois": false,
+        "battery_capacity": "6500 mAh", "network_5g": true,
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 16, HiOS 16", "current_os": "Android 16, HiOS 16"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true}]
+    },
+    {
+      "external_ref": "tecno-camon-slim",
+      "brand": "Tecno", "model": "Tecno Camon Slim", "model_number": null,
+      "announced_date": "2026-06-01", "release_date": "2026-06-01", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G200 Ultimate", "chipset_manufacturer": "MediaTek",
+        "display_size": "6.78", "display_resolution": "1224 x 2720", "display_panel_type": "AMOLED", "display_refresh_rate": "144 Hz",
+        "main_camera": "50 MP, Lytia 600", "front_camera": "32 MP", "camera_has_ois": false,
+        "battery_capacity": "5600 mAh", "charging_speed": "60W", "network_5g": true,
+        "build_materials": "MIL-STD-810H compliant",
+        "usb_type": "USB Type-C", "sim_config": "Dual SIM",
+        "os": "Android 16, HiOS 16", "current_os": "Android 16, HiOS 16"
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true}]
+    }
+  ]
+}

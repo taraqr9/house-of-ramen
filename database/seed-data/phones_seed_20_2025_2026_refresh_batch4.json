@@ -1,0 +1,75 @@
+{
+  "meta": {"description": "Fourth batch: Nothing Phone (3)/(3a) Pro, iPhone 17/17 Pro (fills the 100k+ bracket with genuine current flagships), and Walton XANON X91. Individually verified via Bangladesh retailer listings."},
+  "phones": [
+    {
+      "external_ref": "nothing-phone-3",
+      "brand": "Nothing", "model": "Nothing Phone (3)", "model_number": null,
+      "announced_date": "2025-07-01", "release_date": "2025-07-15", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 8s Gen 4", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core (1x3.21 GHz Cortex-X4 + 3x3.0 GHz + 2x2.8 GHz + 2x2.0 GHz Cortex-A720)",
+        "display_size": "6.67", "display_resolution": "1260 x 2800", "display_panel_type": "OLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "4500", "display_protection": "Gorilla Glass 7i",
+        "main_camera": "50 MP, f/1.7, OIS", "telephoto_camera": "50 MP, f/2.7, periscope, OIS", "ultrawide_camera": "50 MP, f/2.2", "front_camera": "50 MP, f/2.2", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "5500 mAh", "charging_speed": "65W", "wireless_charging": "15W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "6.0",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 15, Nothing OS 3.5", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "60,500"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "nothing-phone-3a-pro",
+      "brand": "Nothing", "model": "Nothing Phone (3a) Pro", "model_number": null,
+      "announced_date": "2025-03-04", "release_date": "2025-03-25", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7s Gen 3", "chipset_manufacturer": "Qualcomm", "cpu": "Octa-core, 4nm",
+        "display_size": "6.77", "display_resolution": "1080 x 2392", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz",
+        "main_camera": "50 MP, f/1.9, OIS", "telephoto_camera": "50 MP, f/2.6, 3x optical zoom", "ultrawide_camera": "8 MP, f/2.2", "front_camera": "32 MP, f/2.2", "camera_has_ois": true, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "50W", "network_5g": true, "wifi": "Wi-Fi 6", "bluetooth_version": "5.4",
+        "nfc": true, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "ip_rating": "IP64", "os": "Android 15, Nothing OS 3.1", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": false, "price": {"unofficial_bd": "50,000"}, "availability": "in_stock", "store": "Local Market"}]
+    },
+    {
+      "external_ref": "apple-iphone-17",
+      "brand": "Apple", "model": "iPhone 17", "model_number": null,
+      "announced_date": "2025-09-09", "release_date": "2025-09-09", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Apple A19", "chipset_manufacturer": "Apple", "cpu": "Hexa-core (2x4.044 GHz + 4x2.424 GHz)",
+        "display_size": "6.3", "display_resolution": "1206 x 2622", "display_panel_type": "LTPO Super Retina XDR OLED", "display_refresh_rate": "120 Hz", "display_protection": "Ceramic Shield 2",
+        "main_camera": "48 MP, f/1.6, OIS", "ultrawide_camera": "48 MP, f/2.2", "front_camera": "18 MP, f/1.9", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "3692 mAh", "charging_speed": "40W", "wireless_charging": "25W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "6.0",
+        "nfc": true, "usb_type": "USB Type-C 2.0", "sim_config": "Dual SIM (nano + eSIM)", "weight": null,
+        "build_materials": "Ceramic Shield 2 front, aluminum frame", "os": "iOS 26", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "8 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "147,999"}, "availability": "in_stock", "store": "iStock BD"}]
+    },
+    {
+      "external_ref": "apple-iphone-17-pro",
+      "brand": "Apple", "model": "iPhone 17 Pro", "model_number": null,
+      "announced_date": "2025-09-09", "release_date": "2025-09-09", "status": "available", "category": "flagship",
+      "specs": {
+        "processor": "Apple A19 Pro", "chipset_manufacturer": "Apple", "cpu": "Hexa-core (2x4.044 GHz + 4x2.424 GHz)",
+        "display_size": "6.3", "display_resolution": "1206 x 2622", "display_panel_type": "LTPO Super Retina XDR OLED", "display_refresh_rate": "120 Hz", "display_brightness_nits": "3000",
+        "main_camera": "48 MP, f/1.6, OIS", "telephoto_camera": "48 MP, f/2.8, 8x optical zoom, OIS", "ultrawide_camera": "48 MP, f/2.2", "front_camera": "18 MP, f/1.9", "camera_has_ois": true, "video_recording": "4K@60fps",
+        "battery_capacity": "3988 mAh", "charging_speed": "40W", "wireless_charging": "25W", "network_5g": true, "wifi": "Wi-Fi 7", "bluetooth_version": "6.0",
+        "nfc": true, "usb_type": "USB Type-C 3.0", "sim_config": "Dual SIM (nano + eSIM)", "weight": null,
+        "build_materials": "Titanium frame", "os": "iOS 26", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "12 GB", "storage": "256 GB", "color": null, "region": "Global", "is_official_bd": true, "price": {"official_bd": "196,999"}, "availability": "in_stock", "store": "iStock BD"}]
+    },
+    {
+      "external_ref": "walton-xanon-x91",
+      "brand": "Walton", "model": "XANON X91", "model_number": null,
+      "announced_date": "2025-02-28", "release_date": "2025-02-28", "status": "available", "category": "midrange",
+      "specs": {
+        "processor": "MediaTek Helio G100", "chipset_manufacturer": "MediaTek", "cpu": "Octa-core (2x2.2 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)", "gpu": "Mali-G57 MC2",
+        "display_size": "6.7", "display_resolution": "1080 x 2400", "display_panel_type": "AMOLED", "display_refresh_rate": "120 Hz", "display_protection": "Dragontrail Star 2 Glass",
+        "main_camera": "64 MP, f/1.9, Sony IMX682", "macro_camera": "2 MP", "front_camera": "32 MP, f/2.5", "camera_has_ois": false, "video_recording": "1080p@30fps",
+        "battery_capacity": "5000 mAh", "charging_speed": "33W", "network_5g": false, "wifi": "Wi-Fi 5", "bluetooth_version": "5.0",
+        "nfc": false, "usb_type": "USB Type-C", "sim_config": "Dual SIM", "weight": null,
+        "build_materials": null, "os": "Android 14, Dido OS 15", "os_update_years": null, "security_update_years": null
+      },
+      "variants": [{"ram": "24 GB", "storage": "256 GB", "color": null, "region": "Bangladesh", "is_official_bd": true, "price": {"official_bd": "30,999"}, "availability": "in_stock", "store": "Walton Digi-Tech"}]
+    }
+  ]
+}
