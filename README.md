@@ -1,6 +1,6 @@
-# Phone Kinbo
+# House of Ramen
 
-Phone Kinbo is a Bangladesh-focused platform for choosing a smartphone with confidence — browse the phone catalogue, compare specs and prices, and get a personalised recommendation ("Find My Phone") based on budget and priorities. It's one Laravel project with two parts: a public Vue/Inertia site for buyers, and a server-rendered admin panel for managing the phone catalogue, pricing, and imports.
+House of Ramen's website — a public menu/gallery/about/contact site for the restaurant, plus a simplified admin panel for managing the menu and restaurant content. It's one Laravel project with two parts: a public Vue/Inertia site for customers, and a server-rendered admin panel (Dashboard, Users, Roles, Menus, Logs, and Restaurant content management).
 
 ## Tech stack
 
@@ -22,7 +22,7 @@ Phone Kinbo is a Bangladesh-focused platform for choosing a smartphone with conf
 ```bash
 # 1. Clone the project
 git clone <repo-url>
-cd phone-kinbo
+cd house-of-ramen
 
 # 2. Install PHP dependencies
 composer install
@@ -34,7 +34,7 @@ cp .env.example .env
 Edit `.env`:
 
 - **`APP_URL`** — if serving locally with `php artisan serve` (i.e. `composer dev`), this must include the port (e.g. `http://localhost:8000`) — image URLs are generated from this value.
-- **`DB_*`** — point at a MySQL database you've created (defaults assume a `phonekinbo` database with user `root` / password `root` on `127.0.0.1:3306`).
+- **`DB_*`** — point at a MySQL database you've created (defaults assume a `house_of_ramen` database with user `root` / password `root` on `127.0.0.1:3306`).
 
 ```bash
 # 4. Generate the app key
@@ -43,10 +43,10 @@ php artisan key:generate
 # 5. Configure the database
 #    Create the MySQL database named in DB_DATABASE above, if it doesn't exist yet.
 
-# 6. Run migrations and seed the catalogue (admin user, menus, and the full,
-#    already-reviewed phone catalogue, entirely offline)
+# 6. Run migrations and seed (admin user, admin nav menus, and the
+#    House of Ramen restaurant + menu content, entirely offline)
 php artisan migrate
-php artisan phonekinbo:seed --force
+php artisan db:seed --force
 
 # 7. Install frontend dependencies and build assets (client + SSR bundles)
 php artisan storage:link
@@ -61,7 +61,7 @@ composer dev
 
 ## Default admin login
 
-Step 6 (`phonekinbo:seed`) creates an admin account if one doesn't already exist. Log in at `/login` with:
+Step 6 (`db:seed`) creates an admin account if one doesn't already exist. Log in at `/login` with:
 
 - **Username:** `admin`
 - **Password:** `password`

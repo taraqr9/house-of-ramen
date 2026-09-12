@@ -30,28 +30,6 @@ class MenuSeeder extends Seeder
 
         /*
         |--------------------------------------------------------------------------
-        | ANALYTICS
-        |--------------------------------------------------------------------------
-        | The GA4-backed reporting page (App\Http\Controllers\AnalyticsController)
-        | - reuses the same "dashboard-view" permission as Dashboard above rather
-        | than a new one, since it's presenting the same class of data.
-        */
-        Menu::updateOrCreate(
-            [
-                'route' => 'analytics.index',
-            ],
-            [
-                'title' => 'Analytics',
-                'icon' => 'bx bx-bar-chart-alt-2',
-                'permission' => 'dashboard-view',
-                'serial' => 2,
-                'parent_id' => null,
-                'is_active' => 1,
-            ]
-        );
-
-        /*
-        |--------------------------------------------------------------------------
         | USERS
         |--------------------------------------------------------------------------
         */
@@ -63,7 +41,7 @@ class MenuSeeder extends Seeder
                 'title' => 'Users',
                 'icon' => 'bx bx-user-check',
                 'permission' => 'user-view',
-                'serial' => 3,
+                'serial' => 2,
                 'parent_id' => null,
                 'is_active' => 1,
             ]
@@ -82,7 +60,7 @@ class MenuSeeder extends Seeder
                 'title' => 'Role',
                 'icon' => 'bx bx-shield-quarter',
                 'permission' => 'role-view',
-                'serial' => 4,
+                'serial' => 3,
                 'parent_id' => null,
                 'is_active' => 1,
             ]
@@ -101,7 +79,7 @@ class MenuSeeder extends Seeder
                 'title' => 'Menus',
                 'icon' => 'bx bx-menu',
                 'permission' => 'menu-view',
-                'serial' => 5,
+                'serial' => 4,
                 'parent_id' => null,
                 'is_active' => 1,
             ]
@@ -120,7 +98,7 @@ class MenuSeeder extends Seeder
             [
                 'icon' => 'bx bx-history',
                 'permission' => null,
-                'serial' => 6,
+                'serial' => 5,
                 'route' => null,
                 'is_active' => 1,
             ]
@@ -161,18 +139,18 @@ class MenuSeeder extends Seeder
 
         /*
         |--------------------------------------------------------------------------
-        | PHONE DATA (PARENT)
+        | RESTAURANT (PARENT)
         |--------------------------------------------------------------------------
         */
-        $phoneData = Menu::updateOrCreate(
+        $restaurant = Menu::updateOrCreate(
             [
-                'title' => 'Phone Data',
+                'title' => 'Restaurant',
                 'parent_id' => null,
             ],
             [
-                'icon' => 'bx bx-mobile-alt',
+                'icon' => 'bx bx-restaurant',
                 'permission' => null,
-                'serial' => 7,
+                'serial' => 6,
                 'route' => null,
                 'is_active' => 1,
             ]
@@ -180,13 +158,13 @@ class MenuSeeder extends Seeder
 
         Menu::updateOrCreate(
             [
-                'route' => 'phone-data.dashboard',
+                'route' => 'restaurant.edit',
             ],
             [
-                'title' => 'Overview',
-                'icon' => 'bx bx-grid-alt me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'phone-view',
+                'title' => 'Settings',
+                'icon' => 'bx bx-cog me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant-view',
                 'serial' => 1,
                 'is_active' => 1,
             ]
@@ -194,13 +172,13 @@ class MenuSeeder extends Seeder
 
         Menu::updateOrCreate(
             [
-                'route' => 'phones.index',
+                'route' => 'restaurant-menu-categories.index',
             ],
             [
-                'title' => 'Phones',
-                'icon' => 'bx bx-devices me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'phone-view',
+                'title' => 'Menu Categories',
+                'icon' => 'bx bx-collection me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_menu_category-view',
                 'serial' => 2,
                 'is_active' => 1,
             ]
@@ -208,13 +186,13 @@ class MenuSeeder extends Seeder
 
         Menu::updateOrCreate(
             [
-                'route' => 'brands.index',
+                'route' => 'restaurant-menu-items.index',
             ],
             [
-                'title' => 'Brands',
-                'icon' => 'bx bx-purchase-tag-alt me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'brand-view',
+                'title' => 'Menu Items',
+                'icon' => 'bx bx-food-menu me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_menu_item-view',
                 'serial' => 3,
                 'is_active' => 1,
             ]
@@ -222,56 +200,14 @@ class MenuSeeder extends Seeder
 
         Menu::updateOrCreate(
             [
-                'route' => 'phone-stores.index',
+                'route' => 'restaurant-gallery-images.index',
             ],
             [
-                'title' => 'Retailers & Stores',
-                'icon' => 'bx bx-store me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'phone_store-view',
+                'title' => 'Gallery',
+                'icon' => 'bx bx-images me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_gallery_image-view',
                 'serial' => 4,
-                'is_active' => 1,
-            ]
-        );
-
-        Menu::updateOrCreate(
-            [
-                'route' => 'phone-sources.index',
-            ],
-            [
-                'title' => 'Data Sources',
-                'icon' => 'bx bx-git-branch me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'phone_source-view',
-                'serial' => 5,
-                'is_active' => 1,
-            ]
-        );
-
-        Menu::updateOrCreate(
-            [
-                'route' => 'phone-import-runs.index',
-            ],
-            [
-                'title' => 'Import Runs',
-                'icon' => 'bx bx-import me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'phone_import_run-view',
-                'serial' => 6,
-                'is_active' => 1,
-            ]
-        );
-
-        Menu::updateOrCreate(
-            [
-                'route' => 'data-review.index',
-            ],
-            [
-                'title' => 'Data Review',
-                'icon' => 'bx bx-check-shield me-1',
-                'parent_id' => $phoneData->id,
-                'permission' => 'phone_data_review-view',
-                'serial' => 7,
                 'is_active' => 1,
             ]
         );

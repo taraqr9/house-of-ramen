@@ -11,6 +11,8 @@ it('redirects unauthenticated users to the login page when visiting the admin pa
 });
 
 it('serves the public homepage without requiring authentication', function () {
+    makeRestaurant();
+
     $response = $this->get('/');
 
     $response->assertOk();

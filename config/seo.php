@@ -15,15 +15,15 @@
 
 return [
 
-    'site_name' => env('SEO_SITE_NAME', 'Phone Kinbo'),
+    'site_name' => env('SEO_SITE_NAME', 'House of Ramen'),
 
-    'organization_name' => env('SEO_ORGANIZATION_NAME', 'Phone Kinbo'),
+    'organization_name' => env('SEO_ORGANIZATION_NAME', 'House of Ramen'),
 
-    'default_title' => env('SEO_DEFAULT_TITLE', 'Phone Kinbo — Find the right phone for you'),
+    'default_title' => env('SEO_DEFAULT_TITLE', 'House of Ramen — Modern Ramen & Japanese-Korean Comfort Food in Dhaka'),
 
     'default_description' => env(
         'SEO_DEFAULT_DESCRIPTION',
-        'Compare phone prices and specifications in Bangladesh. Tell Phone Kinbo your budget and what matters to you and get honest, unsponsored recommendations.'
+        'House of Ramen serves modern Japanese-Korean ramen, rice, noodles, sushi and more in Uttara, Dhaka. Browse the menu, see the space, and find us.'
     ),
 
     // Falls back to APP_URL when unset - kept separate so a CDN/canonical
@@ -31,10 +31,9 @@ return [
     'base_url' => env('SEO_BASE_URL', env('APP_URL', 'http://localhost')),
 
     // Relative to public/ - used as the Open Graph/Twitter image for any
-    // page that has no more specific image (e.g. a phone's own photo).
-    // 1200x630 (Facebook/Twitter/LinkedIn's recommended link-preview
-    // ratio) - built from the site's own brand colors/logo mark, see
-    // public/brand/pk-lockup.svg for the source shapes.
+    // page that has no more specific image (e.g. the restaurant's own
+    // cover photo). 1200x630 (Facebook/Twitter/LinkedIn's recommended
+    // link-preview ratio) - built from the real House of Ramen logo.
     'default_og_image' => env('SEO_DEFAULT_OG_IMAGE', 'brand/social-preview-1200x630.png'),
 
 ];

@@ -4,7 +4,7 @@ namespace App\Support;
 
 /**
  * The single list of top-level path prefixes that belong to the admin
- * panel/auth flows rather than the public Phone Kinbo site - see
+ * panel/auth flows rather than the public House of Ramen site - see
  * routes/web.php's non-"public."-named route groups. Shared by
  * RobotsController (what to Disallow) and bootstrap/app.php's exception
  * handler (which error-page branding to use) so the two can't drift
@@ -27,7 +27,7 @@ class AdminPaths
             'profile',
             'logout',
             'notifications',
-            'phone-data',
+            'restaurant',
             'roles',
             'users',
             'menus',

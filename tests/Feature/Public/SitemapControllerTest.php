@@ -1,15 +1,6 @@
 <?php
 
-use App\Models\Brand;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-
-uses(RefreshDatabase::class);
-
-it('serves a valid XML sitemap including the homepage, active phones, and active brands', function () {
-    $brand = Brand::factory()->create(['slug' => 'samsung', 'is_active' => true]);
-    $phone = makeRecommendablePhone(['brand_id' => $brand->id]);
-    $inactivePhone = makeRecommendablePhone(['is_active' => false]);
-
+it('serves a valid XML sitemap including every public page', function () {
     $response = $this->get('/sitemap.xml');
 
     $response->assertOk()->assertHeader('Content-Type', 'application/xml');
@@ -24,24 +15,19 @@ it('serves a valid XML sitemap including the homepage, active phones, and active
     $locs = collect(iterator_to_array($xml->url, false))->map(fn ($url) => (string) $url->loc)->all();
 
     expect($locs)->toContain(config('seo.base_url').'/')
-        ->toContain(config('seo.base_url').'/phones')
+        ->toContain(config('seo.base_url').'/menu')
+        ->toContain(config('seo.base_url').'/gallery')
         ->toContain(config('seo.base_url').'/about')
-        ->toContain(config('seo.base_url')."/phones/{$phone->slug}")
-        ->toContain(config('seo.base_url').'/phones/brand/samsung')
-        ->not->toContain(config('seo.base_url')."/phones/{$inactivePhone->slug}");
+        ->toContain(config('seo.base_url').'/contact');
 });
 
-it('never includes non-indexable URLs in the sitemap', function () {
-    makeRecommendablePhone();
-
+it('never includes a query string in the sitemap', function () {
     $response = $this->get('/sitemap.xml');
 
     $xml = simplexml_load_string($response->getContent());
     $locs = collect(iterator_to_array($xml->url, false))->map(fn ($url) => (string) $url->loc)->all();
 
     foreach ($locs as $loc) {
-        expect($loc)->not->toContain('/compare')
-            ->not->toContain('/find-my-phone/results')
-            ->not->toContain('?');
+        expect($loc)->not->toContain('?');
     }
 });

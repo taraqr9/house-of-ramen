@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AdminSeeder::class,
             MenuSeeder::class,
-            PhoneCatalogueSeeder::class,
+            RestaurantSeeder::class,
         ]);
 
         // Local-only convenience data for exercising the admin's user list

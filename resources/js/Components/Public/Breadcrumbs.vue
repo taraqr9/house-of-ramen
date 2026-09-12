@@ -7,8 +7,18 @@ import { computed } from 'vue';
 import { Head, Link, usePage } from '@inertiajs/vue3';
 import { jsonLdVNode } from '../../utils/jsonLd';
 
+// This component's template has two root nodes (<Head> + <nav>), so Vue
+// can't auto-forward a parent's class/attrs onto either one - bind
+// $attrs explicitly onto <nav> below instead (see PageHeader.vue, which
+// passes a responsive `hidden sm:flex` class that would otherwise be
+// silently dropped).
+defineOptions({ inheritAttrs: false });
+
 const props = defineProps({
     items: { type: Array, required: true },
+    // 'light' (default) for a light page background; 'dark' for use over
+    // a photo/dark hero (see Components/Public/PageHeader.vue).
+    variant: { type: String, default: 'light' },
 });
 
 const page = usePage();
@@ -30,10 +40,16 @@ const jsonLd = computed(() => ({
         <component :is="jsonLdVNode(jsonLd, 'json-ld-breadcrumb')" />
     </Head>
 
-    <nav class="text-sm text-stone-400" aria-label="Breadcrumb">
+    <nav v-bind="$attrs" class="text-sm" :class="variant === 'dark' ? 'text-white/60' : 'text-charcoal-900/50'" aria-label="Breadcrumb">
         <template v-for="(item, index) in items" :key="item.label">
-            <Link v-if="item.href" :href="item.href" class="hover:text-emerald-700">{{ item.label }}</Link>
-            <span v-else class="text-stone-600">{{ item.label }}</span>
+            <Link
+                v-if="item.href"
+                :href="item.href"
+                :class="variant === 'dark' ? 'hover:text-white' : 'hover:text-coral-700'"
+            >
+                {{ item.label }}
+            </Link>
+            <span v-else :class="variant === 'dark' ? 'text-white/90' : 'text-charcoal-900/80'">{{ item.label }}</span>
             <span v-if="index < items.length - 1" class="mx-1.5" aria-hidden="true">/</span>
         </template>
     </nav>

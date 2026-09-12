@@ -11,7 +11,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="text-primary p-4">
-                                    <h5 class="text-primary">Sign in to Phone Kinbo</h5>
+                                    <h5 class="text-primary">Sign in to House of Ramen</h5>
                                     <p>Admin Portal</p>
                                 </div>
                             </div>

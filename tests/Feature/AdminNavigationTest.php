@@ -11,7 +11,7 @@ uses(RefreshDatabase::class);
  * home. See resources/views/partials/nav.blade.php.
  */
 it('points the admin topbar logo at the real dashboard route, not the theme demo page', function () {
-    $user = phoneDataUser(['dashboard-view']);
+    $user = adminUser(['dashboard-view']);
 
     $response = $this->actingAs($user)->get('/admin');
 

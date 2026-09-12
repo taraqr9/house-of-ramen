@@ -1,4 +1,4 @@
-// Google Analytics 4 (GA4) integration for the public Phone Kinbo site
+// Google Analytics 4 (GA4) integration for the public House of Ramen site
 // only - this module is imported from resources/js/app.js (the public
 // site's client entry point), never from resources/js/ssr.js (no GA in
 // the Node SSR process) and never referenced by the Bootstrap admin

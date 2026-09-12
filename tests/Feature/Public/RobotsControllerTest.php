@@ -10,11 +10,11 @@ it('serves a robots.txt that disallows admin/auth areas and points to the sitema
     expect($body)->toContain('User-agent: *')
         ->toContain('Disallow: /admin')
         ->toContain('Disallow: /login')
-        ->toContain('Disallow: /find-my-phone/results')
+        ->toContain('Disallow: /restaurant')
         ->toContain('Sitemap: '.config('seo.base_url').'/sitemap.xml');
 });
 
-it('never blocks crawling of the public catalogue itself', function () {
+it('never blocks crawling of the public site itself', function () {
     $response = $this->get('/robots.txt');
 
     $disallowedPaths = collect(explode("\n", $response->getContent()))
@@ -23,7 +23,8 @@ it('never blocks crawling of the public catalogue itself', function () {
         ->all();
 
     expect($disallowedPaths)->not->toContain('/')
-        ->not->toContain('/phones')
-        ->not->toContain('/find-my-phone')
-        ->not->toContain('/compare');
+        ->not->toContain('/menu')
+        ->not->toContain('/gallery')
+        ->not->toContain('/about')
+        ->not->toContain('/contact');
 });

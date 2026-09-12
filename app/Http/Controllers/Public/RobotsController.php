@@ -20,11 +20,6 @@ class RobotsController extends Controller
     {
         $disallow = array_map(fn (string $prefix) => '/'.$prefix, AdminPaths::prefixes());
 
-        // Never has real content to index (POST-only; the GET fallback
-        // just redirects back to the questionnaire) - see
-        // FindMyPhoneController::resultsFallback().
-        $disallow[] = '/find-my-phone/results';
-
         $lines = ['User-agent: *'];
         foreach ($disallow as $path) {
             $lines[] = "Disallow: {$path}";

@@ -15,7 +15,7 @@ createServer((page) =>
     createInertiaApp({
         page,
         render: renderToString,
-        title: (title) => (title ? `${title} — Phone Kinbo` : 'Phone Kinbo — Find the right phone for you'),
+        title: (title) => (title ? `${title} — House of Ramen` : 'House of Ramen — Modern Ramen & Japanese-Korean Comfort Food in Dhaka'),
         resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
         setup({ App, props, plugin }) {
             return createSSRApp({ render: () => h(App, props) }).use(plugin);

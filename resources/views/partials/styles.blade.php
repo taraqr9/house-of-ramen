@@ -1,5 +1,7 @@
 <!-- App favicon -->
-<link rel="icon" type="image/svg+xml" href="{{ asset('brand/favicon.svg') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('brand/favicon-32.png') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('brand/favicon-16.png') }}">
+<link rel="apple-touch-icon" href="{{ asset('brand/apple-touch-icon-180.png') }}">
 
 <link href="{{ asset('libs/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css">

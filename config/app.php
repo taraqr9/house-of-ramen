@@ -60,16 +60,13 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may specify the default timezone for your application, which
-    | will be used by the PHP date and date-time functions. Phone Kinbo is
-    | Bangladesh-only, so this is Asia/Dhaka rather than Laravel's usual
-    | UTC default - every "last checked"/"collected at" timestamp shown to
-    | a user (see MarketPriceSummary.vue, PhoneController, SitemapController)
-    | goes through Carbon without an explicit per-view timezone conversion,
-    | and the nightly import runs at 00:01 Dhaka time - 18:01 UTC the
-    | *previous* calendar day - so a UTC app timezone would display
-    | freshly-collected data as "yesterday" right when it matters most.
-    | Do not assume the production server's OS timezone is Bangladesh;
-    | this is what actually controls it.
+    | will be used by the PHP date and date-time functions. House of Ramen
+    | is a Bangladesh restaurant, so this is Asia/Dhaka rather than
+    | Laravel's usual UTC default - every timestamp shown to a user (order
+    | of operations in the admin, activity log entries, etc.) goes through
+    | Carbon without an explicit per-view timezone conversion. Do not
+    | assume the production server's OS timezone is Bangladesh; this is
+    | what actually controls it.
     |
     */
 

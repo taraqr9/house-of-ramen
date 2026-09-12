@@ -19,7 +19,7 @@ const props = defineProps({
         <meta name="robots" :content="seo.robots" />
         <link rel="canonical" :href="seo.canonical" />
 
-        <meta property="og:site_name" content="Phone Kinbo" />
+        <meta property="og:site_name" content="House of Ramen" />
         <meta property="og:type" :content="seo.og_type" />
         <meta property="og:title" :content="seo.title" />
         <meta property="og:description" :content="seo.description" />

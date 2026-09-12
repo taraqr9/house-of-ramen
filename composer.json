@@ -1,14 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "house-of-ramen/website",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "House of Ramen's restaurant website and admin panel.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
         "php": "^8.4",
         "ext-gd": "*",
-        "google/analytics-data": "^0.26.0",
         "inertiajs/inertia-laravel": "^3.3",
         "lab404/laravel-impersonate": "^1.7",
         "laravel/framework": "^13.7",
@@ -47,7 +46,7 @@
             "@php artisan key:generate",
             "@php artisan migrate --force",
             "@php artisan storage:link --force",
-            "@php artisan phonekinbo:seed --force",
+            "@php artisan db:seed --force",
             "npm install --ignore-scripts",
             "npm run build:ssr"
         ],

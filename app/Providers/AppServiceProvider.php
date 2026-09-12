@@ -4,8 +4,6 @@ namespace App\Providers;
 
 use App\Models\Menu;
 use App\Policies\RolePolicy;
-use App\Services\Analytics\Contracts\AnalyticsReportClient;
-use App\Services\Analytics\GA4AnalyticsReportClient;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -22,12 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        // The admin dashboard's Analytics section (App\Services\Analytics\
-        // AnalyticsDashboardService) depends on this interface, never the
-        // concrete GA4 client directly - tests bind a fake here instead
-        // (see tests/Feature/Analytics/*), so the real Google Analytics
-        // Data API is never called during the test suite.
-        $this->app->singleton(AnalyticsReportClient::class, fn () => GA4AnalyticsReportClient::fromConfig());
+        //
     }
 
     /**

@@ -143,11 +143,11 @@ return Application::configure(basePath: dirname(__DIR__))
          * through to Laravel's default resources/views/errors/*.blade.php,
          * which is the purchased Bootstrap admin theme's error pages -
          * correct branding there). This runs after them, on the final
-         * response: for an error on the *public* Phone Kinbo site
+         * response: for an error on the *public* House of Ramen site
          * (everything outside AdminPaths - see routes/web.php's "public."
          * route group), swap in an on-brand Vue/Inertia error page instead
          * of a request that would otherwise inherit the admin theme's
-         * "Phone Kinbo - Admin & Dashboard" 404/500 view. Scoped by path
+         * "House of Ramen - Admin & Dashboard" 404/500 view. Scoped by path
          * rather than route name because a genuine 404 (no route matched
          * at all) never has a route to read a name from.
          */

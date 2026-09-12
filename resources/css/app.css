@@ -9,4 +9,27 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /*
+     * House of Ramen brand palette - sampled from the restaurant's real
+     * logo (coral/orange) and interior photo (olive green accent walls),
+     * not invented. Public site only; the Bootstrap admin theme is
+     * untouched (see resources/views/partials/styles.blade.php).
+     */
+    --color-cream-50: #fdf6ee;
+    --color-cream-100: #fce9d4;
+    --color-cream-200: #fde4ce;
+    --color-cream-300: #f6d5b2;
+
+    --color-coral-50: #fdf0ec;
+    --color-coral-100: #fbdcd2;
+    --color-coral-400: #f0805c;
+    --color-coral-500: #eb5f3f;
+    --color-coral-600: #d5482a;
+    --color-coral-700: #b13a22;
+
+    --color-olive-500: #6b7a3a;
+    --color-olive-600: #566130;
+
+    --color-charcoal-900: #241f1c;
 }

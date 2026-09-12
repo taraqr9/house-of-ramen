@@ -37,16 +37,16 @@ Thumbs.db
 
 /storage/*
 
-# ...except the actual catalogue product images (real content, not
-# runtime/cache output) - without this exception, every new phone image
-# collected is silently untracked by a plain `git add`, since it falls
-# under the blanket /storage/* rule above.
+# ...except Laravel's own empty-runtime-directory placeholders below
+# (storage/app/private/.gitignore etc.), which need storage/app/
+# un-ignored first so their own deeper exceptions can take effect.
+# Restaurant content images (storage/app/public/restaurant/) are
+# deliberately NOT tracked directly here - they're regenerated from the
+# real source images committed under database/seed-data/restaurant/ via
+# RestaurantSeeder, the same "offline reproducible" pattern, just with
+# the seed-data directory as the source of truth instead of storage/.
 !/storage/app/
 /storage/app/*
-!/storage/app/public/
-/storage/app/public/*
-!/storage/app/public/phones/
-!/storage/app/public/phones/**
 
 # ...and except Laravel's own empty-runtime-directory placeholders
 # (each is just a committed `.gitignore` containing `*` + `!.gitignore`,

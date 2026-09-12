@@ -13,7 +13,7 @@
                                 <div class="col-7">
                                     <div class="text-primary p-4">
                                         <h5 class="text-primary">Forgot Password</h5>
-                                        <p>Enter your official Phone Kinbo email address.</p>
+                                        <p>Enter your account email address.</p>
                                     </div>
                                 </div>
 

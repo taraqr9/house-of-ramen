@@ -3,28 +3,39 @@
 namespace App\Http\Controllers\Public;
 
 use App\Http\Controllers\Controller;
+use App\Models\Restaurant;
+use App\Models\RestaurantGalleryImage;
 use App\Services\Seo\SeoMeta;
+use App\Support\RestaurantPresenter;
 use Inertia\Inertia;
 use Inertia\Response;
 
 /**
- * The About Us page - entirely static marketing content (mission, how the
- * site works, founder), so unlike every other Public controller this reads
- * from no models. The founder photo lives as a plain static asset
- * (public/images/about/) rather than going through the phone catalogue's
- * image pipeline (App\Models\PhoneImage) since it isn't catalogue data -
- * its URL is still built server-side with asset() (not hardcoded in the
- * Vue page) so it stays correct if ASSET_URL/a CDN is ever configured.
+ * Reads its copy from the Restaurant row (tagline/description) rather
+ * than hardcoded strings, so an admin can update the real story from
+ * Restaurant Settings without another code change - see the "About House
+ * of Ramen" section of the project brief (no invented history/claims).
  */
 class AboutController extends Controller
 {
     public function index(): Response
     {
+        $restaurant = Restaurant::where('is_active', true)->firstOrFail();
+
+        $interiorImages = RestaurantGalleryImage::where('restaurant_id', $restaurant->id)
+            ->where('is_active', true)
+            ->where('category', 'interior')
+            ->orderBy('display_order')
+            ->take(3)
+            ->get()
+            ->map(fn (RestaurantGalleryImage $image) => RestaurantPresenter::galleryImage($image));
+
         return Inertia::render('Public/About', [
-            'founderPhotoUrl' => asset('images/about/founder-taraq-rahman.jpg'),
+            'restaurant' => RestaurantPresenter::restaurant($restaurant),
+            'interiorImages' => $interiorImages,
             'seo' => SeoMeta::make(
                 'About Us',
-                'Phone Kinbo is a Bangladesh-focused platform helping you choose the right smartphone for your budget, needs, and preferences.',
+                $restaurant->tagline ?? config('seo.default_description'),
                 '/about',
             )->toArray(),
         ]);
