@@ -126,6 +126,29 @@ onBeforeUnmount(() => {
             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
         </button>
 
+        <!-- Also pinned to the backdrop, not the image wrapper, for the
+             same reason as the close button above - otherwise these jump
+             to a different spot each time the active image is a
+             different size. -->
+        <template v-if="offers.length > 1">
+            <button
+                type="button"
+                class="fixed top-1/2 left-2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/85 text-charcoal-900 shadow transition hover:bg-white sm:left-4"
+                aria-label="Previous offer"
+                @click="prev"
+            >
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
+            </button>
+            <button
+                type="button"
+                class="fixed top-1/2 right-2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/85 text-charcoal-900 shadow transition hover:bg-white sm:right-4"
+                aria-label="Next offer"
+                @click="nextManually"
+            >
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+            </button>
+        </template>
+
         <div
             class="relative inline-block max-h-[88vh] max-w-[92vw]"
             @touchstart.passive="onTouchStart"
@@ -142,38 +165,19 @@ onBeforeUnmount(() => {
                 />
             </Transition>
 
-            <template v-if="offers.length > 1">
+            <div v-if="offers.length > 1" class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2" role="tablist" aria-label="Offers">
                 <button
+                    v-for="(offer, index) in offers"
+                    :key="`dot-${offer.id}`"
                     type="button"
-                    class="absolute top-1/2 left-2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/85 text-charcoal-900 shadow transition hover:bg-white"
-                    aria-label="Previous offer"
-                    @click="prev"
-                >
-                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
-                </button>
-                <button
-                    type="button"
-                    class="absolute top-1/2 right-2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/85 text-charcoal-900 shadow transition hover:bg-white"
-                    aria-label="Next offer"
-                    @click="nextManually"
-                >
-                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
-                </button>
-
-                <div class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2" role="tablist" aria-label="Offers">
-                    <button
-                        v-for="(offer, index) in offers"
-                        :key="`dot-${offer.id}`"
-                        type="button"
-                        class="h-2 rounded-full transition-all"
-                        :class="index === active ? 'w-6 bg-coral-500' : 'w-2 bg-white/60 hover:bg-white/80'"
-                        :aria-label="`Go to offer ${index + 1}`"
-                        :aria-selected="index === active"
-                        role="tab"
-                        @click="goToManually(index)"
-                    />
-                </div>
-            </template>
+                    class="h-2 rounded-full transition-all"
+                    :class="index === active ? 'w-6 bg-coral-500' : 'w-2 bg-white/60 hover:bg-white/80'"
+                    :aria-label="`Go to offer ${index + 1}`"
+                    :aria-selected="index === active"
+                    role="tab"
+                    @click="goToManually(index)"
+                />
+            </div>
         </div>
     </div>
 </template>
