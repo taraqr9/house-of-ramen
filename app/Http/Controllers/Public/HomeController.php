@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
 use App\Models\RestaurantGalleryImage;
 use App\Models\RestaurantMenuItem;
+use App\Models\RestaurantPopupOffer;
+use App\Models\RestaurantVideoFeature;
 use App\Services\Seo\SeoMeta;
 use App\Support\RestaurantPresenter;
 use Illuminate\Support\Facades\Storage;
@@ -37,10 +39,32 @@ class HomeController extends Controller
             ->get()
             ->map(fn (RestaurantMenuItem $item) => RestaurantPresenter::menuItem($item));
 
+        $newItems = RestaurantMenuItem::where('restaurant_id', $restaurant->id)
+            ->publiclyVisible()
+            ->where('is_new', true)
+            ->orderBy('display_order')
+            ->get()
+            ->map(fn (RestaurantMenuItem $item) => RestaurantPresenter::menuItem($item));
+
+        $videoFeatures = RestaurantVideoFeature::where('restaurant_id', $restaurant->id)
+            ->publiclyVisible()
+            ->orderBy('display_order')
+            ->get()
+            ->map(fn (RestaurantVideoFeature $video) => RestaurantPresenter::videoFeature($video));
+
+        $popupOffers = RestaurantPopupOffer::where('restaurant_id', $restaurant->id)
+            ->publiclyVisible()
+            ->orderBy('display_order')
+            ->get()
+            ->map(fn (RestaurantPopupOffer $offer) => RestaurantPresenter::popupOffer($offer));
+
         return Inertia::render('Public/Home', [
             'restaurant' => RestaurantPresenter::restaurant($restaurant),
             'heroSlides' => $heroSlides,
             'featuredItems' => $featuredItems,
+            'newItems' => $newItems,
+            'videoFeatures' => $videoFeatures,
+            'popupOffers' => $popupOffers,
             // A short, page-specific title here (not config('seo.default_title'),
             // which is the already-suffixed "Name — description" string
             // app.js/ssr.js fall back to when a page provides none at all) -

@@ -25,6 +25,10 @@ class RestaurantMenuItemIndexFilter
             $query->where('is_featured', (bool) $request->input('is_featured'));
         }
 
+        if ($request->filled('is_new')) {
+            $query->where('is_new', (bool) $request->input('is_new'));
+        }
+
         return $query;
     }
 }

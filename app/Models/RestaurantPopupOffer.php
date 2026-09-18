@@ -7,28 +7,20 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Activitylog\Models\Concerns\LogsActivity;
 use Spatie\Activitylog\Support\LogOptions;
 
-class RestaurantMenuItem extends Model
+class RestaurantPopupOffer extends Model
 {
     use HasFactory, HasUserStamps, LogsActivity, SoftDeletes;
 
     protected $fillable = [
         'restaurant_id',
-        'restaurant_menu_category_id',
-        'name',
-        'slug',
-        'description',
-        'price',
-        'price_note',
+        'title',
         'image_path',
-        'is_featured',
-        'is_new',
-        'is_available',
         'display_order',
+        'is_active',
         'created_by',
         'updated_by',
     ];
@@ -36,10 +28,7 @@ class RestaurantMenuItem extends Model
     protected function casts(): array
     {
         return [
-            'price' => 'decimal:2',
-            'is_featured' => 'boolean',
-            'is_new' => 'boolean',
-            'is_available' => 'boolean',
+            'is_active' => 'boolean',
         ];
     }
 
@@ -48,19 +37,9 @@ class RestaurantMenuItem extends Model
         return $this->belongsTo(Restaurant::class);
     }
 
-    public function category(): BelongsTo
-    {
-        return $this->belongsTo(RestaurantMenuCategory::class, 'restaurant_menu_category_id');
-    }
-
-    public function images(): HasMany
-    {
-        return $this->hasMany(RestaurantMenuItemImage::class)->orderBy('display_order');
-    }
-
     public function scopePubliclyVisible(Builder $query): Builder
     {
-        return $query->where('is_available', true);
+        return $query->where('is_active', true);
     }
 
     public function getActivitylogOptions(): LogOptions

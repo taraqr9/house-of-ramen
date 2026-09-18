@@ -20,6 +20,8 @@ use App\Http\Controllers\RestaurantController;
 use App\Http\Controllers\RestaurantGalleryImageController;
 use App\Http\Controllers\RestaurantMenuCategoryController;
 use App\Http\Controllers\RestaurantMenuItemController;
+use App\Http\Controllers\RestaurantPopupOfferController;
+use App\Http\Controllers\RestaurantVideoFeatureController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -139,10 +141,28 @@ Route::middleware(['auth', 'force.password.change', 'block.impersonation.actions
         Route::delete('menu-items/{restaurant_menu_item}/images/{image}', [RestaurantMenuItemController::class, 'destroyImage'])
             ->name('restaurant-menu-items.images.destroy');
 
+        Route::patch('menu-items/{restaurant_menu_item}/toggle-featured', [RestaurantMenuItemController::class, 'toggleFeatured'])
+            ->name('restaurant-menu-items.toggle-featured');
+        Route::patch('menu-items/{restaurant_menu_item}/toggle-new', [RestaurantMenuItemController::class, 'toggleNew'])
+            ->name('restaurant-menu-items.toggle-new');
+
         Route::resource('gallery', RestaurantGalleryImageController::class)
             ->only(['index', 'store', 'update', 'destroy'])
             ->names('restaurant-gallery-images')
             ->parameters(['gallery' => 'restaurant_gallery_image']);
+
+        Route::resource('video-features', RestaurantVideoFeatureController::class)
+            ->except(['show'])
+            ->names('restaurant-video-features')
+            ->parameters(['video-features' => 'restaurant_video_feature']);
+
+        Route::resource('popup-offers', RestaurantPopupOfferController::class)
+            ->except(['show'])
+            ->names('restaurant-popup-offers')
+            ->parameters(['popup-offers' => 'restaurant_popup_offer']);
+
+        Route::patch('popup-offers/{restaurant_popup_offer}/toggle-active', [RestaurantPopupOfferController::class, 'toggleActive'])
+            ->name('restaurant-popup-offers.toggle-active');
     });
 });
 

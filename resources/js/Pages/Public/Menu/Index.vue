@@ -4,7 +4,7 @@ import PublicLayout from '../../../Layouts/PublicLayout.vue';
 import SeoHead from '../../../Components/Public/SeoHead.vue';
 import PageHeader from '../../../Components/Public/PageHeader.vue';
 import MenuItemCard from '../../../Components/Public/MenuItemCard.vue';
-import Lightbox from '../../../Components/Public/Lightbox.vue';
+import MenuItemModal from '../../../Components/Public/MenuItemModal.vue';
 
 defineOptions({ layout: PublicLayout });
 
@@ -14,14 +14,14 @@ defineProps({
     seo: { type: Object, required: true },
 });
 
-const lightboxOpen = ref(false);
-const lightboxImages = ref([]);
-const lightboxTitle = ref('');
+const activeItem = ref(null);
 
-function openGallery({ images, title }) {
-    lightboxImages.value = images;
-    lightboxTitle.value = title;
-    lightboxOpen.value = true;
+function openItem(item) {
+    activeItem.value = item;
+}
+
+function closeItem() {
+    activeItem.value = null;
 }
 
 function slugify(text) {
@@ -79,16 +79,11 @@ function slugify(text) {
                     v-for="item in category.items"
                     :key="item.id"
                     :item="item"
-                    @open-gallery="openGallery"
+                    @open="openItem"
                 />
             </div>
         </section>
     </div>
 
-    <Lightbox
-        :open="lightboxOpen"
-        :images="lightboxImages"
-        :title="lightboxTitle"
-        @close="lightboxOpen = false"
-    />
+    <MenuItemModal :item="activeItem" @close="closeItem" />
 </template>

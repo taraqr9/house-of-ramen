@@ -18,6 +18,7 @@ class RestaurantMenuItemIndexRequest extends FormRequest
             'restaurant_menu_category_id' => ['nullable', 'exists:restaurant_menu_categories,id'],
             'is_available' => ['nullable', 'boolean'],
             'is_featured' => ['nullable', 'boolean'],
+            'is_new' => ['nullable', 'boolean'],
         ];
     }
 }

@@ -211,5 +211,33 @@ class MenuSeeder extends Seeder
                 'is_active' => 1,
             ]
         );
+
+        Menu::updateOrCreate(
+            [
+                'route' => 'restaurant-video-features.index',
+            ],
+            [
+                'title' => 'Video Features',
+                'icon' => 'bx bxl-youtube me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_video_feature-view',
+                'serial' => 5,
+                'is_active' => 1,
+            ]
+        );
+
+        Menu::updateOrCreate(
+            [
+                'route' => 'restaurant-popup-offers.index',
+            ],
+            [
+                'title' => 'Popup Offers',
+                'icon' => 'bx bx-purchase-tag-alt me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_popup_offer-view',
+                'serial' => 6,
+                'is_active' => 1,
+            ]
+        );
     }
 }

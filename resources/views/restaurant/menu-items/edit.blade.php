@@ -133,6 +133,14 @@
                                     </div>
 
                                     <div class="col-md-3">
+                                        <label>New Item</label>
+                                        <div class="form-check form-switch mt-2">
+                                            <input type="checkbox" name="is_new" value="1" class="form-check-input" id="isNew" @checked(old('is_new', $item->is_new) == 1)>
+                                            <label class="form-check-label" for="isNew">Show in "New on the Menu"</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
                                         <label>Availability</label>
                                         <div class="form-check form-switch mt-2">
                                             <input type="checkbox" name="is_available" value="1" class="form-check-input" id="isAvailable" @checked(old('is_available', $item->is_available) == 1)>

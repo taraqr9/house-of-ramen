@@ -32,6 +32,7 @@ class RestaurantMenuItemFactory extends Factory
             'price_note' => null,
             'image_path' => null,
             'is_featured' => false,
+            'is_new' => false,
             'is_available' => true,
             'display_order' => 0,
         ];
@@ -40,5 +41,10 @@ class RestaurantMenuItemFactory extends Factory
     public function featured(): static
     {
         return $this->state(fn () => ['is_featured' => true]);
+    }
+
+    public function newItem(): static
+    {
+        return $this->state(fn () => ['is_new' => true]);
     }
 }

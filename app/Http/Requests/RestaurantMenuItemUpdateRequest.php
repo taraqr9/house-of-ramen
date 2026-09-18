@@ -15,6 +15,7 @@ class RestaurantMenuItemUpdateRequest extends FormRequest
     {
         $this->merge([
             'is_featured' => (int) $this->input('is_featured', 0),
+            'is_new' => (int) $this->input('is_new', 0),
             'is_available' => (int) $this->input('is_available', 0),
             'updated_by' => auth()->id(),
         ]);
@@ -32,6 +33,7 @@ class RestaurantMenuItemUpdateRequest extends FormRequest
             'gallery_images' => ['nullable', 'array'],
             'gallery_images.*' => ['image', 'max:4096'],
             'is_featured' => ['nullable', 'boolean'],
+            'is_new' => ['nullable', 'boolean'],
             'is_available' => ['nullable', 'boolean'],
             'display_order' => ['nullable', 'integer', 'min:0'],
             'updated_by' => ['nullable', 'exists:users,id'],

@@ -5,6 +5,8 @@ namespace App\Support;
 use App\Models\Restaurant;
 use App\Models\RestaurantGalleryImage;
 use App\Models\RestaurantMenuItem;
+use App\Models\RestaurantPopupOffer;
+use App\Models\RestaurantVideoFeature;
 use Illuminate\Support\Facades\Storage;
 
 /**
@@ -67,6 +69,59 @@ class RestaurantPresenter
             'image_url' => Storage::url($image->path),
             'caption' => $image->caption,
             'category' => $image->category->value,
+        ];
+    }
+
+    /**
+     * Facebook and Instagram have no public, keyless thumbnail endpoint
+     * the way YouTube's img.youtube.com is - so for those (or to override
+     * YouTube's auto thumbnail) an admin-uploaded thumbnail always wins;
+     * only YouTube falls back to deriving one automatically.
+     *
+     * @return array<string, mixed>
+     */
+    public static function videoFeature(RestaurantVideoFeature $video): array
+    {
+        $platform = $video->platform;
+
+        $thumbnailUrl = $video->thumbnail_path
+            ? Storage::url($video->thumbnail_path)
+            : match ($platform) {
+                'youtube' => $video->youtube_video_id ? "https://img.youtube.com/vi/{$video->youtube_video_id}/hqdefault.jpg" : null,
+                default => null,
+            };
+
+        $embedUrl = match ($platform) {
+            'youtube' => $video->youtube_video_id ? "https://www.youtube-nocookie.com/embed/{$video->youtube_video_id}?autoplay=1&rel=0" : null,
+            'facebook' => 'https://www.facebook.com/plugins/video.php?href='.urlencode($video->video_url).'&show_text=false&autoplay=true',
+            // Bare /embed (no /captioned) - that variant adds a caption
+            // and like-count footer below the video, which doesn't belong
+            // inside a fixed video-only frame.
+            'instagram' => $video->instagram_embed_path ? "https://www.instagram.com/{$video->instagram_embed_path}/embed" : null,
+            default => null,
+        };
+
+        return [
+            'id' => $video->id,
+            'title' => $video->title,
+            'platform' => $platform,
+            'video_url' => $video->video_url,
+            'thumbnail_url' => $thumbnailUrl,
+            'embed_url' => $embedUrl,
+        ];
+    }
+
+    /**
+     * Deliberately excludes the admin-only `title` field - the homepage
+     * popup shows just the image, never that internal reference text.
+     *
+     * @return array<string, mixed>
+     */
+    public static function popupOffer(RestaurantPopupOffer $offer): array
+    {
+        return [
+            'id' => $offer->id,
+            'image_url' => Storage::url($offer->image_path),
         ];
     }
 }

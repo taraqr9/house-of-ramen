@@ -9,6 +9,7 @@ use App\Http\Requests\RestaurantMenuItemUpdateRequest;
 use App\Models\RestaurantMenuCategory;
 use App\Models\RestaurantMenuItem;
 use App\Models\RestaurantMenuItemImage;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
@@ -123,5 +124,32 @@ class RestaurantMenuItemController extends Controller
         $image->delete();
 
         return redirect()->route('restaurant-menu-items.edit', $restaurant_menu_item->id)->with('success', 'Image removed.');
+    }
+
+    /**
+     * Quick on/off switches from the index table (Featured/New Item
+     * columns) so an admin doesn't have to open the full edit form just
+     * to flip which homepage section a dish shows in.
+     */
+    public function toggleFeatured(RestaurantMenuItem $restaurant_menu_item): JsonResponse
+    {
+        return $this->toggleFlag($restaurant_menu_item, 'is_featured');
+    }
+
+    public function toggleNew(RestaurantMenuItem $restaurant_menu_item): JsonResponse
+    {
+        return $this->toggleFlag($restaurant_menu_item, 'is_new');
+    }
+
+    private function toggleFlag(RestaurantMenuItem $item, string $field): JsonResponse
+    {
+        $this->authorize('update', $item);
+
+        $item->update([
+            $field => ! $item->{$field},
+            'updated_by' => auth()->id(),
+        ]);
+
+        return response()->json([$field => $item->{$field}]);
     }
 }

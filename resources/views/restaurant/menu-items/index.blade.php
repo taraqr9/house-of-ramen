@@ -67,6 +67,15 @@
                                             <option value="0" @selected(request('is_featured') === '0')>Not Featured</option>
                                         </select>
                                     </div>
+
+                                    <div class="col-md-2">
+                                        <label class="form-label">New Item</label>
+                                        <select name="is_new" class="form-control select2">
+                                            <option value="">All</option>
+                                            <option value="1" @selected(request('is_new') === '1')>New Item</option>
+                                            <option value="0" @selected(request('is_new') === '0')>Not New</option>
+                                        </select>
+                                    </div>
                                 </div>
 
                                 <div class="d-flex justify-content-end gap-2 mt-3">
@@ -95,7 +104,8 @@
                                         <th>Name</th>
                                         <th>Category</th>
                                         <th>Price</th>
-                                        <th>Featured</th>
+                                        <th class="text-center" style="width: 90px;">Featured</th>
+                                        <th class="text-center" style="width: 90px;">New Item</th>
                                         <th>Status</th>
                                         <th class="text-center" style="width: 160px;">Action</th>
                                     </tr>
@@ -121,10 +131,31 @@
                                                     <div class="text-muted small">{{ $item->price_note }}</div>
                                                 @endif
                                             </td>
-                                            <td>
-                                                @if($item->is_featured)
-                                                    <span class="badge bg-info">Featured</span>
-                                                @endif
+                                            <td class="text-center">
+                                                @can('restaurant_menu_item-edit')
+                                                    <div class="form-check form-switch d-flex justify-content-center">
+                                                        <input type="checkbox" class="form-check-input toggle-flag" role="switch"
+                                                               data-url="{{ route('restaurant-menu-items.toggle-featured', $item->id) }}"
+                                                               data-field="is_featured"
+                                                               @checked($item->is_featured)
+                                                               aria-label="Toggle featured on homepage">
+                                                    </div>
+                                                @else
+                                                    <span class="badge {{ $item->is_featured ? 'bg-info' : 'bg-secondary' }}">{{ $item->is_featured ? 'Yes' : 'No' }}</span>
+                                                @endcan
+                                            </td>
+                                            <td class="text-center">
+                                                @can('restaurant_menu_item-edit')
+                                                    <div class="form-check form-switch d-flex justify-content-center">
+                                                        <input type="checkbox" class="form-check-input toggle-flag" role="switch"
+                                                               data-url="{{ route('restaurant-menu-items.toggle-new', $item->id) }}"
+                                                               data-field="is_new"
+                                                               @checked($item->is_new)
+                                                               aria-label="Toggle new item on homepage">
+                                                    </div>
+                                                @else
+                                                    <span class="badge {{ $item->is_new ? 'bg-info' : 'bg-secondary' }}">{{ $item->is_new ? 'Yes' : 'No' }}</span>
+                                                @endcan
                                             </td>
                                             <td>
                                                 <span class="badge {{ $item->is_available ? 'bg-success' : 'bg-danger' }}">
@@ -147,7 +178,7 @@
                                         </tr>
                                     @empty
                                         <tr>
-                                            <td colspan="7" class="text-center text-muted">No menu items found.</td>
+                                            <td colspan="8" class="text-center text-muted">No menu items found.</td>
                                         </tr>
                                     @endforelse
                                     </tbody>
@@ -189,6 +220,61 @@
                     form.submit();
                 }
             });
+        });
+
+        // Quick Featured / New Item switches - flips the flag in place via
+        // AJAX so an admin doesn't have to open the full edit form.
+        $(document).on('change', '.toggle-flag', function () {
+            let checkbox = $(this);
+            let url = checkbox.data('url');
+            let field = checkbox.data('field');
+            let wasChecked = checkbox.is(':checked');
+            let token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
+            checkbox.prop('disabled', true);
+
+            fetch(url, {
+                method: 'PATCH',
+                headers: {
+                    'X-CSRF-TOKEN': token,
+                    'Accept': 'application/json',
+                },
+            })
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error('Request failed');
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    checkbox.prop('checked', !!data[field]);
+
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Updated',
+                        showConfirmButton: false,
+                        timer: 1200,
+                        timerProgressBar: true,
+                    });
+                })
+                .catch(() => {
+                    checkbox.prop('checked', !wasChecked);
+
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-end',
+                        icon: 'error',
+                        title: 'Could not update, please try again',
+                        showConfirmButton: false,
+                        timer: 2000,
+                        timerProgressBar: true,
+                    });
+                })
+                .finally(() => {
+                    checkbox.prop('disabled', false);
+                });
         });
     </script>
 @endsection
