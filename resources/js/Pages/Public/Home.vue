@@ -8,6 +8,8 @@ import RestaurantInfoStrip from '../../Components/Public/RestaurantInfoStrip.vue
 import VideoModal from '../../Components/Public/VideoModal.vue';
 import PromoPopup from '../../Components/Public/PromoPopup.vue';
 import MenuItemModal from '../../Components/Public/MenuItemModal.vue';
+import ReviewCard from '../../Components/Public/ReviewCard.vue';
+import ReservationForm from '../../Components/Public/ReservationForm.vue';
 import { formatTaka } from '../../utils/format';
 
 defineOptions({ layout: PublicLayout });
@@ -19,6 +21,8 @@ defineProps({
     newItems: { type: Array, default: () => [] },
     videoFeatures: { type: Array, default: () => [] },
     popupOffers: { type: Array, default: () => [] },
+    reviews: { type: Array, default: () => [] },
+    reviewsSummary: { type: Object, default: () => ({}) },
     seo: { type: Object, required: true },
 });
 
@@ -257,8 +261,82 @@ function closeMenuItem() {
 
     <MenuItemModal :item="activeMenuItem" @close="closeMenuItem" />
 
-    <!-- Info strip -->
-    <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <RestaurantInfoStrip :restaurant="restaurant" />
+    <!-- 6. Customer Reviews (left) + Reserve a Table (right) - real reviews
+         the restaurant owner copied over from the actual Google listing
+         (see RestaurantSeeder / RestaurantReview), never fabricated or
+         scraped. Paired with reservations in one section so a visitor
+         reading proof-of-quality reviews can book a table right next to
+         them, instead of having to scroll to a separate part of the page. -->
+    <section id="reserve" class="border-t border-coral-100 bg-white py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6">
+            <div class="grid gap-12 xl:grid-cols-5 xl:gap-10">
+                <div class="xl:col-span-3">
+                    <p class="text-sm font-semibold tracking-wide text-coral-600 uppercase">Real Reviews From Google</p>
+                    <h2 class="mt-1 text-2xl font-bold text-charcoal-900 sm:text-3xl">Loved by Our Customers</h2>
+
+                    <div v-if="reviewsSummary?.rating" class="mt-3 flex items-center gap-2">
+                        <div class="flex gap-0.5" aria-hidden="true">
+                            <svg
+                                v-for="n in 5"
+                                :key="n"
+                                class="h-5 w-5"
+                                :class="n <= Math.round(reviewsSummary.rating) ? 'text-yellow-400' : 'text-charcoal-900/15'"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 0 0 .95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.368 2.447a1 1 0 0 0-.363 1.118l1.287 3.957c.299.922-.755 1.688-1.539 1.118l-3.367-2.446a1 1 0 0 0-1.176 0l-3.367 2.446c-.784.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 0 0-.363-1.118L2.063 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 0 0 .95-.69z" />
+                            </svg>
+                        </div>
+                        <span class="text-sm font-semibold text-charcoal-900">{{ reviewsSummary.rating.toFixed(1) }}</span>
+                        <span v-if="reviewsSummary.total" class="text-sm text-charcoal-900/50">({{ reviewsSummary.total }} reviews)</span>
+                    </div>
+
+                    <div v-if="reviews.length" class="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                        <ReviewCard v-for="(review, index) in reviews.slice(0, 6)" :key="`${review.author_name}-${index}`" :review="review" />
+                    </div>
+
+                    <div class="mt-8">
+                        <a
+                            href="https://share.google/b8QO18pNWQdkn7yAk"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-2 rounded-full bg-coral-500 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-coral-600 sm:text-base"
+                        >
+                            {{ reviews.length ? 'Read More Reviews on Google' : 'Read Our Google Reviews' }} &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div class="xl:col-span-2">
+                    <p class="text-sm font-semibold tracking-wide text-coral-600 uppercase">Book Ahead</p>
+                    <h2 class="mt-1 text-2xl font-bold text-charcoal-900 sm:text-3xl">Reserve a Table</h2>
+                    <p class="mt-3 text-charcoal-900/70">
+                        Tell us when you're coming and we'll call you shortly to confirm your table.
+                    </p>
+
+                    <div class="mt-6">
+                        <ReservationForm :phone="restaurant.phone" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Visit Us - address, contact, opening hours, and delivery
+         platforms, given its own clearly separated section right before
+         the footer rather than folded into it, so it reads as real page
+         content (and structured Restaurant JSON-LD context) rather than
+         boilerplate site furniture. -->
+    <section class="border-t border-coral-100 bg-cream-100 py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6">
+            <div class="text-center">
+                <p class="text-sm font-semibold tracking-wide text-coral-600 uppercase">Find Us</p>
+                <h2 class="mt-1 text-2xl font-bold text-charcoal-900 sm:text-3xl">Visit Us</h2>
+            </div>
+
+            <div class="mt-8">
+                <RestaurantInfoStrip :restaurant="restaurant" />
+            </div>
+        </div>
     </section>
 </template>

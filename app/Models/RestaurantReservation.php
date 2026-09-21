@@ -2,34 +2,29 @@
 
 namespace App\Models;
 
+use App\Enums\ReservationStatusEnum;
 use App\Traits\HasUserStamps;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Activitylog\Models\Concerns\LogsActivity;
 use Spatie\Activitylog\Support\LogOptions;
 
-class Restaurant extends Model
+class RestaurantReservation extends Model
 {
     use HasFactory, HasUserStamps, LogsActivity, SoftDeletes;
 
     protected $fillable = [
+        'restaurant_id',
         'name',
-        'slug',
-        'tagline',
-        'description',
-        'logo_path',
-        'cover_image_path',
         'phone',
         'email',
-        'address',
-        'area',
-        'opening_hours',
-        'facebook_url',
-        'instagram_url',
-        'delivery_platforms',
-        'is_active',
+        'party_size',
+        'reservation_date',
+        'reservation_time',
+        'notes',
+        'status',
         'created_by',
         'updated_by',
     ];
@@ -37,30 +32,15 @@ class Restaurant extends Model
     protected function casts(): array
     {
         return [
-            'opening_hours' => 'array',
-            'delivery_platforms' => 'array',
-            'is_active' => 'boolean',
+            'party_size' => 'integer',
+            'reservation_date' => 'date',
+            'status' => ReservationStatusEnum::class,
         ];
     }
 
-    public function menuCategories(): HasMany
+    public function restaurant(): BelongsTo
     {
-        return $this->hasMany(RestaurantMenuCategory::class);
-    }
-
-    public function menuItems(): HasMany
-    {
-        return $this->hasMany(RestaurantMenuItem::class);
-    }
-
-    public function galleryImages(): HasMany
-    {
-        return $this->hasMany(RestaurantGalleryImage::class);
-    }
-
-    public function reviews(): HasMany
-    {
-        return $this->hasMany(RestaurantReview::class);
+        return $this->belongsTo(Restaurant::class);
     }
 
     public function getActivitylogOptions(): LogOptions

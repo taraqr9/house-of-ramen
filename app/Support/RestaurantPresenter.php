@@ -6,6 +6,7 @@ use App\Models\Restaurant;
 use App\Models\RestaurantGalleryImage;
 use App\Models\RestaurantMenuItem;
 use App\Models\RestaurantPopupOffer;
+use App\Models\RestaurantReview;
 use App\Models\RestaurantVideoFeature;
 use Illuminate\Support\Facades\Storage;
 
@@ -122,6 +123,20 @@ class RestaurantPresenter
         return [
             'id' => $offer->id,
             'image_url' => Storage::url($offer->image_path),
+        ];
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    public static function review(RestaurantReview $review): array
+    {
+        return [
+            'id' => $review->id,
+            'author_name' => $review->author_name,
+            'rating' => $review->rating,
+            'text' => $review->review_text,
+            'relative_time' => $review->reviewed_at?->diffForHumans(),
         ];
     }
 }

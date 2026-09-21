@@ -14,6 +14,7 @@ use App\Http\Controllers\Public\ContactController;
 use App\Http\Controllers\Public\GalleryController;
 use App\Http\Controllers\Public\HomeController;
 use App\Http\Controllers\Public\MenuController as PublicMenuController;
+use App\Http\Controllers\Public\ReservationController;
 use App\Http\Controllers\Public\RobotsController;
 use App\Http\Controllers\Public\SitemapController;
 use App\Http\Controllers\RestaurantController;
@@ -21,6 +22,8 @@ use App\Http\Controllers\RestaurantGalleryImageController;
 use App\Http\Controllers\RestaurantMenuCategoryController;
 use App\Http\Controllers\RestaurantMenuItemController;
 use App\Http\Controllers\RestaurantPopupOfferController;
+use App\Http\Controllers\RestaurantReservationController;
+use App\Http\Controllers\RestaurantReviewController;
 use App\Http\Controllers\RestaurantVideoFeatureController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
@@ -48,6 +51,13 @@ Route::name('public.')->group(function () {
     Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
     Route::get('/about', [AboutController::class, 'index'])->name('about');
     Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+
+    // Throttled since it's a fully public, unauthenticated endpoint that
+    // also triggers an outbound WhatsApp call (see ReservationController) -
+    // caps abuse without needing a captcha.
+    Route::post('/reservations', [ReservationController::class, 'store'])
+        ->middleware('throttle:5,1')
+        ->name('reservations.store');
 });
 
 Route::middleware('guest')->group(function () {
@@ -163,6 +173,21 @@ Route::middleware(['auth', 'force.password.change', 'block.impersonation.actions
 
         Route::patch('popup-offers/{restaurant_popup_offer}/toggle-active', [RestaurantPopupOfferController::class, 'toggleActive'])
             ->name('restaurant-popup-offers.toggle-active');
+
+        Route::resource('reviews', RestaurantReviewController::class)
+            ->except(['show'])
+            ->names('restaurant-reviews')
+            ->parameters(['reviews' => 'restaurant_review']);
+
+        Route::patch('reviews/{restaurant_review}/toggle-active', [RestaurantReviewController::class, 'toggleActive'])
+            ->name('restaurant-reviews.toggle-active');
+
+        Route::get('reservations', [RestaurantReservationController::class, 'index'])
+            ->name('restaurant-reservations.index');
+        Route::patch('reservations/{restaurant_reservation}', [RestaurantReservationController::class, 'update'])
+            ->name('restaurant-reservations.update');
+        Route::delete('reservations/{restaurant_reservation}', [RestaurantReservationController::class, 'destroy'])
+            ->name('restaurant-reservations.destroy');
     });
 });
 

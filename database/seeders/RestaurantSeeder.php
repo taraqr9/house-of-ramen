@@ -6,6 +6,9 @@ use App\Models\Restaurant;
 use App\Models\RestaurantGalleryImage;
 use App\Models\RestaurantMenuCategory;
 use App\Models\RestaurantMenuItem;
+use App\Models\RestaurantPopupOffer;
+use App\Models\RestaurantReview;
+use App\Models\RestaurantVideoFeature;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -48,6 +51,16 @@ class RestaurantSeeder extends Seeder
 
         $this->seedGallery($restaurant);
         $this->seedMenu($restaurant);
+        $this->seedReviews($restaurant);
+
+        // No real video or promo graphic has been provided by the
+        // restaurant yet (same reasoning as opening_hours/social links
+        // above), so this demo content is local-only - never seeded onto
+        // a real environment's homepage.
+        if (app()->environment('local')) {
+            $this->seedVideoFeatures($restaurant);
+            $this->seedPopupOffers($restaurant);
+        }
     }
 
     private function seedGallery(Restaurant $restaurant): void
@@ -241,6 +254,114 @@ class RestaurantSeeder extends Seeder
                     ]
                 );
             }
+        }
+    }
+
+    /**
+     * Real reviews copied by hand from House of Ramen's actual Google
+     * Business listing (https://share.google/b8QO18pNWQdkn7yAk) -
+     * deliberately not fetched live (that would need a paid Places API
+     * key) or scraped (against Google's ToS and unreliable). Update this
+     * list by hand whenever fresh reviews should be featured.
+     *
+     * `rating` is the overall star rating where Google showed one
+     * directly; for reviews that only broke it down into Food/Service/
+     * Atmosphere sub-scores, it's those three averaged and rounded.
+     */
+    private function seedReviews(Restaurant $restaurant): void
+    {
+        $reviews = [
+            [
+                'author_name' => 'Moin Akon',
+                'rating' => 5,
+                'review_text' => "House of Ramen delivers a genuinely satisfying dining experience, especially for those who appreciate authentic flavors. The ramen stands out with its rich, well-balanced broth and perfectly cooked noodles, capturing a taste that feels both comforting and true to its roots. Each element on the plate reflects careful preparation and attention to detail.\n\nThe ambiance complements the food nicely—clean, cozy, and inviting without being overwhelming. It creates a relaxed setting where you can truly enjoy your meal, whether you're dining alone or with company.\n\nOverall, it's a place that combines quality food with a pleasant atmosphere, making it worth visiting for a reliable and enjoyable ramen experience.",
+                'reviewed_at' => '2026-06-21',
+            ],
+            [
+                'author_name' => 'Ashraful Alam Bijoy',
+                'rating' => 5,
+                'review_text' => "House of Ramen is a wonderful Asian fusion restaurant that never disappoints. The food quality is consistently excellent, which is why I find myself visiting quite often.\n\nThe interior is beautifully designed and pairs perfectly with soothing Western music, creating a relaxed and enjoyable dining atmosphere. The presence of bonsai, colorful foliage, and flowering plants adds a refreshing natural touch that truly enhances the experience.\n\nI've tried their Japanese ramen, Korean ramen, appetizers, noodles, sushi, and drinks—and everything has been impressive. The flavors are well-balanced, portions are satisfying, and the drinks are especially refreshing.\n\nOverall, House of Ramen is a great place for anyone who loves Asian fusion cuisine in a calm, aesthetic setting. Highly recommended.",
+                'reviewed_at' => '2026-01-21',
+            ],
+            [
+                'author_name' => 'Hasan',
+                'rating' => 4,
+                'review_text' => "Shoyu ramen 6.5/10. The taste of soy sauce was a bit too thick for me\n\nKrispy chicken addon 8.75/10. Pretty good\n\nCherry blossom 7/10. Decent drink. It was a little similar to Lichi\n\n2 cats...that are friendly...10/10. Wish they had more cats",
+                'reviewed_at' => '2026-06-21',
+            ],
+            [
+                'author_name' => 'Shams Yaard Khan',
+                'rating' => 4,
+                'review_text' => "The best nasi goreng in Uttara...best bento box in terms of \"Bank for your buck\". Each component in the bento box is flavorful and filling.\nMalaysian fried rice is spicy and flavorful. Packed with spices and sauces. The fried rice had a wok hay flavor. It has good amount of veggies. Also, the fried egg is a great accompliment to the fried rice...it added richness to the rice and mellowed the spice.\nThe ayam goreng or fried chicken was crispy...packed with seasoning and spices. The portion size of the fried chicken was huge.\nThe satay is tender and flavorful. It goes great with fried rice. They serve two satay which is great. Also, fried morning glory adds a healthy option to the bento...it is crispy and not too oily..goes well with the dish and a great way to eat vegetable. The cucumber adds as a palate cleaner and some freshness to the bento.\nOverall a great bento...it is 9.75 out of 10 in terms of rating..the price is tk 550...so a great bento for the price and portion size...a must try item.",
+                'reviewed_at' => '2026-04-21',
+            ],
+            [
+                'author_name' => 'Madhury Paul',
+                'rating' => 5,
+                'review_text' => "Tried the Budie Jigge and Nasi Goreng at House of Ramen, Uttara, and absolutely loved them! Rich, flavorful, and incredibly comforting with an authentic taste and the perfect balance of spices. Every bite was satisfying. Definitely a must-try if you're visiting.",
+                'reviewed_at' => '2026-07-21',
+            ],
+            [
+                'author_name' => 'Muhtasim Mahbub',
+                'rating' => 5,
+                'review_text' => "Extremely underrated place. Place is a bit small but well designed. Service was good. But I can safely say, their ramen is one of the best I've ever had in Dhaka. It's close to authentic ramen but slightly tuned to our taste buds.\n\nI ordered Spicy Creamy Ramen, Pink Poison, Iced Tea and BBQ Wings. Pink poison was good but nothing to write home about. Iced tea was pretty good. But their ramen and wings were absolute top tier. Amount was enough for 2 person.\n\nIf you're looking for quality food, decent ambiance in reasonable pricing, this place is Highly recommended.",
+                'reviewed_at' => '2025-11-21',
+            ],
+        ];
+
+        foreach ($reviews as $order => $review) {
+            RestaurantReview::updateOrCreate(
+                ['restaurant_id' => $restaurant->id, 'author_name' => $review['author_name'], 'review_text' => $review['review_text']],
+                [
+                    'rating' => $review['rating'],
+                    'reviewed_at' => $review['reviewed_at'] ?? null,
+                    'display_order' => $order,
+                    'is_active' => true,
+                ]
+            );
+        }
+    }
+
+    private function seedVideoFeatures(Restaurant $restaurant): void
+    {
+        $videos = [
+            ['title' => 'Behind the Broth: How We Make Our Ramen', 'video_url' => 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'],
+            // Facebook/Instagram have no public keyless thumbnail endpoint
+            // the way YouTube does (see RestaurantVideoFeature::$thumbnail_path),
+            // so these two need a stored thumbnail image.
+            ['title' => 'A Tour of House of Ramen, Uttara', 'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/', 'thumbnail' => 'interior-1.jpg'],
+            ['title' => 'Plating the Seafood Budae Jjigae', 'video_url' => 'https://www.instagram.com/reel/Cabc123XYZ9/', 'thumbnail' => 'food/budae-jjigae-seafood.jpg'],
+        ];
+
+        foreach ($videos as $order => $video) {
+            RestaurantVideoFeature::updateOrCreate(
+                ['restaurant_id' => $restaurant->id, 'title' => $video['title']],
+                [
+                    'video_url' => $video['video_url'],
+                    'thumbnail_path' => isset($video['thumbnail']) ? $this->storeSeedImage($video['thumbnail'], 'restaurant/video-features') : null,
+                    'display_order' => $order,
+                    'is_active' => true,
+                ]
+            );
+        }
+    }
+
+    private function seedPopupOffers(Restaurant $restaurant): void
+    {
+        $offers = [
+            ['title' => 'Grand Opening Offer', 'file' => 'food/spread.jpg'],
+            ['title' => 'Weekend Ramen Combo', 'file' => 'food/tonkatsu-ramen.jpg'],
+        ];
+
+        foreach ($offers as $order => $offer) {
+            RestaurantPopupOffer::updateOrCreate(
+                ['restaurant_id' => $restaurant->id, 'title' => $offer['title']],
+                [
+                    'image_path' => $this->storeSeedImage($offer['file'], 'restaurant/popup-offers'),
+                    'display_order' => $order,
+                    'is_active' => true,
+                ]
+            );
         }
     }
 

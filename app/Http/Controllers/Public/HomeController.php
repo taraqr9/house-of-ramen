@@ -7,6 +7,7 @@ use App\Models\Restaurant;
 use App\Models\RestaurantGalleryImage;
 use App\Models\RestaurantMenuItem;
 use App\Models\RestaurantPopupOffer;
+use App\Models\RestaurantReview;
 use App\Models\RestaurantVideoFeature;
 use App\Services\Seo\SeoMeta;
 use App\Support\RestaurantPresenter;
@@ -58,6 +59,16 @@ class HomeController extends Controller
             ->get()
             ->map(fn (RestaurantPopupOffer $offer) => RestaurantPresenter::popupOffer($offer));
 
+        // Real reviews the restaurant owner copied over from their actual
+        // Google listing (see RestaurantSeeder) - never scraped or
+        // API-fetched, so the rating summary below is computed from
+        // whatever's actually been entered rather than pulled live.
+        $reviews = RestaurantReview::where('restaurant_id', $restaurant->id)
+            ->publiclyVisible()
+            ->orderBy('display_order')
+            ->take(6)
+            ->get();
+
         return Inertia::render('Public/Home', [
             'restaurant' => RestaurantPresenter::restaurant($restaurant),
             'heroSlides' => $heroSlides,
@@ -65,6 +76,11 @@ class HomeController extends Controller
             'newItems' => $newItems,
             'videoFeatures' => $videoFeatures,
             'popupOffers' => $popupOffers,
+            'reviews' => $reviews->map(fn (RestaurantReview $review) => RestaurantPresenter::review($review)),
+            'reviewsSummary' => [
+                'rating' => $reviews->isNotEmpty() ? round($reviews->avg('rating'), 1) : null,
+                'total' => $reviews->count() ?: null,
+            ],
             // A short, page-specific title here (not config('seo.default_title'),
             // which is the already-suffixed "Name — description" string
             // app.js/ssr.js fall back to when a page provides none at all) -

@@ -3,32 +3,25 @@
 namespace App\Models;
 
 use App\Traits\HasUserStamps;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Activitylog\Models\Concerns\LogsActivity;
 use Spatie\Activitylog\Support\LogOptions;
 
-class Restaurant extends Model
+class RestaurantReview extends Model
 {
     use HasFactory, HasUserStamps, LogsActivity, SoftDeletes;
 
     protected $fillable = [
-        'name',
-        'slug',
-        'tagline',
-        'description',
-        'logo_path',
-        'cover_image_path',
-        'phone',
-        'email',
-        'address',
-        'area',
-        'opening_hours',
-        'facebook_url',
-        'instagram_url',
-        'delivery_platforms',
+        'restaurant_id',
+        'author_name',
+        'rating',
+        'review_text',
+        'reviewed_at',
+        'display_order',
         'is_active',
         'created_by',
         'updated_by',
@@ -37,30 +30,20 @@ class Restaurant extends Model
     protected function casts(): array
     {
         return [
-            'opening_hours' => 'array',
-            'delivery_platforms' => 'array',
+            'rating' => 'integer',
+            'reviewed_at' => 'date',
             'is_active' => 'boolean',
         ];
     }
 
-    public function menuCategories(): HasMany
+    public function restaurant(): BelongsTo
     {
-        return $this->hasMany(RestaurantMenuCategory::class);
+        return $this->belongsTo(Restaurant::class);
     }
 
-    public function menuItems(): HasMany
+    public function scopePubliclyVisible(Builder $query): Builder
     {
-        return $this->hasMany(RestaurantMenuItem::class);
-    }
-
-    public function galleryImages(): HasMany
-    {
-        return $this->hasMany(RestaurantGalleryImage::class);
-    }
-
-    public function reviews(): HasMany
-    {
-        return $this->hasMany(RestaurantReview::class);
+        return $query->where('is_active', true);
     }
 
     public function getActivitylogOptions(): LogOptions

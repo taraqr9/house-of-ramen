@@ -239,5 +239,33 @@ class MenuSeeder extends Seeder
                 'is_active' => 1,
             ]
         );
+
+        Menu::updateOrCreate(
+            [
+                'route' => 'restaurant-reviews.index',
+            ],
+            [
+                'title' => 'Reviews',
+                'icon' => 'bx bx-star me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_review-view',
+                'serial' => 7,
+                'is_active' => 1,
+            ]
+        );
+
+        Menu::updateOrCreate(
+            [
+                'route' => 'restaurant-reservations.index',
+            ],
+            [
+                'title' => 'Reservations',
+                'icon' => 'bx bx-calendar-check me-1',
+                'parent_id' => $restaurant->id,
+                'permission' => 'restaurant_reservation-view',
+                'serial' => 8,
+                'is_active' => 1,
+            ]
+        );
     }
 }

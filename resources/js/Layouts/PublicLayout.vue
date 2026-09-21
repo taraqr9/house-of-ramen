@@ -2,13 +2,16 @@
 import { computed, ref } from 'vue';
 import { Head, Link, usePage } from '@inertiajs/vue3';
 import { jsonLdVNode } from '../utils/jsonLd';
+import FreeDeliveryModal from '../Components/Public/FreeDeliveryModal.vue';
 
 const page = usePage();
 const mobileMenuOpen = ref(false);
+const freeDeliveryOpen = ref(false);
 
 const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'Menu', href: '/menu' },
+    { label: 'Reservation', href: '/#reserve', variant: 'reservation' },
     { label: 'Gallery', href: '/gallery' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
@@ -23,6 +26,38 @@ const restaurant = computed(() => page.props.restaurant ?? {});
 function isActive(href) {
     const path = page.url.split('?')[0];
     return href === '/' ? path === '/' : path.startsWith(href);
+}
+
+// The Reservation link gets its own button-styled treatment (border,
+// pill shape, calendar icon) so it reads as a call-to-action rather than
+// a plain nav item - it's the one link here to a homepage-only anchor
+// section, not a full page, so it needs to stand out to still get clicked.
+function navLinkClass(link) {
+    if (link.variant === 'reservation') {
+        return [
+            'inline-flex items-center gap-1.5 rounded-full border-2 border-coral-500 px-4 py-1.5 text-[15px] font-semibold shadow-sm transition-colors',
+            isActive(link.href) ? 'bg-coral-500 text-white' : 'bg-white text-coral-700 hover:bg-coral-500 hover:text-white',
+        ].join(' ');
+    }
+
+    return [
+        'rounded-lg px-4 py-2 text-[15px] font-medium transition-colors',
+        isActive(link.href) ? 'bg-coral-100 text-coral-700' : 'text-charcoal-900/70 hover:bg-coral-50 hover:text-charcoal-900',
+    ].join(' ');
+}
+
+function mobileNavLinkClass(link) {
+    if (link.variant === 'reservation') {
+        return [
+            'mt-1 block rounded-xl border-2 border-coral-500 px-3 py-3 text-base font-semibold transition-colors',
+            isActive(link.href) ? 'bg-coral-500 text-white' : 'bg-coral-50 text-coral-700',
+        ].join(' ');
+    }
+
+    return [
+        'block rounded-lg px-3 py-3 text-base font-medium',
+        isActive(link.href) ? 'bg-coral-100 text-coral-700' : 'text-charcoal-900/80 hover:bg-coral-50',
+    ].join(' ');
 }
 
 // Sitewide Organization + WebSite JSON-LD - present on every public page.
@@ -76,15 +111,47 @@ const siteJsonLd = computed(() => {
                     <span class="leading-none">House of Ramen</span>
                 </Link>
 
-                <nav class="hidden flex-1 items-center justify-center gap-1 md:flex" aria-label="Primary">
+                <div class="relative shrink-0">
+                    <span
+                        class="pointer-events-none absolute -top-2.5 left-1/2 z-10 -translate-x-1/2 -rotate-3 rounded-full bg-red-600 px-1.5 py-0.5 text-[8px] font-bold whitespace-nowrap text-white uppercase shadow-sm sm:-top-3 sm:text-[9px]"
+                    >
+                        Click Me
+                    </span>
+                    <button
+                        type="button"
+                        class="relative inline-flex cursor-pointer items-center gap-1 rounded-full bg-gradient-to-r from-coral-500 to-red-500 px-2.5 py-1 text-[11px] font-bold text-white shadow-sm transition hover:shadow-md sm:gap-1.5 sm:px-3.5 sm:py-1.5 sm:text-xs"
+                        @click="freeDeliveryOpen = true"
+                    >
+                        <span class="absolute top-1 right-1 flex h-2 w-2">
+                            <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white/80 opacity-75"></span>
+                            <span class="relative inline-flex h-2 w-2 rounded-full bg-white"></span>
+                        </span>
+                        <span aria-hidden="true">🛵</span>
+                        Free Delivery
+                    </button>
+                </div>
+
+                <nav class="hidden flex-1 items-center justify-center gap-1.5 md:flex" aria-label="Primary">
                     <Link
                         v-for="link in navLinks"
                         :key="link.href"
                         :href="link.href"
-                        class="rounded-lg px-4 py-2 text-[15px] font-medium transition-colors"
-                        :class="isActive(link.href) ? 'bg-coral-100 text-coral-700' : 'text-charcoal-900/70 hover:bg-coral-50 hover:text-charcoal-900'"
+                        :class="navLinkClass(link)"
                         :aria-current="isActive(link.href) ? 'page' : undefined"
                     >
+                        <svg
+                            v-if="link.variant === 'reservation'"
+                            class="h-4 w-4"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            aria-hidden="true"
+                        >
+                            <rect x="3" y="5" width="18" height="16" rx="2" />
+                            <path stroke-linecap="round" d="M3 10h18M8 3v4M16 3v4" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.5 14.5 2 2 4.5-4.5" />
+                        </svg>
                         {{ link.label }}
                     </Link>
                 </nav>
@@ -125,12 +192,26 @@ const siteJsonLd = computed(() => {
                     v-for="link in navLinks"
                     :key="link.href"
                     :href="link.href"
-                    class="block rounded-lg px-3 py-3 text-base font-medium"
-                    :class="isActive(link.href) ? 'bg-coral-100 text-coral-700' : 'text-charcoal-900/80 hover:bg-coral-50'"
+                    :class="mobileNavLinkClass(link)"
                     :aria-current="isActive(link.href) ? 'page' : undefined"
                     @click="mobileMenuOpen = false"
                 >
-                    {{ link.label }}
+                    <span class="inline-flex items-center gap-2">
+                        <svg
+                            v-if="link.variant === 'reservation'"
+                            class="h-4 w-4"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            aria-hidden="true"
+                        >
+                            <rect x="3" y="5" width="18" height="16" rx="2" />
+                            <path stroke-linecap="round" d="M3 10h18M8 3v4M16 3v4" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.5 14.5 2 2 4.5-4.5" />
+                        </svg>
+                        {{ link.label }}
+                    </span>
                 </Link>
                 <Link
                     href="/menu"
@@ -181,6 +262,7 @@ const siteJsonLd = computed(() => {
                         <span class="text-sm font-semibold text-white">Explore</span>
                         <ul class="mt-3 flex flex-col gap-2 text-sm text-cream-100/70">
                             <li><Link href="/menu" class="hover:text-white">Menu</Link></li>
+                            <li><Link href="/#reserve" class="hover:text-white">Reservation</Link></li>
                             <li><Link href="/gallery" class="hover:text-white">Gallery</Link></li>
                             <li><Link href="/about" class="hover:text-white">About</Link></li>
                             <li><Link href="/contact" class="hover:text-white">Contact</Link></li>
@@ -205,5 +287,7 @@ const siteJsonLd = computed(() => {
                 </p>
             </div>
         </footer>
+
+        <FreeDeliveryModal :open="freeDeliveryOpen" :phone="restaurant.phone" @close="freeDeliveryOpen = false" />
     </div>
 </template>
