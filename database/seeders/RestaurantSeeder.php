@@ -52,15 +52,8 @@ class RestaurantSeeder extends Seeder
         $this->seedGallery($restaurant);
         $this->seedMenu($restaurant);
         $this->seedReviews($restaurant);
-
-        // No real video or promo graphic has been provided by the
-        // restaurant yet (same reasoning as opening_hours/social links
-        // above), so this demo content is local-only - never seeded onto
-        // a real environment's homepage.
-        if (app()->environment('local')) {
-            $this->seedVideoFeatures($restaurant);
-            $this->seedPopupOffers($restaurant);
-        }
+        $this->seedVideoFeatures($restaurant);
+        $this->seedPopupOffers($restaurant);
     }
 
     private function seedGallery(Restaurant $restaurant): void
@@ -101,12 +94,27 @@ class RestaurantSeeder extends Seeder
                 'items' => [
                     ['name' => 'Heamul Pajeon', 'description' => 'Korean Seafood Pancake', 'price' => 450],
                     ['name' => 'Prawn Tempura', 'price' => 560],
-                    ['name' => 'Crispy Mushroom Tempura', 'description' => 'Served with sweet chili mayo', 'price' => 390],
+                    [
+                        'name' => 'Crispy Mushroom Tempura', 'description' => 'Served with sweet chili mayo',
+                        'price' => 390,
+                    ],
                     ['name' => 'Corn Seaweed Tempura Poppers', 'price' => 270],
-                    ['name' => 'Chicken Wings', 'description' => 'Portion: 4 pieces. Crispy & Korean', 'price' => 210, 'price_note' => 'Korean style: ৳390'],
-                    ['name' => 'Nanban', 'description' => 'Boneless fried chicken with Japanese tartar sauce', 'price' => 450],
-                    ['name' => 'Thai Fried Chicken', 'description' => 'Served with Thai chili aioli. Portion: 6 pieces', 'price' => 420],
-                    ['name' => 'Stir Fried Snow Fungus', 'description' => 'Served with Thai chili aioli. Portion: 6 pieces', 'price' => 450],
+                    [
+                        'name' => 'Chicken Wings', 'description' => 'Portion: 4 pieces. Crispy & Korean',
+                        'price' => 210, 'price_note' => 'Korean style: ৳390',
+                    ],
+                    [
+                        'name' => 'Nanban', 'description' => 'Boneless fried chicken with Japanese tartar sauce',
+                        'price' => 450,
+                    ],
+                    [
+                        'name' => 'Thai Fried Chicken',
+                        'description' => 'Served with Thai chili aioli. Portion: 6 pieces', 'price' => 420,
+                    ],
+                    [
+                        'name' => 'Stir Fried Snow Fungus',
+                        'description' => 'Served with Thai chili aioli. Portion: 6 pieces', 'price' => 450,
+                    ],
                 ],
             ],
             [
@@ -120,43 +128,126 @@ class RestaurantSeeder extends Seeder
             [
                 'name' => 'Noodles', 'description' => null,
                 'items' => [
-                    ['name' => 'Japchae', 'description' => 'Korean glass noodles with shiitake mushroom, black fungus, chicken, egg and vegetables', 'price' => 550],
-                    ['name' => 'Beef Soba Carbonara', 'description' => 'Japanese buckwheat noodle with creamy carbonara sauce and beef bacon', 'price' => 590],
-                    ['name' => 'Creamy Tobiko Udon', 'description' => 'Udon noodle with creamy tobiko sauce and butter poached chicken', 'price' => 550],
-                    ['name' => 'Mee Goreng Mamak', 'description' => 'Spicy noodle with chicken, tofu puff, bok choy, tomato and fried egg', 'price' => 480],
-                    ['name' => 'Dan Dan Noodle', 'description' => 'Noodles served with creamy peanut sauce, minced chicken, fried scallion, chili oil and sesame seeds', 'price' => 450],
-                    ['name' => 'Seafood Hakka', 'description' => 'Stir fried noodles with squid, octopus, dory fish, clams and crispy prawn', 'price' => 450],
-                    ['name' => 'Hakka Noodle', 'description' => 'Stir fried noodles with vegetables and egg', 'price' => 230],
+                    [
+                        'name' => 'Japchae',
+                        'description' => 'Korean glass noodles with shiitake mushroom, black fungus, chicken, egg and vegetables',
+                        'price' => 550,
+                    ],
+                    [
+                        'name' => 'Beef Soba Carbonara',
+                        'description' => 'Japanese buckwheat noodle with creamy carbonara sauce and beef bacon',
+                        'price' => 590,
+                    ],
+                    [
+                        'name' => 'Creamy Tobiko Udon',
+                        'description' => 'Udon noodle with creamy tobiko sauce and butter poached chicken',
+                        'price' => 550,
+                    ],
+                    [
+                        'name' => 'Mee Goreng Mamak',
+                        'description' => 'Spicy noodle with chicken, tofu puff, bok choy, tomato and fried egg',
+                        'price' => 480,
+                    ],
+                    [
+                        'name' => 'Dan Dan Noodle',
+                        'description' => 'Noodles served with creamy peanut sauce, minced chicken, fried scallion, chili oil and sesame seeds',
+                        'price' => 450,
+                    ],
+                    [
+                        'name' => 'Seafood Hakka',
+                        'description' => 'Stir fried noodles with squid, octopus, dory fish, clams and crispy prawn',
+                        'price' => 450,
+                    ],
+                    [
+                        'name' => 'Hakka Noodle', 'description' => 'Stir fried noodles with vegetables and egg',
+                        'price' => 230,
+                    ],
                     ['name' => 'Chicken Chow Mein', 'price' => 390],
                 ],
             ],
             [
                 'name' => 'Budae Jjigae', 'description' => 'Korean army stew',
                 'items' => [
-                    ['name' => 'Chicken Budae Jjigae', 'description' => 'Rich gochujang broth, pan fried chicken, chicken ball, sausage, tofu puff, soft boiled egg, sweet corn, spring onion & sesame seeds', 'price' => 1150, 'image' => 'food/budae-jjigae-chicken.jpg'],
-                    ['name' => 'Seafood Budae Jjigae', 'description' => 'Rich gochujang broth, prawns, squid, octopus, dory fish, crab stick, mussels, seafood tofu, soft boiled egg, sweet corn, spring onion & sesame seeds', 'price' => 1550, 'image' => 'food/budae-jjigae-seafood.jpg', 'featured' => true],
-                    ['name' => 'Beef Budae Jjigae', 'description' => 'Rich gochujang broth, beef bulgogi, beef bacon, black fungus, shiitake mushroom, bean sprout, soft boiled egg, sweet corn, spring onion & sesame seeds', 'price' => 1650],
+                    [
+                        'name' => 'Chicken Budae Jjigae',
+                        'description' => 'Rich gochujang broth, pan fried chicken, chicken ball, sausage, tofu puff, soft boiled egg, sweet corn, spring onion & sesame seeds',
+                        'price' => 1150, 'image' => 'food/budae-jjigae-chicken.jpg',
+                    ],
+                    [
+                        'name' => 'Seafood Budae Jjigae',
+                        'description' => 'Rich gochujang broth, prawns, squid, octopus, dory fish, crab stick, mussels, seafood tofu, soft boiled egg, sweet corn, spring onion & sesame seeds',
+                        'price' => 1550, 'image' => 'food/budae-jjigae-seafood.jpg', 'featured' => true,
+                    ],
+                    [
+                        'name' => 'Beef Budae Jjigae',
+                        'description' => 'Rich gochujang broth, beef bulgogi, beef bacon, black fungus, shiitake mushroom, bean sprout, soft boiled egg, sweet corn, spring onion & sesame seeds',
+                        'price' => 1650,
+                    ],
                 ],
             ],
             [
                 'name' => 'Japanese Ramen', 'description' => 'Hand cut noodles',
                 'items' => [
-                    ['name' => 'Beef Shoyu Ramen', 'description' => 'Soy sauce flavored beef broth, tender beef, shiitake mushroom, black fungus, egg', 'price' => 550],
-                    ['name' => 'Miso Chicken Ramen', 'description' => 'Japanese miso flavored broth, chicken chashu, butter poached chicken, egg, corn, wood ear mushroom', 'price' => 490],
-                    ['name' => 'Tonkatsu Ramen', 'description' => 'Creamy chicken broth, chicken chashu, chicken ball, corn, egg', 'price' => 490, 'image' => 'food/tonkatsu-ramen.jpg', 'featured' => true],
-                    ['name' => 'Tantan Ramen', 'description' => 'Peanut flavored creamy broth, minced chicken, chicken ball, corn, egg', 'price' => 490],
-                    ['name' => 'Gyukotsu Ramen', 'description' => 'Rich white beef broth, pan seared beef with shiitake mushroom, black fungus, egg', 'price' => 590, 'image' => 'food/gyukotsu-ramen.jpg', 'featured' => true],
+                    [
+                        'name' => 'Beef Shoyu Ramen',
+                        'description' => 'Soy sauce flavored beef broth, tender beef, shiitake mushroom, black fungus, egg',
+                        'price' => 550,
+                    ],
+                    [
+                        'name' => 'Miso Chicken Ramen',
+                        'description' => 'Japanese miso flavored broth, chicken chashu, butter poached chicken, egg, corn, wood ear mushroom',
+                        'price' => 490,
+                    ],
+                    [
+                        'name' => 'Tonkatsu Ramen',
+                        'description' => 'Creamy chicken broth, chicken chashu, chicken ball, corn, egg',
+                        'price' => 490, 'image' => 'food/tonkatsu-ramen.jpg', 'featured' => true,
+                    ],
+                    [
+                        'name' => 'Tantan Ramen',
+                        'description' => 'Peanut flavored creamy broth, minced chicken, chicken ball, corn, egg',
+                        'price' => 490,
+                    ],
+                    [
+                        'name' => 'Gyukotsu Ramen',
+                        'description' => 'Rich white beef broth, pan seared beef with shiitake mushroom, black fungus, egg',
+                        'price' => 590, 'image' => 'food/gyukotsu-ramen.jpg', 'featured' => true,
+                    ],
                 ],
             ],
             [
                 'name' => 'Korean Ramen', 'description' => null,
                 'items' => [
-                    ['name' => 'Hot Korean Chicken Ramen', 'description' => 'Gochujang flavored broth, pan fried chicken breast, chicken sausage, chicken ball, corn, soft boiled egg', 'price' => 420],
-                    ['name' => 'Kimchi Ramen', 'description' => 'Kimchi broth, pan fried chicken breast, chicken sausage, chicken ball, corn, soft boiled egg', 'price' => 490],
-                    ['name' => 'Seafood Ramen', 'description' => 'Gochujang flavored broth, stir fried squid, octopus, dory fish, crab stick, prawn, soft boiled egg', 'price' => 590],
-                    ['name' => 'Beef Bulgogi Ramen', 'description' => 'Gochujang flavored broth, pan seared beef, shiitake mushrooms, corn, soft boiled egg', 'price' => 590],
-                    ['name' => 'Dumpling Ramen', 'description' => 'Gochujang flavored broth, chicken, dumpling, corn, soft boiled egg', 'price' => 390],
-                    ['name' => 'Spicy Creamy Chicken Ramen', 'description' => 'Milk based spicy broth, tamagoyaki, chicken, chicken ball, corn, spring onion', 'price' => 490],
+                    [
+                        'name' => 'Hot Korean Chicken Ramen',
+                        'description' => 'Gochujang flavored broth, pan fried chicken breast, chicken sausage, chicken ball, corn, soft boiled egg',
+                        'price' => 420,
+                    ],
+                    [
+                        'name' => 'Kimchi Ramen',
+                        'description' => 'Kimchi broth, pan fried chicken breast, chicken sausage, chicken ball, corn, soft boiled egg',
+                        'price' => 490,
+                    ],
+                    [
+                        'name' => 'Seafood Ramen',
+                        'description' => 'Gochujang flavored broth, stir fried squid, octopus, dory fish, crab stick, prawn, soft boiled egg',
+                        'price' => 590,
+                    ],
+                    [
+                        'name' => 'Beef Bulgogi Ramen',
+                        'description' => 'Gochujang flavored broth, pan seared beef, shiitake mushrooms, corn, soft boiled egg',
+                        'price' => 590,
+                    ],
+                    [
+                        'name' => 'Dumpling Ramen',
+                        'description' => 'Gochujang flavored broth, chicken, dumpling, corn, soft boiled egg',
+                        'price' => 390,
+                    ],
+                    [
+                        'name' => 'Spicy Creamy Chicken Ramen',
+                        'description' => 'Milk based spicy broth, tamagoyaki, chicken, chicken ball, corn, spring onion',
+                        'price' => 490,
+                    ],
                 ],
             ],
             [
@@ -182,9 +273,21 @@ class RestaurantSeeder extends Seeder
             [
                 'name' => 'Bento Box', 'description' => null,
                 'items' => [
-                    ['name' => 'Nasi Goreng', 'description' => 'Malaysian fried rice, ayam goreng, morning glory fries, satay, fried egg, cucumber salad', 'price' => 550, 'image' => 'food/nasi-goreng.jpg', 'featured' => true],
-                    ['name' => 'Seafood Bento', 'description' => 'Seafood fried rice, fried prawn with bang bang stir fried spicy seafood, ebi maki roll', 'price' => 720, 'image' => 'food/seafood-bento.jpg', 'featured' => true],
-                    ['name' => 'Beef Bibimbap', 'description' => 'Steamed rice, beef bulgogi, stir fried vegetables, bibimbap sauce and fried egg', 'price' => 590],
+                    [
+                        'name' => 'Nasi Goreng',
+                        'description' => 'Malaysian fried rice, ayam goreng, morning glory fries, satay, fried egg, cucumber salad',
+                        'price' => 550, 'image' => 'food/nasi-goreng.jpg', 'featured' => true,
+                    ],
+                    [
+                        'name' => 'Seafood Bento',
+                        'description' => 'Seafood fried rice, fried prawn with bang bang stir fried spicy seafood, ebi maki roll',
+                        'price' => 720, 'image' => 'food/seafood-bento.jpg', 'featured' => true,
+                    ],
+                    [
+                        'name' => 'Beef Bibimbap',
+                        'description' => 'Steamed rice, beef bulgogi, stir fried vegetables, bibimbap sauce and fried egg',
+                        'price' => 590,
+                    ],
                 ],
             ],
             [
@@ -246,7 +349,8 @@ class RestaurantSeeder extends Seeder
                         'description' => $itemData['description'] ?? null,
                         'price' => $itemData['price'],
                         'price_note' => $itemData['price_note'] ?? null,
-                        'image_path' => isset($itemData['image']) ? $this->storeSeedImage($itemData['image'], 'restaurant/menu-items') : null,
+                        'image_path' => isset($itemData['image']) ? $this->storeSeedImage($itemData['image'],
+                            'restaurant/menu-items') : null,
                         'is_featured' => $itemData['featured'] ?? false,
                         'is_available' => true,
                         'display_order' => $itemOrder,
@@ -310,7 +414,10 @@ class RestaurantSeeder extends Seeder
 
         foreach ($reviews as $order => $review) {
             RestaurantReview::updateOrCreate(
-                ['restaurant_id' => $restaurant->id, 'author_name' => $review['author_name'], 'review_text' => $review['review_text']],
+                [
+                    'restaurant_id' => $restaurant->id, 'author_name' => $review['author_name'],
+                    'review_text' => $review['review_text'],
+                ],
                 [
                     'rating' => $review['rating'],
                     'reviewed_at' => $review['reviewed_at'] ?? null,
@@ -324,12 +431,23 @@ class RestaurantSeeder extends Seeder
     private function seedVideoFeatures(Restaurant $restaurant): void
     {
         $videos = [
-            ['title' => 'Behind the Broth: How We Make Our Ramen', 'video_url' => 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'],
+            [
+                'title' => 'Behind the Broth: How We Make Our Ramen',
+                'video_url' => 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            ],
             // Facebook/Instagram have no public keyless thumbnail endpoint
             // the way YouTube does (see RestaurantVideoFeature::$thumbnail_path),
             // so these two need a stored thumbnail image.
-            ['title' => 'A Tour of House of Ramen, Uttara', 'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/', 'thumbnail' => 'food/gyukotsu-ramen.jpg'],
-            ['title' => 'Plating the Seafood Budae Jjigae', 'video_url' => 'https://www.instagram.com/reel/Cabc123XYZ9/', 'thumbnail' => 'food/budae-jjigae-seafood.jpg'],
+            [
+                'title' => 'A Tour of House of Ramen, Uttara',
+                'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/',
+                'thumbnail' => 'food/gyukotsu-ramen.jpg',
+            ],
+            [
+                'title' => 'Plating the Seafood Budae Jjigae',
+                'video_url' => 'https://www.instagram.com/reel/Cabc123XYZ9/',
+                'thumbnail' => 'food/budae-jjigae-seafood.jpg',
+            ],
         ];
 
         foreach ($videos as $order => $video) {
@@ -337,7 +455,8 @@ class RestaurantSeeder extends Seeder
                 ['restaurant_id' => $restaurant->id, 'title' => $video['title']],
                 [
                     'video_url' => $video['video_url'],
-                    'thumbnail_path' => isset($video['thumbnail']) ? $this->storeSeedImage($video['thumbnail'], 'restaurant/video-features') : null,
+                    'thumbnail_path' => isset($video['thumbnail']) ? $this->storeSeedImage($video['thumbnail'],
+                        'restaurant/video-features') : null,
                     'display_order' => $order,
                     'is_active' => true,
                 ]
