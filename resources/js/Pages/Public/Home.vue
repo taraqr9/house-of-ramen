@@ -1,6 +1,6 @@
 <script setup>
-import { ref } from 'vue';
-import { Link } from '@inertiajs/vue3';
+import { onMounted, onUnmounted, ref } from 'vue';
+import { Link, router } from '@inertiajs/vue3';
 import PublicLayout from '../../Layouts/PublicLayout.vue';
 import SeoHead from '../../Components/Public/SeoHead.vue';
 import HeroSlider from '../../Components/Public/HeroSlider.vue';
@@ -24,6 +24,30 @@ defineProps({
     reviews: { type: Array, default: () => [] },
     reviewsSummary: { type: Object, default: () => ({}) },
     seo: { type: Object, required: true },
+});
+
+// The promo popup should only greet visitors landing on the homepage
+// itself (via the logo or "Home" nav link) - not visitors sent straight
+// to the reservation form via the "Reservation" nav/footer link
+// (`/#reserve`), where an interruption right before booking is unwelcome.
+// Re-checked on every Inertia navigation (not just on mount) because
+// Reservation -> Home both resolve to this same page component, which
+// Inertia updates in place rather than remounting.
+const showPromoPopup = ref(false);
+
+function syncPromoPopupVisibility() {
+    showPromoPopup.value = window.location.hash !== '#reserve';
+}
+
+let stopNavigateListener;
+
+onMounted(() => {
+    syncPromoPopupVisibility();
+    stopNavigateListener = router.on('navigate', syncPromoPopupVisibility);
+});
+
+onUnmounted(() => {
+    stopNavigateListener?.();
 });
 
 const activeVideo = ref(null);
@@ -59,7 +83,7 @@ function closeMenuItem() {
 <template>
     <SeoHead :seo="seo" />
 
-    <PromoPopup :offers="popupOffers" />
+    <PromoPopup v-if="showPromoPopup" :offers="popupOffers" />
 
     <!-- 1. Hero / Main Slider -->
     <HeroSlider v-if="heroSlides.length" :slides="heroSlides">

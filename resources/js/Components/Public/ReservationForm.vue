@@ -51,7 +51,7 @@ function submit() {
 
         <form class="grid gap-4 sm:grid-cols-2" @submit.prevent="submit">
             <div class="sm:col-span-1">
-                <label for="res-name" class="block text-sm font-medium text-charcoal-900">Full Name</label>
+                <label for="res-name" class="block text-sm font-medium text-charcoal-900">Full Name <span class="text-red-600">*</span></label>
                 <input
                     id="res-name"
                     v-model="form.name"
@@ -63,7 +63,7 @@ function submit() {
             </div>
 
             <div class="sm:col-span-1">
-                <label for="res-phone" class="block text-sm font-medium text-charcoal-900">Phone</label>
+                <label for="res-phone" class="block text-sm font-medium text-charcoal-900">Phone <span class="text-red-600">*</span></label>
                 <input
                     id="res-phone"
                     v-model="form.phone"
@@ -99,7 +99,7 @@ function submit() {
             </div>
 
             <div class="sm:col-span-1">
-                <label for="res-date" class="block text-sm font-medium text-charcoal-900">Date</label>
+                <label for="res-date" class="block text-sm font-medium text-charcoal-900">Date <span class="text-red-600">*</span></label>
                 <input
                     id="res-date"
                     v-model="form.reservation_date"
@@ -112,7 +112,7 @@ function submit() {
             </div>
 
             <div class="sm:col-span-1">
-                <label for="res-time" class="block text-sm font-medium text-charcoal-900">Time</label>
+                <label for="res-time" class="block text-sm font-medium text-charcoal-900">Time <span class="text-red-600">*</span></label>
                 <select
                     id="res-time"
                     v-model="form.reservation_time"
