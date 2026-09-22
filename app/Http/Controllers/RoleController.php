@@ -15,11 +15,20 @@ use Spatie\Permission\Models\Role;
 
 class RoleController extends Controller
 {
+    public function __construct()
+    {
+        $this->authorizeResource(Role::class, 'role');
+    }
+
     public function index(RoleIndexRequest $request): View
     {
         $page_title = 'Roles';
 
         $query = Role::query();
+
+        if (! auth()->user()->hasRole('Super Admin')) {
+            $query->where('name', '!=', 'Super Admin');
+        }
 
         if ($request->filled('keyword')) {
             $query->where('name', 'like', '%'.$request->keyword.'%');
@@ -197,6 +206,8 @@ class RoleController extends Controller
 
     public function storePermission(Request $request): RedirectResponse
     {
+        $this->authorize('create', Role::class);
+
         $availableModels = collect(File::files(app_path('Models')))
             ->map(function ($file) {
                 return Str::snake(pathinfo($file->getFilename(), PATHINFO_FILENAME));

@@ -328,7 +328,7 @@ class RestaurantSeeder extends Seeder
             // Facebook/Instagram have no public keyless thumbnail endpoint
             // the way YouTube does (see RestaurantVideoFeature::$thumbnail_path),
             // so these two need a stored thumbnail image.
-            ['title' => 'A Tour of House of Ramen, Uttara', 'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/'],
+            ['title' => 'A Tour of House of Ramen, Uttara', 'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/', 'thumbnail' => 'food/gyukotsu-ramen.jpg'],
             ['title' => 'Plating the Seafood Budae Jjigae', 'video_url' => 'https://www.instagram.com/reel/Cabc123XYZ9/', 'thumbnail' => 'food/budae-jjigae-seafood.jpg'],
         ];
 

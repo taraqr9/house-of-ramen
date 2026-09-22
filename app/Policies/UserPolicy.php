@@ -13,7 +13,7 @@ class UserPolicy
 
     public function view(User $user, User $model): bool
     {
-        return $user->can('user-view');
+        return $user->can('user-view') && $this->canSeeTarget($user, $model);
     }
 
     public function create(User $user): bool
@@ -23,11 +23,21 @@ class UserPolicy
 
     public function update(User $user, User $model): bool
     {
-        return $user->can('user-edit');
+        return $user->can('user-edit') && $this->canSeeTarget($user, $model);
     }
 
     public function delete(User $user, User $model): bool
     {
-        return $user->can('user-delete') && $user->id !== $model->id;
+        return $user->can('user-delete') && $user->id !== $model->id && $this->canSeeTarget($user, $model);
+    }
+
+    /**
+     * Super Admin users are invisible to (and unmanageable by) everyone
+     * except other Super Admins - a non-Super-Admin can't view, edit, or
+     * delete a Super Admin account even by guessing its URL.
+     */
+    private function canSeeTarget(User $user, User $model): bool
+    {
+        return ! $model->hasRole('Super Admin') || $user->hasRole('Super Admin');
     }
 }

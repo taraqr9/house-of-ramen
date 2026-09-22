@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Menu;
 use App\Policies\RolePolicy;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -11,10 +12,6 @@ use Spatie\Permission\Models\Role;
 
 class AppServiceProvider extends ServiceProvider
 {
-    protected $policies = [
-        Role::class => RolePolicy::class,
-    ];
-
     /**
      * Register any application services.
      */
@@ -28,6 +25,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // Role is Spatie\Permission\Models\Role, not an App\Models\* class,
+        // so Laravel's naming-convention policy auto-discovery doesn't find
+        // it - it must be registered explicitly (a bare `$policies` property
+        // does nothing here since this provider doesn't extend the
+        // Auth-specific base provider that reads it).
+        Gate::policy(Role::class, RolePolicy::class);
+
         Schema::defaultStringLength(191);
 
         View::composer('partials.sidebar', function ($view) {

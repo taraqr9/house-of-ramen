@@ -25,9 +25,15 @@ class UserController extends Controller
     {
         $page_title = 'Users';
 
-        $roles = Role::orderBy('name')->get();
+        $roles = $this->assignableRoles();
 
         $query = User::with('roles');
+
+        if (! auth()->user()->hasRole('Super Admin')) {
+            $query->whereDoesntHave('roles', function ($q) {
+                $q->where('name', 'Super Admin');
+            });
+        }
 
         $users = UserIndexFilter::applyFilters($query, $request)
             ->latest()
@@ -47,7 +53,7 @@ class UserController extends Controller
     {
         $page_title = 'Create User';
 
-        $roles = Role::orderBy('name')->get();
+        $roles = $this->assignableRoles();
 
         return view('user.create', compact('page_title', 'roles'));
     }
@@ -78,7 +84,7 @@ class UserController extends Controller
     {
         $page_title = 'Edit User';
 
-        $roles = Role::orderBy('name')->get();
+        $roles = $this->assignableRoles();
 
         $userRole = $user->roles->pluck('name')->first();
 
@@ -204,6 +210,18 @@ class UserController extends Controller
         return redirect()
             ->route('dashboard')
             ->with('success', 'You are now impersonating '.$user->name);
+    }
+
+    /**
+     * The Super Admin role can only be assigned by an existing Super
+     * Admin - everyone else doesn't even see it as an option.
+     */
+    private function assignableRoles()
+    {
+        return Role::when(
+            ! auth()->user()->hasRole('Super Admin'),
+            fn ($query) => $query->where('name', '!=', 'Super Admin')
+        )->orderBy('name')->get();
     }
 
     public function leaveImpersonate(): RedirectResponse

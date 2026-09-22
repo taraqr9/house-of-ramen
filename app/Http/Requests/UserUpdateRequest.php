@@ -46,10 +46,11 @@ class UserUpdateRequest extends FormRequest
                 Rule::unique('users', 'email')->ignore($userId),
             ],
 
-            'role' => [
+            'role' => array_filter([
                 'nullable',
                 'exists:roles,name',
-            ],
+                auth()->user()->hasRole('Super Admin') ? null : Rule::notIn(['Super Admin']),
+            ]),
 
             'password' => [
                 'nullable',

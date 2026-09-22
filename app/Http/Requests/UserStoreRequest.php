@@ -45,10 +45,11 @@ class UserStoreRequest extends FormRequest
                 'unique:users,email',
             ],
 
-            'role' => [
+            'role' => array_filter([
                 'nullable',
                 'exists:roles,name',
-            ],
+                auth()->user()->hasRole('Super Admin') ? null : Rule::notIn(['Super Admin']),
+            ]),
 
             'password' => [
                 'required',
