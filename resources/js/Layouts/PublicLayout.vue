@@ -111,15 +111,10 @@ const siteJsonLd = computed(() => {
                     <span class="leading-none">House of Ramen</span>
                 </Link>
 
-                <div class="relative shrink-0">
-                    <span
-                        class="pointer-events-none absolute -top-2.5 left-1/2 z-10 -translate-x-1/2 -rotate-3 rounded-full bg-red-600 px-1.5 py-0.5 text-[8px] font-bold whitespace-nowrap text-white uppercase shadow-sm sm:-top-3 sm:text-[9px]"
-                    >
-                        Click Me
-                    </span>
+                <div class="group relative shrink-0">
                     <button
                         type="button"
-                        class="relative inline-flex cursor-pointer items-center gap-1 rounded-full bg-gradient-to-r from-coral-500 to-red-500 px-2.5 py-1 text-[11px] font-bold text-white shadow-sm transition hover:shadow-md sm:gap-1.5 sm:px-3.5 sm:py-1.5 sm:text-xs"
+                        class="relative inline-flex cursor-pointer items-center gap-1 rounded-full bg-gradient-to-r from-coral-500 to-red-500 px-2.5 py-1 text-[11px] font-bold text-white shadow-sm transition hover:shadow-md group-hover:animate-bounce sm:gap-1.5 sm:px-3.5 sm:py-1.5 sm:text-xs"
                         @click="freeDeliveryOpen = true"
                     >
                         <span class="absolute top-1 right-1 flex h-2 w-2">

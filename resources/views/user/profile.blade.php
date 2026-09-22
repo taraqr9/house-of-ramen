@@ -23,9 +23,32 @@
 
                             <form action="{{ route('profile.update') }}"
                                   method="POST"
+                                  enctype="multipart/form-data"
                                   id="profileForm">
                                 @csrf
                                 @method('PUT')
+
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <label class="form-label">Profile Photo</label>
+
+                                        <div class="d-flex align-items-center gap-3">
+                                            <img src="{{ $user->avatar_path ? \Storage::url($user->avatar_path) : asset('images/users/avatar-1.jpg') }}"
+                                                 alt="Profile photo"
+                                                 class="rounded-circle"
+                                                 style="width: 64px; height: 64px; object-fit: cover;">
+
+                                            <input type="file"
+                                                   name="avatar"
+                                                   accept="image/*"
+                                                   class="form-control @error('avatar') is-invalid @enderror">
+                                        </div>
+
+                                        @error('avatar')
+                                        <div class="invalid-feedback d-block">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+                                </div>
 
                                 <div class="row">
                                     <div class="col-md-4 mb-3">

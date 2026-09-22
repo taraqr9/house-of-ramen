@@ -269,8 +269,8 @@ function closeMenuItem() {
          them, instead of having to scroll to a separate part of the page. -->
     <section id="reserve" class="border-t border-coral-100 bg-white py-16 sm:py-20">
         <div class="mx-auto max-w-6xl px-4 sm:px-6">
-            <div class="grid gap-12 xl:grid-cols-5 xl:gap-10">
-                <div class="xl:col-span-3">
+            <div class="grid items-start gap-12 xl:grid-cols-2 xl:gap-10">
+                <div>
                     <p class="text-sm font-semibold tracking-wide text-coral-600 uppercase">Real Reviews From Google</p>
                     <h2 class="mt-1 text-2xl font-bold text-charcoal-900 sm:text-3xl">Loved by Our Customers</h2>
 
@@ -291,7 +291,7 @@ function closeMenuItem() {
                         <span v-if="reviewsSummary.total" class="text-sm text-charcoal-900/50">({{ reviewsSummary.total }} reviews)</span>
                     </div>
 
-                    <div v-if="reviews.length" class="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                    <div v-if="reviews.length" class="mt-8 grid gap-5 sm:grid-cols-2">
                         <ReviewCard v-for="(review, index) in reviews.slice(0, 6)" :key="`${review.author_name}-${index}`" :review="review" />
                     </div>
 
@@ -307,7 +307,7 @@ function closeMenuItem() {
                     </div>
                 </div>
 
-                <div class="xl:col-span-2">
+                <div class="xl:sticky xl:top-24">
                     <p class="text-sm font-semibold tracking-wide text-coral-600 uppercase">Book Ahead</p>
                     <h2 class="mt-1 text-2xl font-bold text-charcoal-900 sm:text-3xl">Reserve a Table</h2>
                     <p class="mt-3 text-charcoal-900/70">

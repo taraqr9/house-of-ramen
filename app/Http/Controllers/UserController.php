@@ -161,6 +161,10 @@ class UserController extends Controller
             'name' => $data['name'],
         ];
 
+        if ($request->hasFile('avatar')) {
+            $updateData['avatar_path'] = $request->file('avatar')->store('users/avatars', 'public');
+        }
+
         if (! empty($data['password'])) {
             $updateData['password'] = Hash::make($data['password']);
             $updateData['password_setup_token'] = null;

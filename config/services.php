@@ -35,12 +35,11 @@ return [
         ],
     ],
 
-    // Sends new reservation requests to the restaurant's own WhatsApp via
-    // CallMeBot - see App\Services\WhatsApp\CallMeBotNotifier and
+    // Sends new reservation requests to the restaurant's own Telegram via
+    // CallMeBot - see App\Services\Telegram\TelegramNotifier and
     // .env.example for the one-time opt-in steps.
-    'callmebot' => [
-        'phone' => env('CALLMEBOT_PHONE'),
-        'api_key' => env('CALLMEBOT_API_KEY'),
+    'telegram' => [
+        'username' => env('TELEGRAM_USERNAME'),
     ],
 
 ];

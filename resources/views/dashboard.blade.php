@@ -44,7 +44,7 @@
                     </div>
                 </div>
 
-                <h5 class="mb-3 mt-1">Menu Overview</h5>
+                <h5 class="mb-3 mt-4">Menu Overview</h5>
                 <div class="row">
                     <div class="col-xl-3 col-sm-6">
                         <div class="card mini-stats-wid h-100">
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <h5 class="mb-3 mt-3">Items By Category</h5>
+                <h5 class="mb-3 mt-4">Items By Category</h5>
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="card h-100">

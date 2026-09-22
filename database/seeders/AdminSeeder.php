@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
@@ -99,12 +100,22 @@ class AdminSeeder extends Seeder
         /*
          * Create or update default admin user
          */
+        $avatarPath = 'users/avatars/dummy_man.png';
+
+        if (! Storage::disk('public')->exists($avatarPath)) {
+            Storage::disk('public')->put(
+                $avatarPath,
+                file_get_contents(database_path('seed-data/users/dummy_man.png'))
+            );
+        }
+
         $admin = User::firstOrCreate(
             [
                 'username' => 'admin',
             ],
             [
                 'name' => 'Admin',
+                'avatar_path' => $avatarPath,
                 'email' => env('ADMIN_SEED_EMAIL', 'admin@example.com'),
                 'email_verified_at' => now(),
                 'password' => Hash::make('password'),

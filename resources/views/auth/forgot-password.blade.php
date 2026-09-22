@@ -2,8 +2,8 @@
 
 @section('AuthContent')
 
-    <div class="account-pages _my-5 pt-sm-5">
-        <div class="container my-5">
+    <div class="account-pages my-5 pt-sm-5">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6 col-xl-5">
 
@@ -18,7 +18,7 @@
                                 </div>
 
                                 <div class="col-5 align-self-end">
-                                    <img src="{{ asset('images/logo.svg') }}" alt="" class="img-fluid">
+                                    <img src="{{ asset('images/profile-img.png') }}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                     <div class="mt-5 text-center">
                         <p>
                             <span class="text-dark">Remember password? </span>
-                            <a href="{{ route('login.view') }}" class="fw-medium text-white">
+                            <a href="{{ route('login.view') }}" class="fw-medium text-primary">
                                 Sign In here
                             </a>
                         </p>

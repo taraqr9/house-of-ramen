@@ -7,7 +7,7 @@ use App\Http\Requests\Public\ReservationStoreRequest;
 use App\Models\RestaurantReservation;
 use App\Models\User;
 use App\Services\NotificationService;
-use App\Services\WhatsApp\CallMeBotNotifier;
+use App\Services\Telegram\TelegramNotifier;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Carbon;
 
@@ -27,7 +27,7 @@ class ReservationController extends Controller
             'Notes: '.($reservation->notes ?: '-');
 
         // Every admin sees it in the bell dropdown regardless of whether
-        // WhatsApp is configured below - this always works, no setup needed.
+        // Telegram is configured below - this always works, no setup needed.
         NotificationService::sendMany(
             User::role('Super Admin')->get(),
             'New Reservation Request',
@@ -37,10 +37,10 @@ class ReservationController extends Controller
             'success',
         );
 
-        // Best-effort only (see CallMeBotNotifier) - a slow/misconfigured
-        // WhatsApp integration must never stop the customer's reservation
+        // Best-effort only (see TelegramNotifier) - a slow/misconfigured
+        // Telegram integration must never stop the customer's reservation
         // from going through.
-        CallMeBotNotifier::send($summary);
+        TelegramNotifier::send($summary);
 
         return back()->with('success', 'Reservation request received! We will call you shortly to confirm.');
     }

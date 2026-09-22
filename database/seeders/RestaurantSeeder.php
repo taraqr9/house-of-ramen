@@ -34,7 +34,7 @@ class RestaurantSeeder extends Seeder
                 'tagline' => 'Modern ramen & Japanese-Korean comfort food',
                 'description' => 'House of Ramen brings together Japanese and Korean comfort food - hand-cut ramen noodles, rich broths, sushi rolls, bento boxes, and more - in a warm, modern space in Uttara, Dhaka.',
                 'logo_path' => $this->storeSeedImage('logo-icon.png', 'restaurant/branding'),
-                'cover_image_path' => $this->storeSeedImage('interior-1.jpg', 'restaurant/branding'),
+                'cover_image_path' => null,
                 'phone' => '+8801742-152198',
                 'email' => null,
                 'address' => '21, Road 10/a, Gareeb-e-Newaz Avenue, Sector 11',
@@ -66,7 +66,6 @@ class RestaurantSeeder extends Seeder
     private function seedGallery(Restaurant $restaurant): void
     {
         $images = [
-            ['file' => 'interior-1.jpg', 'category' => 'interior', 'caption' => 'Dining area'],
             ['file' => 'food/tonkatsu-ramen.jpg', 'category' => 'food', 'caption' => 'Tonkatsu Ramen'],
             ['file' => 'food/gyukotsu-ramen.jpg', 'category' => 'food', 'caption' => 'Gyukotsu Ramen'],
             ['file' => 'food/budae-jjigae-seafood.jpg', 'category' => 'food', 'caption' => 'Seafood Budae Jjigae'],
@@ -329,7 +328,7 @@ class RestaurantSeeder extends Seeder
             // Facebook/Instagram have no public keyless thumbnail endpoint
             // the way YouTube does (see RestaurantVideoFeature::$thumbnail_path),
             // so these two need a stored thumbnail image.
-            ['title' => 'A Tour of House of Ramen, Uttara', 'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/', 'thumbnail' => 'interior-1.jpg'],
+            ['title' => 'A Tour of House of Ramen, Uttara', 'video_url' => 'https://www.facebook.com/HouseOfRamen/videos/1234567890/'],
             ['title' => 'Plating the Seafood Budae Jjigae', 'video_url' => 'https://www.instagram.com/reel/Cabc123XYZ9/', 'thumbnail' => 'food/budae-jjigae-seafood.jpg'],
         ];
 

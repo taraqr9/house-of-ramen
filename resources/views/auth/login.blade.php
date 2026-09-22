@@ -2,21 +2,21 @@
 
 @section('AuthContent')
 
-<div class="account-pages _my-5 pt-sm-5">
-    <div class="container my-5">
+<div class="account-pages my-5 pt-sm-5">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6 col-xl-5">
                 <div class="card overflow-hidden">
                     <div class="bg-primary-subtle">
                         <div class="row">
-                            <div class="col-8">
+                            <div class="col-7">
                                 <div class="text-primary p-4">
                                     <h5 class="text-primary">Sign in to House of Ramen</h5>
                                     <p>Admin Portal</p>
                                 </div>
                             </div>
-                            <div class="col-4 align-self-center">
-                                <img src="{{ asset('images/logo.svg') }}" alt="" class="img-fluid">
+                            <div class="col-5 align-self-end">
+                                <img src="{{ asset('images/profile-img.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                                 <div class="avatar-md profile-user-wid mb-4">
                                     <span class="avatar-title rounded-circle bg-light">
                                         <img src="{{ asset('images/logo.svg') }}" alt=""
-                                            class="rounded-circle" height="34">
+                                            width="44" height="44">
                                     </span>
                                 </div>
                             </a>
@@ -35,7 +35,7 @@
                             <div class="avatar-md profile-user-wid mb-4">
                                 <span class="avatar-title rounded-circle">
                                     <img src="{{ asset('images/logo.svg') }}" alt=""
-                                        class="rounded-circle" height="34">
+                                        width="44" height="44">
                                 </span>
                             </div>
                             {{-- </a> --}}

@@ -53,7 +53,7 @@ Route::name('public.')->group(function () {
     Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
     // Throttled since it's a fully public, unauthenticated endpoint that
-    // also triggers an outbound WhatsApp call (see ReservationController) -
+    // also triggers an outbound Telegram call (see ReservationController) -
     // caps abuse without needing a captcha.
     Route::post('/reservations', [ReservationController::class, 'store'])
         ->middleware('throttle:5,1')

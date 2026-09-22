@@ -17,7 +17,6 @@
     <!-- App Css-->
     <link href="{{ asset('css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/custom.css') }}" id="app-style" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/theme.css') }}" id="app-style" rel="stylesheet" type="text/css" />
 
     @yield('AuthCSSheet')
 </head>
