@@ -4,9 +4,11 @@ namespace App\Http\Controllers\Public;
 
 use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
+use App\Models\RestaurantGalleryImage;
 use App\Models\RestaurantMenuCategory;
 use App\Services\Seo\SeoMeta;
 use App\Support\RestaurantPresenter;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -15,6 +17,15 @@ class MenuController extends Controller
     public function index(): Response
     {
         $restaurant = Restaurant::where('is_active', true)->firstOrFail();
+
+        // A real food photo behind the "Our Menu" heading reads much
+        // better than the plain brand-color gradient PageHeader falls
+        // back to - reuse a gallery shot rather than add a bespoke image.
+        $headerImagePath = RestaurantGalleryImage::where('restaurant_id', $restaurant->id)
+            ->where('is_active', true)
+            ->where('category', 'food')
+            ->orderBy('display_order')
+            ->value('path');
 
         $categories = RestaurantMenuCategory::where('restaurant_id', $restaurant->id)
             ->where('is_active', true)
@@ -36,6 +47,7 @@ class MenuController extends Controller
 
         return Inertia::render('Public/Menu/Index', [
             'restaurant' => RestaurantPresenter::restaurant($restaurant),
+            'headerImageUrl' => $headerImagePath ? Storage::url($headerImagePath) : null,
             'categories' => $categories,
             'seo' => SeoMeta::make(
                 'Menu',

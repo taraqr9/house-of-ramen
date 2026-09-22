@@ -87,7 +87,7 @@ function closeMenuItem() {
 
     <!-- 1. Hero / Main Slider -->
     <HeroSlider v-if="heroSlides.length" :slides="heroSlides">
-        <p class="text-sm font-semibold tracking-wide text-coral-300 uppercase">Modern Japanese-Korean Ramen</p>
+        <p class="text-sm font-semibold tracking-wide text-coral-100 uppercase">Modern Japanese-Korean Ramen</p>
         <h1 class="mt-2 max-w-xl text-3xl leading-tight font-extrabold text-white sm:text-4xl md:text-5xl">
             {{ restaurant.tagline || restaurant.name }}
         </h1>
@@ -103,7 +103,7 @@ function closeMenuItem() {
 
     <!-- Fallback hero for a fresh install with no gallery photos yet -->
     <section v-else class="bg-charcoal-900 px-5 py-20 text-center sm:px-10">
-        <p class="text-sm font-semibold tracking-wide text-coral-300 uppercase">Modern Japanese-Korean Ramen</p>
+        <p class="text-sm font-semibold tracking-wide text-coral-100 uppercase">Modern Japanese-Korean Ramen</p>
         <h1 class="mx-auto mt-2 max-w-xl text-3xl font-extrabold text-white sm:text-4xl">{{ restaurant.name }}</h1>
         <Link href="/menu" class="mt-6 inline-block rounded-full bg-coral-500 px-6 py-3 text-sm font-semibold text-white hover:bg-coral-600">
             View Menu
@@ -152,7 +152,7 @@ function closeMenuItem() {
                             loading="lazy"
                             class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
-                        <div v-else class="flex h-full w-full items-center justify-center text-coral-300">
+                        <div v-else class="flex h-full w-full items-center justify-center text-coral-400">
                             <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3c-3.87 0-7 1.5-7 3.5V17c0 2 3.13 3.5 7 3.5s7-1.5 7-3.5V6.5C19 4.5 15.87 3 12 3Z" /></svg>
                         </div>
                     </div>
@@ -215,7 +215,7 @@ function closeMenuItem() {
                             loading="lazy"
                             class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
-                        <div v-else class="flex h-full w-full items-center justify-center text-coral-300">
+                        <div v-else class="flex h-full w-full items-center justify-center text-coral-400">
                             <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3c-3.87 0-7 1.5-7 3.5V17c0 2 3.13 3.5 7 3.5s7-1.5 7-3.5V6.5C19 4.5 15.87 3 12 3Z" /></svg>
                         </div>
                     </div>

@@ -171,7 +171,7 @@ class RestaurantSeeder extends Seeder
                     [
                         'name' => 'Chicken Budae Jjigae',
                         'description' => 'Rich gochujang broth, pan fried chicken, chicken ball, sausage, tofu puff, soft boiled egg, sweet corn, spring onion & sesame seeds',
-                        'price' => 1150, 'image' => 'food/budae-jjigae-chicken.jpg',
+                        'price' => 1150, 'image' => 'food/budae-jjigae-chicken.jpg', 'new' => true,
                     ],
                     [
                         'name' => 'Seafood Budae Jjigae',
@@ -201,7 +201,7 @@ class RestaurantSeeder extends Seeder
                     [
                         'name' => 'Tonkatsu Ramen',
                         'description' => 'Creamy chicken broth, chicken chashu, chicken ball, corn, egg',
-                        'price' => 490, 'image' => 'food/tonkatsu-ramen.jpg', 'featured' => true,
+                        'price' => 490, 'image' => 'food/tonkatsu-ramen.jpg', 'featured' => true, 'new' => true,
                     ],
                     [
                         'name' => 'Tantan Ramen',
@@ -276,7 +276,7 @@ class RestaurantSeeder extends Seeder
                     [
                         'name' => 'Nasi Goreng',
                         'description' => 'Malaysian fried rice, ayam goreng, morning glory fries, satay, fried egg, cucumber salad',
-                        'price' => 550, 'image' => 'food/nasi-goreng.jpg', 'featured' => true,
+                        'price' => 550, 'image' => 'food/nasi-goreng.jpg', 'featured' => true, 'new' => true,
                     ],
                     [
                         'name' => 'Seafood Bento',
@@ -352,6 +352,7 @@ class RestaurantSeeder extends Seeder
                         'image_path' => isset($itemData['image']) ? $this->storeSeedImage($itemData['image'],
                             'restaurant/menu-items') : null,
                         'is_featured' => $itemData['featured'] ?? false,
+                        'is_new' => $itemData['new'] ?? false,
                         'is_available' => true,
                         'display_order' => $itemOrder,
                     ]

@@ -33,7 +33,7 @@ defineProps({
         <div class="relative mx-auto max-w-6xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:py-24">
             <Breadcrumbs v-if="breadcrumbs.length" :items="breadcrumbs" variant="dark" class="mb-5 justify-center hidden sm:flex" />
 
-            <p v-if="eyebrow" class="text-sm font-semibold tracking-wide text-coral-300 uppercase">{{ eyebrow }}</p>
+            <p v-if="eyebrow" class="text-sm font-semibold tracking-wide text-coral-100 uppercase">{{ eyebrow }}</p>
             <h1 class="mt-2 text-3xl leading-tight font-extrabold text-white sm:text-4xl lg:text-5xl">{{ title }}</h1>
             <span class="mx-auto mt-4 block h-1 w-14 rounded-full bg-coral-500" aria-hidden="true" />
             <p v-if="subtitle" class="mx-auto mt-4 max-w-xl text-base leading-relaxed text-cream-100/70 sm:text-lg">

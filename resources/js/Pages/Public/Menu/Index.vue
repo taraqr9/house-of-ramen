@@ -10,6 +10,7 @@ defineOptions({ layout: PublicLayout });
 
 defineProps({
     restaurant: { type: Object, required: true },
+    headerImageUrl: { type: String, default: null },
     categories: { type: Array, default: () => [] },
     seo: { type: Object, required: true },
 });
@@ -39,7 +40,7 @@ function slugify(text) {
         :eyebrow="restaurant.name"
         title="Our Menu"
         subtitle="Ramen, rice, noodles, sushi, and more - every price shown in Bangladeshi Taka."
-        :background-image="restaurant.cover_image_url"
+        :background-image="headerImageUrl ?? restaurant.cover_image_url"
         :breadcrumbs="[{ label: 'Home', href: '/' }, { label: 'Menu' }]"
     />
 

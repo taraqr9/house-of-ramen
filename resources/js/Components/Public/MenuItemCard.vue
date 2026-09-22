@@ -34,7 +34,7 @@ function open() {
                 loading="lazy"
                 class="h-full w-full object-contain"
             />
-            <div v-else class="flex h-full w-full items-center justify-center text-coral-300">
+            <div v-else class="flex h-full w-full items-center justify-center text-coral-400">
                 <svg class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3c-3.87 0-7 1.5-7 3.5V17c0 2 3.13 3.5 7 3.5s7-1.5 7-3.5V6.5C19 4.5 15.87 3 12 3Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M5 6.5c0 2 3.13 3.5 7 3.5s7-1.5 7-3.5" /></svg>
             </div>
             <span
