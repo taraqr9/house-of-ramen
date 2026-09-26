@@ -34,6 +34,10 @@
             const feedUrl = @json(route('pos-kitchen.feed'));
             const updateUrl = @json(route('pos-kitchen.update', ['order_item' => '__ID__']));
             const canUpdate = @json(auth()->user()->can('kitchen-update'));
+            const canCancel = @json(auth()->user()->can('kitchen-cancel'));
+            const cancelUrl = @json(route('pos-kitchen.cancel', ['order_item' => '__ID__']));
+            const unavailableUrl = @json(route('pos-kitchen.mark-unavailable', ['order_item' => '__ID__']));
+            const cancelReasons = @json($cancelReasons);
             const kitchenStatuses = ['pending', 'preparing'];
             const items = new Map();
             let cursor = null;
@@ -63,10 +67,13 @@
                             <div class="fs-5 fw-bold">${i.quantity} × ${posEscape(i.name)}</div>
                             ${i.note ? `<span class="pos-note">${posEscape(i.note)}</span>` : ''}
                         </div>
-                        ${canUpdate ? (i.status === 'pending'
-                            ? `<button class="btn btn-warning pos-btn-lg status-btn" data-id="${i.id}" data-status="preparing">Start</button>`
-                            : `<button class="btn btn-success pos-btn-lg status-btn" data-id="${i.id}" data-status="ready">Ready</button>`)
-                            : `<span class="badge ${i.status === 'pending' ? 'bg-secondary' : 'bg-warning'}">${i.status}</span>`}
+                        <div class="d-flex gap-2 align-items-center flex-shrink-0">
+                            ${canCancel ? `<button class="btn btn-outline-danger pos-btn-lg kitchen-cancel-btn" data-id="${i.id}" title="Cancel item" aria-label="Cancel ${posEscape(i.name)}"><i class="bx bx-x"></i></button>` : ''}
+                            ${canUpdate ? (i.status === 'pending'
+                                ? `<button class="btn btn-warning pos-btn-lg status-btn" data-id="${i.id}" data-status="preparing">Start</button>`
+                                : `<button class="btn btn-success pos-btn-lg status-btn" data-id="${i.id}" data-status="ready">Ready</button>`)
+                                : `<span class="badge ${i.status === 'pending' ? 'bg-secondary' : 'bg-warning'}">${i.status}</span>`}
+                        </div>
                     </div>`).join('');
 
                 const html = `
@@ -176,6 +183,62 @@
                 const btn = $(this).prop('disabled', true);
                 setStatus(parseInt(btn.data('id')), btn.data('status'))
                     .catch((error) => { btn.prop('disabled', false); posToast('error', error.message); poll(); });
+            });
+
+            // Reject a single item - never the whole order. Marking the dish
+            // unavailable is offered afterwards as a separate, explicit step.
+            $(document).on('click', '.kitchen-cancel-btn', function () {
+                const id = parseInt($(this).data('id'));
+                const item = items.get(id);
+                if (!item) return;
+
+                const options = Object.entries(cancelReasons)
+                    .map(([value, label]) => `<option value="${value}">${posEscape(label)}</option>`).join('');
+
+                Swal.fire({
+                    title: 'Cancel ' + item.quantity + ' × ' + item.name + '?',
+                    html: `<p class="text-muted small mb-2">${posEscape(item.table)} · only this item is cancelled.</p>
+                           <select id="cancelReason" class="form-select mb-2"><option value="">Select a reason...</option>${options}</select>
+                           <input id="cancelDetail" class="form-control" maxlength="200" placeholder="Details (required for Other)">`,
+                    showCancelButton: true,
+                    confirmButtonColor: '#f46a6a',
+                    confirmButtonText: 'Cancel item',
+                    cancelButtonText: 'Keep',
+                    preConfirm: () => {
+                        const reason = document.getElementById('cancelReason').value;
+                        const detail = document.getElementById('cancelDetail').value.trim();
+                        if (!reason) return Swal.showValidationMessage('Please select a reason');
+                        if (reason === 'other' && !detail) return Swal.showValidationMessage('Please describe the reason');
+                        return {reason: reason, reason_detail: detail || null};
+                    },
+                }).then((result) => {
+                    if (!result.isConfirmed) return;
+
+                    posRequest(cancelUrl.replace('__ID__', id), 'PATCH', result.value)
+                        .then((data) => {
+                            items.delete(id);
+                            renderTicket(ticketKey(item));
+                            refreshCounts();
+                            posToast('success', data.message);
+
+                            if (data.offer_mark_unavailable) {
+                                Swal.fire({
+                                    title: 'Also mark "' + item.name + '" unavailable?',
+                                    text: 'It will be hidden from the POS terminal and the website until turned back on in Menu Items.',
+                                    icon: 'question',
+                                    showCancelButton: true,
+                                    confirmButtonText: 'Mark unavailable',
+                                    cancelButtonText: 'No, keep on menu',
+                                }).then((r) => {
+                                    if (!r.isConfirmed) return;
+                                    posRequest(unavailableUrl.replace('__ID__', id), 'PATCH')
+                                        .then((d) => posToast('success', d.message))
+                                        .catch((error) => posToast('error', error.message));
+                                });
+                            }
+                        })
+                        .catch((error) => { Swal.fire({icon: 'error', title: 'Not cancelled', text: error.message}); poll(); });
+                });
             });
 
             $(document).on('click', '.bulk-btn', function () {

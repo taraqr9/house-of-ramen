@@ -67,6 +67,7 @@ class AdminSeeder extends Seeder
             'order_item-cancel',
             'kitchen-view',
             'kitchen-update',
+            'kitchen-cancel',
             'serving-view',
             'serving-update',
             'billing-view',

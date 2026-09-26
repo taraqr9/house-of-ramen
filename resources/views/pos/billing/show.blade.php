@@ -77,6 +77,18 @@
                                 </table>
                             </div>
                             @include('pos.orders._summary')
+
+                            @if($cancelledItems->isNotEmpty())
+                                <div class="border-top mt-3 pt-2">
+                                    <h6 class="text-danger mb-2">Cancelled - not charged</h6>
+                                    @foreach($cancelledItems as $item)
+                                        <div class="small text-muted mb-1">
+                                            <span class="text-decoration-line-through">{{ $item->quantity }} × {{ $item->item_name }} ({{ number_format($item->line_total, 2) }})</span>
+                                            — {{ $item->cancellation_reason }} · {{ $item->cancelledBy?->name ?? '—' }}, {{ $item->cancelled_at?->format('h:i A') }}
+                                        </div>
+                                    @endforeach
+                                </div>
+                            @endif
                         </div>
                     </div>
 

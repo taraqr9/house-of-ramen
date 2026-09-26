@@ -225,6 +225,8 @@ Route::middleware(['auth', 'force.password.change', 'block.impersonation.actions
         Route::get('kitchen', [KitchenController::class, 'index'])->name('pos-kitchen.index');
         Route::get('kitchen/feed', [KitchenController::class, 'feed'])->name('pos-kitchen.feed');
         Route::patch('kitchen/items/{order_item}', [KitchenController::class, 'update'])->name('pos-kitchen.update');
+        Route::patch('kitchen/items/{order_item}/cancel', [KitchenController::class, 'cancel'])->name('pos-kitchen.cancel');
+        Route::patch('kitchen/items/{order_item}/mark-unavailable', [KitchenController::class, 'markUnavailable'])->name('pos-kitchen.mark-unavailable');
 
         Route::get('ready-to-serve', [ServingController::class, 'index'])->name('pos-serving.index');
         Route::get('ready-to-serve/feed', [ServingController::class, 'feed'])->name('pos-serving.feed');

@@ -32,7 +32,8 @@ class ServingController extends Controller
     {
         abort_unless($request->user()->can('serving-view'), 403);
 
-        return response()->json($this->feed->feed([OrderItemStatusEnum::READY], $request->input('since')));
+        // Kitchen rejections from the last 30 min are shown to the floor too.
+        return response()->json($this->feed->feed([OrderItemStatusEnum::READY], $request->input('since'), 30));
     }
 
     public function serve(OrderItem $order_item): JsonResponse

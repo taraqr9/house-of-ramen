@@ -3,6 +3,7 @@
 namespace App\Services\Pos;
 
 use App\Enums\DiscountTypeEnum;
+use App\Enums\KitchenCancelReasonEnum;
 use App\Enums\OrderItemStatusEnum;
 use App\Enums\OrderStatusEnum;
 use App\Enums\OrderTypeEnum;
@@ -264,15 +265,40 @@ class OrderService
         });
     }
 
-    public function cancelItem(OrderItem $item, string $reason, User $user): OrderItem
+    /**
+     * Cancel a single item - never the whole order. Floor staff may cancel
+     * anything not yet served; callers can narrow that with $allowedStatuses
+     * (the kitchen may only reject pending/preparing items). The order is
+     * recalculated immediately, and recalculate() rejects the cancellation
+     * if completed payments would then exceed the new total.
+     *
+     * @param  list<OrderItemStatusEnum>|null  $allowedStatuses
+     */
+    public function cancelItem(OrderItem $item, string $reason, User $user, ?array $allowedStatuses = null): OrderItem
     {
-        return DB::transaction(function () use ($item, $reason, $user) {
+        $reason = trim($reason);
+
+        if ($reason === '') {
+            throw new PosException('A cancellation reason is required.');
+        }
+
+        return DB::transaction(function () use ($item, $reason, $user, $allowedStatuses) {
             $order = $this->lockActive($item->order);
 
             $item = OrderItem::query()->whereKey($item->id)->lockForUpdate()->firstOrFail();
 
-            if (! $item->kitchen_status->isCancellable()) {
-                throw new PosException("{$item->item_name} is already {$item->kitchen_status->label()} and cannot be cancelled.");
+            if ($item->kitchen_status === OrderItemStatusEnum::CANCELLED) {
+                throw new PosException("{$item->item_name} is already cancelled.");
+            }
+
+            if ($item->kitchen_status === OrderItemStatusEnum::SERVED) {
+                throw new PosException("{$item->item_name} has already been served and cannot be cancelled.");
+            }
+
+            $allowed = $allowedStatuses ?? [OrderItemStatusEnum::PENDING, OrderItemStatusEnum::PREPARING, OrderItemStatusEnum::READY];
+
+            if (! in_array($item->kitchen_status, $allowed, true)) {
+                throw new PosException("{$item->item_name} is {$item->kitchen_status->label()} and can no longer be cancelled here.");
             }
 
             $item->update([
@@ -288,6 +314,26 @@ class OrderService
 
             return $item;
         });
+    }
+
+    /**
+     * Kitchen rejection: pending/preparing only, with a predefined reason
+     * ("Other" needs typed detail).
+     */
+    public function kitchenCancelItem(OrderItem $item, KitchenCancelReasonEnum $reason, ?string $detail, User $user): OrderItem
+    {
+        $detail = trim((string) $detail);
+
+        if ($reason === KitchenCancelReasonEnum::OTHER && $detail === '') {
+            throw new PosException('Please describe the reason.');
+        }
+
+        return $this->cancelItem(
+            $item,
+            'Kitchen: '.$reason->label().($detail !== '' ? ' - '.$detail : ''),
+            $user,
+            [OrderItemStatusEnum::PENDING, OrderItemStatusEnum::PREPARING],
+        );
     }
 
     public function applyDiscount(Order $order, ?DiscountTypeEnum $type, float $value, User $user): Order

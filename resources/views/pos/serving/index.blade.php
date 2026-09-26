@@ -19,6 +19,16 @@
                 </div>
             </div>
 
+            <div class="card border border-danger mb-3" id="cancelledPanel" style="display: none;">
+                <div class="card-body py-2">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <h5 class="card-title text-danger mb-0"><i class="bx bx-error"></i> Cancelled items - tell the table</h5>
+                        <button type="button" class="btn btn-sm btn-outline-danger" id="dismissAllCancelled">Dismiss all</button>
+                    </div>
+                    <div id="cancelledList"></div>
+                </div>
+            </div>
+
             <div class="row g-3" id="groups"></div>
             <div class="text-center text-muted py-5" id="emptyState">Nothing ready right now.</div>
 
@@ -35,6 +45,28 @@
             const ackUrl = @json(route('pos-serving.acknowledge', ['order_item' => '__ID__']));
             const canServe = @json(auth()->user()->can('serving-update'));
             const items = new Map();
+            const cancelled = new Map();
+            // Dismissed alerts are remembered per browser only (a
+            // convenience - the cancellation itself is on the order).
+            let dismissed = new Set();
+            try { dismissed = new Set(JSON.parse(localStorage.getItem('pos-dismissed-cancellations') || '[]')); } catch (e) { /* storage unavailable */ }
+
+            function saveDismissed() {
+                try { localStorage.setItem('pos-dismissed-cancellations', JSON.stringify([...dismissed].slice(-300))); } catch (e) { /* storage unavailable */ }
+            }
+
+            function renderCancelled() {
+                const list = [...cancelled.values()].filter((i) => !dismissed.has(i.id));
+                $('#cancelledPanel').toggle(list.length > 0);
+                $('#cancelledList').html(list.map((i) => `
+                    <div class="d-flex justify-content-between align-items-center gap-2 border-top py-2">
+                        <div>
+                            <div class="fw-bold">${posEscape(i.table)} · ${i.quantity} × ${posEscape(i.name)}</div>
+                            <div class="small">${posEscape(i.cancellation_reason)}${i.cancelled_by ? ' · by ' + posEscape(i.cancelled_by) : ''} · ${posMinutesAgo(i.cancelled_at)}</div>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light dismiss-cancel-btn" data-id="${i.id}">OK</button>
+                    </div>`).join(''));
+            }
             let cursor = null;
             let polling = false;
             let firstLoad = true;
@@ -94,6 +126,7 @@
             function applyItems(list, full) {
                 const changed = new Set();
                 let arrived = false;
+                let newCancellation = false;
 
                 if (full) {
                     items.forEach((i) => changed.add(i.order_id));
@@ -110,11 +143,19 @@
                     } else {
                         items.delete(incoming.id);
                     }
+
+                    // Item-level cancellations on running orders (a whole
+                    // cancelled order isn't news to the floor).
+                    if (incoming.status === 'cancelled' && incoming.order_active && !cancelled.has(incoming.id)) {
+                        cancelled.set(incoming.id, incoming);
+                        if (!firstLoad && !dismissed.has(incoming.id)) newCancellation = true;
+                    }
                     changed.add(incoming.order_id);
                 });
 
                 changed.forEach(renderGroup);
-                if (arrived) posBeep();
+                renderCancelled();
+                if (arrived || newCancellation) posBeep();
                 refreshCounts();
             }
 
@@ -163,6 +204,18 @@
                 const targets = [...items.values()].filter((i) => i.order_id === orderId && !i.acknowledged);
                 Promise.allSettled(targets.map((i) => posRequest(ackUrl.replace('__ID__', i.id), 'PATCH').then(() => { i.acknowledged = true; })))
                     .then(() => renderGroup(orderId));
+            });
+
+            $(document).on('click', '.dismiss-cancel-btn', function () {
+                dismissed.add(parseInt($(this).data('id')));
+                saveDismissed();
+                renderCancelled();
+            });
+
+            $('#dismissAllCancelled').on('click', function () {
+                cancelled.forEach((i) => dismissed.add(i.id));
+                saveDismissed();
+                renderCancelled();
             });
 
             $('#soundBtn').on('click', function () {

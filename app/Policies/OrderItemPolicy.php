@@ -28,4 +28,13 @@ class OrderItemPolicy
     {
         return $user->can('order_item-cancel');
     }
+
+    /**
+     * Kitchen rejection (pending/preparing only - see
+     * OrderService::kitchenCancelItem).
+     */
+    public function kitchenCancel(User $user, OrderItem $model): bool
+    {
+        return $user->can('kitchen-cancel');
+    }
 }

@@ -52,12 +52,13 @@ class PosBillingController extends Controller
             return redirect()->route('pos-orders.show', $order);
         }
 
-        $order->load(['items', 'payments.receivedBy', 'payments.voidedBy']);
+        $order->load(['items.cancelledBy', 'payments.receivedBy', 'payments.voidedBy']);
 
         return view('pos.billing.show', [
             'page_title' => 'Bill '.$order->order_number,
             'order' => $order,
             'billItems' => $order->items->reject(fn ($item) => $item->isCancelled()),
+            'cancelledItems' => $order->items->filter(fn ($item) => $item->isCancelled()),
             'outstanding' => $order->items->filter(fn ($item) => $item->kitchen_status->isOutstanding()),
             'discountTypes' => DiscountTypeEnum::options(),
             'paymentMethods' => PaymentMethodEnum::options(),

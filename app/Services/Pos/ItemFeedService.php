@@ -18,10 +18,14 @@ use Illuminate\Support\Carbon;
 class ItemFeedService
 {
     /**
+     * $recentCancelledMinutes: also include items cancelled within that
+     * window on still-running orders in the full snapshot, so a screen
+     * opened after a kitchen rejection still shows it (Ready to Serve).
+     *
      * @param  list<OrderItemStatusEnum>  $statuses
      * @return array{server_time: string, full: bool, items: list<array<string, mixed>>}
      */
-    public function feed(array $statuses, ?string $since): array
+    public function feed(array $statuses, ?string $since, ?int $recentCancelledMinutes = null): array
     {
         $serverTime = now();
         $sinceAt = $since ? Carbon::parse($since) : null;
@@ -31,13 +35,21 @@ class ItemFeedService
         $full = ! $sinceAt || $sinceAt->lt($serverTime->copy()->subHours(6));
 
         $query = OrderItem::query()
-            ->with('order:id,order_number,order_type,table_name,general_note,status')
+            ->with(['order:id,order_number,order_type,table_name,general_note,status', 'cancelledBy:id,name'])
             ->orderBy('sent_at')
             ->orderBy('id');
 
         if ($full) {
-            $query->whereIn('kitchen_status', array_map(fn ($s) => $s->value, $statuses))
-                ->whereHas('order', fn ($q) => $q->active());
+            $query->whereHas('order', fn ($q) => $q->active())
+                ->where(function ($q) use ($statuses, $recentCancelledMinutes, $serverTime) {
+                    $q->whereIn('kitchen_status', array_map(fn ($s) => $s->value, $statuses));
+
+                    if ($recentCancelledMinutes) {
+                        $q->orWhere(fn ($cq) => $cq
+                            ->where('kitchen_status', OrderItemStatusEnum::CANCELLED->value)
+                            ->where('cancelled_at', '>=', $serverTime->copy()->subMinutes($recentCancelledMinutes)));
+                    }
+                });
         } else {
             $query->where('updated_at', '>=', $sinceAt->copy()->subSeconds(2));
         }
@@ -51,6 +63,7 @@ class ItemFeedService
                 'order_number' => $item->order?->order_number,
                 'table' => $item->order?->displayTable(),
                 'order_note' => $item->order?->general_note,
+                'order_active' => (bool) $item->order?->isActive(),
                 'round_no' => $item->round_no,
                 'name' => $item->item_name,
                 'quantity' => $item->quantity,
@@ -60,6 +73,9 @@ class ItemFeedService
                 'sent_at' => $item->sent_at?->toIso8601String(),
                 'ready_at' => $item->ready_at?->toIso8601String(),
                 'updated_at' => $item->updated_at?->toIso8601String(),
+                'cancelled_at' => $item->cancelled_at?->toIso8601String(),
+                'cancellation_reason' => $item->cancellation_reason,
+                'cancelled_by' => $item->cancelledBy?->name,
             ])->all(),
         ];
     }

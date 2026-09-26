@@ -111,8 +111,8 @@
                                             <div>
                                                 <div class="fw-semibold">{{ $item->quantity }} × {{ $item->item_name }}</div>
                                                 @if($item->note)<span class="pos-note">{{ $item->note }}</span>@endif
-                                                @if($item->isCancelled() && $item->cancellation_reason)
-                                                    <div class="small">Cancelled: {{ $item->cancellation_reason }}</div>
+                                                @if($item->isCancelled())
+                                                    <div class="small text-danger">Cancelled {{ $item->cancelled_at?->format('h:i A') }}{{ $item->cancelledBy ? ' by '.$item->cancelledBy->name : '' }}: {{ $item->cancellation_reason }}</div>
                                                 @endif
                                             </div>
                                             <div class="text-end">
