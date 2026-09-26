@@ -19,7 +19,7 @@
                 <div class="card-body py-3">
                     <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
                         <div>@include('pos.orders._header')</div>
-                        <div class="d-flex flex-wrap gap-2">
+                        <div class="d-flex flex-wrap gap-2 pos-header-actions">
                             <a href="{{ route('pos-orders.show', $order) }}" class="btn btn-light"><i class="bx bx-refresh"></i> Refresh</a>
                             @can('order-edit')
                                 <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#orderDetailsModal"><i class="bx bx-edit"></i> Details</button>
@@ -39,18 +39,36 @@
                 </div>
             </div>
 
-            <div class="row">
+            @can('order-create')
+                {{-- Phones/portrait tablets: one panel at a time instead of a
+                     very long page (menu → cart → sent). Hidden on desktop. --}}
+                <div class="pos-pane-tabs d-lg-none" role="tablist">
+                    <button type="button" class="btn btn-primary pane-tab" data-pane-target="menu" role="tab">
+                        <i class="bx bx-food-menu"></i> Menu
+                    </button>
+                    <button type="button" class="btn btn-outline-primary pane-tab" data-pane-target="cart" role="tab">
+                        <i class="bx bx-cart"></i> New Round <span class="badge bg-danger" id="cartCountTab">0</span>
+                    </button>
+                    <button type="button" class="btn btn-outline-primary pane-tab" data-pane-target="sent" role="tab">
+                        <i class="bx bx-receipt"></i> Order <span class="small">{{ number_format($order->grand_total, 2) }}</span>
+                    </button>
+                </div>
+            @endcan
+
+            <div class="row pos-panes">
                 @can('order-create')
                     {{-- Menu --}}
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 is-active" data-pane="menu">
                         <div class="card">
                             <div class="card-body">
-                                <input type="search" id="menuSearch" class="form-control form-control-lg mb-2" placeholder="Search menu...">
-                                <div class="pos-category-nav mb-2">
-                                    <button type="button" class="btn btn-primary btn-sm category-filter" data-category="all">All</button>
-                                    @foreach($categories as $category)
-                                        <button type="button" class="btn btn-outline-primary btn-sm category-filter" data-category="{{ $category->id }}">{{ $category->name }}</button>
-                                    @endforeach
+                                <div class="pos-menu-toolbar">
+                                    <input type="search" id="menuSearch" class="form-control form-control-lg mb-2" placeholder="Search menu...">
+                                    <div class="pos-category-nav mb-2">
+                                        <button type="button" class="btn btn-primary btn-sm category-filter" data-category="all">All</button>
+                                        @foreach($categories as $category)
+                                            <button type="button" class="btn btn-outline-primary btn-sm category-filter" data-category="{{ $category->id }}">{{ $category->name }}</button>
+                                        @endforeach
+                                    </div>
                                 </div>
 
                                 <div class="row g-2" id="menuGrid">
@@ -78,7 +96,7 @@
                 <div class="{{ auth()->user()->can('order-create') ? 'col-lg-5' : 'col-lg-12' }}">
                     @can('order-create')
                         {{-- Next round (client-side cart until sent) --}}
-                        <div class="card border border-primary" id="cartCard">
+                        <div class="card border border-primary" id="cartCard" data-pane="cart">
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                     <h5 class="card-title mb-0">New Round <span class="text-muted small">(not sent yet)</span></h5>
@@ -97,7 +115,7 @@
                     @endcan
 
                     {{-- Sent rounds --}}
-                    <div class="card">
+                    <div class="card {{ auth()->user()->can('order-create') ? '' : 'is-active' }}" data-pane="sent">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Sent to Kitchen</h5>
                             @forelse($order->items->groupBy('round_no') as $roundNo => $roundItems)
@@ -146,7 +164,7 @@
             {{-- Phone: keep the send action reachable while scrolling the menu --}}
             <div class="pos-sticky-bar d-lg-none p-2">
                 <div class="d-flex gap-2">
-                    <a href="#cartCard" class="btn btn-outline-primary pos-btn-lg flex-grow-1">Cart (<span id="cartCountMobile">0</span>)</a>
+                    <button type="button" class="btn btn-outline-primary pos-btn-lg flex-grow-1 pane-tab-link" data-pane-target="cart">Cart (<span id="cartCountMobile">0</span>)</button>
                     <button type="button" class="btn btn-success pos-btn-lg flex-grow-1" id="sendRoundBtnMobile" disabled>Send</button>
                 </div>
             </div>
@@ -226,7 +244,7 @@
 
                 $('#cartEmpty').toggle(cart.length === 0);
                 $('#cartTotal').text(total.toFixed(2));
-                $('#cartCountMobile').text(count);
+                $('#cartCountMobile, #cartCountTab').text(count);
                 $('#sendRoundBtn, #sendRoundBtnMobile').prop('disabled', cart.length === 0 || sending);
                 $('.add-item-btn').removeClass('added');
                 cart.forEach((line) => $(`.add-item-btn[data-id="${line.id}"]`).addClass('added'));
@@ -303,6 +321,21 @@
             }
 
             $('#sendRoundBtn, #sendRoundBtnMobile').on('click', sendRound);
+
+            // Phone/tablet panel switcher (no effect on desktop, where all
+            // panels are visible side by side).
+            function showPane(name) {
+                $('.pos-panes [data-pane]').removeClass('is-active');
+                $('.pos-panes [data-pane="' + name + '"]').addClass('is-active');
+                $('.pane-tab').removeClass('btn-primary').addClass('btn-outline-primary');
+                $('.pane-tab[data-pane-target="' + name + '"]').addClass('btn-primary').removeClass('btn-outline-primary');
+                const tabs = document.querySelector('.pos-pane-tabs');
+                if (tabs && window.innerWidth < 992) window.scrollTo({top: 0});
+            }
+
+            $(document).on('click', '.pane-tab, .pane-tab-link', function () {
+                showPane($(this).data('pane-target'));
+            });
 
             $('#menuSearch').on('input', function () {
                 const term = $(this).val().toLowerCase().trim();

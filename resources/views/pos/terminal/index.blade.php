@@ -25,7 +25,7 @@
                                 <span class="badge bg-danger">Occupied</span> / <span class="badge bg-warning">Bill</span> opens the running order
                             </p>
                         </div>
-                        <form action="{{ route('pos-orders.store') }}" method="POST" class="pos-open-form">
+                        <form action="{{ route('pos-orders.store') }}" method="POST" class="pos-open-form pos-full-sm">
                             @csrf
                             <input type="hidden" name="order_type" value="takeaway">
                             <button type="submit" class="btn btn-dark pos-btn-lg px-4">
@@ -77,7 +77,7 @@
                                 <div class="col-6 col-sm-4 col-md-3 col-xl-2">
                                     <a href="{{ route('pos-orders.show', $takeaway->id) }}"
                                        class="pos-tile text-decoration-none {{ $takeaway->status->value === 'bill_requested' ? 'pos-tile-bill' : 'pos-tile-busy' }}">
-                                        <span class="pos-tile-title small">{{ $takeaway->order_number }}</span>
+                                        <span class="pos-tile-title pos-tile-code">{{ $takeaway->order_number }}</span>
                                         <span class="pos-tile-sub">{{ $takeaway->status->label() }} · {{ $takeaway->opened_at?->format('h:i A') }}</span>
                                         <span class="pos-tile-sub">{{ number_format($takeaway->grand_total, 2) }}</span>
                                     </a>

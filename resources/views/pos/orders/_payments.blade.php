@@ -1,14 +1,14 @@
 {{-- Payment rows for an order, including voided ones (permanent record). --}}
 <div class="table-responsive">
-    <table class="table table-sm align-middle mb-0">
+    <table class="table table-sm align-middle mb-0 table-mobile-cards">
         <thead class="table-light">
         <tr>
             <th>Time</th>
-            <th>Method</th>
+            <th data-mc="title">Method</th>
             <th class="text-end">Amount</th>
             <th>Details</th>
             <th>Received By</th>
-            @isset($showVoid)<th></th>@endisset
+            @isset($showVoid)<th data-mc="actions"></th>@endisset
         </tr>
         </thead>
         <tbody>

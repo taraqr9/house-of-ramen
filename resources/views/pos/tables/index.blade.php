@@ -33,7 +33,7 @@
                                 @endcan
                             </div>
 
-                            <form action="{{ route('dining-tables.index') }}" method="GET">
+                            <form action="{{ route('dining-tables.index') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
                                     <div class="col-md-3">
                                         <label class="form-label">Area</label>
@@ -89,16 +89,16 @@
                         <div class="card-body">
 
                             <div class="table-responsive">
-                                <table class="table table-hover align-middle">
+                                <table class="table table-mobile-cards table-hover align-middle">
                                     <thead class="table-light">
                                     <tr>
-                                        <th>Table</th>
+                                        <th data-mc="title">Table</th>
                                         <th>Area</th>
                                         <th style="width: 90px;">Seats</th>
                                         <th style="width: 80px;">Order</th>
                                         <th style="width: 180px;">Occupancy</th>
                                         <th class="text-center" style="width: 100px;">Status</th>
-                                        <th class="text-center" style="width: 160px;">Action</th>
+                                        <th class="text-center" style="width: 160px;" data-mc="actions">Action</th>
                                     </tr>
                                     </thead>
 

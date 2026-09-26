@@ -19,7 +19,7 @@
                 <div class="card-body py-3">
                     <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
                         <div>@include('pos.orders._header')</div>
-                        <div class="d-flex flex-wrap gap-2">
+                        <div class="d-flex flex-wrap gap-2 pos-header-actions">
                             @can('order-view')
                                 <a href="{{ route('pos-orders.show', $order) }}" class="btn btn-light"><i class="bx bx-food-menu"></i> Order / Add Items</a>
                             @endcan
@@ -33,7 +33,10 @@
             </div>
 
             @if($outstanding->isNotEmpty())
-                <div class="alert alert-warning">
+                <div class="alert alert-warning py-2 d-lg-none">
+                    <i class="bx bx-time"></i> {{ $outstanding->count() }} item(s) not served yet - the order can be completed once they're served or cancelled.
+                </div>
+                <div class="alert alert-warning d-none d-lg-block">
                     <i class="bx bx-time"></i> {{ $outstanding->count() }} item(s) not served yet
                     ({{ $outstanding->map(fn ($i) => $i->quantity.'× '.$i->item_name.' - '.$i->kitchen_status->label())->implode(', ') }}).
                     The bill can be printed, but the order can only be completed once they're served or cancelled.
@@ -76,7 +79,9 @@
                                     </tbody>
                                 </table>
                             </div>
-                            @include('pos.orders._summary')
+                            <div class="d-none d-lg-block">
+                                @include('pos.orders._summary')
+                            </div>
 
                             @if($cancelledItems->isNotEmpty())
                                 <div class="border-top mt-3 pt-2">
@@ -93,40 +98,37 @@
                     </div>
 
                     @can('order-discount')
-                        <div class="card">
+                        <div class="card d-none d-lg-block">
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Discount</h5>
-                                <form action="{{ route('pos-billing.discount', $order) }}" method="POST" class="row g-2 align-items-end">
-                                    @csrf
-                                    @method('PATCH')
-                                    <div class="col-5">
-                                        <label class="form-label">Type</label>
-                                        <select name="discount_type" class="form-select">
-                                            @foreach($discountTypes as $value => $label)
-                                                <option value="{{ $value }}" @selected(($order->discount_type?->value ?? 'fixed') === $value)>{{ $label }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                    <div class="col-4">
-                                        <label class="form-label">Value</label>
-                                        <input type="number" name="discount_value" step="0.01" min="0" value="{{ (float) $order->discount_value ?: '' }}" class="form-control" placeholder="0">
-                                    </div>
-                                    <div class="col-3">
-                                        <button type="submit" class="btn btn-outline-primary w-100">Apply</button>
-                                    </div>
-                                    <div class="form-text">Set 0 to remove the discount.</div>
-                                </form>
+                                @include('pos.billing._discount-form')
                             </div>
                         </div>
                     @endcan
                 </div>
 
-                <div class="col-lg-5">
+                <div class="col-lg-5 order-first order-lg-last">
                     <div class="card border border-success">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <h5 class="card-title mb-0">Payment</h5>
                                 <span class="fs-4 fw-bold {{ $order->balanceDue() > 0 ? 'text-danger' : 'text-success' }}">Due {{ number_format($order->balanceDue(), 2) }}</span>
+                            </div>
+
+                            {{-- Phones/tablets: the full money summary + discount sit right
+                                 above the payment controls (desktop shows them under the bill). --}}
+                            <div class="d-lg-none mb-3 pb-2 border-bottom">
+                                @include('pos.orders._summary', ['alwaysShowPaid' => true])
+
+                                @can('order-discount')
+                                    <button type="button" class="btn btn-sm btn-outline-primary w-100 mt-2" data-bs-toggle="collapse"
+                                            data-bs-target="#mobileDiscount" aria-expanded="false" aria-controls="mobileDiscount">
+                                        <i class="bx bx-purchase-tag"></i> {{ (float) $order->discount > 0 ? 'Change Discount' : 'Add Discount' }}
+                                    </button>
+                                    <div class="collapse mt-2" id="mobileDiscount">
+                                        @include('pos.billing._discount-form')
+                                    </div>
+                                @endcan
                             </div>
 
                             @if($order->balanceDue() > 0)

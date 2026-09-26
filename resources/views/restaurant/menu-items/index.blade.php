@@ -32,7 +32,7 @@
                                 @endcan
                             </div>
 
-                            <form action="{{ route('restaurant-menu-items.index') }}" method="GET">
+                            <form action="{{ route('restaurant-menu-items.index') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
                                     <div class="col-md-3">
                                         <label class="form-label">Keyword</label>
@@ -96,7 +96,80 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <div class="table-responsive">
+                            {{-- Phones: compact cards (image, name, category, price, status
+                                 badges, quick toggles, actions). The table below is unchanged
+                                 and shown from md up. --}}
+                            <div class="d-md-none menu-item-cards">
+                                @forelse($items as $item)
+                                    <div class="menu-item-card border rounded p-2 mb-2 d-flex gap-2">
+                                        @if($item->image_path)
+                                            <img src="{{ \Storage::url($item->image_path) }}" alt="{{ $item->name }}" class="rounded flex-shrink-0 menu-item-thumb">
+                                        @else
+                                            <div class="rounded bg-light d-flex align-items-center justify-content-center text-muted flex-shrink-0 menu-item-thumb">
+                                                <i class="mdi mdi-image-off font-size-18"></i>
+                                            </div>
+                                        @endif
+
+                                        <div class="flex-grow-1 min-w-0">
+                                            <div class="d-flex justify-content-between align-items-start gap-2">
+                                                <strong class="menu-item-name">{{ $item->name }}</strong>
+                                                <span class="fw-bold text-nowrap">&#2547;{{ number_format($item->price, 2) }}</span>
+                                            </div>
+                                            <div class="small text-muted text-truncate">
+                                                {{ $item->category?->name ?? '-' }}@if($item->price_note) · {{ $item->price_note }}@endif
+                                            </div>
+
+                                            <div class="d-flex flex-wrap gap-1 mt-1">
+                                                <span class="badge {{ $item->is_available ? 'bg-success' : 'bg-danger' }}">{{ $item->is_available ? 'Available' : 'Unavailable' }}</span>
+                                                @cannot('restaurant_menu_item-edit')
+                                                    @if($item->is_featured)<span class="badge bg-info">Featured</span>@endif
+                                                    @if($item->is_new)<span class="badge bg-info">New</span>@endif
+                                                @endcannot
+                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mt-2">
+                                                @can('restaurant_menu_item-edit')
+                                                    <div class="d-flex gap-3 small">
+                                                        <label class="form-check form-switch mb-0 d-flex align-items-center gap-1">
+                                                            <input type="checkbox" class="form-check-input toggle-flag m-0" role="switch"
+                                                                   data-url="{{ route('restaurant-menu-items.toggle-featured', $item->id) }}"
+                                                                   data-field="is_featured"
+                                                                   @checked($item->is_featured)
+                                                                   aria-label="Toggle featured on homepage">
+                                                            <span>Featured</span>
+                                                        </label>
+                                                        <label class="form-check form-switch mb-0 d-flex align-items-center gap-1">
+                                                            <input type="checkbox" class="form-check-input toggle-flag m-0" role="switch"
+                                                                   data-url="{{ route('restaurant-menu-items.toggle-new', $item->id) }}"
+                                                                   data-field="is_new"
+                                                                   @checked($item->is_new)
+                                                                   aria-label="Toggle new item on homepage">
+                                                            <span>New</span>
+                                                        </label>
+                                                    </div>
+                                                @endcan
+
+                                                <div class="d-flex gap-2 ms-auto">
+                                                    @can('restaurant_menu_item-edit')
+                                                        <a href="{{ route('restaurant-menu-items.edit', $item->id) }}" class="btn btn-sm btn-warning">Edit</a>
+                                                    @endcan
+                                                    @can('restaurant_menu_item-delete')
+                                                        <form action="{{ route('restaurant-menu-items.destroy', $item->id) }}" method="POST" class="d-inline delete-form">
+                                                            @csrf
+                                                            @method('DELETE')
+                                                            <button type="button" class="btn btn-sm btn-danger delete-btn">Delete</button>
+                                                        </form>
+                                                    @endcan
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @empty
+                                    <div class="text-center text-muted py-3">No menu items found.</div>
+                                @endforelse
+                            </div>
+
+                            <div class="table-responsive d-none d-md-block">
                                 <table class="table table-hover align-middle">
                                     <thead class="table-light">
                                     <tr>
@@ -198,6 +271,16 @@
     </div>
 @endsection
 
+@section('CSSheet')
+    <style>
+        .menu-item-thumb { width: 64px; height: 64px; object-fit: cover; }
+        .menu-item-name { line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+        .menu-item-card .min-w-0 { min-width: 0; }
+        .menu-item-card .form-switch { padding-left: 0; min-height: 36px; }
+        .menu-item-card .form-switch .form-check-input { width: 2.6rem; height: 1.5rem; margin: 0; float: none; }
+    </style>
+@endsection
+
 @section('JScript')
     <script>
         $(document).ready(function () {
@@ -247,7 +330,8 @@
                     return response.json();
                 })
                 .then((data) => {
-                    checkbox.prop('checked', !!data[field]);
+                    // Keep the phone card and desktop row copies of this switch in sync.
+                    $('.toggle-flag[data-url="' + url + '"]').prop('checked', !!data[field]);
 
                     Swal.fire({
                         toast: true,

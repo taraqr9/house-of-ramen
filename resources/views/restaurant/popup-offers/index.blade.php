@@ -33,7 +33,7 @@
                                 @endcan
                             </div>
 
-                            <form action="{{ route('restaurant-popup-offers.index') }}" method="GET">
+                            <form action="{{ route('restaurant-popup-offers.index') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
                                     <div class="col-md-4">
                                         <label class="form-label">Keyword</label>
@@ -70,14 +70,14 @@
                         <div class="card-body">
 
                             <div class="table-responsive">
-                                <table class="table table-hover align-middle">
+                                <table class="table table-mobile-cards table-hover align-middle">
                                     <thead class="table-light">
                                     <tr>
                                         <th style="width: 100px;">Image</th>
-                                        <th>Title</th>
+                                        <th data-mc="title">Title</th>
                                         <th style="width: 80px;">Order</th>
                                         <th class="text-center" style="width: 100px;">Active</th>
-                                        <th class="text-center" style="width: 160px;">Action</th>
+                                        <th class="text-center" style="width: 160px;" data-mc="actions">Action</th>
                                     </tr>
                                     </thead>
 

@@ -32,7 +32,7 @@
                                 @endcan
                             </div>
 
-                            <form action="{{ route('users.index') }}" method="GET">
+                            <form action="{{ route('users.index') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
 
                                     <div class="col-md-2">
@@ -105,16 +105,16 @@
 
                             <div class="table-responsive">
                                 <table
-                                    class="table align-middle table-nowrap table-hover dt-responsive nowrap w-100 mb-0">
+                                    class="table table-mobile-cards align-middle table-nowrap table-hover dt-responsive nowrap w-100 mb-0">
                                     <thead class="table-light">
                                     <tr>
-                                        <th scope="col" style="width: 60px;">#</th>
-                                        <th scope="col">Name</th>
+                                        <th scope="col" style="width: 60px;" data-mc="hide">#</th>
+                                        <th scope="col" data-mc="title">Name</th>
                                         <th scope="col">Username</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Role</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col" class="text-center" style="width: 200px;">Action</th>
+                                        <th scope="col" class="text-center" style="width: 200px;" data-mc="actions">Action</th>
                                     </tr>
                                     </thead>
 

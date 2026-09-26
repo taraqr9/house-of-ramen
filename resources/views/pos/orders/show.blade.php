@@ -46,10 +46,10 @@
                             @foreach($order->items->groupBy('round_no') as $roundNo => $roundItems)
                                 <h6 class="text-muted mt-3">Round {{ $roundNo }} · sent {{ $roundItems->first()->sent_at?->format('h:i A') }}</h6>
                                 <div class="table-responsive">
-                                    <table class="table table-sm align-middle">
+                                    <table class="table table-sm align-middle table-mobile-cards">
                                         <thead class="table-light">
                                         <tr>
-                                            <th>Item</th>
+                                            <th data-mc="title">Item</th>
                                             <th class="text-center">Qty</th>
                                             <th class="text-end">Price</th>
                                             <th class="text-end">Total</th>

@@ -68,7 +68,7 @@
                             ${i.note ? `<span class="pos-note">${posEscape(i.note)}</span>` : ''}
                         </div>
                         <div class="d-flex gap-2 align-items-center flex-shrink-0">
-                            ${canCancel ? `<button class="btn btn-outline-danger pos-btn-lg kitchen-cancel-btn" data-id="${i.id}" title="Cancel item" aria-label="Cancel ${posEscape(i.name)}"><i class="bx bx-x"></i></button>` : ''}
+                            ${canCancel ? `<button class="btn btn-outline-danger pos-btn-lg kitchen-cancel-btn" data-id="${i.id}" title="Cancel item" aria-label="Cancel ${posEscape(i.name)}"><i class="bx bx-x pos-kitchen-cancel"></i></button>` : ''}
                             ${canUpdate ? (i.status === 'pending'
                                 ? `<button class="btn btn-warning pos-btn-lg status-btn" data-id="${i.id}" data-status="preparing">Start</button>`
                                 : `<button class="btn btn-success pos-btn-lg status-btn" data-id="${i.id}" data-status="ready">Ready</button>`)

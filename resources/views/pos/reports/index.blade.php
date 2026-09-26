@@ -165,8 +165,8 @@
                         <div class="card-body">
                             <h5 class="card-title mb-3">Cancelled Orders <span class="text-muted small">({{ $report['cancelled_orders']->count() }} · {{ number_format($report['cancelled_orders_value'], 2) }})</span></h5>
                             <div class="table-responsive">
-                                <table class="table table-sm mb-0">
-                                    <thead class="table-light"><tr><th>Order</th><th>Table</th><th>Reason</th><th>By</th><th class="text-end">Value</th></tr></thead>
+                                <table class="table table-sm mb-0 table-mobile-cards">
+                                    <thead class="table-light"><tr><th data-mc="title">Order</th><th>Table</th><th>Reason</th><th>By</th><th class="text-end">Value</th></tr></thead>
                                     <tbody>
                                     @forelse($report['cancelled_orders'] as $order)
                                         <tr>
@@ -193,8 +193,8 @@
                         <div class="card-body">
                             <h5 class="card-title mb-3">Cancelled Items <span class="text-muted small">({{ $report['cancelled_items']->sum('quantity') }} · {{ number_format($report['cancelled_items_value'], 2) }})</span></h5>
                             <div class="table-responsive">
-                                <table class="table table-sm mb-0">
-                                    <thead class="table-light"><tr><th>Item</th><th>Order</th><th>Reason</th><th>By</th><th class="text-end">Value</th></tr></thead>
+                                <table class="table table-sm mb-0 table-mobile-cards">
+                                    <thead class="table-light"><tr><th data-mc="title">Item</th><th>Order</th><th>Reason</th><th>By</th><th class="text-end">Value</th></tr></thead>
                                     <tbody>
                                     @forelse($report['cancelled_items'] as $item)
                                         <tr>

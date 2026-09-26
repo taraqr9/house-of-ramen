@@ -26,7 +26,7 @@
                                 </div>
                             </div>
 
-                            <form action="{{ route('logs.error') }}" method="GET">
+                            <form action="{{ route('logs.error') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
 
                                     <div class="col-md-2">
@@ -112,14 +112,14 @@
                         <div class="card-body">
 
                             <div class="table-responsive">
-                                <table class="table align-middle table-nowrap table-hover dt-responsive nowrap w-100 mb-0">
+                                <table class="table table-mobile-cards align-middle table-nowrap table-hover dt-responsive nowrap w-100 mb-0">
                                     <thead class="table-light">
                                     <tr>
-                                        <th scope="col" style="width: 60px;">#</th>
+                                        <th scope="col" style="width: 60px;" data-mc="hide">#</th>
                                         <th scope="col">Date Time</th>
                                         <th scope="col">Line</th>
-                                        <th scope="col">Message</th>
-                                        <th scope="col" class="text-center" style="width: 100px;">Details</th>
+                                        <th scope="col" data-mc="title">Message</th>
+                                        <th scope="col" class="text-center" style="width: 100px;" data-mc="actions">Details</th>
                                     </tr>
                                     </thead>
 

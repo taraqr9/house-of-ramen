@@ -20,3 +20,4 @@
 
 <script src="{{ asset('js/pages/dashboard.init.js') }}"></script>
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/admin-responsive.js') }}"></script>

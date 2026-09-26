@@ -19,7 +19,7 @@
         <tr><td>VAT <span class="text-muted small">({{ (float) $order->vat_percent }}%)</span></td><td class="text-end">{{ number_format($order->vat, 2) }}</td></tr>
     @endif
     <tr class="fw-bold fs-5"><td>Grand Total</td><td class="text-end">{{ number_format($order->grand_total, 2) }}</td></tr>
-    @if((float) $order->paid_total > 0)
+    @if((float) $order->paid_total > 0 || ($alwaysShowPaid ?? false))
         <tr class="text-success"><td>Paid</td><td class="text-end">{{ number_format($order->paid_total, 2) }}</td></tr>
         <tr class="fw-bold {{ $order->balanceDue() > 0 ? 'text-danger' : 'text-success' }}"><td>Balance Due</td><td class="text-end">{{ number_format($order->balanceDue(), 2) }}</td></tr>
     @endif

@@ -15,7 +15,7 @@
                 <div class="card-body">
                     <h5 class="card-title mb-3">Completed Orders</h5>
 
-                    <form action="{{ route('pos-orders.completed') }}" method="GET">
+                    <form action="{{ route('pos-orders.completed') }}" method="GET" data-mobile-filters>
                         <div class="row g-2 align-items-end">
                             <div class="col-6 col-md-2">
                                 <label class="form-label">From</label>
@@ -80,17 +80,17 @@
             <div class="card">
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-hover align-middle">
+                        <table class="table table-mobile-cards table-hover align-middle">
                             <thead class="table-light">
                             <tr>
-                                <th>Order</th>
+                                <th data-mc="title">Order</th>
                                 <th>Table</th>
                                 <th>Opened</th>
                                 <th>{{ request('status') === 'cancelled' ? 'Cancelled' : 'Completed' }}</th>
                                 <th>Payments</th>
                                 <th>Cashier</th>
                                 <th class="text-end">Total</th>
-                                <th class="text-center">Action</th>
+                                <th class="text-center" data-mc="actions">Action</th>
                             </tr>
                             </thead>
                             <tbody>

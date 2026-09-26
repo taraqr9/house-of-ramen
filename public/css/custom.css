@@ -93,3 +93,276 @@
         max-width: none;
     }
 }
+
+/* ==========================================================================
+   Responsive (admin + POS)
+   Behaviour hooks are added by js/admin-responsive.js. Breakpoints follow
+   Bootstrap: phone < 768px, tablet < 992px.
+   ========================================================================== */
+
+/* ---- Mobile/tablet sidebar backdrop (theme shows the menu over the page
+        below 992px with no way to dismiss it) ---- */
+.sidebar-backdrop {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    body.sidebar-enable .sidebar-backdrop {
+        display: block;
+        position: fixed;
+        inset: 70px 0 0 0;
+        z-index: 1000;
+        background: rgba(18, 38, 63, 0.45);
+    }
+
+    body.sidebar-enable .vertical-menu {
+        box-shadow: 0 0 24px rgba(18, 38, 63, 0.25);
+    }
+}
+
+/* ---- General wrapping ---- */
+.page-title-box {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.breadcrumb {
+    flex-wrap: wrap;
+}
+
+.pagination {
+    flex-wrap: wrap;
+    gap: 4px 0;
+}
+
+.card-body {
+    min-width: 0;
+}
+
+/* Long emails/URLs/names never push a card wider than the screen. */
+.text-break-anywhere {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+/* ---- Touch targets on phones/tablets ---- */
+@media (max-width: 991.98px) {
+    .btn-sm,
+    .btn-group-sm > .btn {
+        min-height: 36px;
+        min-width: 36px;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+
+    .page-link {
+        min-width: 38px;
+        min-height: 38px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-check-input {
+        width: 1.25em;
+        height: 1.25em;
+    }
+
+    .form-switch .form-check-input {
+        width: 2.4em;
+    }
+
+    .form-check-label {
+        padding-top: 0.1rem;
+    }
+}
+
+/* ---- Modals: fit the viewport, scroll inside ---- */
+@media (max-width: 767.98px) {
+    .modal-dialog {
+        margin: 0.5rem;
+    }
+
+    .modal-dialog:not(.modal-fullscreen) .modal-body {
+        max-height: calc(100dvh - 11rem);
+        overflow-y: auto;
+    }
+
+    .swal2-popup {
+        width: calc(100vw - 1.5rem) !important;
+        max-width: 32em;
+    }
+
+    .navbar-header .dropdown-menu-lg {
+        width: calc(100vw - 1.5rem);
+        max-width: 320px;
+    }
+}
+
+/* ---- Tables → cards on phones (table.table-mobile-cards) ---- */
+@media (max-width: 767.98px) {
+    .table-mobile-cards,
+    .table-mobile-cards > tbody,
+    .table-mobile-cards > tbody > tr,
+    .table-mobile-cards > tbody > tr > td {
+        display: block;
+        width: 100% !important;
+    }
+
+    .table-mobile-cards > thead {
+        display: none;
+    }
+
+    .table-mobile-cards > tbody > tr {
+        display: flex !important;
+        flex-direction: column;
+        border: 1px solid var(--bs-border-color, #eff2f7);
+        border-radius: 10px;
+        margin-bottom: 12px;
+        padding: 4px 12px;
+        background: var(--bs-body-bg, #fff);
+    }
+
+    .table-mobile-cards > tbody > tr > td {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 8px 0 !important;
+        border: 0;
+        border-bottom: 1px dashed var(--bs-border-color, #eff2f7);
+        text-align: right !important;
+        white-space: normal !important;
+        box-shadow: none !important;
+    }
+
+    .table-mobile-cards > tbody > tr > td:last-child {
+        border-bottom: 0;
+    }
+
+    .table-mobile-cards > tbody > tr > td::before {
+        content: attr(data-label);
+        flex: 0 0 36%;
+        max-width: 36%;
+        text-align: left;
+        font-weight: 600;
+        color: var(--bs-secondary-color, #74788d);
+    }
+
+    .table-mobile-cards .mc-value {
+        min-width: 0;
+        flex: 1 1 auto;
+        overflow-wrap: anywhere;
+    }
+
+    /* Card heading: first/primary field, full width, no label. */
+    .table-mobile-cards > tbody > tr > td.mc-title {
+        order: -1;
+        text-align: left !important;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .table-mobile-cards > tbody > tr > td.mc-title::before,
+    .table-mobile-cards > tbody > tr > td.mc-actions::before,
+    .table-mobile-cards > tbody > tr > td[data-label=""]::before {
+        display: none;
+    }
+
+    .table-mobile-cards > tbody > tr > td.mc-hide {
+        display: none;
+    }
+
+    .table-mobile-cards > tbody > tr > td.mc-actions {
+        justify-content: flex-end;
+    }
+
+    .table-mobile-cards > tbody > tr > td.mc-actions .mc-value {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 6px;
+    }
+
+    .table-mobile-cards > tbody > tr > td.mc-actions .mc-value > *,
+    .table-mobile-cards > tbody > tr > td.mc-actions form {
+        margin: 0 !important;
+    }
+
+    /* Long content (permission lists, log text): label above, full width. */
+    .table-mobile-cards > tbody > tr > td.mc-block {
+        flex-direction: column;
+        gap: 4px;
+        text-align: left !important;
+    }
+
+    .table-mobile-cards > tbody > tr > td.mc-block::before {
+        max-width: 100%;
+    }
+
+    .table-mobile-cards .badge {
+        white-space: normal;
+        overflow-wrap: anywhere;
+        text-align: left;
+    }
+
+    /* Bigger on/off switches inside cards (Featured/New/Active toggles). */
+    .table-mobile-cards .form-switch .form-check-input {
+        width: 3.5rem;
+        height: 2rem;
+    }
+
+    /* "No records" rows. */
+    .table-mobile-cards > tbody > tr > td.mc-full {
+        text-align: center !important;
+        justify-content: center;
+    }
+
+    .table-mobile-cards > tbody > tr:has(> td.mc-full) {
+        border-style: dashed;
+    }
+
+    /* Truncation widths meant for desktop columns. */
+    .table-mobile-cards .text-truncate {
+        max-width: 100% !important;
+        white-space: normal;
+    }
+
+    /* The card list replaces the horizontal scroller. */
+    .table-responsive:has(> .table-mobile-cards) {
+        overflow-x: visible;
+    }
+}
+
+/* ---- Collapsible filters on phones (form[data-mobile-filters]) ---- */
+@media (max-width: 767.98px) {
+    form.mf-collapsed .mf-extra {
+        display: none;
+    }
+
+    form[data-mobile-filters] .mf-primary {
+        order: -2;
+    }
+
+    form[data-mobile-filters] .mf-toggle-col {
+        order: -1;
+    }
+
+    form:not(.mf-collapsed) .mf-caret {
+        transform: rotate(180deg);
+    }
+
+    /* Reset/Search buttons: full-width pair instead of a right-aligned row. */
+    form[data-mobile-filters] .d-flex.justify-content-end.gap-2 > .btn {
+        flex: 1 1 0;
+    }
+}
+
+/* ---- Auth pages: the theme's phone .container padding (6px) is narrower
+        than the row's default gutter (12px each side), so the page scrolled
+        sideways by 6px on phones. Match the gutter to the container. ---- */
+@media (max-width: 575.98px) {
+    .account-pages .container > .row {
+        --bs-gutter-x: 12px;
+    }
+}

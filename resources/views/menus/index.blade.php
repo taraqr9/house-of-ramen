@@ -31,7 +31,7 @@
                                 @endcan
                             </div>
 
-                            <form action="{{ route('menus.index') }}" method="GET">
+                            <form action="{{ route('menus.index') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
 
                                     <div class="col-md-2">
@@ -87,18 +87,18 @@
                         <div class="card-body">
 
                             <div class="table-responsive">
-                                <table class="table table-hover align-middle">
+                                <table class="table table-mobile-cards table-hover align-middle">
                                     <thead class="table-light">
                                     <tr>
-                                        <th style="width: 60px;">#</th>
-                                        <th>Title</th>
+                                        <th style="width: 60px;" data-mc="hide">#</th>
+                                        <th data-mc="title">Title</th>
                                         <th>Icon</th>
                                         <th>Route</th>
                                         <th>Permission</th>
                                         <th>Parent</th>
                                         <th>Serial</th>
                                         <th>Status</th>
-                                        <th class="text-center" style="width: 160px;">Action</th>
+                                        <th class="text-center" style="width: 160px;" data-mc="actions">Action</th>
                                     </tr>
                                     </thead>
 

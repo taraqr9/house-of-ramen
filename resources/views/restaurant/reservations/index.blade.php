@@ -23,7 +23,7 @@
                                 </div>
                             </div>
 
-                            <form action="{{ route('restaurant-reservations.index') }}" method="GET">
+                            <form action="{{ route('restaurant-reservations.index') }}" method="GET" data-mobile-filters>
                                 <div class="row g-2 align-items-end">
                                     <div class="col-md-4">
                                         <label class="form-label">Keyword</label>
@@ -61,16 +61,16 @@
                         <div class="card-body">
 
                             <div class="table-responsive">
-                                <table class="table table-hover align-middle">
+                                <table class="table table-mobile-cards table-hover align-middle">
                                     <thead class="table-light">
                                     <tr>
-                                        <th>Name</th>
+                                        <th data-mc="title">Name</th>
                                         <th>Phone</th>
                                         <th style="width: 70px;">Party</th>
                                         <th>Date &amp; Time</th>
                                         <th>Notes</th>
                                         <th style="width: 160px;">Status</th>
-                                        <th class="text-center" style="width: 100px;">Action</th>
+                                        <th class="text-center" style="width: 100px;" data-mc="actions">Action</th>
                                     </tr>
                                     </thead>
 
