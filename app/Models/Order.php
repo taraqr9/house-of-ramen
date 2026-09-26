@@ -137,6 +137,20 @@ class Order extends Model
     }
 
     /**
+     * unpaid / partial / paid, or nothing_due for a zero bill (no items yet,
+     * or fully discounted) - from the stored totals.
+     */
+    public function paymentStatus(): string
+    {
+        return match (true) {
+            (float) $this->grand_total <= 0 && (float) $this->paid_total <= 0 => 'nothing_due',
+            $this->isFullyPaid() => 'paid',
+            (float) $this->paid_total > 0 => 'partial',
+            default => 'unpaid',
+        };
+    }
+
+    /**
      * "T5" for dine-in, "Takeaway" otherwise - uses the name snapshot so a
      * renamed/deleted table still reads correctly on old orders.
      */

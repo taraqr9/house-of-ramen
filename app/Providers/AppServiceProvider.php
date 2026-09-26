@@ -4,7 +4,10 @@ namespace App\Providers;
 
 use App\Models\Menu;
 use App\Policies\RolePolicy;
+use Illuminate\Cache\RateLimiting\Limit;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -33,6 +36,17 @@ class AppServiceProvider extends ServiceProvider
         Gate::policy(Role::class, RolePolicy::class);
 
         Schema::defaultStringLength(191);
+
+        /*
+         * REST API limits. Login mirrors the web form (5 tries/min per
+         * username+IP); everything else is per token user - generous
+         * enough for Kitchen/Ready-to-Serve polling every few seconds.
+         */
+        RateLimiter::for('api-login', fn (Request $request) => Limit::perMinute(5)
+            ->by(strtolower((string) $request->input('username')).'|'.$request->ip()));
+
+        RateLimiter::for('api', fn (Request $request) => Limit::perMinute(180)
+            ->by($request->user()?->id ?: $request->ip()));
 
         View::composer('partials.sidebar', function ($view) {
             $menus = Menu::query()

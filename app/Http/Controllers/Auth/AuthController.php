@@ -52,6 +52,18 @@ class AuthController extends Controller
         $remember = $request->boolean('remember');
 
         if (Auth::attempt($credentials, $remember)) {
+            // Correct password but a disabled account: undo the login and
+            // show a normal form error (same rule as the API - User::isInactive).
+            if (Auth::user()->isInactive()) {
+                Auth::logout();
+
+                return back()
+                    ->withInput($request->only('username', 'remember'))
+                    ->withErrors([
+                        'username' => 'Your account is disabled.',
+                    ]);
+            }
+
             RateLimiter::clear($throttleKey);
 
             $request->session()->regenerate();

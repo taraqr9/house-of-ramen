@@ -11,6 +11,7 @@
         "inertiajs/inertia-laravel": "^3.3",
         "lab404/laravel-impersonate": "^1.7",
         "laravel/framework": "^13.7",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^3.0",
         "mews/purifier": "^3.4",
         "spatie/laravel-activitylog": "^5.0",

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Enums\PaymentMethodEnum;
 use App\Enums\PaymentStatusEnum;
-use App\Exceptions\PosException;
 use App\Filters\PaymentIndexFilter;
 use App\Http\Requests\PaymentIndexRequest;
 use App\Http\Requests\PaymentStoreRequest;
@@ -80,15 +79,15 @@ class PaymentController extends Controller
             $message .= ' Give change: '.number_format($payment->change_amount, 2).'.';
         }
 
-        $order->refresh();
+        if ($request->user()->can('complete', $order)) {
+            $result = $this->orders->tryComplete($order, $request->user());
 
-        if ($order->isActive() && $order->isFullyPaid() && $request->user()->can('complete', $order)) {
-            try {
-                $this->orders->complete($order, $request->user());
-
+            if ($result['completed']) {
                 return redirect()->route('pos-orders.show', $order)->with('success', $message.' Order completed, table released.');
-            } catch (PosException $e) {
-                return redirect()->route('pos-billing.show', $order)->with('warning', $message.' Not completed yet: '.$e->getMessage());
+            }
+
+            if ($result['reason']) {
+                return redirect()->route('pos-billing.show', $order)->with('warning', $message.' Not completed yet: '.$result['reason']);
             }
         }
 

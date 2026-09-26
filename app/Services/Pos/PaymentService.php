@@ -35,7 +35,7 @@ class PaymentService
         }
 
         if ($idempotencyKey && ($existing = Payment::query()->where('idempotency_key', $idempotencyKey)->first())) {
-            return $existing;
+            return $this->replay($existing, $order);
         }
 
         try {
@@ -83,7 +83,7 @@ class PaymentService
             // Two identical submissions raced past the first check - the
             // other one won, return it.
             if ($idempotencyKey && ($existing = Payment::query()->where('idempotency_key', $idempotencyKey)->first())) {
-                return $existing;
+                return $this->replay($existing, $order);
             }
 
             throw $e;
@@ -116,5 +116,19 @@ class PaymentService
 
             return $payment;
         });
+    }
+
+    /**
+     * A repeated idempotency key returns the payment it created (the caller
+     * can tell via $payment->wasRecentlyCreated === false) - but only for the
+     * same order; reusing a key on another order is a client bug.
+     */
+    private function replay(Payment $existing, Order $order): Payment
+    {
+        if ($existing->order_id !== $order->id) {
+            throw new PosException('This idempotency key was already used for a different order.');
+        }
+
+        return $existing;
     }
 }

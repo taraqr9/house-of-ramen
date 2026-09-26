@@ -12,6 +12,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
 use Lab404\Impersonate\Models\Impersonate;
+use Laravel\Sanctum\HasApiTokens;
 use Spatie\Activitylog\Models\Concerns\LogsActivity;
 use Spatie\Activitylog\Support\LogOptions;
 use Spatie\Permission\Models\Role;
@@ -38,7 +39,7 @@ use Spatie\Permission\Traits\HasRoles;
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
-    use HasFactory, HasRoles, HasUserStamps, Impersonate, LogsActivity, Notifiable, SoftDeletes;
+    use HasApiTokens, HasFactory, HasRoles, HasUserStamps, Impersonate, LogsActivity, Notifiable, SoftDeletes;
 
     protected $fillable = [
         'name',
@@ -65,6 +66,15 @@ class User extends Authenticatable
             'password' => 'hashed',
             'is_active' => StatusEnum::class,
         ];
+    }
+
+    /**
+     * The one account-active rule for every login path (web form, API
+     * login, API token middleware): only an explicit INACTIVE flag blocks.
+     */
+    public function isInactive(): bool
+    {
+        return $this->is_active === StatusEnum::INACTIVE;
     }
 
     public static function getActiveUsers(): Collection

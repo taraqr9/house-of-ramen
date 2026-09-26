@@ -20,3 +20,9 @@ Artisan::command('inspire', function () {
 Schedule::command('queue:work --stop-when-empty --max-time=50 --tries=3')
     ->everyMinute()
     ->withoutOverlapping();
+
+/*
+ * Delete expired POS API tokens (issued with SANCTUM_TOKEN_TTL_DAYS expiry)
+ * once they've been expired for a day - keeps personal_access_tokens small.
+ */
+Schedule::command('sanctum:prune-expired --hours=24')->daily();

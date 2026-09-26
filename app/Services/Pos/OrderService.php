@@ -8,6 +8,7 @@ use App\Enums\OrderItemStatusEnum;
 use App\Enums\OrderStatusEnum;
 use App\Enums\OrderTypeEnum;
 use App\Enums\PaymentStatusEnum;
+use App\Exceptions\DuplicateSubmissionException;
 use App\Exceptions\PosException;
 use App\Models\DiningTable;
 use App\Models\Order;
@@ -17,7 +18,6 @@ use App\Models\RestaurantMenuItem;
 use App\Models\User;
 use Illuminate\Database\UniqueConstraintViolationException;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 
 /**
@@ -108,9 +108,10 @@ class OrderService
      * item's current name/price/category. The same dish twice with
      * different notes stays as two separate lines.
      *
-     * $submissionKey (one per "Send to kitchen" click, generated client
-     * side) makes a double click/resubmit a no-op instead of a duplicate
-     * round.
+     * $submissionKey (one per "Send to kitchen" action, generated client
+     * side) is stored on the round's items and checked under the order row
+     * lock, so a double click or a late retry (e.g. an offline phone queue)
+     * throws DuplicateSubmissionException instead of sending the round twice.
      *
      * @param  list<array{menu_item_id: int, quantity: int, note?: string|null}>  $lines
      * @return Collection<int, OrderItem>
@@ -121,77 +122,68 @@ class OrderService
             throw new PosException('Add at least one item before sending to the kitchen.');
         }
 
-        $cacheKey = $submissionKey ? 'pos:round:'.$order->id.':'.$submissionKey : null;
+        return DB::transaction(function () use ($order, $lines, $user, $submissionKey) {
+            $order = $this->lockActive($order);
 
-        if ($cacheKey && ! Cache::add($cacheKey, true, now()->addMinutes(10))) {
-            throw new PosException('This round was already sent to the kitchen.');
-        }
-
-        try {
-            return DB::transaction(function () use ($order, $lines, $user) {
-                $order = $this->lockActive($order);
-
-                $menuItems = RestaurantMenuItem::query()
-                    ->with('category')
-                    ->whereIn('id', collect($lines)->pluck('menu_item_id')->unique())
-                    ->get()
-                    ->keyBy('id');
-
-                $roundNo = (int) $order->items()->max('round_no') + 1;
-                $now = now();
-                $created = collect();
-
-                foreach ($lines as $line) {
-                    $menuItem = $menuItems->get($line['menu_item_id']);
-
-                    // Soft-deleted items aren't returned at all; a hidden
-                    // item or one in an inactive category is unavailable.
-                    if (! $menuItem || ! $menuItem->is_available || ! $menuItem->category?->is_active) {
-                        throw new PosException(($menuItem->name ?? 'An item').' is no longer available. Remove it and send again.');
-                    }
-
-                    $quantity = (int) $line['quantity'];
-
-                    if ($quantity < 1) {
-                        throw new PosException('Quantity must be at least 1.');
-                    }
-
-                    $created->push($order->items()->create([
-                        'restaurant_menu_item_id' => $menuItem->id,
-                        'restaurant_menu_category_id' => $menuItem->restaurant_menu_category_id,
-                        'item_name' => $menuItem->name,
-                        'category_name' => $menuItem->category?->name,
-                        'quantity' => $quantity,
-                        'unit_price' => $menuItem->price,
-                        'line_total' => round((float) $menuItem->price * $quantity, 2),
-                        'note' => filled($line['note'] ?? null) ? trim($line['note']) : null,
-                        'round_no' => $roundNo,
-                        'kitchen_status' => OrderItemStatusEnum::PENDING,
-                        'sent_at' => $now,
-                        'created_by' => $user->id,
-                        'updated_by' => $user->id,
-                    ]));
-                }
-
-                // More food after the bill was printed - the old bill is
-                // stale, so the order goes back to running.
-                if ($order->status === OrderStatusEnum::BILL_REQUESTED) {
-                    $order->status = OrderStatusEnum::OPEN;
-                    $order->bill_requested_at = null;
-                }
-
-                $order->updated_by = $user->id;
-                $this->recalculate($order);
-
-                return $created;
-            });
-        } catch (\Throwable $e) {
-            if ($cacheKey) {
-                Cache::forget($cacheKey);
+            if ($submissionKey && $order->items()->where('submission_key', $submissionKey)->exists()) {
+                throw new DuplicateSubmissionException('This round was already sent to the kitchen.');
             }
 
-            throw $e;
-        }
+            $menuItems = RestaurantMenuItem::query()
+                ->with('category')
+                ->whereIn('id', collect($lines)->pluck('menu_item_id')->unique())
+                ->get()
+                ->keyBy('id');
+
+            $roundNo = (int) $order->items()->max('round_no') + 1;
+            $now = now();
+            $created = collect();
+
+            foreach ($lines as $line) {
+                $menuItem = $menuItems->get($line['menu_item_id']);
+
+                // Soft-deleted items aren't returned at all; a hidden
+                // item or one in an inactive category is unavailable.
+                if (! $menuItem || ! $menuItem->is_available || ! $menuItem->category?->is_active) {
+                    throw new PosException(($menuItem->name ?? 'An item').' is no longer available. Remove it and send again.');
+                }
+
+                $quantity = (int) $line['quantity'];
+
+                if ($quantity < 1) {
+                    throw new PosException('Quantity must be at least 1.');
+                }
+
+                $created->push($order->items()->create([
+                    'restaurant_menu_item_id' => $menuItem->id,
+                    'restaurant_menu_category_id' => $menuItem->restaurant_menu_category_id,
+                    'item_name' => $menuItem->name,
+                    'category_name' => $menuItem->category?->name,
+                    'quantity' => $quantity,
+                    'unit_price' => $menuItem->price,
+                    'line_total' => round((float) $menuItem->price * $quantity, 2),
+                    'note' => filled($line['note'] ?? null) ? trim($line['note']) : null,
+                    'round_no' => $roundNo,
+                    'submission_key' => $submissionKey,
+                    'kitchen_status' => OrderItemStatusEnum::PENDING,
+                    'sent_at' => $now,
+                    'created_by' => $user->id,
+                    'updated_by' => $user->id,
+                ]));
+            }
+
+            // More food after the bill was printed - the old bill is
+            // stale, so the order goes back to running.
+            if ($order->status === OrderStatusEnum::BILL_REQUESTED) {
+                $order->status = OrderStatusEnum::OPEN;
+                $order->bill_requested_at = null;
+            }
+
+            $order->updated_by = $user->id;
+            $this->recalculate($order);
+
+            return $created;
+        });
     }
 
     public function updateDetails(Order $order, ?int $guestCount, ?string $note, User $user): Order
@@ -447,24 +439,8 @@ class OrderService
 
             $this->recalculate($order);
 
-            $outstanding = $order->items()
-                ->whereIn('kitchen_status', [
-                    OrderItemStatusEnum::PENDING->value,
-                    OrderItemStatusEnum::PREPARING->value,
-                    OrderItemStatusEnum::READY->value,
-                ])
-                ->count();
-
-            if ($outstanding > 0) {
-                throw new PosException("{$outstanding} item(s) are not served yet. Mark them served or cancel them before completing.");
-            }
-
-            if ($order->items()->where('kitchen_status', OrderItemStatusEnum::SERVED->value)->doesntExist()) {
-                throw new PosException('This order has no served items. Cancel it instead.');
-            }
-
-            if (! $order->isFullyPaid()) {
-                throw new PosException('Payment is incomplete. Amount due: '.number_format($order->balanceDue(), 2));
+            if ($blockers = $this->completionBlockers($order)) {
+                throw new PosException($blockers[0]);
             }
 
             $order->update([
@@ -477,6 +453,67 @@ class OrderService
 
             return $order;
         });
+    }
+
+    /**
+     * Why this order can't be completed right now (empty = it can). The
+     * single source of the completion rules: complete() enforces them and
+     * billing screens/API report them.
+     *
+     * @return list<string>
+     */
+    public function completionBlockers(Order $order): array
+    {
+        if (! $order->isActive()) {
+            return ["Order {$order->order_number} is {$order->status->label()}."];
+        }
+
+        $blockers = [];
+
+        $outstanding = $order->items()
+            ->whereIn('kitchen_status', [
+                OrderItemStatusEnum::PENDING->value,
+                OrderItemStatusEnum::PREPARING->value,
+                OrderItemStatusEnum::READY->value,
+            ])
+            ->count();
+
+        if ($outstanding > 0) {
+            $blockers[] = "{$outstanding} item(s) are not served yet. Mark them served or cancel them before completing.";
+        }
+
+        if ($order->items()->where('kitchen_status', OrderItemStatusEnum::SERVED->value)->doesntExist()) {
+            $blockers[] = 'This order has no served items. Cancel it instead.';
+        }
+
+        if (! $order->isFullyPaid()) {
+            $blockers[] = 'Payment is incomplete. Amount due: '.number_format($order->balanceDue(), 2);
+        }
+
+        return $blockers;
+    }
+
+    /**
+     * Complete the order if it's eligible (used right after a payment that
+     * may have settled the bill). Never throws for an ineligible order.
+     *
+     * @return array{completed: bool, reason: string|null}
+     */
+    public function tryComplete(Order $order, User $user): array
+    {
+        $order->refresh();
+
+        if (! $order->isActive() || ! $order->isFullyPaid()) {
+            return ['completed' => false, 'reason' => null];
+        }
+
+        try {
+            $this->complete($order, $user);
+
+            return ['completed' => true, 'reason' => null];
+        } catch (PosException $e) {
+            return ['completed' => false, 'reason' => $e->getMessage()];
+        }
     }
 
     /**

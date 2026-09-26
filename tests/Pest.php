@@ -88,7 +88,7 @@ function posPermissions(): array
     return [
         'dining_table-view', 'dining_table-create', 'dining_table-edit', 'dining_table-delete',
         'order-view', 'order-create', 'order-edit', 'order-discount', 'order-cancel', 'order-complete',
-        'order_item-cancel', 'kitchen-view', 'kitchen-update', 'serving-view', 'serving-update',
+        'order_item-cancel', 'kitchen-view', 'kitchen-update', 'kitchen-cancel', 'serving-view', 'serving-update',
         'billing-view', 'payment-view', 'payment-create', 'payment-delete', 'pos_report-view',
     ];
 }

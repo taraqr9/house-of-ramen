@@ -1,9 +1,12 @@
 <?php
 
 use App\Http\Middleware\BlockActionsDuringImpersonation;
+use App\Http\Middleware\EnsureApiUserIsActive;
 use App\Http\Middleware\EnsurePasswordIsChanged;
+use App\Http\Middleware\ForceJsonResponse;
 use App\Http\Middleware\HandleInertiaRequests;
 use App\Support\AdminPaths;
+use App\Support\ApiErrorResponse;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -22,6 +25,7 @@ use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
+        api: __DIR__.'/../routes/api.php',
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
     )
@@ -38,7 +42,11 @@ return Application::configure(basePath: dirname(__DIR__))
         // unaffected either way.
         $middleware->append(HandleInertiaRequests::class);
 
+        // REST API (routes/api.php, /api/v1): always JSON.
+        $middleware->api(prepend: [ForceJsonResponse::class]);
+
         $middleware->alias([
+            'api.active' => EnsureApiUserIsActive::class,
             'block.impersonation.actions' => BlockActionsDuringImpersonation::class,
             'force.password.change' => EnsurePasswordIsChanged::class,
 
@@ -88,6 +96,15 @@ return Application::configure(basePath: dirname(__DIR__))
 
                 'trace' => $e->getTraceAsString(),
             ]);
+        });
+
+        /*
+         * REST API: one JSON error envelope for everything under /api (see
+         * App\Support\ApiErrorResponse). Registered first so the admin
+         * panel's redirect/toast handling below never applies to the API.
+         */
+        $exceptions->render(function (Throwable $e, Request $request) {
+            return $request->is('api/*') ? ApiErrorResponse::from($e) : null;
         });
 
         $exceptions->render(function (Throwable $e, $request) {

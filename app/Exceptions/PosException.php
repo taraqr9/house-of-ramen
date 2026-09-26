@@ -24,7 +24,7 @@ class PosException extends HttpException
     public function render(Request $request): JsonResponse|RedirectResponse
     {
         if ($request->expectsJson()) {
-            return response()->json(['message' => $this->getMessage()], 422);
+            return response()->json(['success' => false, 'message' => $this->getMessage()], 422);
         }
 
         return redirect()->back()->withInput()->with('error', $this->getMessage());

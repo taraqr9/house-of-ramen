@@ -27,6 +27,7 @@ class OrderItem extends Model
         'line_total',
         'note',
         'round_no',
+        'submission_key',
         'kitchen_status',
         'sent_at',
         'preparing_at',
