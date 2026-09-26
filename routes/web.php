@@ -111,7 +111,7 @@ Route::middleware(['auth', 'force.password.change'])->group(function () {
 Route::middleware(['auth', 'force.password.change', 'block.impersonation.actions'])->group(function () {
     Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class);
-    Route::resource('menus', MenuController::class);
+    Route::resource('menus', MenuController::class)->except(['show']);
 
     Route::get('/logs/activity', [ActivityLogController::class, 'index'])
         ->name('logs.activity');

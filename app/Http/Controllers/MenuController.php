@@ -13,6 +13,11 @@ use Illuminate\View\View;
 
 class MenuController extends Controller
 {
+    public function __construct()
+    {
+        $this->authorizeResource(Menu::class, 'menu');
+    }
+
     public function index(MenuIndexRequest $request): View
     {
         $page_title = 'Menus';

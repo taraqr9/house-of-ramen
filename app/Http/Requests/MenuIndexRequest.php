@@ -10,7 +10,7 @@ class MenuIndexRequest extends FormRequest
 {
     public function authorize(): bool
     {
-        return true;
+        return auth()->user()->can('menu-view');
     }
 
     public function rules(): array

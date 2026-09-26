@@ -10,7 +10,7 @@ class UpdateMenuRequest extends FormRequest
 {
     public function authorize(): bool
     {
-        return true;
+        return auth()->user()->can('menu-edit');
     }
 
     public function rules(): array

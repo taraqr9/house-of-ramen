@@ -150,21 +150,25 @@
                                             </td>
 
                                             <td class="text-center">
-                                                <a href="{{ route('menus.edit', $menu->id) }}"
-                                                   class="btn btn-sm btn-warning">
-                                                    Edit
-                                                </a>
+                                                @can('menu-edit')
+                                                    <a href="{{ route('menus.edit', $menu->id) }}"
+                                                       class="btn btn-sm btn-warning">
+                                                        Edit
+                                                    </a>
+                                                @endcan
 
-                                                <form action="{{ route('menus.destroy', $menu->id) }}"
-                                                      method="POST"
-                                                      class="d-inline delete-form">
-                                                    @csrf
-                                                    @method('DELETE')
+                                                @can('menu-delete')
+                                                    <form action="{{ route('menus.destroy', $menu->id) }}"
+                                                          method="POST"
+                                                          class="d-inline delete-form">
+                                                        @csrf
+                                                        @method('DELETE')
 
-                                                    <button type="button" class="btn btn-sm btn-danger delete-btn">
-                                                        Delete
-                                                    </button>
-                                                </form>
+                                                        <button type="button" class="btn btn-sm btn-danger delete-btn">
+                                                            Delete
+                                                        </button>
+                                                    </form>
+                                                @endcan
                                             </td>
                                         </tr>
                                     @empty
