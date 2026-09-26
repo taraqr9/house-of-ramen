@@ -140,6 +140,28 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-md-3">
+                                        <div class="mb-3">
+                                            <label class="form-label">VAT (%)</label>
+                                            <input type="number" name="vat_percent" step="0.01" min="0" max="100"
+                                                   value="{{ old('vat_percent', $restaurant->vat_percent ?? 0) }}"
+                                                   class="form-control @error('vat_percent') is-invalid @enderror">
+                                            @error('vat_percent')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                                            <div class="form-text">Applied to POS bills (after discount).</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="mb-3">
+                                            <label class="form-label">Service Charge (%)</label>
+                                            <input type="number" name="service_charge_percent" step="0.01" min="0" max="100"
+                                                   value="{{ old('service_charge_percent', $restaurant->service_charge_percent ?? 0) }}"
+                                                   class="form-control @error('service_charge_percent') is-invalid @enderror">
+                                            @error('service_charge_percent')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                                            <div class="form-text">New orders use the rates set at the time they're opened.</div>
+                                        </div>
+                                    </div>
+
                                     <div class="col-md-6 mt-1">
                                         <label>Status</label>
                                         <div class="form-check form-switch mt-2">

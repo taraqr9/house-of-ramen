@@ -6,9 +6,16 @@ use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Auth\PasswordChangeController;
 use App\Http\Controllers\Auth\PasswordSetupController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DiningTableController;
 use App\Http\Controllers\ErrorLogController;
+use App\Http\Controllers\KitchenController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\PosBillingController;
+use App\Http\Controllers\PosOrderController;
+use App\Http\Controllers\PosReportController;
+use App\Http\Controllers\PosTerminalController;
 use App\Http\Controllers\Public\AboutController;
 use App\Http\Controllers\Public\ContactController;
 use App\Http\Controllers\Public\GalleryController;
@@ -26,6 +33,7 @@ use App\Http\Controllers\RestaurantReservationController;
 use App\Http\Controllers\RestaurantReviewController;
 use App\Http\Controllers\RestaurantVideoFeatureController;
 use App\Http\Controllers\RoleController;
+use App\Http\Controllers\ServingController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -188,6 +196,53 @@ Route::middleware(['auth', 'force.password.change', 'block.impersonation.actions
             ->name('restaurant-reservations.update');
         Route::delete('reservations/{restaurant_reservation}', [RestaurantReservationController::class, 'destroy'])
             ->name('restaurant-reservations.destroy');
+    });
+
+    /*
+     * POS Operations. Screens are thin - every state change goes through
+     * App\Services\Pos\OrderService / PaymentService so the future REST
+     * API can reuse the exact same rules. Kitchen/Ready-to-Serve "live"
+     * updates are plain AJAX polling of the *.feed endpoints (no
+     * websockets/Redis - runs on ordinary cPanel hosting).
+     */
+    Route::prefix('pos')->group(function () {
+        Route::resource('tables', DiningTableController::class)
+            ->except(['show'])
+            ->names('dining-tables')
+            ->parameters(['tables' => 'dining_table']);
+
+        Route::get('terminal', [PosTerminalController::class, 'index'])->name('pos-terminal.index');
+
+        Route::get('orders/active', [PosOrderController::class, 'active'])->name('pos-orders.active');
+        Route::get('orders/completed', [PosOrderController::class, 'completed'])->name('pos-orders.completed');
+        Route::post('orders', [PosTerminalController::class, 'open'])->name('pos-orders.store');
+        Route::get('orders/{order}', [PosOrderController::class, 'show'])->name('pos-orders.show');
+        Route::patch('orders/{order}', [PosOrderController::class, 'update'])->name('pos-orders.update');
+        Route::post('orders/{order}/items', [PosTerminalController::class, 'addItems'])->name('pos-orders.items.store');
+        Route::post('orders/{order}/cancel', [PosOrderController::class, 'cancel'])->name('pos-orders.cancel');
+        Route::patch('order-items/{order_item}/cancel', [PosOrderController::class, 'cancelItem'])->name('pos-order-items.cancel');
+
+        Route::get('kitchen', [KitchenController::class, 'index'])->name('pos-kitchen.index');
+        Route::get('kitchen/feed', [KitchenController::class, 'feed'])->name('pos-kitchen.feed');
+        Route::patch('kitchen/items/{order_item}', [KitchenController::class, 'update'])->name('pos-kitchen.update');
+
+        Route::get('ready-to-serve', [ServingController::class, 'index'])->name('pos-serving.index');
+        Route::get('ready-to-serve/feed', [ServingController::class, 'feed'])->name('pos-serving.feed');
+        Route::patch('ready-to-serve/items/{order_item}/serve', [ServingController::class, 'serve'])->name('pos-serving.serve');
+        Route::patch('ready-to-serve/items/{order_item}/acknowledge', [ServingController::class, 'acknowledge'])->name('pos-serving.acknowledge');
+
+        Route::get('billing', [PosBillingController::class, 'index'])->name('pos-billing.index');
+        Route::get('billing/{order}', [PosBillingController::class, 'show'])->name('pos-billing.show');
+        Route::get('billing/{order}/print', [PosBillingController::class, 'print'])->name('pos-billing.print');
+        Route::patch('billing/{order}/discount', [PosBillingController::class, 'discount'])->name('pos-billing.discount');
+        Route::post('billing/{order}/request', [PosBillingController::class, 'requestBill'])->name('pos-billing.request');
+        Route::post('billing/{order}/complete', [PosBillingController::class, 'complete'])->name('pos-billing.complete');
+
+        Route::get('payments', [PaymentController::class, 'index'])->name('pos-payments.index');
+        Route::post('billing/{order}/payments', [PaymentController::class, 'store'])->name('pos-payments.store');
+        Route::patch('payments/{payment}/void', [PaymentController::class, 'void'])->name('pos-payments.void');
+
+        Route::get('reports', [PosReportController::class, 'index'])->name('pos-reports.index');
     });
 });
 

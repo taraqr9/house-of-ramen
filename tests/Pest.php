@@ -1,6 +1,9 @@
 <?php
 
+use App\Models\DiningTable;
 use App\Models\Restaurant;
+use App\Models\RestaurantMenuCategory;
+use App\Models\RestaurantMenuItem;
 use App\Models\User;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\PermissionRegistrar;
@@ -75,4 +78,48 @@ function adminUser(array $permissions = []): User
 function makeRestaurant(array $attributes = []): Restaurant
 {
     return Restaurant::factory()->create($attributes);
+}
+
+/**
+ * Every POS permission - the "full access" POS user for flow tests.
+ */
+function posPermissions(): array
+{
+    return [
+        'dining_table-view', 'dining_table-create', 'dining_table-edit', 'dining_table-delete',
+        'order-view', 'order-create', 'order-edit', 'order-discount', 'order-cancel', 'order-complete',
+        'order_item-cancel', 'kitchen-view', 'kitchen-update', 'serving-view', 'serving-update',
+        'billing-view', 'payment-view', 'payment-create', 'payment-delete', 'pos_report-view',
+    ];
+}
+
+function posUser(?array $permissions = null): User
+{
+    return adminUser($permissions ?? posPermissions());
+}
+
+/**
+ * The single restaurant + one active category, with the given VAT/service
+ * charge percentages.
+ */
+function posSetup(float $vat = 0, float $serviceCharge = 0): RestaurantMenuCategory
+{
+    $restaurant = makeRestaurant(['vat_percent' => $vat, 'service_charge_percent' => $serviceCharge]);
+
+    return RestaurantMenuCategory::factory()->create(['restaurant_id' => $restaurant->id, 'name' => 'Ramen', 'is_active' => true]);
+}
+
+function posMenuItem(RestaurantMenuCategory $category, float $price, array $attributes = []): RestaurantMenuItem
+{
+    return RestaurantMenuItem::factory()->create(array_merge([
+        'restaurant_id' => $category->restaurant_id,
+        'restaurant_menu_category_id' => $category->id,
+        'price' => $price,
+        'is_available' => true,
+    ], $attributes));
+}
+
+function posTable(string $name = 'T1'): DiningTable
+{
+    return DiningTable::factory()->create(['name' => $name]);
 }

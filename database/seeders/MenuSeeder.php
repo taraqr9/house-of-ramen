@@ -36,46 +36,39 @@ class MenuSeeder extends Seeder
         $pos = $this->parentMenu('POS Operations', 'bx bx-receipt', 4);
 
         /*
-         * Placeholders only - none of these modules exist yet. They carry no
-         * route and stay inactive (hidden from the sidebar) until each module
-         * is built; at that point set its route and flip is_active on. The
-         * permission names are the ones AdminSeeder will generate from the
-         * future models (e.g. DiningTable => dining_table-view).
+         * Each POS screen's menu. Rows were first seeded as route-less
+         * placeholders, so match on route first and fall back to the
+         * placeholder's title - updating it in place instead of adding a
+         * duplicate. active_routes keeps the right item highlighted on the
+         * screens reached from it (order screen, bill, print...).
          */
         $posChildren = [
-            ['title' => 'Tables', 'icon' => 'bx bx-grid-alt me-1', 'permission' => 'dining_table-view'],
-            ['title' => 'New Order / Terminal', 'icon' => 'bx bx-plus-circle me-1', 'permission' => 'order-create'],
-            ['title' => 'Active Orders', 'icon' => 'bx bx-list-check me-1', 'permission' => 'order-view'],
-            ['title' => 'Kitchen', 'icon' => 'bx bx-dish me-1', 'permission' => 'order_item-edit'],
-            ['title' => 'Ready to Serve', 'icon' => 'bx bx-bell me-1', 'permission' => 'order_item-view'],
-            ['title' => 'Billing', 'icon' => 'bx bx-receipt me-1', 'permission' => 'order-edit'],
-            ['title' => 'Payments', 'icon' => 'bx bx-credit-card me-1', 'permission' => 'payment-view'],
-            ['title' => 'Completed Orders', 'icon' => 'bx bx-check-double me-1', 'permission' => 'order-view'],
-            ['title' => 'Reports', 'icon' => 'bx bx-bar-chart-alt-2 me-1', 'permission' => 'order-view'],
+            ['title' => 'Tables', 'route' => 'dining-tables.index', 'icon' => 'bx bx-grid-alt me-1', 'permission' => 'dining_table-view', 'active_routes' => null],
+            ['title' => 'New Order / Terminal', 'route' => 'pos-terminal.index', 'icon' => 'bx bx-plus-circle me-1', 'permission' => 'order-create', 'active_routes' => ['pos-terminal.*', 'pos-orders.show']],
+            ['title' => 'Active Orders', 'route' => 'pos-orders.active', 'icon' => 'bx bx-list-check me-1', 'permission' => 'order-view', 'active_routes' => ['pos-orders.active']],
+            ['title' => 'Kitchen', 'route' => 'pos-kitchen.index', 'icon' => 'bx bx-dish me-1', 'permission' => 'kitchen-view', 'active_routes' => null],
+            ['title' => 'Ready to Serve', 'route' => 'pos-serving.index', 'icon' => 'bx bx-bell me-1', 'permission' => 'serving-view', 'active_routes' => null],
+            ['title' => 'Billing', 'route' => 'pos-billing.index', 'icon' => 'bx bx-receipt me-1', 'permission' => 'billing-view', 'active_routes' => ['pos-billing.*']],
+            ['title' => 'Payments', 'route' => 'pos-payments.index', 'icon' => 'bx bx-credit-card me-1', 'permission' => 'payment-view', 'active_routes' => null],
+            ['title' => 'Completed Orders', 'route' => 'pos-orders.completed', 'icon' => 'bx bx-check-double me-1', 'permission' => 'order-view', 'active_routes' => ['pos-orders.completed']],
+            ['title' => 'Reports', 'route' => 'pos-reports.index', 'icon' => 'bx bx-bar-chart-alt-2 me-1', 'permission' => 'pos_report-view', 'active_routes' => null],
         ];
 
         foreach ($posChildren as $index => $child) {
-            $existing = Menu::query()
-                ->where('parent_id', $pos->id)
-                ->where('title', $child['title'])
-                ->first();
+            $menu = Menu::query()->where('route', $child['route'])->first()
+                ?? Menu::query()->where('parent_id', $pos->id)->where('title', $child['title'])->first()
+                ?? new Menu;
 
-            /*
-             * Only create the placeholder - once a module is built and its
-             * menu gets a route / is switched on, re-running the seeder must
-             * not reset it back to an inactive placeholder.
-             */
-            if (! $existing) {
-                Menu::create([
-                    'title' => $child['title'],
-                    'icon' => $child['icon'],
-                    'route' => null,
-                    'parent_id' => $pos->id,
-                    'permission' => $child['permission'],
-                    'serial' => $index + 1,
-                    'is_active' => 0,
-                ]);
-            }
+            $menu->fill([
+                'title' => $child['title'],
+                'icon' => $child['icon'],
+                'route' => $child['route'],
+                'parent_id' => $pos->id,
+                'permission' => $child['permission'],
+                'active_routes' => $child['active_routes'],
+                'serial' => $index + 1,
+                'is_active' => 1,
+            ])->save();
         }
 
         /*

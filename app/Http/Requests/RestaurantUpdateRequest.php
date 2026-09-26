@@ -15,6 +15,8 @@ class RestaurantUpdateRequest extends FormRequest
     {
         $this->merge([
             'is_active' => (int) $this->input('is_active', 0),
+            'vat_percent' => $this->input('vat_percent') ?? 0,
+            'service_charge_percent' => $this->input('service_charge_percent') ?? 0,
             'updated_by' => auth()->id(),
         ]);
     }
@@ -34,6 +36,8 @@ class RestaurantUpdateRequest extends FormRequest
             'facebook_url' => ['nullable', 'url', 'max:255'],
             'instagram_url' => ['nullable', 'url', 'max:255'],
             'delivery_platforms' => ['nullable', 'string', 'max:255'],
+            'vat_percent' => ['nullable', 'numeric', 'min:0', 'max:100'],
+            'service_charge_percent' => ['nullable', 'numeric', 'min:0', 'max:100'],
             'is_active' => ['nullable', 'boolean'],
             'updated_by' => ['nullable', 'exists:users,id'],
         ];

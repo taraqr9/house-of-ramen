@@ -55,6 +55,22 @@ class AdminSeeder extends Seeder
             'activity_log-view',
             'error_log-view',
             'user-impersonate',
+
+            /*
+             * POS operational actions that aren't plain CRUD on a model.
+             * (dining_table-*, order-*, order_item-*, payment-* come from
+             * the model scan below.)
+             */
+            'order-discount',
+            'order-cancel',
+            'order-complete',
+            'order_item-cancel',
+            'kitchen-view',
+            'kitchen-update',
+            'serving-view',
+            'serving-update',
+            'billing-view',
+            'pos_report-view',
         ];
 
         foreach ($manualPermissions as $permission) {

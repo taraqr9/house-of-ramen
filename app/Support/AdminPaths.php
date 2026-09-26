@@ -33,6 +33,7 @@ class AdminPaths
             'menus',
             'logs',
             'permissions',
+            'pos',
         ];
     }
 

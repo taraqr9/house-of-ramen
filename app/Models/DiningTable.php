@@ -3,35 +3,31 @@
 namespace App\Models;
 
 use App\Traits\HasUserStamps;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Activitylog\Models\Concerns\LogsActivity;
 use Spatie\Activitylog\Support\LogOptions;
 
-class Restaurant extends Model
+/**
+ * A physical table on the floor. Occupied/available is never stored - a
+ * table is occupied exactly while an active order holds it through
+ * orders.active_table_id (see activeOrder()).
+ */
+class DiningTable extends Model
 {
     use HasFactory, HasUserStamps, LogsActivity, SoftDeletes;
 
     protected $fillable = [
         'name',
-        'slug',
-        'tagline',
-        'description',
-        'logo_path',
-        'cover_image_path',
-        'phone',
-        'email',
-        'address',
         'area',
-        'opening_hours',
-        'facebook_url',
-        'instagram_url',
-        'delivery_platforms',
-        'vat_percent',
-        'service_charge_percent',
+        'capacity',
+        'display_order',
         'is_active',
+        'remarks',
         'created_by',
         'updated_by',
     ];
@@ -39,32 +35,35 @@ class Restaurant extends Model
     protected function casts(): array
     {
         return [
-            'opening_hours' => 'array',
-            'delivery_platforms' => 'array',
-            'vat_percent' => 'decimal:2',
-            'service_charge_percent' => 'decimal:2',
+            'capacity' => 'integer',
+            'display_order' => 'integer',
             'is_active' => 'boolean',
         ];
     }
 
-    public function menuCategories(): HasMany
+    public function orders(): HasMany
     {
-        return $this->hasMany(RestaurantMenuCategory::class);
+        return $this->hasMany(Order::class);
     }
 
-    public function menuItems(): HasMany
+    public function activeOrder(): HasOne
     {
-        return $this->hasMany(RestaurantMenuItem::class);
+        return $this->hasOne(Order::class, 'active_table_id');
     }
 
-    public function galleryImages(): HasMany
+    public function isOccupied(): bool
     {
-        return $this->hasMany(RestaurantGalleryImage::class);
+        return $this->activeOrder !== null;
     }
 
-    public function reviews(): HasMany
+    public function scopeActive(Builder $query): Builder
     {
-        return $this->hasMany(RestaurantReview::class);
+        return $query->where('is_active', true);
+    }
+
+    public function scopeOrdered(Builder $query): Builder
+    {
+        return $query->orderBy('display_order')->orderBy('name');
     }
 
     public function getActivitylogOptions(): LogOptions
